@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>ShinyDex storage browser QA</title>
+<h1>Storage browser QA</h1>
+<p>Temporary local test fixture. Save the original collection before testing and restore it afterward.</p>
+<button id="backup">Save original collection</button>
+<button id="restore" disabled>Restore original collection</button>
+<label>Raw collection JSON <textarea id="raw" rows="6" cols="70"></textarea></label>
+<button id="apply" disabled>Apply test collection</button>
+<pre id="state"></pre>
+<script>
+// Keep the exact original strings, including missing keys, for reversible QA.
+const keys = ['shinydex-collection-v2', 'shinydex-caught-v1'];
+let original;
+function show() {
+  document.querySelector('#state').textContent = JSON.stringify(
+    Object.fromEntries(keys.map(key => [key, localStorage.getItem(key)])), null, 2);
+}
+document.querySelector('#backup').onclick = () => {
+  if (original) return;
+  original = keys.map(key => localStorage.getItem(key));
+  document.querySelector('#restore').disabled = false;
+  document.querySelector('#apply').disabled = false;
+  document.querySelector('#backup').disabled = true;
+  show();
+};
+document.querySelector('#apply').onclick = () => {
+  localStorage.setItem(keys[0], document.querySelector('#raw').value);
+  show();
+};
+document.querySelector('#restore').onclick = () => {
+  keys.forEach((key, index) => original[index] === null
+    ? localStorage.removeItem(key) : localStorage.setItem(key, original[index]));
+  show();
+};
+show();
+</script>
+</html>

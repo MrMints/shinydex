@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-03",
+  "reviews": [
+    {
+      "gameTable": "za",
+      "sourceSpecies": 349,
+      "evolutionType": "LevelUpBeauty",
+      "resolution": "unresolved",
+      "reason": "The pinned evolution table retains a Beauty-170 branch, but this alone does not prove that gameplay executes it. Bulbapedia gives a general statement that hidden Beauty still permits evolution without Contests, without a Z-A-specific confirmation. A Z-A guide states that only Prism Scale trading works. Do not infer a working transfer-and-Beauty route from the retained table or the general statement.",
+      "evidence": [
+        {
+          "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_za.pkl",
+          "finding": "Decoded LevelUpBeauty argument 170 is retained."
+        },
+        {
+          "source": "https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)#Evolution_data",
+          "finding": "General Beauty evolution statement; no explicit Z-A gameplay validation."
+        },
+        {
+          "source": "https://allthings.how/how-to-evolve-feebas-into-milotic-in-pokemon-legends-z-a/",
+          "finding": "Claims Z-A evolution requires a Prism Scale trade; requires stronger confirmation before classifying the retained Beauty branch as non-working."
+        }
+      ],
+      "nextEvidenceNeeded": "A reproducible Z-A gameplay test using legitimately transferred Feebas with Beauty at least 170, or a game-specific implementation reference showing whether the condition is evaluated."
+    }
+  ]
+}

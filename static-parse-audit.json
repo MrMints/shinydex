@@ -1,0 +1,653 @@
+[
+  {
+    "file": "Encounters1.cs",
+    "table": "StaticRBY",
+    "type": "EncounterStatic1",
+    "constructors": 22,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters1.cs",
+    "table": "StaticRB",
+    "type": "EncounterStatic1",
+    "constructors": 6,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters1.cs",
+    "table": "StaticYW",
+    "type": "EncounterStatic1",
+    "constructors": 3,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters1.cs",
+    "table": "StaticBU",
+    "type": "EncounterStatic1",
+    "constructors": 4,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters1.cs",
+    "table": "TradeGift_RB",
+    "type": "EncounterTrade1",
+    "constructors": 10,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters1.cs",
+    "table": "TradeGift_YW",
+    "type": "EncounterTrade1",
+    "constructors": 7,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters1.cs",
+    "table": "TradeGift_BU",
+    "type": "EncounterTrade1",
+    "constructors": 9,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "StaticGSC",
+    "type": "EncounterStatic2",
+    "constructors": 20,
+    "parsed": 20
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "StaticGS",
+    "type": "EncounterStatic2",
+    "constructors": 10,
+    "parsed": 10
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "StaticGD",
+    "type": "EncounterStatic2",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "StaticSI",
+    "type": "EncounterStatic2",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "StaticC",
+    "type": "EncounterStatic2",
+    "constructors": 10,
+    "parsed": 10
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "StaticOddEggC",
+    "type": "EncounterStatic2",
+    "constructors": 14,
+    "parsed": 14
+  },
+  {
+    "file": "Encounters2.cs",
+    "table": "TradeGift_GSC",
+    "type": "EncounterTrade2",
+    "constructors": 11,
+    "parsed": 11
+  },
+  {
+    "file": "Encounters3FRLG.cs",
+    "table": "StaticFRLG",
+    "type": "EncounterStatic3",
+    "constructors": 25,
+    "parsed": 25
+  },
+  {
+    "file": "Encounters3FRLG.cs",
+    "table": "StaticFR",
+    "type": "EncounterStatic3",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters3FRLG.cs",
+    "table": "StaticLG",
+    "type": "EncounterStatic3",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters3FRLG.cs",
+    "table": "TradeGift_FRLG",
+    "type": "EncounterTrade3",
+    "constructors": 6,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters3FRLG.cs",
+    "table": "TradeGift_FR",
+    "type": "EncounterTrade3",
+    "constructors": 3,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters3FRLG.cs",
+    "table": "TradeGift_LG",
+    "type": "EncounterTrade3",
+    "constructors": 3,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters3RSE.cs",
+    "table": "StaticRSE",
+    "type": "EncounterStatic3",
+    "constructors": 15,
+    "parsed": 15
+  },
+  {
+    "file": "Encounters3RSE.cs",
+    "table": "StaticR",
+    "type": "EncounterStatic3",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters3RSE.cs",
+    "table": "StaticS",
+    "type": "EncounterStatic3",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters3RSE.cs",
+    "table": "StaticE",
+    "type": "EncounterStatic3",
+    "constructors": 15,
+    "parsed": 15
+  },
+  {
+    "file": "Encounters3RSE.cs",
+    "table": "TradeGift_RS",
+    "type": "EncounterTrade3",
+    "constructors": 3,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters3RSE.cs",
+    "table": "TradeGift_E",
+    "type": "EncounterTrade3",
+    "constructors": 4,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters3XD.cs",
+    "table": "Gifts",
+    "type": "EncounterStatic3XD",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters3XD.cs",
+    "table": "Trades",
+    "type": "EncounterTrade3XD",
+    "constructors": 4,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "StaticDPPt",
+    "type": "EncounterStatic4",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "StaticDP",
+    "type": "EncounterStatic4",
+    "constructors": 17,
+    "parsed": 17
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "StaticPt",
+    "type": "EncounterStatic4",
+    "constructors": 29,
+    "parsed": 29
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "StaticD",
+    "type": "EncounterStatic4",
+    "constructors": 1,
+    "parsed": 1
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "StaticP",
+    "type": "EncounterStatic4",
+    "constructors": 1,
+    "parsed": 1
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "RanchGifts",
+    "type": "EncounterTrade4RanchGift",
+    "constructors": 22,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters4DPPt.cs",
+    "table": "TradeGift_DPPtIngame",
+    "type": "EncounterTrade4PID",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters4HGSS.cs",
+    "table": "Encounter_HGSS",
+    "type": "EncounterStatic4",
+    "constructors": 51,
+    "parsed": 51
+  },
+  {
+    "file": "Encounters4HGSS.cs",
+    "table": "StaticHG",
+    "type": "EncounterStatic4",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters4HGSS.cs",
+    "table": "StaticSS",
+    "type": "EncounterStatic4",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters4HGSS.cs",
+    "table": "TradeGift_HGSS",
+    "type": "EncounterTrade4PID",
+    "constructors": 12,
+    "parsed": 12
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "Encounter_B2W2_Regular",
+    "type": "EncounterStatic5",
+    "constructors": 40,
+    "parsed": 40
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "StaticB2",
+    "type": "EncounterStatic5",
+    "constructors": 5,
+    "parsed": 5
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "StaticW2",
+    "type": "EncounterStatic5",
+    "constructors": 5,
+    "parsed": 5
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "Encounter_B2W2_N",
+    "type": "EncounterStatic5N",
+    "constructors": 15,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "TradeGift_B2W2",
+    "type": "EncounterTrade5B2W2",
+    "constructors": 31,
+    "parsed": 31
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "TradeGift_W2",
+    "type": "EncounterTrade5B2W2",
+    "constructors": 1,
+    "parsed": 1
+  },
+  {
+    "file": "Encounters5B2W2.cs",
+    "table": "TradeGift_B2",
+    "type": "EncounterTrade5B2W2",
+    "constructors": 1,
+    "parsed": 1
+  },
+  {
+    "file": "Encounters5BW.cs",
+    "table": "Encounter_BW",
+    "type": "EncounterStatic5",
+    "constructors": 31,
+    "parsed": 31
+  },
+  {
+    "file": "Encounters5BW.cs",
+    "table": "StaticB",
+    "type": "EncounterStatic5",
+    "constructors": 3,
+    "parsed": 3
+  },
+  {
+    "file": "Encounters5BW.cs",
+    "table": "StaticW",
+    "type": "EncounterStatic5",
+    "constructors": 3,
+    "parsed": 3
+  },
+  {
+    "file": "Encounters5BW.cs",
+    "table": "TradeGift_BW",
+    "type": "EncounterTrade5BW",
+    "constructors": 3,
+    "parsed": 3
+  },
+  {
+    "file": "Encounters5BW.cs",
+    "table": "TradeGift_B",
+    "type": "EncounterTrade5BW",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters5BW.cs",
+    "table": "TradeGift_W",
+    "type": "EncounterTrade5BW",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters5DR.cs",
+    "table": "Encounter_DreamRadar",
+    "type": "EncounterStatic5Radar",
+    "constructors": 26,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters6AO.cs",
+    "table": "Encounter_AO_Regular",
+    "type": "EncounterStatic6",
+    "constructors": 60,
+    "parsed": 60
+  },
+  {
+    "file": "Encounters6AO.cs",
+    "table": "StaticA",
+    "type": "EncounterStatic6",
+    "constructors": 8,
+    "parsed": 8
+  },
+  {
+    "file": "Encounters6AO.cs",
+    "table": "StaticO",
+    "type": "EncounterStatic6",
+    "constructors": 8,
+    "parsed": 8
+  },
+  {
+    "file": "Encounters6AO.cs",
+    "table": "TradeGift_AO",
+    "type": "EncounterTrade6",
+    "constructors": 3,
+    "parsed": 3
+  },
+  {
+    "file": "Encounters6XY.cs",
+    "table": "Encounter_XY",
+    "type": "EncounterStatic6",
+    "constructors": 40,
+    "parsed": 40
+  },
+  {
+    "file": "Encounters6XY.cs",
+    "table": "StaticX",
+    "type": "EncounterStatic6",
+    "constructors": 1,
+    "parsed": 1
+  },
+  {
+    "file": "Encounters6XY.cs",
+    "table": "StaticY",
+    "type": "EncounterStatic6",
+    "constructors": 1,
+    "parsed": 1
+  },
+  {
+    "file": "Encounters6XY.cs",
+    "table": "TradeGift_XY",
+    "type": "EncounterTrade6",
+    "constructors": 9,
+    "parsed": 9
+  },
+  {
+    "file": "Encounters7GG.cs",
+    "table": "Encounter_GG",
+    "type": "EncounterStatic7b",
+    "constructors": 17,
+    "parsed": 17
+  },
+  {
+    "file": "Encounters7GG.cs",
+    "table": "StaticGP",
+    "type": "EncounterStatic7b",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters7GG.cs",
+    "table": "StaticGE",
+    "type": "EncounterStatic7b",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters7GG.cs",
+    "table": "TradeGift_GG",
+    "type": "EncounterTrade7b",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters7GG.cs",
+    "table": "TradeGift_GP",
+    "type": "EncounterTrade7b",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters7GG.cs",
+    "table": "TradeGift_GE",
+    "type": "EncounterTrade7b",
+    "constructors": 2,
+    "parsed": 2
+  },
+  {
+    "file": "Encounters7SM.cs",
+    "table": "StaticSM",
+    "type": "EncounterStatic7",
+    "constructors": 68,
+    "parsed": 68
+  },
+  {
+    "file": "Encounters7SM.cs",
+    "table": "StaticSN",
+    "type": "EncounterStatic7",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters7SM.cs",
+    "table": "StaticMN",
+    "type": "EncounterStatic7",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters7SM.cs",
+    "table": "TradeGift_SM",
+    "type": "EncounterTrade7",
+    "constructors": 7,
+    "parsed": 7
+  },
+  {
+    "file": "Encounters7USUM.cs",
+    "table": "StaticUSUM",
+    "type": "EncounterStatic7",
+    "constructors": 124,
+    "parsed": 124
+  },
+  {
+    "file": "Encounters7USUM.cs",
+    "table": "StaticUS",
+    "type": "EncounterStatic7",
+    "constructors": 19,
+    "parsed": 19
+  },
+  {
+    "file": "Encounters7USUM.cs",
+    "table": "StaticUM",
+    "type": "EncounterStatic7",
+    "constructors": 20,
+    "parsed": 20
+  },
+  {
+    "file": "Encounters7USUM.cs",
+    "table": "TradeGift_USUM",
+    "type": "EncounterTrade7",
+    "constructors": 7,
+    "parsed": 7
+  },
+  {
+    "file": "Encounters8.cs",
+    "table": "StaticSWSH",
+    "type": "EncounterStatic8",
+    "constructors": 627,
+    "parsed": 627
+  },
+  {
+    "file": "Encounters8.cs",
+    "table": "StaticSW",
+    "type": "EncounterStatic8",
+    "constructors": 25,
+    "parsed": 25
+  },
+  {
+    "file": "Encounters8.cs",
+    "table": "StaticSH",
+    "type": "EncounterStatic8",
+    "constructors": 24,
+    "parsed": 24
+  },
+  {
+    "file": "Encounters8.cs",
+    "table": "TradeSWSH",
+    "type": "EncounterTrade8",
+    "constructors": 14,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters8.cs",
+    "table": "TradeSW",
+    "type": "EncounterTrade8",
+    "constructors": 4,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters8.cs",
+    "table": "TradeSH",
+    "type": "EncounterTrade8",
+    "constructors": 4,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters8a.cs",
+    "table": "StaticLA",
+    "type": "EncounterStatic8a",
+    "constructors": 81,
+    "parsed": 81
+  },
+  {
+    "file": "Encounters8b.cs",
+    "table": "Encounter_BDSP",
+    "type": "EncounterStatic8b",
+    "constructors": 36,
+    "parsed": 36
+  },
+  {
+    "file": "Encounters8b.cs",
+    "table": "StaticBD",
+    "type": "EncounterStatic8b",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters8b.cs",
+    "table": "StaticSP",
+    "type": "EncounterStatic8b",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters8b.cs",
+    "table": "TradeGift_BDSP",
+    "type": "EncounterTrade8b",
+    "constructors": 4,
+    "parsed": 4
+  },
+  {
+    "file": "Encounters8Nest.cs",
+    "table": "Crystal_SWSH",
+    "type": "EncounterStatic8NC",
+    "constructors": 13,
+    "parsed": 13
+  },
+  {
+    "file": "Encounters9.cs",
+    "table": "Encounter_SV",
+    "type": "EncounterStatic9",
+    "constructors": 72,
+    "parsed": 72
+  },
+  {
+    "file": "Encounters9.cs",
+    "table": "StaticSL",
+    "type": "EncounterStatic9",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters9.cs",
+    "table": "StaticVL",
+    "type": "EncounterStatic9",
+    "constructors": 6,
+    "parsed": 6
+  },
+  {
+    "file": "Encounters9.cs",
+    "table": "TradeGift_SV",
+    "type": "EncounterTrade9",
+    "constructors": 33,
+    "parsed": 0
+  },
+  {
+    "file": "Encounters9a.cs",
+    "table": "Static",
+    "type": "EncounterStatic9a",
+    "constructors": 44,
+    "parsed": 44
+  },
+  {
+    "file": "Encounters9a.cs",
+    "table": "Trades",
+    "type": "EncounterTrade9a",
+    "constructors": 5,
+    "parsed": 0
+  }
+]

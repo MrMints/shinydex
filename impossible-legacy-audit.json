@@ -1,0 +1,809 @@
+{
+  "removedCount": 73,
+  "records": [
+    {
+      "key": 26,
+      "entry": {
+        "game": "Pok\u00e9mon Moon",
+        "method": "Catch shiny Pikachu and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Raichu_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "In Sun/Moon this evolution produces the Alolan form, not the pictured Kanto form. Ultra Space exceptions apply only in Ultra Sun/Ultra Moon."
+    },
+    {
+      "key": 26,
+      "entry": {
+        "game": "Pok\u00e9mon Sun",
+        "method": "Catch shiny Pikachu and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Raichu_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "In Sun/Moon this evolution produces the Alolan form, not the pictured Kanto form. Ultra Space exceptions apply only in Ultra Sun/Ultra Moon."
+    },
+    {
+      "key": 103,
+      "entry": {
+        "game": "Pok\u00e9mon Moon",
+        "method": "Catch shiny Exeggcute and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "In Sun/Moon this evolution produces the Alolan form, not the pictured Kanto form. Ultra Space exceptions apply only in Ultra Sun/Ultra Moon."
+    },
+    {
+      "key": 103,
+      "entry": {
+        "game": "Pok\u00e9mon Sun",
+        "method": "Catch shiny Exeggcute and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "In Sun/Moon this evolution produces the Alolan form, not the pictured Kanto form. Ultra Space exceptions apply only in Ultra Sun/Ultra Moon."
+    },
+    {
+      "key": 105,
+      "entry": {
+        "game": "Pok\u00e9mon Moon",
+        "method": "Catch shiny Cubone and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Marowak_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "In Sun/Moon this evolution produces the Alolan form, not the pictured Kanto form. Ultra Space exceptions apply only in Ultra Sun/Ultra Moon."
+    },
+    {
+      "key": 105,
+      "entry": {
+        "game": "Pok\u00e9mon Sun",
+        "method": "Catch shiny Cubone and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Marowak_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "In Sun/Moon this evolution produces the Alolan form, not the pictured Kanto form. Ultra Space exceptions apply only in Ultra Sun/Ultra Moon."
+    },
+    {
+      "key": 110,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Sword",
+        "method": "Breed a shiny in this evolutionary line; evolve if needed \u00b7 Masuda method",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Weezing_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 110,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Shield",
+        "method": "Breed a shiny in this evolutionary line; evolve if needed \u00b7 Masuda method",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Weezing_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 110,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Sword",
+        "method": "Breed a shiny in this evolutionary line; evolve if needed \u00b7 Masuda method",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Weezing_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 110,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Shield",
+        "method": "Breed a shiny in this evolutionary line; evolve if needed \u00b7 Masuda method",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Weezing_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 110,
+      "entry": {
+        "game": "Pok\u00e9mon Sword",
+        "method": "Catch shiny Koffing and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Weezing_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 110,
+      "entry": {
+        "game": "Pok\u00e9mon Shield",
+        "method": "Catch shiny Koffing and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Weezing_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 122,
+      "entry": {
+        "game": "Pok\u00e9mon Sword",
+        "method": "Catch shiny Mime Jr and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Mr.%20Mime_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 122,
+      "entry": {
+        "game": "Pok\u00e9mon Shield",
+        "method": "Catch shiny Mime Jr and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Mr.%20Mime_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 122,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Sword",
+        "method": "Catch shiny Mime Jr and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Mr.%20Mime_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 122,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Shield",
+        "method": "Catch shiny Mime Jr and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Mr.%20Mime_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "Koffing and Mime Jr. evolve into Galarian forms in Sword/Shield, not the pictured Kanto form. A transfer or direct egg exception needs its own verified route."
+    },
+    {
+      "key": 169,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Golbat and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Crobat_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 169,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Golbat and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Crobat_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 182,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Gloom and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Bellossom_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 186,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Poliwhirl and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Politoed_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 186,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Poliwhirl and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Politoed_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 196,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Espeon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 196,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Espeon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 197,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Umbreon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 197,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Umbreon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 199,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Slowpoke and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Slowking_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 199,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Slowpoke and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Slowking_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 208,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Onix and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Steelix_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 208,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Onix and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Steelix_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 212,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Scyther and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Scizor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 230,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Seadra and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Kingdra_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 230,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Seadra and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Kingdra_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 233,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Porygon and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Porygon2_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 233,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Porygon and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Porygon2_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 242,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Chansey and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Blissey_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 242,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Chansey and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Blissey_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 462,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Magneton and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Magnezone_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 462,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Magneton and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Magnezone_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 463,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Lickitung and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Lickilicky_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 463,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Lickitung and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Lickilicky_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 464,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Rhydon and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Rhyperior_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 464,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Rhydon and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Rhyperior_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 465,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Tangela and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Tangrowth_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 465,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Tangela and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Tangrowth_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 466,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Electabuzz and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Electivire_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 466,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Electabuzz and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Electivire_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 467,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Magmar and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Magmortar_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 467,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Magmar and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Magmortar_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 470,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Leafeon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 470,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Leafeon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 471,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Glaceon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 471,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Glaceon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 700,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Pikachu!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Sylveon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 700,
+      "entry": {
+        "game": "Pok\u00e9mon Let's Go, Eevee!",
+        "method": "Catch shiny Eevee and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Sylveon_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "These games support Kanto species plus Meltan/Melmetal, not later evolutionary relatives of Kanto Pok\u00e9mon."
+    },
+    {
+      "key": 900,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Sword",
+        "method": "Catch shiny Scyther and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Kleavor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 900,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Shield",
+        "method": "Catch shiny Scyther and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Kleavor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 900,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Sword",
+        "method": "Catch shiny Scyther and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Kleavor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 900,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Shield",
+        "method": "Catch shiny Scyther and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Kleavor_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 902,
+      "entry": {
+        "game": "Pok\u00e9mon Sword",
+        "method": "Catch shiny Basculin and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 902,
+      "entry": {
+        "game": "Pok\u00e9mon Shield",
+        "method": "Catch shiny Basculin and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 902,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Sword",
+        "method": "Catch shiny Basculin and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 902,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Shield",
+        "method": "Catch shiny Basculin and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 902,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Sword",
+        "method": "Catch shiny Basculin and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 903,
+      "entry": {
+        "game": "Pok\u00e9mon Sword",
+        "method": "Catch shiny Sneasel and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Sneasler_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 903,
+      "entry": {
+        "game": "Pok\u00e9mon Shield",
+        "method": "Catch shiny Sneasel and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Sneasler_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 903,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Sword",
+        "method": "Catch shiny Sneasel and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Sneasler_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 903,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Shield",
+        "method": "Catch shiny Sneasel and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Sneasler_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 904,
+      "entry": {
+        "game": "Pok\u00e9mon Sword",
+        "method": "Catch shiny Qwilfish and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 904,
+      "entry": {
+        "game": "Pok\u00e9mon Shield",
+        "method": "Catch shiny Qwilfish and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 904,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Sword",
+        "method": "Catch shiny Qwilfish and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 904,
+      "entry": {
+        "game": "Pok\u00e9mon The Crown Tundra Shield",
+        "method": "Catch shiny Qwilfish and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 904,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Sword",
+        "method": "Catch shiny Qwilfish and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    },
+    {
+      "key": 904,
+      "entry": {
+        "game": "Pok\u00e9mon The Isle Of Armor Shield",
+        "method": "Catch shiny Qwilfish and evolve it",
+        "status": "Huntable",
+        "locations": [],
+        "source": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_%28Pok%C3%A9mon%29#Game_locations"
+      },
+      "reason": "This Hisuian evolution is not supported in Sword/Shield or its DLC; a shared ancestor does not establish a hunting route."
+    }
+  ],
+  "fullHuntingAuditComplete": false
+}

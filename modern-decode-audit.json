@@ -1,0 +1,92 @@
+[
+  {
+    "file": "encounter_fixed_paldea.pkl",
+    "serializedRecords": 977,
+    "slots": 1549
+  },
+  {
+    "file": "encounter_outbreak_paldea.pkl",
+    "serializedRecords": 12636,
+    "slots": 55628
+  },
+  {
+    "file": "encounter_wild_paldea.pkl",
+    "areas": 400,
+    "slots": 26861
+  },
+  {
+    "file": "encounter_za.pkl",
+    "areas": 99,
+    "slots": 1121
+  },
+  {
+    "file": "encounter_hyperspace_za.pkl",
+    "areas": 1,
+    "slots": 1248
+  },
+  {
+    "file": "encounter_la.pkl",
+    "areas": 1738,
+    "slots": 38799
+  },
+  {
+    "file": "encounter_bd.pkl",
+    "areas": 747,
+    "slots": 5200
+  },
+  {
+    "file": "encounter_bd_underground.pkl",
+    "areas": 75,
+    "slots": 23379
+  },
+  {
+    "file": "encounter_sp.pkl",
+    "areas": 747,
+    "slots": 5199
+  },
+  {
+    "file": "encounter_sp_underground.pkl",
+    "areas": 75,
+    "slots": 24144
+  },
+  {
+    "file": "encounter_sn.pkl",
+    "areas": 151,
+    "slots": 1082
+  },
+  {
+    "file": "encounter_mn.pkl",
+    "areas": 151,
+    "slots": 1085
+  },
+  {
+    "file": "encounter_us.pkl",
+    "areas": 172,
+    "slots": 1400
+  },
+  {
+    "file": "encounter_um.pkl",
+    "areas": 172,
+    "slots": 1402
+  },
+  {
+    "file": "encounter_sw_symbol.pkl",
+    "areas": 123,
+    "slots": 1050
+  },
+  {
+    "file": "encounter_sw_hidden.pkl",
+    "areas": 62,
+    "slots": 863
+  },
+  {
+    "file": "encounter_sh_symbol.pkl",
+    "areas": 123,
+    "slots": 1057
+  },
+  {
+    "file": "encounter_sh_hidden.pkl",
+    "areas": 62,
+    "slots": 855
+  }
+]

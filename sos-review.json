@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-04",
+  "routes": 843,
+  "fullCoverageVerified": false,
+  "verified": [
+    "Core mechanics and SM/USUM counter differences",
+    "Fourteen special weather/caller target notes"
+  ],
+  "remaining": [
+    "Complete caller relationships per encounter slot",
+    "Precise room/time/weather conditions and story access"
+  ],
+  "references": [
+    "https://bulbapedia.bulbagarden.net/wiki/SOS_Battle",
+    "https://bulbapedia.bulbagarden.net/wiki/Adrenaline_Orb"
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "decodedSlotLocationRecords": 191922,
+  "mappedTrackedFormRecords": 180291,
+  "verifiedRoutes": 7521,
+  "regionalFormsWithDecodedRoutes": 50,
+  "recordsByGame": {
+    "Pok\u00e9mon Scarlet / Violet": 79091,
+    "Pok\u00e9mon Legends: Z-A": 1045,
+    "Pok\u00e9mon Legends: Z-A \u00b7 Mega Dimension": 1168,
+    "Pok\u00e9mon Legends: Arceus": 37726,
+    "Pok\u00e9mon Brilliant Diamond": 25933,
+    "Pok\u00e9mon Shining Pearl": 26697,
+    "Pok\u00e9mon Sun": 1067,
+    "Pok\u00e9mon Moon": 1070,
+    "Pok\u00e9mon Ultra Sun": 1371,
+    "Pok\u00e9mon Ultra Moon": 1361,
+    "Pok\u00e9mon Sword": 1890,
+    "Pok\u00e9mon Shield": 1872
+  },
+  "excludedUntrackedForms": [
+    {
+      "species": 201,
+      "form": 1,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 2,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 3,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 4,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 5,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 6,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 7,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 8,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 9,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 10,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 11,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 12,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 13,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 14,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 15,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 16,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 17,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 18,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 19,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 20,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 21,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 22,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 23,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 24,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 25,
+      "records": 281
+    },
+    {
+      "species": 201,
+      "form": 26,
+      "records": 41
+    },
+    {
+      "species": 201,
+      "form": 27,
+      "records": 41
+    },
+    {
+      "species": 412,
+      "form": 1,
+      "records": 114
+    },
+    {
+      "species": 412,
+      "form": 2,
+      "records": 116
+    },
+    {
+      "species": 413,
+      "form": 1,
+      "records": 40
+    },
+    {
+      "species": 413,
+      "form": 2,
+      "records": 120
+    },
+    {
+      "species": 422,
+      "form": 1,
+      "records": 145
+    },
+    {
+      "species": 423,
+      "form": 1,
+      "records": 198
+    },
+    {
+      "species": 479,
+      "form": 1,
+      "records": 2
+    },
+    {
+      "species": 479,
+      "form": 2,
+      "records": 2
+    },
+    {
+      "species": 479,
+      "form": 3,
+      "records": 2
+    },
+    {
+      "species": 479,
+      "form": 4,
+      "records": 2
+    },
+    {
+      "species": 479,
+      "form": 5,
+      "records": 2
+    },
+    {
+      "species": 550,
+      "form": 1,
+      "records": 116
+    },
+    {
+      "species": 585,
+      "form": 1,
+      "records": 37
+    },
+    {
+      "species": 585,
+      "form": 2,
+      "records": 66
+    },
+    {
+      "species": 585,
+      "form": 3,
+      "records": 61
+    },
+    {
+      "species": 586,
+      "form": 1,
+      "records": 12
+    },
+    {
+      "species": 586,
+      "form": 2,
+      "records": 49
+    },
+    {
+      "species": 586,
+      "form": 3,
+      "records": 62
+    },
+    {
+      "species": 664,
+      "form": 4,
+      "records": 2
+    },
+    {
+      "species": 664,
+      "form": 6,
+      "records": 13
+    },
+    {
+      "species": 664,
+      "form": 30,
+      "records": 17
+    },
+    {
+      "species": 665,
+      "form": 4,
+      "records": 2
+    },
+    {
+      "species": 665,
+      "form": 6,
+      "records": 7
+    },
+    {
+      "species": 665,
+      "form": 30,
+      "records": 6
+    },
+    {
+      "species": 666,
+      "form": 4,
+      "records": 2
+    },
+    {
+      "species": 666,
+      "form": 6,
+      "records": 10
+    },
+    {
+      "species": 666,
+      "form": 30,
+      "records": 26
+    },
+    {
+      "species": 669,
+      "form": 1,
+      "records": 834
+    },
+    {
+      "species": 669,
+      "form": 2,
+      "records": 829
+    },
+    {
+      "species": 669,
+      "form": 3,
+      "records": 829
+    },
+    {
+      "species": 669,
+      "form": 4,
+      "records": 829
+    },
+    {
+      "species": 670,
+      "form": 1,
+      "records": 42
+    },
+    {
+      "species": 670,
+      "form": 2,
+      "records": 47
+    },
+    {
+      "species": 670,
+      "form": 3,
+      "records": 46
+    },
+    {
+      "species": 670,
+      "form": 4,
+      "records": 83
+    },
+    {
+      "species": 671,
+      "form": 1,
+      "records": 9
+    },
+    {
+      "species": 671,
+      "form": 2,
+      "records": 9
+    },
+    {
+      "species": 671,
+      "form": 3,
+      "records": 11
+    },
+    {
+      "species": 671,
+      "form": 4,
+      "records": 11
+    },
+    {
+      "species": 678,
+      "form": 1,
+      "records": 8
+    },
+    {
+      "species": 710,
+      "form": 1,
+      "records": 8
+    },
+    {
+      "species": 710,
+      "form": 2,
+      "records": 8
+    },
+    {
+      "species": 710,
+      "form": 3,
+      "records": 8
+    },
+    {
+      "species": 741,
+      "form": 1,
+      "records": 15
+    },
+    {
+      "species": 741,
+      "form": 2,
+      "records": 13
+    },
+    {
+      "species": 741,
+      "form": 3,
+      "records": 24
+    },
+    {
+      "species": 744,
+      "form": 1,
+      "records": 34
+    },
+    {
+      "species": 745,
+      "form": 1,
+      "records": 99
+    },
+    {
+      "species": 745,
+      "form": 2,
+      "records": 11
+    },
+    {
+      "species": 774,
+      "form": 7,
+      "records": 2
+    },
+    {
+      "species": 774,
+      "form": 9,
+      "records": 1
+    },
+    {
+      "species": 774,
+      "form": 11,
+      "records": 1
+    },
+    {
+      "species": 774,
+      "form": 12,
+      "records": 1
+    },
+    {
+      "species": 774,
+      "form": 13,
+      "records": 1
+    },
+    {
+      "species": 774,
+      "form": 31,
+      "records": 200
+    },
+    {
+      "species": 849,
+      "form": 1,
+      "records": 14
+    },
+    {
+      "species": 854,
+      "form": 1,
+      "records": 23
+    },
+    {
+      "species": 876,
+      "form": 1,
+      "records": 63
+    },
+    {
+      "species": 902,
+      "form": 1,
+      "records": 30
+    },
+    {
+      "species": 916,
+      "form": 1,
+      "records": 81
+    },
+    {
+      "species": 931,
+      "form": 1,
+      "records": 34
+    },
+    {
+      "species": 931,
+      "form": 2,
+      "records": 34
+    },
+    {
+      "species": 931,
+      "form": 3,
+      "records": 34
+    },
+    {
+      "species": 978,
+      "form": 1,
+      "records": 306
+    },
+    {
+      "species": 978,
+      "form": 2,
+      "records": 85
+    },
+    {
+      "species": 1012,
+      "form": 1,
+      "records": 16
+    }
+  ],
+  "fullHuntingAuditComplete": false,
+  "remaining": [
+    "Other game tables and raid formats",
+    "Gameplay prerequisites and encounter conditions",
+    "Breeding availability and exact evolution requirements",
+    "GO shiny releases and historical event coverage"
+  ]
+}

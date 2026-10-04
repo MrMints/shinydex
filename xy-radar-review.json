@@ -1,0 +1,330 @@
+{
+  "checked": "2026-10-03",
+  "fullCoverageVerified": false,
+  "source": "encounters.csv",
+  "mechanicsSource": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar#Pok%C3%A9mon_X_and_Y",
+  "restrictions": [
+    "Friend Safari is ineligible",
+    "Long grass is ineligible",
+    "Flower beds are eligible",
+    "Hordes and ambushes are separate methods"
+  ],
+  "candidateAreas": [
+    {
+      "location": "azure-bay",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 8,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "connecting-cave",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 8,
+      "status": "Ineligible cave encounter table; no ordinary-grass radar encounters",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Connecting_Cave#Pok%C3%A9mon",
+      "verifiedCaveRoster": [
+        41,
+        293,
+        307,
+        610
+      ]
+    },
+    {
+      "location": "friend-safari",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 378,
+      "status": "Ineligible for radar; separate Friend Safari hunting entries included"
+    },
+    {
+      "location": "frost-cavern",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 12,
+      "status": "Ineligible cave encounter table; no ordinary-grass radar encounters",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Frost_Cavern#Pok%C3%A9mon",
+      "verifiedCaveRoster": [
+        93,
+        124,
+        221,
+        614,
+        615,
+        712
+      ]
+    },
+    {
+      "location": "glittering-cave",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Ineligible indoor encounter table; no ordinary-grass radar encounters",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Glittering_Cave#Pok%C3%A9mon"
+    },
+    {
+      "location": "kalos-route-10",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 14,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-10",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 14,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-11",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-12",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 14,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-12",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 14,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-14",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-15",
+      "encounterMethod": "red-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-15",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 12,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-16",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-18",
+      "encounterMethod": "red-flowers",
+      "speciesGamePairs": 14,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-18",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 14,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-19",
+      "encounterMethod": "purple-flowers",
+      "speciesGamePairs": 16,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-19",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 16,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-2",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 12,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-20",
+      "encounterMethod": "red-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-20",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 12,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-21",
+      "encounterMethod": "purple-flowers",
+      "speciesGamePairs": 10,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-21",
+      "encounterMethod": "red-flowers",
+      "speciesGamePairs": 10,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-22",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-22",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 16,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-3",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-4",
+      "encounterMethod": "red-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-4",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-5",
+      "encounterMethod": "purple-flowers",
+      "speciesGamePairs": 16,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-5",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-7",
+      "encounterMethod": "purple-flowers",
+      "speciesGamePairs": 16,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-7",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 16,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-7",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 16,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-route-8",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 14,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "kalos-route-8",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 14,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "kalos-victory-road",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 12,
+      "status": "Ineligible cave encounter table; outdoor encounters are sky, water and fishing rather than ordinary grass",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Victory_Road_(Kalos)#Pok%C3%A9mon",
+      "verifiedCaveRoster": [
+        75,
+        93,
+        108,
+        533,
+        621,
+        634
+      ],
+      "verifiedSnapshotAreas": [
+        "unknown-area-322",
+        "unknown-area-324",
+        "unknown-area-326",
+        "unknown-area-328"
+      ]
+    },
+    {
+      "location": "lost-hotel",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 10,
+      "status": "Ineligible indoor encounter table; no ordinary-grass radar encounters",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Lost_Hotel#Pok%C3%A9mon"
+    },
+    {
+      "location": "pokemon-village",
+      "encounterMethod": "purple-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "pokemon-village",
+      "encounterMethod": "yellow-flowers",
+      "speciesGamePairs": 12,
+      "status": "Verified flower-bed radar encounter table"
+    },
+    {
+      "location": "reflection-cave",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 14,
+      "status": "Ineligible indoor encounter table; no ordinary-grass radar encounters",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Reflection_Cave#Pok%C3%A9mon"
+    },
+    {
+      "location": "santalune-forest",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 18,
+      "status": "Verified ordinary-grass radar encounter table"
+    },
+    {
+      "location": "terminus-cave",
+      "encounterMethod": "walk",
+      "speciesGamePairs": 8,
+      "status": "Ineligible indoor encounter table; no ordinary-grass radar encounters",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Terminus_Cave#Pok%C3%A9mon"
+    }
+  ],
+  "verifiedOrdinaryGrassAreas": [
+    "azure-bay",
+    "kalos-route-10",
+    "kalos-route-11",
+    "kalos-route-12",
+    "kalos-route-14",
+    "kalos-route-15",
+    "kalos-route-18",
+    "kalos-route-2",
+    "kalos-route-20",
+    "kalos-route-22",
+    "kalos-route-3",
+    "kalos-route-5",
+    "kalos-route-7",
+    "kalos-route-8",
+    "santalune-forest"
+  ],
+  "verifiedOrdinaryGrassSpeciesGamePairs": 180,
+  "mechanicsVerified": [
+    "Chain 40 sparkling-patch rate",
+    "Rate reset after shiny capture",
+    "Alternate music bonus",
+    "Disguised patch animations",
+    "Additional chain-breaking actions"
+  ],
+  "candidateClassificationComplete": true,
+  "limitations": [
+    "Classification covers the walk and flower encounter snapshot; complete radar coverage still requires checking the snapshot against all game encounter tables and form variants."
+  ]
+}

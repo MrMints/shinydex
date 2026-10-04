@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>ShinyDex storage failure QA</title>
+<h1>Storage failure QA</h1>
+<p>Each embedded app uses simulated storage. The real collection is never written.</p>
+<label>Failure mode <select id="mode">
+  <option value="quota">Quota exceeded on save</option>
+  <option value="unavailable">Storage unavailable on read and save</option>
+</select></label>
+<button id="load">Load isolated app</button>
+<p id="result" role="status">Choose a failure mode and load the app.</p>
+<pre id="export-result" aria-label="Generated backup JSON"></pre>
+<iframe id="app" title="App with simulated storage failure" style="width:100%;height:850px;border:1px solid"></iframe>
+<script>
+// The fixture injects a private, in-memory Storage substitute into this iframe.
+// It tests the real app entry point without touching the parent's localStorage.
+document.querySelector('#load').onclick = async () => {
+  const mode = document.querySelector('#mode').value;
+  const response = await fetch('../index.html');
+  const html = await response.text();
+  const setup = `<base href="${new URL('../', location.href)}"><script>
+    const mode = ${JSON.stringify(mode)};
+    const memory = {'shinydex-collection-v2': '{"version":2,"captured":[],"shinies":[]}'};
+    Object.defineProperty(window, 'localStorage', {value: {
+      getItem(key) {
+        if (mode === 'unavailable') throw new DOMException('Simulated blocked storage', 'SecurityError');
+        return memory[key] ?? null;
+      },
+      setItem() { throw new DOMException('Simulated write failure', mode === 'quota' ? 'QuotaExceededError' : 'SecurityError'); },
+      removeItem(key) { delete memory[key]; }
+    }});
+    const originalCreateObjectURL = URL.createObjectURL.bind(URL);
+    URL.createObjectURL = (blob) => {
+      if (blob.type === 'application/json') {
+        blob.text().then(text => parent.document.querySelector('#export-result').textContent = text);
+      }
+      return originalCreateObjectURL(blob);
+    };
+  <\/script>`;
+  document.querySelector('#app').srcdoc = html.replace('<head>', '<head>' + setup);
+  document.querySelector('#export-result').textContent = '';
+  document.querySelector('#result').textContent = 'Loaded isolated ' + mode + ' scenario; check captures, warning and export.';
+};
+</script>
+</html>

@@ -1,0 +1,36 @@
+{
+  "tables": [
+    {
+      "table": "sv",
+      "entries": 1424,
+      "branches": 436
+    },
+    {
+      "table": "ss",
+      "entries": 1192,
+      "branches": 341
+    },
+    {
+      "table": "bs",
+      "entries": 560,
+      "branches": 253
+    },
+    {
+      "table": "la",
+      "entries": 1276,
+      "branches": 146
+    },
+    {
+      "table": "za",
+      "entries": 1445,
+      "branches": 242
+    }
+  ],
+  "branches": 1418,
+  "fullHuntingAuditComplete": false,
+  "remaining": [
+    "Render and verify all evolution requirements",
+    "Validate source shiny acquisition routes",
+    "Replace unsupported generic evolution entries"
+  ]
+}

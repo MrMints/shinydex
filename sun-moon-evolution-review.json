@@ -1,0 +1,12 @@
+{
+  "fullHuntingAuditComplete": false,
+  "separatePinnedEvolutionTableAvailable": false,
+  "referenceTree": "reference/pkhex/tree.json",
+  "nextReview": "Verify Sun/Moon evolution conditions from species and location references before adding routes; the pinned snapshot contains evos_uu.pkl but no separate evos_sm.pkl.",
+  "knownDifferencesToReview": [
+    "Sun/Moon magnetic evolution location must not inherit the Ultra-only Blush Mountain addition",
+    "Ultra Space non-Alolan evolution routes must not be copied to Sun/Moon",
+    "Own Tempo Rockruff and Dusk Lycanroc are incompatible with Sun/Moon",
+    "Species introduced in Ultra Sun/Ultra Moon must be excluded"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "checkedImages": 2166,
+  "issues": [],
+  "sourceCaptionExceptions": [
+    {
+      "file": "HOME0146G.png",
+      "issue": "Archives caption incorrectly numbers Moltres as 0145; filename, species name and both images visually verified as Galarian Moltres"
+    },
+    {
+      "file": "HOME0146G_s.png",
+      "issue": "Archives caption incorrectly numbers Moltres as 0145; filename, species name and both images visually verified as Galarian Moltres"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "fullCoverageVerified": false,
+  "purpose": "Candidate species/game gaps from pinned ORAS wild tables. Standard slot type does not distinguish hidden-only, fishing, water or ice-room restrictions. Each candidate needs gameplay eligibility and prerequisites verified before publication.",
+  "scopeLimit": "Zero missing species/game pairs means each recorded species has at least one route. It does not prove every encounter location, form, prerequisite or hunting method is included. Location matches compare only normalized base names, not rooms or terrain; reported location candidates require manual review. Reviewed exclusions preserve cross-version source records; zero unreviewed normalized candidates still does not certify exhaustive floor, form or prerequisite coverage.",
+  "sources": [
+    {
+      "path": "reference\\pkhex\\PKHeX.Core\\Resources\\legality\\wild\\Gen6\\encounter_or.pkl",
+      "sha256": "2de26987041c94c0e6723e7b7a7093c6d2f3f93283d8a2e51610077873b33fbc"
+    },
+    {
+      "path": "reference\\pkhex\\PKHeX.Core\\Resources\\legality\\wild\\Gen6\\encounter_as.pkl",
+      "sha256": "76435b4e70befeefe3de53e5802731347290f2a5e22c48d8a2a144d702178dd9"
+    }
+  ],
+  "missingSpeciesGamePairs": 0,
+  "candidates": [],
+  "missingLocationFormCandidates": 8,
+  "locationCandidates": [
+    {
+      "species": 72,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 129,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 320,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 120,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 72,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 129,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 320,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    },
+    {
+      "species": 120,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": false
+    }
+  ],
+  "reviewedExclusions": [
+    {
+      "species": 72,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 129,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 320,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 120,
+      "game": "Pokémon Omega Ruby",
+      "locationId": 292,
+      "location": "Team Aqua Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 72,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 129,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 320,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    },
+    {
+      "species": 120,
+      "game": "Pokémon Alpha Sapphire",
+      "locationId": 314,
+      "location": "Team Magma Hideout",
+      "form": 0,
+      "eligibilityVerified": true,
+      "eligible": false,
+      "reason": "This hideout is replaced by the other team hideout in this game.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Aqua_Hideout#In_the_games"
+    }
+  ],
+  "unreviewedLocationFormCandidates": 0
+}

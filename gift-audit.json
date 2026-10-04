@@ -1,0 +1,3335 @@
+{
+  "resolved": [
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L31"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L31"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L26"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L26"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L28"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L28"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L33"
+    },
+    {
+      "name": "Bulbasaur",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L33"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L32"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L32"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L27"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L27"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L29"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L29"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L34"
+    },
+    {
+      "name": "Charmander",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L34"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L33"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L33"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L28"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L28"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L30"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L30"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L35"
+    },
+    {
+      "name": "Squirtle",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L35"
+    },
+    {
+      "name": "Raticate",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L210"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L143"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L143"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L134"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L134"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L134"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Spearow",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Ekans",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L108"
+    },
+    {
+      "name": "Ekans",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L56"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L32"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L32"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L32"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L32"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L32"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L34"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L34"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L89"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L39"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L39"
+    },
+    {
+      "name": "Pikachu",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L40"
+    },
+    {
+      "name": "Sandshrew",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L118"
+    },
+    {
+      "name": "Sandshrew",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L57"
+    },
+    {
+      "name": "Clefairy",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L69"
+    },
+    {
+      "name": "Clefairy",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L81"
+    },
+    {
+      "name": "Zubat",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Zubat",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Zubat",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Zubat",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Persian",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L42"
+    },
+    {
+      "name": "Arcanine",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L48"
+    },
+    {
+      "name": "Poliwag",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Poliwag",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L61"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L61"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L68"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L80"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L53"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L53"
+    },
+    {
+      "name": "Abra",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L92"
+    },
+    {
+      "name": "Kadabra",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Kadabra",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Tentacool",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L46"
+    },
+    {
+      "name": "Tentacool",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L46"
+    },
+    {
+      "name": "Slowpoke",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Slowpoke",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Magnemite",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Magnemite",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Seel",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Seel",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Shellder",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Shellder",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Gastly",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Gastly",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Cubone",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L94"
+    },
+    {
+      "name": "Marowak",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L184"
+    },
+    {
+      "name": "Hitmonlee",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L41"
+    },
+    {
+      "name": "Hitmonlee",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L41"
+    },
+    {
+      "name": "Hitmonlee",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L28"
+    },
+    {
+      "name": "Hitmonlee",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L28"
+    },
+    {
+      "name": "Hitmonchan",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L42"
+    },
+    {
+      "name": "Hitmonchan",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L42"
+    },
+    {
+      "name": "Hitmonchan",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L29"
+    },
+    {
+      "name": "Hitmonchan",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L29"
+    },
+    {
+      "name": "Staryu",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Staryu",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Staryu",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Staryu",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Mr. Mime",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L56"
+    },
+    {
+      "name": "Mr. Mime",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L56"
+    },
+    {
+      "name": "Mr. Mime",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L52"
+    },
+    {
+      "name": "Mr. Mime",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L52"
+    },
+    {
+      "name": "Mr. Mime",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Mr. Mime",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Scyther",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L70"
+    },
+    {
+      "name": "Scyther",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Scyther",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Jynx",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Jynx",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Pinsir",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L82"
+    },
+    {
+      "name": "Pinsir",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Pinsir",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Pinsir",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Pinsir",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L43"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L43"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L115"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L115"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L158"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L158"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L24"
+    },
+    {
+      "name": "Magikarp",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L24"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L44"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L44"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L47"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L47"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Lapras",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L26"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L26"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L26"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L45"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L45"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L36"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L36"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L74"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L47"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L47"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L36"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L36"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L34"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L34"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L46"
+    },
+    {
+      "name": "Eevee",
+      "game": "Pok\u00e9mon XD: Gale of Darkness",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3XD.cs#L8"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L76"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L35"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L35"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L35"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L35"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L36"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L36"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L41"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L41"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L41"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L72"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L84"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L58"
+    },
+    {
+      "name": "Porygon",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L58"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L36"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L36"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L23"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L23"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L31"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L31"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L43"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L43"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L66"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L37"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L37"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L144"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L144"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L102"
+    },
+    {
+      "name": "Omanyte",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L102"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L37"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L37"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L24"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L24"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L30"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L30"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L45"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L45"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L68"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L38"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L38"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L145"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L145"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L103"
+    },
+    {
+      "name": "Kabuto",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L103"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L38"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L38"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L40"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L40"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L38"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L38"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Let's Go, Pikachu!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L32"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Let's Go, Eevee!",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7GG.cs#L32"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L46"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L46"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L69"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L39"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L39"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L146"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L146"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L104"
+    },
+    {
+      "name": "Aerodactyl",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L104"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L48"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L48"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L71"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L83"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Guaranteed shiny",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L157"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L84"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L55"
+    },
+    {
+      "name": "Dratini",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L55"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L19"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L19"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L19"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L101"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L29"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L29"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L43"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L43"
+    },
+    {
+      "name": "Chikorita",
+      "game": "Pok\u00e9mon XD: Gale of Darkness",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3XD.cs#L10"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L21"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L21"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L21"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L102"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L30"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L30"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L45"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L45"
+    },
+    {
+      "name": "Cyndaquil",
+      "game": "Pok\u00e9mon XD: Gale of Darkness",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3XD.cs#L11"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L22"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L22"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L22"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L103"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L31"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L31"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L46"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L46"
+    },
+    {
+      "name": "Totodile",
+      "game": "Pok\u00e9mon XD: Gale of Darkness",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3XD.cs#L12"
+    },
+    {
+      "name": "Hoothoot",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Hoothoot",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Pichu",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L102"
+    },
+    {
+      "name": "Cleffa",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L104"
+    },
+    {
+      "name": "Igglybuff",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L105"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L77"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L23"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L23"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L23"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L46"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3FRLG.cs#L46"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L50"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L50"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L71"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L71"
+    },
+    {
+      "name": "Togepi",
+      "game": "Pok\u00e9mon XD: Gale of Darkness",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Templates/Gen3/XD/EncounterShadow3XD.cs#L24"
+    },
+    {
+      "name": "Natu",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Natu",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Mareep",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L51"
+    },
+    {
+      "name": "Mareep",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L51"
+    },
+    {
+      "name": "Flaaffy",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Flaaffy",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Wooper",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L52"
+    },
+    {
+      "name": "Wooper",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L52"
+    },
+    {
+      "name": "Espeon",
+      "game": "Pok\u00e9mon Colosseum",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Templates/Gen3/Colo/EncounterStarter3Colo.cs#L17"
+    },
+    {
+      "name": "Umbreon",
+      "game": "Pok\u00e9mon Colosseum",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Templates/Gen3/Colo/EncounterStarter3Colo.cs#L17"
+    },
+    {
+      "name": "Murkrow",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Murkrow",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Misdreavus",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Misdreavus",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Wobbuffet",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L95"
+    },
+    {
+      "name": "Snubbull",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Snubbull",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Shuckle",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L144"
+    },
+    {
+      "name": "Shuckle",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L144"
+    },
+    {
+      "name": "Shuckle",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L136"
+    },
+    {
+      "name": "Shuckle",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L136"
+    },
+    {
+      "name": "Shuckle",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L136"
+    },
+    {
+      "name": "Slugma",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L53"
+    },
+    {
+      "name": "Slugma",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L53"
+    },
+    {
+      "name": "Corsola",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Corsola",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Skarmory",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Skarmory",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Houndour",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Tyrogue",
+      "game": "Pok\u00e9mon Gold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L29"
+    },
+    {
+      "name": "Tyrogue",
+      "game": "Pok\u00e9mon Silver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L29"
+    },
+    {
+      "name": "Tyrogue",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L29"
+    },
+    {
+      "name": "Tyrogue",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L106"
+    },
+    {
+      "name": "Tyrogue",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L49"
+    },
+    {
+      "name": "Tyrogue",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L49"
+    },
+    {
+      "name": "Smoochum",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L107"
+    },
+    {
+      "name": "Elekid",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L108"
+    },
+    {
+      "name": "Magby",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L109"
+    },
+    {
+      "name": "Larvitar",
+      "game": "Pok\u00e9mon Crystal",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen2/Encounters2.cs#L91"
+    },
+    {
+      "name": "Ho-Oh",
+      "game": "Pok\u00e9mon Colosseum",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L39"
+    },
+    {
+      "name": "Celebi",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L33"
+    },
+    {
+      "name": "Celebi",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L33"
+    },
+    {
+      "name": "Celebi",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L33"
+    },
+    {
+      "name": "Celebi",
+      "game": "Pok\u00e9mon FireRed",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L33"
+    },
+    {
+      "name": "Celebi",
+      "game": "Pok\u00e9mon LeafGreen",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L33"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L48"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L48"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L48"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L40"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L40"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L32"
+    },
+    {
+      "name": "Treecko",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L32"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L49"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L49"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L49"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L41"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L41"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L33"
+    },
+    {
+      "name": "Torchic",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L33"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L50"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L50"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L50"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L42"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L42"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L34"
+    },
+    {
+      "name": "Mudkip",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L34"
+    },
+    {
+      "name": "Wingull",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Wingull",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Wingull",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Wingull",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Electrike",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Plusle",
+      "game": "Pok\u00e9mon Colosseum",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3Colo.cs#L27"
+    },
+    {
+      "name": "Sharpedo",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L76"
+    },
+    {
+      "name": "Sharpedo",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L76"
+    },
+    {
+      "name": "Camerupt",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L77"
+    },
+    {
+      "name": "Camerupt",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L77"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L53"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L53"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L53"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L26"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L26"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L47"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L47"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L70"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L40"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L40"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L147"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L147"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L105"
+    },
+    {
+      "name": "Lileep",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L105"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L54"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L54"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L54"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L27"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L27"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L48"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L48"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L71"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L41"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L41"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L148"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L148"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L106"
+    },
+    {
+      "name": "Anorith",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L106"
+    },
+    {
+      "name": "Castform",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L57"
+    },
+    {
+      "name": "Castform",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L57"
+    },
+    {
+      "name": "Castform",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L57"
+    },
+    {
+      "name": "Castform",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L75"
+    },
+    {
+      "name": "Castform",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L75"
+    },
+    {
+      "name": "Banette",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Banette",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Tropius",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Tropius",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Wynaut",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L59"
+    },
+    {
+      "name": "Wynaut",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L59"
+    },
+    {
+      "name": "Wynaut",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L59"
+    },
+    {
+      "name": "Wynaut",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L70"
+    },
+    {
+      "name": "Wynaut",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L70"
+    },
+    {
+      "name": "Beldum",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L58"
+    },
+    {
+      "name": "Beldum",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L58"
+    },
+    {
+      "name": "Beldum",
+      "game": "Pok\u00e9mon Emerald",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/Encounters3RSE.cs#L58"
+    },
+    {
+      "name": "Beldum",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L74"
+    },
+    {
+      "name": "Beldum",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L74"
+    },
+    {
+      "name": "Metang",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Metang",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Latias",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L130"
+    },
+    {
+      "name": "Latios",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L142"
+    },
+    {
+      "name": "Jirachi",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/EncountersWC3.cs#L22"
+    },
+    {
+      "name": "Jirachi",
+      "game": "Pok\u00e9mon Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/EncountersWC3.cs#L23"
+    },
+    {
+      "name": "Jirachi",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/EncountersWC3.cs#L22"
+    },
+    {
+      "name": "Jirachi",
+      "game": "Pok\u00e9mon Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen3/EncountersWC3.cs#L23"
+    },
+    {
+      "name": "Turtwig",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L39"
+    },
+    {
+      "name": "Turtwig",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L39"
+    },
+    {
+      "name": "Turtwig",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L62"
+    },
+    {
+      "name": "Turtwig",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L47"
+    },
+    {
+      "name": "Turtwig",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L47"
+    },
+    {
+      "name": "Chimchar",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L41"
+    },
+    {
+      "name": "Chimchar",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L41"
+    },
+    {
+      "name": "Chimchar",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L64"
+    },
+    {
+      "name": "Chimchar",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L49"
+    },
+    {
+      "name": "Chimchar",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L49"
+    },
+    {
+      "name": "Piplup",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L42"
+    },
+    {
+      "name": "Piplup",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L42"
+    },
+    {
+      "name": "Piplup",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L65"
+    },
+    {
+      "name": "Piplup",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L50"
+    },
+    {
+      "name": "Piplup",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L50"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L29"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L29"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L28"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L28"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L49"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L49"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L72"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L42"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L42"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L149"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L149"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L107"
+    },
+    {
+      "name": "Cranidos",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L107"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L30"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L30"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L29"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L29"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L50"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L50"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L73"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L43"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4HGSS.cs#L43"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L150"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L150"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L108"
+    },
+    {
+      "name": "Shieldon",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L108"
+    },
+    {
+      "name": "Drifblim",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Drifblim",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Mismagius",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Mismagius",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Honchkrow",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Honchkrow",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Happiny",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L38"
+    },
+    {
+      "name": "Happiny",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L38"
+    },
+    {
+      "name": "Happiny",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L116"
+    },
+    {
+      "name": "Happiny",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L116"
+    },
+    {
+      "name": "Gible",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Guaranteed shiny",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L148"
+    },
+    {
+      "name": "Riolu",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L25"
+    },
+    {
+      "name": "Riolu",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L25"
+    },
+    {
+      "name": "Riolu",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs#L25"
+    },
+    {
+      "name": "Manaphy",
+      "game": "Pok\u00e9mon Diamond",
+      "status": "Huntable",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)#Trivia"
+    },
+    {
+      "name": "Manaphy",
+      "game": "Pok\u00e9mon Pearl",
+      "status": "Huntable",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)#Trivia"
+    },
+    {
+      "name": "Manaphy",
+      "game": "Pok\u00e9mon Platinum",
+      "status": "Huntable",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)#Trivia"
+    },
+    {
+      "name": "Manaphy",
+      "game": "Pok\u00e9mon HeartGold",
+      "status": "Huntable",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)#Trivia"
+    },
+    {
+      "name": "Manaphy",
+      "game": "Pok\u00e9mon SoulSilver",
+      "status": "Huntable",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)#Trivia"
+    },
+    {
+      "name": "Snivy",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L139"
+    },
+    {
+      "name": "Snivy",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L139"
+    },
+    {
+      "name": "Snivy",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L97"
+    },
+    {
+      "name": "Snivy",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L97"
+    },
+    {
+      "name": "Snivy",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L51"
+    },
+    {
+      "name": "Snivy",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L51"
+    },
+    {
+      "name": "Tepig",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L140"
+    },
+    {
+      "name": "Tepig",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L140"
+    },
+    {
+      "name": "Tepig",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L98"
+    },
+    {
+      "name": "Tepig",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L98"
+    },
+    {
+      "name": "Tepig",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L53"
+    },
+    {
+      "name": "Tepig",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L53"
+    },
+    {
+      "name": "Oshawott",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L141"
+    },
+    {
+      "name": "Oshawott",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L141"
+    },
+    {
+      "name": "Oshawott",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L99"
+    },
+    {
+      "name": "Oshawott",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L99"
+    },
+    {
+      "name": "Oshawott",
+      "game": "Pok\u00e9mon Omega Ruby",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L54"
+    },
+    {
+      "name": "Oshawott",
+      "game": "Pok\u00e9mon Alpha Sapphire",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs#L54"
+    },
+    {
+      "name": "Pansage",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L155"
+    },
+    {
+      "name": "Pansage",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L155"
+    },
+    {
+      "name": "Pansear",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L156"
+    },
+    {
+      "name": "Pansear",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L156"
+    },
+    {
+      "name": "Panpour",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L157"
+    },
+    {
+      "name": "Panpour",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L157"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L31"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L31"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L30"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L30"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L151"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L151"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L109"
+    },
+    {
+      "name": "Tirtouga",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L109"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L32"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L32"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L31"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L31"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L152"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L152"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon Black 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L110"
+    },
+    {
+      "name": "Archen",
+      "game": "Pok\u00e9mon White 2",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs#L110"
+    },
+    {
+      "name": "Emolga",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Emolga",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Rufflet",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Vullaby",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Larvesta",
+      "game": "Pok\u00e9mon Black",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L159"
+    },
+    {
+      "name": "Larvesta",
+      "game": "Pok\u00e9mon White",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs#L159"
+    },
+    {
+      "name": "Chespin",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L23"
+    },
+    {
+      "name": "Chespin",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L23"
+    },
+    {
+      "name": "Fennekin",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L24"
+    },
+    {
+      "name": "Fennekin",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L24"
+    },
+    {
+      "name": "Froakie",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L25"
+    },
+    {
+      "name": "Froakie",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L25"
+    },
+    {
+      "name": "Fletchling",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Fletchling",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Litleo",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Litleo",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Tyrunt",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L42"
+    },
+    {
+      "name": "Tyrunt",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L42"
+    },
+    {
+      "name": "Tyrunt",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L32"
+    },
+    {
+      "name": "Tyrunt",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L32"
+    },
+    {
+      "name": "Amaura",
+      "game": "Pok\u00e9mon X",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L43"
+    },
+    {
+      "name": "Amaura",
+      "game": "Pok\u00e9mon Y",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs#L43"
+    },
+    {
+      "name": "Amaura",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L33"
+    },
+    {
+      "name": "Amaura",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L33"
+    },
+    {
+      "name": "Hawlucha",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Hawlucha",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Carbink",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Carbink",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Klefki",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Klefki",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Trevenant",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Trevenant",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Rowlet",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L19"
+    },
+    {
+      "name": "Rowlet",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L19"
+    },
+    {
+      "name": "Rowlet",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L21"
+    },
+    {
+      "name": "Rowlet",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L21"
+    },
+    {
+      "name": "Litten",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L21"
+    },
+    {
+      "name": "Litten",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L21"
+    },
+    {
+      "name": "Litten",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L22"
+    },
+    {
+      "name": "Litten",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L22"
+    },
+    {
+      "name": "Popplio",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L22"
+    },
+    {
+      "name": "Popplio",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L22"
+    },
+    {
+      "name": "Popplio",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L23"
+    },
+    {
+      "name": "Popplio",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L23"
+    },
+    {
+      "name": "Pikipek",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Pikipek",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Pikipek",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Pikipek",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Gumshoos",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L183"
+    },
+    {
+      "name": "Vikavolt",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L186"
+    },
+    {
+      "name": "Cutiefly",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Cutiefly",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Ribombee",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L187"
+    },
+    {
+      "name": "Araquanid",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L211"
+    },
+    {
+      "name": "Lurantis",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L185"
+    },
+    {
+      "name": "Salazzle",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L212"
+    },
+    {
+      "name": "Comfey",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Comfey",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Pyukumuku",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_mn.pkl"
+    },
+    {
+      "name": "Pyukumuku",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_sn.pkl"
+    },
+    {
+      "name": "Pyukumuku",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_um.pkl"
+    },
+    {
+      "name": "Pyukumuku",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen7/encounter_us.pkl"
+    },
+    {
+      "name": "Type: Null",
+      "game": "Pok\u00e9mon Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L37"
+    },
+    {
+      "name": "Type: Null",
+      "game": "Pok\u00e9mon Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7SM.cs#L37"
+    },
+    {
+      "name": "Type: Null",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L36"
+    },
+    {
+      "name": "Type: Null",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L36"
+    },
+    {
+      "name": "Togedemaru",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L213"
+    },
+    {
+      "name": "Mimikyu",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L42"
+    },
+    {
+      "name": "Mimikyu",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L42"
+    },
+    {
+      "name": "Kommo-o",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Shiny Locked",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L214"
+    },
+    {
+      "name": "Poipole",
+      "game": "Pok\u00e9mon Ultra Moon",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L40"
+    },
+    {
+      "name": "Poipole",
+      "game": "Pok\u00e9mon Ultra Sun",
+      "status": "Huntable",
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen7/Encounters7USUM.cs#L40"
+    }
+  ],
+  "unresolved": []
+}

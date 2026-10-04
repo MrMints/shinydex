@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "licenses/PokeAPI-BSD-3-Clause.txt",
+      "sha256": "1c04595dc662981c20956ae4251dfa7b62b475c345eddf98bc9b904cb2373f2c"
+    },
+    {
+      "path": "licenses/Prettier-MIT.txt",
+      "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c"
+    },
+    {
+      "path": "reference/pkhex/LICENSE",
+      "sha256": "ccb349b4132ed7737f25e5adebfe61f3d52dca33708df1e50352320438d1d4c2"
+    },
+    {
+      "path": "licenses/Pillow-HPND.txt",
+      "sha256": "a6554cb737ba6c9b47d3301f78de03b4ed0d3f08d6cf9400714f3d4c894f6943",
+      "source": "https://github.com/python-pillow/Pillow/blob/9.0.0/LICENSE",
+      "obtainedFrom": "Installed Pillow 9.0.0 distribution license"
+    }
+  ]
+}

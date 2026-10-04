@@ -1,0 +1,9 @@
+{
+  "conditionBearingLocalRows": 67512,
+  "mismatchCount": 0,
+  "mismatchIds": [],
+  "localEncounterSha256": "93ba8853ac871719d230a6406c91f8418754fdc773f2f4b9f476007f743b4955",
+  "comparisonEncounterSha256": "93ba8853ac871719d230a6406c91f8418754fdc773f2f4b9f476007f743b4955",
+  "comparisonSource": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/encounters.csv",
+  "fullHuntingAuditComplete": false
+}

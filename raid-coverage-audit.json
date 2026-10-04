@@ -1,0 +1,206 @@
+{
+  "sourceRecords": 14978,
+  "verifiedTrackedRecords": 14684,
+  "guideRoutes": 3201,
+  "recordsByMethod": {
+    "max-raid": 11241,
+    "max-raid-event": 2260,
+    "dynamax-adventure": 269,
+    "tera-raid": 684,
+    "tera-raid-event": 174,
+    "tera-raid-mightiest": 56
+  },
+  "excludedUntrackedForms": [
+    {
+      "species": 422,
+      "form": 1,
+      "records": 3
+    },
+    {
+      "species": 423,
+      "form": 1,
+      "records": 30
+    },
+    {
+      "species": 479,
+      "form": 1,
+      "records": 7
+    },
+    {
+      "species": 479,
+      "form": 2,
+      "records": 8
+    },
+    {
+      "species": 479,
+      "form": 3,
+      "records": 2
+    },
+    {
+      "species": 479,
+      "form": 4,
+      "records": 12
+    },
+    {
+      "species": 479,
+      "form": 5,
+      "records": 12
+    },
+    {
+      "species": 550,
+      "form": 1,
+      "records": 33
+    },
+    {
+      "species": 678,
+      "form": 1,
+      "records": 7
+    },
+    {
+      "species": 710,
+      "form": 1,
+      "records": 6
+    },
+    {
+      "species": 710,
+      "form": 2,
+      "records": 6
+    },
+    {
+      "species": 710,
+      "form": 3,
+      "records": 6
+    },
+    {
+      "species": 711,
+      "form": 1,
+      "records": 10
+    },
+    {
+      "species": 711,
+      "form": 2,
+      "records": 10
+    },
+    {
+      "species": 711,
+      "form": 3,
+      "records": 10
+    },
+    {
+      "species": 718,
+      "form": 3,
+      "records": 1
+    },
+    {
+      "species": 744,
+      "form": 1,
+      "records": 4
+    },
+    {
+      "species": 745,
+      "form": 1,
+      "records": 15
+    },
+    {
+      "species": 745,
+      "form": 2,
+      "records": 5
+    },
+    {
+      "species": 774,
+      "form": 7,
+      "records": 1
+    },
+    {
+      "species": 849,
+      "form": 1,
+      "records": 25
+    },
+    {
+      "species": 854,
+      "form": 1,
+      "records": 12
+    },
+    {
+      "species": 855,
+      "form": 1,
+      "records": 6
+    },
+    {
+      "species": 869,
+      "form": 1,
+      "records": 2
+    },
+    {
+      "species": 869,
+      "form": 2,
+      "records": 2
+    },
+    {
+      "species": 869,
+      "form": 3,
+      "records": 2
+    },
+    {
+      "species": 869,
+      "form": 4,
+      "records": 2
+    },
+    {
+      "species": 869,
+      "form": 5,
+      "records": 1
+    },
+    {
+      "species": 869,
+      "form": 6,
+      "records": 1
+    },
+    {
+      "species": 869,
+      "form": 7,
+      "records": 1
+    },
+    {
+      "species": 869,
+      "form": 8,
+      "records": 1
+    },
+    {
+      "species": 876,
+      "form": 1,
+      "records": 44
+    },
+    {
+      "species": 902,
+      "form": 1,
+      "records": 2
+    },
+    {
+      "species": 916,
+      "form": 1,
+      "records": 1
+    },
+    {
+      "species": 925,
+      "form": 1,
+      "records": 1
+    },
+    {
+      "species": 978,
+      "form": 1,
+      "records": 1
+    },
+    {
+      "species": 978,
+      "form": 2,
+      "records": 1
+    },
+    {
+      "species": 1013,
+      "form": 1,
+      "records": 1
+    }
+  ],
+  "fullHuntingAuditComplete": false
+}

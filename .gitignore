@@ -1,0 +1,18 @@
+# Local runtime and Python bytecode
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+
+# Local configuration and collection exports
+.env
+.env.*
+shinydex-backup*.json
+
+# Browser QA captures; source images remain in assets/
+*-preview.png
+*-preview.jpg
+
+# Local repository-creation UI evidence is not project source.
+/Archive/github-repository-prepared.png

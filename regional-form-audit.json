@@ -1,0 +1,353 @@
+{
+  "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs",
+  "forms": [
+    {
+      "key": 10091,
+      "species": 19,
+      "name": "Rattata \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10092,
+      "species": 20,
+      "name": "Raticate \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10100,
+      "species": 26,
+      "name": "Raichu \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10101,
+      "species": 27,
+      "name": "Sandshrew \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10102,
+      "species": 28,
+      "name": "Sandslash \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10103,
+      "species": 37,
+      "name": "Vulpix \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10104,
+      "species": 38,
+      "name": "Ninetales \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10105,
+      "species": 50,
+      "name": "Diglett \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10106,
+      "species": 51,
+      "name": "Dugtrio \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10107,
+      "species": 52,
+      "name": "Meowth \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10161,
+      "species": 52,
+      "name": "Meowth \u00b7 Galarian",
+      "gameFormId": 2
+    },
+    {
+      "key": 10108,
+      "species": 53,
+      "name": "Persian \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10229,
+      "species": 58,
+      "name": "Growlithe \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10230,
+      "species": 59,
+      "name": "Arcanine \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10109,
+      "species": 74,
+      "name": "Geodude \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10110,
+      "species": 75,
+      "name": "Graveler \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10111,
+      "species": 76,
+      "name": "Golem \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10162,
+      "species": 77,
+      "name": "Ponyta \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10163,
+      "species": 78,
+      "name": "Rapidash \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10164,
+      "species": 79,
+      "name": "Slowpoke \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10165,
+      "species": 80,
+      "name": "Slowbro \u00b7 Galarian",
+      "gameFormId": 2
+    },
+    {
+      "key": 10166,
+      "species": 83,
+      "name": "Farfetch\u2019d \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10112,
+      "species": 88,
+      "name": "Grimer \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10113,
+      "species": 89,
+      "name": "Muk \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10231,
+      "species": 100,
+      "name": "Voltorb \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10232,
+      "species": 101,
+      "name": "Electrode \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10114,
+      "species": 103,
+      "name": "Exeggutor \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10115,
+      "species": 105,
+      "name": "Marowak \u00b7 Alolan",
+      "gameFormId": 1
+    },
+    {
+      "key": 10167,
+      "species": 110,
+      "name": "Weezing \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10168,
+      "species": 122,
+      "name": "Mr. Mime \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10250,
+      "species": 128,
+      "name": "Tauros \u00b7 Paldean \u00b7 Combat Breed",
+      "gameFormId": 1
+    },
+    {
+      "key": 10251,
+      "species": 128,
+      "name": "Tauros \u00b7 Paldean \u00b7 Blaze Breed",
+      "gameFormId": 2
+    },
+    {
+      "key": 10252,
+      "species": 128,
+      "name": "Tauros \u00b7 Paldean \u00b7 Aqua Breed",
+      "gameFormId": 3
+    },
+    {
+      "key": 10169,
+      "species": 144,
+      "name": "Articuno \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10170,
+      "species": 145,
+      "name": "Zapdos \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10171,
+      "species": 146,
+      "name": "Moltres \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10233,
+      "species": 157,
+      "name": "Typhlosion \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10253,
+      "species": 194,
+      "name": "Wooper \u00b7 Paldean",
+      "gameFormId": 1
+    },
+    {
+      "key": 10172,
+      "species": 199,
+      "name": "Slowking \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10234,
+      "species": 211,
+      "name": "Qwilfish \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10235,
+      "species": 215,
+      "name": "Sneasel \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10173,
+      "species": 222,
+      "name": "Corsola \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10174,
+      "species": 263,
+      "name": "Zigzagoon \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10175,
+      "species": 264,
+      "name": "Linoone \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10236,
+      "species": 503,
+      "name": "Samurott \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10237,
+      "species": 549,
+      "name": "Lilligant \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10247,
+      "species": 550,
+      "name": "Basculin \u00b7 White-Striped \u00b7 Hisui",
+      "gameFormId": 2
+    },
+    {
+      "key": 10176,
+      "species": 554,
+      "name": "Darumaka \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10177,
+      "species": 555,
+      "name": "Darmanitan \u00b7 Galarian",
+      "gameFormId": 2
+    },
+    {
+      "key": 10179,
+      "species": 562,
+      "name": "Yamask \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10238,
+      "species": 570,
+      "name": "Zorua \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10239,
+      "species": 571,
+      "name": "Zoroark \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10180,
+      "species": 618,
+      "name": "Stunfisk \u00b7 Galarian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10240,
+      "species": 628,
+      "name": "Braviary \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10241,
+      "species": 705,
+      "name": "Sliggoo \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10242,
+      "species": 706,
+      "name": "Goodra \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10243,
+      "species": 713,
+      "name": "Avalugg \u00b7 Hisuian",
+      "gameFormId": 1
+    },
+    {
+      "key": 10244,
+      "species": 724,
+      "name": "Decidueye \u00b7 Hisuian",
+      "gameFormId": 1
+    }
+  ]
+}

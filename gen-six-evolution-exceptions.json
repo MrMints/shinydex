@@ -1,0 +1,12 @@
+{
+  "fullHuntingAuditComplete": false,
+  "exceptions": [
+    {
+      "sourceSpecies": 705,
+      "destinationSpecies": 706,
+      "decodedType": "LevelUp",
+      "correctedRequirement": "Level 50 or higher during natural overworld rain; battle-only rain and fog do not qualify in Generation VI.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Sliggoo#Evolution_data"
+    }
+  ]
+}

@@ -1,0 +1,2949 @@
+{
+  "routes": [
+    {
+      "key": 2,
+      "parent": 1,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 3,
+      "parent": 2,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 5,
+      "parent": 4,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 6,
+      "parent": 5,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 8,
+      "parent": 7,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 9,
+      "parent": 8,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 11,
+      "parent": 10,
+      "level": 7,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 12,
+      "parent": 11,
+      "level": 10,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 14,
+      "parent": 13,
+      "level": 7,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 15,
+      "parent": 14,
+      "level": 10,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 17,
+      "parent": 16,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 18,
+      "parent": 17,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 20,
+      "parent": 19,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 22,
+      "parent": 21,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 24,
+      "parent": 23,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 26,
+      "parent": 25,
+      "level": 0,
+      "form": 0,
+      "type": "UseItemWormhole"
+    },
+    {
+      "key": 10100,
+      "parent": 25,
+      "level": 0,
+      "form": 1,
+      "type": "UseItem"
+    },
+    {
+      "key": 28,
+      "parent": 27,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 30,
+      "parent": 29,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 31,
+      "parent": 30,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 33,
+      "parent": 32,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 34,
+      "parent": 33,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 36,
+      "parent": 35,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 38,
+      "parent": 37,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 40,
+      "parent": 39,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 42,
+      "parent": 41,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 169,
+      "parent": 42,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 44,
+      "parent": 43,
+      "level": 21,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 45,
+      "parent": 44,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 182,
+      "parent": 44,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 47,
+      "parent": 46,
+      "level": 24,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 49,
+      "parent": 48,
+      "level": 31,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 51,
+      "parent": 50,
+      "level": 26,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 53,
+      "parent": 52,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 55,
+      "parent": 54,
+      "level": 33,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 57,
+      "parent": 56,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 59,
+      "parent": 58,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 61,
+      "parent": 60,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 62,
+      "parent": 61,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 186,
+      "parent": 61,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 64,
+      "parent": 63,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 65,
+      "parent": 64,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 67,
+      "parent": 66,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 68,
+      "parent": 67,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 70,
+      "parent": 69,
+      "level": 21,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 71,
+      "parent": 70,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 73,
+      "parent": 72,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 75,
+      "parent": 74,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 76,
+      "parent": 75,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 78,
+      "parent": 77,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 80,
+      "parent": 79,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 199,
+      "parent": 79,
+      "level": 37,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 82,
+      "parent": 81,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 462,
+      "parent": 82,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpElectric"
+    },
+    {
+      "key": 85,
+      "parent": 84,
+      "level": 31,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 87,
+      "parent": 86,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 89,
+      "parent": 88,
+      "level": 38,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 91,
+      "parent": 90,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 93,
+      "parent": 92,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 94,
+      "parent": 93,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 208,
+      "parent": 95,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 97,
+      "parent": 96,
+      "level": 26,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 99,
+      "parent": 98,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 101,
+      "parent": 100,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 103,
+      "parent": 102,
+      "level": 0,
+      "form": 0,
+      "type": "UseItemWormhole"
+    },
+    {
+      "key": 10114,
+      "parent": 102,
+      "level": 0,
+      "form": 1,
+      "type": "UseItem"
+    },
+    {
+      "key": 105,
+      "parent": 104,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUpWormhole"
+    },
+    {
+      "key": 10115,
+      "parent": 104,
+      "level": 28,
+      "form": 1,
+      "type": "LevelUpNight"
+    },
+    {
+      "key": 463,
+      "parent": 108,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 110,
+      "parent": 109,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 112,
+      "parent": 111,
+      "level": 42,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 464,
+      "parent": 112,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 242,
+      "parent": 113,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 465,
+      "parent": 114,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 117,
+      "parent": 116,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 230,
+      "parent": 117,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 119,
+      "parent": 118,
+      "level": 33,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 121,
+      "parent": 120,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 212,
+      "parent": 123,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 466,
+      "parent": 125,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 467,
+      "parent": 126,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 130,
+      "parent": 129,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 470,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpForest"
+    },
+    {
+      "key": 471,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpCold"
+    },
+    {
+      "key": 135,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 134,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 136,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 700,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpAffection50MoveType"
+    },
+    {
+      "key": 196,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendshipMorning"
+    },
+    {
+      "key": 197,
+      "parent": 133,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendshipNight"
+    },
+    {
+      "key": 233,
+      "parent": 137,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 139,
+      "parent": 138,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 141,
+      "parent": 140,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 148,
+      "parent": 147,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 149,
+      "parent": 148,
+      "level": 55,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 153,
+      "parent": 152,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 154,
+      "parent": 153,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 156,
+      "parent": 155,
+      "level": 14,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 157,
+      "parent": 156,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 159,
+      "parent": 158,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 160,
+      "parent": 159,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 162,
+      "parent": 161,
+      "level": 15,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 164,
+      "parent": 163,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 166,
+      "parent": 165,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 168,
+      "parent": 167,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 171,
+      "parent": 170,
+      "level": 27,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 25,
+      "parent": 172,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 35,
+      "parent": 173,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 39,
+      "parent": 174,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 176,
+      "parent": 175,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 468,
+      "parent": 176,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 178,
+      "parent": 177,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 180,
+      "parent": 179,
+      "level": 15,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 181,
+      "parent": 180,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 184,
+      "parent": 183,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 188,
+      "parent": 187,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 189,
+      "parent": 188,
+      "level": 27,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 424,
+      "parent": 190,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 192,
+      "parent": 191,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 469,
+      "parent": 193,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 195,
+      "parent": 194,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 430,
+      "parent": 198,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 429,
+      "parent": 200,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 205,
+      "parent": 204,
+      "level": 31,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 472,
+      "parent": 207,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpHeldItemNight"
+    },
+    {
+      "key": 210,
+      "parent": 209,
+      "level": 23,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 461,
+      "parent": 215,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpHeldItemNight"
+    },
+    {
+      "key": 217,
+      "parent": 216,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 219,
+      "parent": 218,
+      "level": 38,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 221,
+      "parent": 220,
+      "level": 33,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 473,
+      "parent": 221,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 224,
+      "parent": 223,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 229,
+      "parent": 228,
+      "level": 24,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 232,
+      "parent": 231,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 474,
+      "parent": 233,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 107,
+      "parent": 236,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpDEF"
+    },
+    {
+      "key": 106,
+      "parent": 236,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpATK"
+    },
+    {
+      "key": 237,
+      "parent": 236,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpAeqD"
+    },
+    {
+      "key": 124,
+      "parent": 238,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 125,
+      "parent": 239,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 126,
+      "parent": 240,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 247,
+      "parent": 246,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 248,
+      "parent": 247,
+      "level": 55,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 253,
+      "parent": 252,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 254,
+      "parent": 253,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 256,
+      "parent": 255,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 257,
+      "parent": 256,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 259,
+      "parent": 258,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 260,
+      "parent": 259,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 262,
+      "parent": 261,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 264,
+      "parent": 263,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 266,
+      "parent": 265,
+      "level": 7,
+      "form": 0,
+      "type": "LevelUpECl5"
+    },
+    {
+      "key": 268,
+      "parent": 265,
+      "level": 7,
+      "form": 0,
+      "type": "LevelUpECgeq5"
+    },
+    {
+      "key": 267,
+      "parent": 266,
+      "level": 10,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 269,
+      "parent": 268,
+      "level": 10,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 271,
+      "parent": 270,
+      "level": 14,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 272,
+      "parent": 271,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 274,
+      "parent": 273,
+      "level": 14,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 275,
+      "parent": 274,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 277,
+      "parent": 276,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 279,
+      "parent": 278,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 281,
+      "parent": 280,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 282,
+      "parent": 281,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 475,
+      "parent": 281,
+      "level": 0,
+      "form": 0,
+      "type": "UseItemMale"
+    },
+    {
+      "key": 284,
+      "parent": 283,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 286,
+      "parent": 285,
+      "level": 23,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 288,
+      "parent": 287,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 289,
+      "parent": 288,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 291,
+      "parent": 290,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpNinjask"
+    },
+    {
+      "key": 292,
+      "parent": 290,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpShedinja"
+    },
+    {
+      "key": 294,
+      "parent": 293,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 295,
+      "parent": 294,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 297,
+      "parent": 296,
+      "level": 24,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 183,
+      "parent": 298,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 476,
+      "parent": 299,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpElectric"
+    },
+    {
+      "key": 301,
+      "parent": 300,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 305,
+      "parent": 304,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 306,
+      "parent": 305,
+      "level": 42,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 308,
+      "parent": 307,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 310,
+      "parent": 309,
+      "level": 26,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 407,
+      "parent": 315,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 317,
+      "parent": 316,
+      "level": 26,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 319,
+      "parent": 318,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 321,
+      "parent": 320,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 323,
+      "parent": 322,
+      "level": 33,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 326,
+      "parent": 325,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 329,
+      "parent": 328,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 330,
+      "parent": 329,
+      "level": 45,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 332,
+      "parent": 331,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 334,
+      "parent": 333,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 340,
+      "parent": 339,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 342,
+      "parent": 341,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 344,
+      "parent": 343,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 346,
+      "parent": 345,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 348,
+      "parent": 347,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 350,
+      "parent": 349,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 350,
+      "parent": 349,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpBeauty"
+    },
+    {
+      "key": 354,
+      "parent": 353,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 356,
+      "parent": 355,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 477,
+      "parent": 356,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 202,
+      "parent": 360,
+      "level": 15,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 362,
+      "parent": 361,
+      "level": 42,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 478,
+      "parent": 361,
+      "level": 0,
+      "form": 0,
+      "type": "UseItemFemale"
+    },
+    {
+      "key": 364,
+      "parent": 363,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 365,
+      "parent": 364,
+      "level": 44,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 367,
+      "parent": 366,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 368,
+      "parent": 366,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 372,
+      "parent": 371,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 373,
+      "parent": 372,
+      "level": 50,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 375,
+      "parent": 374,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 376,
+      "parent": 375,
+      "level": 45,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 388,
+      "parent": 387,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 389,
+      "parent": 388,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 391,
+      "parent": 390,
+      "level": 14,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 392,
+      "parent": 391,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 394,
+      "parent": 393,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 395,
+      "parent": 394,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 397,
+      "parent": 396,
+      "level": 14,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 398,
+      "parent": 397,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 400,
+      "parent": 399,
+      "level": 15,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 402,
+      "parent": 401,
+      "level": 10,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 404,
+      "parent": 403,
+      "level": 15,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 405,
+      "parent": 404,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 315,
+      "parent": 406,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendshipMorning"
+    },
+    {
+      "key": 409,
+      "parent": 408,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 411,
+      "parent": 410,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 413,
+      "parent": 412,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpFemale"
+    },
+    {
+      "key": 414,
+      "parent": 412,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpMale"
+    },
+    {
+      "key": 416,
+      "parent": 415,
+      "level": 21,
+      "form": 0,
+      "type": "LevelUpFemale"
+    },
+    {
+      "key": 419,
+      "parent": 418,
+      "level": 26,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 421,
+      "parent": 420,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 423,
+      "parent": 422,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 426,
+      "parent": 425,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 428,
+      "parent": 427,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 432,
+      "parent": 431,
+      "level": 38,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 358,
+      "parent": 433,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendshipNight"
+    },
+    {
+      "key": 435,
+      "parent": 434,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 437,
+      "parent": 436,
+      "level": 33,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 185,
+      "parent": 438,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 122,
+      "parent": 439,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 113,
+      "parent": 440,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpHeldItemDay"
+    },
+    {
+      "key": 444,
+      "parent": 443,
+      "level": 24,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 445,
+      "parent": 444,
+      "level": 48,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 143,
+      "parent": 446,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 448,
+      "parent": 447,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendshipMorning"
+    },
+    {
+      "key": 450,
+      "parent": 449,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 452,
+      "parent": 451,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 454,
+      "parent": 453,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 457,
+      "parent": 456,
+      "level": 31,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 226,
+      "parent": 458,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpWithTeammate"
+    },
+    {
+      "key": 460,
+      "parent": 459,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 496,
+      "parent": 495,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 497,
+      "parent": 496,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 499,
+      "parent": 498,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 500,
+      "parent": 499,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 502,
+      "parent": 501,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 503,
+      "parent": 502,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 505,
+      "parent": 504,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 507,
+      "parent": 506,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 508,
+      "parent": 507,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 510,
+      "parent": 509,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 512,
+      "parent": 511,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 514,
+      "parent": 513,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 516,
+      "parent": 515,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 518,
+      "parent": 517,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 520,
+      "parent": 519,
+      "level": 21,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 521,
+      "parent": 520,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 523,
+      "parent": 522,
+      "level": 27,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 525,
+      "parent": 524,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 526,
+      "parent": 525,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 528,
+      "parent": 527,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 530,
+      "parent": 529,
+      "level": 31,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 533,
+      "parent": 532,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 534,
+      "parent": 533,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 536,
+      "parent": 535,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 537,
+      "parent": 536,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 541,
+      "parent": 540,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 542,
+      "parent": 541,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 544,
+      "parent": 543,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 545,
+      "parent": 544,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 547,
+      "parent": 546,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 549,
+      "parent": 548,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 552,
+      "parent": 551,
+      "level": 29,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 553,
+      "parent": 552,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 555,
+      "parent": 554,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 558,
+      "parent": 557,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 560,
+      "parent": 559,
+      "level": 39,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 563,
+      "parent": 562,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 565,
+      "parent": 564,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 567,
+      "parent": 566,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 569,
+      "parent": 568,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 571,
+      "parent": 570,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 573,
+      "parent": 572,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 575,
+      "parent": 574,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 576,
+      "parent": 575,
+      "level": 41,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 578,
+      "parent": 577,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 579,
+      "parent": 578,
+      "level": 41,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 581,
+      "parent": 580,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 583,
+      "parent": 582,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 584,
+      "parent": 583,
+      "level": 47,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 586,
+      "parent": 585,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 589,
+      "parent": 588,
+      "level": 0,
+      "form": 0,
+      "type": "TradeShelmetKarrablast"
+    },
+    {
+      "key": 591,
+      "parent": 590,
+      "level": 39,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 593,
+      "parent": 592,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 596,
+      "parent": 595,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 598,
+      "parent": 597,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 600,
+      "parent": 599,
+      "level": 38,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 601,
+      "parent": 600,
+      "level": 49,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 603,
+      "parent": 602,
+      "level": 39,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 604,
+      "parent": 603,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 606,
+      "parent": 605,
+      "level": 42,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 608,
+      "parent": 607,
+      "level": 41,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 609,
+      "parent": 608,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 611,
+      "parent": 610,
+      "level": 38,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 612,
+      "parent": 611,
+      "level": 48,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 614,
+      "parent": 613,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 617,
+      "parent": 616,
+      "level": 0,
+      "form": 0,
+      "type": "TradeShelmetKarrablast"
+    },
+    {
+      "key": 620,
+      "parent": 619,
+      "level": 50,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 623,
+      "parent": 622,
+      "level": 43,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 625,
+      "parent": 624,
+      "level": 52,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 628,
+      "parent": 627,
+      "level": 54,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 630,
+      "parent": 629,
+      "level": 54,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 634,
+      "parent": 633,
+      "level": 50,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 635,
+      "parent": 634,
+      "level": 64,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 637,
+      "parent": 636,
+      "level": 59,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 651,
+      "parent": 650,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 652,
+      "parent": 651,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 654,
+      "parent": 653,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 655,
+      "parent": 654,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 657,
+      "parent": 656,
+      "level": 16,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 658,
+      "parent": 657,
+      "level": 36,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 660,
+      "parent": 659,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 662,
+      "parent": 661,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 663,
+      "parent": 662,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 665,
+      "parent": 664,
+      "level": 9,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 666,
+      "parent": 665,
+      "level": 12,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 668,
+      "parent": 667,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 670,
+      "parent": 669,
+      "level": 19,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 671,
+      "parent": 670,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 673,
+      "parent": 672,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 675,
+      "parent": 674,
+      "level": 32,
+      "form": 0,
+      "type": "LevelUpMoveType"
+    },
+    {
+      "key": 678,
+      "parent": 677,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUpMale"
+    },
+    {
+      "key": 680,
+      "parent": 679,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 681,
+      "parent": 680,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 683,
+      "parent": 682,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 685,
+      "parent": 684,
+      "level": 0,
+      "form": 0,
+      "type": "TradeHeldItem"
+    },
+    {
+      "key": 687,
+      "parent": 686,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUpInverted"
+    },
+    {
+      "key": 689,
+      "parent": 688,
+      "level": 39,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 691,
+      "parent": 690,
+      "level": 48,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 693,
+      "parent": 692,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 695,
+      "parent": 694,
+      "level": 0,
+      "form": 0,
+      "type": "UseItem"
+    },
+    {
+      "key": 697,
+      "parent": 696,
+      "level": 39,
+      "form": 0,
+      "type": "LevelUpMorning"
+    },
+    {
+      "key": 699,
+      "parent": 698,
+      "level": 39,
+      "form": 0,
+      "type": "LevelUpNight"
+    },
+    {
+      "key": 705,
+      "parent": 704,
+      "level": 40,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 706,
+      "parent": 705,
+      "level": 50,
+      "form": 0,
+      "type": "LevelUpWeather"
+    },
+    {
+      "key": 709,
+      "parent": 708,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 711,
+      "parent": 710,
+      "level": 0,
+      "form": 0,
+      "type": "Trade"
+    },
+    {
+      "key": 713,
+      "parent": 712,
+      "level": 37,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 715,
+      "parent": 714,
+      "level": 48,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 723,
+      "parent": 722,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 724,
+      "parent": 723,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 726,
+      "parent": 725,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 727,
+      "parent": 726,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 729,
+      "parent": 728,
+      "level": 17,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 730,
+      "parent": 729,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 732,
+      "parent": 731,
+      "level": 14,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 733,
+      "parent": 732,
+      "level": 28,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 735,
+      "parent": 734,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUpMorning"
+    },
+    {
+      "key": 737,
+      "parent": 736,
+      "level": 20,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 738,
+      "parent": 737,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpElectric"
+    },
+    {
+      "key": 740,
+      "parent": 739,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpSummit"
+    },
+    {
+      "key": 743,
+      "parent": 742,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 745,
+      "parent": 744,
+      "level": 25,
+      "form": 0,
+      "type": "LevelUpVersionDay"
+    },
+    {
+      "key": 748,
+      "parent": 747,
+      "level": 38,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 750,
+      "parent": 749,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 752,
+      "parent": 751,
+      "level": 22,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 754,
+      "parent": 753,
+      "level": 34,
+      "form": 0,
+      "type": "LevelUpMorning"
+    },
+    {
+      "key": 756,
+      "parent": 755,
+      "level": 24,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 758,
+      "parent": 757,
+      "level": 33,
+      "form": 0,
+      "type": "LevelUpFemale"
+    },
+    {
+      "key": 760,
+      "parent": 759,
+      "level": 27,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 762,
+      "parent": 761,
+      "level": 18,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 763,
+      "parent": 762,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 768,
+      "parent": 767,
+      "level": 30,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 770,
+      "parent": 769,
+      "level": 42,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 773,
+      "parent": 772,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 783,
+      "parent": 782,
+      "level": 35,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 784,
+      "parent": 783,
+      "level": 45,
+      "form": 0,
+      "type": "LevelUp"
+    },
+    {
+      "key": 804,
+      "parent": 803,
+      "level": 0,
+      "form": 0,
+      "type": "LevelUpKnowMove"
+    },
+    {
+      "key": 10092,
+      "parent": 10091,
+      "level": 20,
+      "form": 1,
+      "type": "LevelUpNight"
+    },
+    {
+      "key": 10102,
+      "parent": 10101,
+      "level": 0,
+      "form": 1,
+      "type": "UseItem"
+    },
+    {
+      "key": 10104,
+      "parent": 10103,
+      "level": 0,
+      "form": 1,
+      "type": "UseItem"
+    },
+    {
+      "key": 10108,
+      "parent": 10107,
+      "level": 0,
+      "form": 1,
+      "type": "LevelUpFriendship"
+    },
+    {
+      "key": 10110,
+      "parent": 10109,
+      "level": 25,
+      "form": 1,
+      "type": "LevelUp"
+    },
+    {
+      "key": 10111,
+      "parent": 10110,
+      "level": 0,
+      "form": 1,
+      "type": "Trade"
+    },
+    {
+      "key": 10113,
+      "parent": 10112,
+      "level": 38,
+      "form": 1,
+      "type": "LevelUp"
+    },
+    {
+      "key": 10106,
+      "parent": 10105,
+      "level": 26,
+      "form": 1,
+      "type": "LevelUp"
+    }
+  ],
+  "routeCount": 396,
+  "excludedBranches": [
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 677,
+      "sourceForm": 0,
+      "destinationSpecies": 678,
+      "destinationForm": 1,
+      "evolutionType": "LevelUpFormFemale1",
+      "argument": 0,
+      "level": 25,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 744,
+      "sourceForm": 0,
+      "destinationSpecies": 745,
+      "destinationForm": 1,
+      "evolutionType": "LevelUpVersionNight",
+      "argument": 33,
+      "level": 25,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 789,
+      "sourceForm": 0,
+      "destinationSpecies": 790,
+      "destinationForm": 0,
+      "evolutionType": "LevelUp",
+      "argument": 0,
+      "level": 43,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "shiny-locked-parent-or-child"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 790,
+      "sourceForm": 0,
+      "destinationSpecies": 791,
+      "destinationForm": 0,
+      "evolutionType": "LevelUpVersion",
+      "argument": 32,
+      "level": 53,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "shiny-locked-parent-or-child"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 790,
+      "sourceForm": 0,
+      "destinationSpecies": 792,
+      "destinationForm": 0,
+      "evolutionType": "LevelUpVersion",
+      "argument": 33,
+      "level": 53,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "shiny-locked-parent-or-child"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 422,
+      "sourceForm": 1,
+      "destinationSpecies": 423,
+      "destinationForm": 1,
+      "evolutionType": "LevelUp",
+      "argument": 0,
+      "level": 30,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 710,
+      "sourceForm": 1,
+      "destinationSpecies": 711,
+      "destinationForm": 1,
+      "evolutionType": "Trade",
+      "argument": 0,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 710,
+      "sourceForm": 2,
+      "destinationSpecies": 711,
+      "destinationForm": 2,
+      "evolutionType": "Trade",
+      "argument": 0,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 710,
+      "sourceForm": 3,
+      "destinationSpecies": 711,
+      "destinationForm": 3,
+      "evolutionType": "Trade",
+      "argument": 0,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 670,
+      "sourceForm": 1,
+      "destinationSpecies": 671,
+      "destinationForm": 1,
+      "evolutionType": "UseItem",
+      "argument": 107,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 670,
+      "sourceForm": 2,
+      "destinationSpecies": 671,
+      "destinationForm": 2,
+      "evolutionType": "UseItem",
+      "argument": 107,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 670,
+      "sourceForm": 3,
+      "destinationSpecies": 671,
+      "destinationForm": 3,
+      "evolutionType": "UseItem",
+      "argument": 107,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 670,
+      "sourceForm": 4,
+      "destinationSpecies": 671,
+      "destinationForm": 4,
+      "evolutionType": "UseItem",
+      "argument": 107,
+      "level": 0,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    },
+    {
+      "gameTable": "uu",
+      "sourceSpecies": 744,
+      "sourceForm": 1,
+      "destinationSpecies": 745,
+      "destinationForm": 2,
+      "evolutionType": "LevelUpDusk",
+      "argument": 0,
+      "level": 25,
+      "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/byte/evolve/evos_uu.pkl",
+      "reason": "untracked-form"
+    }
+  ],
+  "decodedBranchCount": 410,
+  "fullHuntingAuditComplete": false
+}

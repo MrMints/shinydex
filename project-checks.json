@@ -1,0 +1,243 @@
+{
+  "checkedAt": "2026-10-04T15:54:04.205488+00:00",
+  "passed": true,
+  "checkCount": 33,
+  "fullHuntingAuditComplete": false,
+  "limitations": [
+    "Checks cover their stated reference snapshots and regressions; they do not prove all games, hunting techniques, events or acquisition prerequisites are complete.",
+    "Browser interaction checks are recorded separately in runtime-qa.json."
+  ],
+  "results": [
+    {
+      "check": "verify-bdsp-radar.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 321 BDSP Radar routes, location exclusions, version-exclusive samples and mechanics; conditional pool audit remains incomplete",
+      "errors": ""
+    },
+    {
+      "check": "verify-breeding.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 4169 direct egg routes and offspring/incense regressions; evolution audit remains incomplete\nVerified game-specific egg collection facilities for all direct breeding routes\nVerified 361 older egg routes, Alola form preservation, incense babies and Phione parent\nVerified all older egg destinations and breedable parent groups directly against Generation VII personal bytes\nVerified 361 Sun/Moon egg routes against their own personal table; Ultra-only species excluded\nVerified 640 Gen VI egg routes against game-specific parent groups, facilities, species limits and incense requirements\nVerified 578 Gen V egg routes, parent groups, incense, transfer direction and version-specific Shiny Charm availability\nVerified 660 Gen IV egg routes against parent groups, facilities, species limits, incense and transfer direction\nVerified optional-incense evolved offspring and Scarlet/Violet baby-only behavior\nVerified paired-species offspring and non-breedable Nidorina/Nidoqueen restrictions\nVerified Generation IV male-parent offspring restrictions and Generation V onward counterpart eligibility\nVerified Tauros exact breed parents and Kantonian Everstone requirement in Paldea\nVerified Johtonian Wooper inheritance requirement when breeding in Paldea\nVerified Ditto-only parents, Tyrogue parents and compatible female-parent instructions\nVerified normal/Masuda egg options, Charm modifier and Sparkling Power exclusion\nVerified 724 Generation III egg routes, parent groups, pre-baby offspring, facilities and shiny method restrictions",
+      "errors": ""
+    },
+    {
+      "check": "verify-catch-combo.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 234 Let's Go catch-combo species/game/spawn routes",
+      "errors": ""
+    },
+    {
+      "check": "verify-chain-fishing.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 72 chain-fishing species/game/rod routes against recorded Generation VI encounters",
+      "errors": ""
+    },
+    {
+      "check": "verify-condition-compatibility.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified complete encounter identities for 67512 condition-bearing local rows against the current source snapshot",
+      "errors": ""
+    },
+    {
+      "check": "verify-data.cjs",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 1083 ordered entries, 58 regional forms, 37 boxes, 2166 local images and hunting/lock records. 0 entries still have gift restrictions requiring review; exhaustive game coverage remains incomplete.",
+      "errors": ""
+    },
+    {
+      "check": "verify-dexnav.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 394 DexNav routes, including 24 species/game Shoal Cave location assignments\nVerified hidden-only Route 101-104 rosters and version-specific Shellos forms\nVerified Routes 112, 113, 116, including Throh/Sawk version exclusivity\nVerified Routes 111, 117, 118, desert access and Deerling form\nVerified hidden-only rosters on Routes 114, 115 and 121\nVerified hidden-only Petalburg Woods and Granite Cave rosters\nVerified Fiery Path, Jagged Pass and exterior/summit Mt. Pyre hidden rosters\nVerified Meteor Falls first room and Route 105 water/version restrictions\nVerified water and version restrictions on Routes 106-109\nVerified Route 110 Shellos forms and Route 125 water hunts\nVerified Route 122 hidden Finneon, Frillish and Alomomola hunts\nVerified hidden-water rosters on Routes 124 and 126-134\nVerified six underwater seaweed route rosters and Dive requirements\nVerified Safari Zone grass restrictions, bike access, story unlock and water searches\nVerified native Fiery Path, Granite Cave 1F and Petalburg Woods rosters\nVerified Route 111 native desert and southern pond hunts\nVerified Route 117 bugs/pond species, Route 110 Gulpin and Route 115 access\nVerified Route 115 hidden-only access and deduplicated references\nVerified Route 114 version exclusives and Mt. Pyre Duskull/Chimecho locations\nVerified Route 118, Route 130 and Sootopolis water hunts and access\nVerified all eight Battle Resort water species and postgame access\nVerified Lilycove coastal roster including Staryu searching\nVerified Sky Pillar ordinary searches, version exclusivity and story access\nVerified Victory Road native cave roster and traversal requirements\nVerified remaining Meteor Falls, Route 120, Feebas and Luvdisc candidates\nVerified Route 101 DexNav access and Route 103 native grass/water rosters\nVerified both Route 104 sections, water access and hidden-only rosters\nVerified Route 105 native water searches and Surf requirement\nVerified Route 106-109 native surface searches separately from underwater targets\nVerified Route 113 and 116 native rosters separately from hidden-only encounters\nVerified Dewford, Slateport and Petalburg native water searches and Surf access\nVerified Pacifidlog, Mossdeep, Ever Grande and version-specific Route 102 searches\nVerified Routes 110 and 119-121 including distinct Route 120 pond rosters\nVerified Routes 122-125 native terrain rosters and Lilycove hideout access\nVerified Routes 126-129 and 131-134 native water rosters and current/access distinctions\nVerified Jagged Pass, Scorched Slab floor/water and Cave of Origin version assignments\nVerified version-specific Lilycove hideouts and Seafloor Cavern floor/water searches\nVerified Sea Mauville exterior/interior rosters and Sealed Chamber water access\nVerified Victory Road separate lower-floor and 2F water rosters\nVerified eight distinct Mirage Cave floor rosters, daily access and demo/Rock Smash exclusions\nVerified eight retail Mirage Forest rosters, Cherrim form and exact demo/Rock Smash exclusions\nVerified eight Mirage Island and eight Mirage Mountain retail grass rosters, forms and exclusions",
+      "errors": ""
+    },
+    {
+      "check": "verify-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 789 level-only routes with source/destination forms and game presence\nVerified 242 item-based routes and gender/held-item regressions\nVerified 168 friendship/move/gender/time routes and representative regressions\nVerified 27 trade routes, matched trade partners and Arceus Linking Cord alternative\nVerified Arceus day/night evolution ID remapping\nVerified Tyrogue level/stat branch requirements\nVerified 28 walking, multiplayer, coin and move-use evolution routes\nVerified five party-dependent evolution routes\nVerified Hisuian move-style, recoil and full-moon requirements\nVerified critical-hit, damage/location and opponent-item evolution routes\nVerified Nincada branches and Shedinja party/Pok� Ball requirements\nVerified upside-down evolution conditions, including Legends: Z-A manual party-menu evolution\nVerified six Goodra weather evolution routes, including regional forms\nVerified four fixed Wurmple evolution branches\nVerified four modern Sylveon friendship/Fairy move requirements\nVerified three Amped Toxtricity routes and original-nature requirement\nVerified four Eevee rock evolution routes and game-specific locations\nVerified four magnetic-field evolution routes and game-specific locations\nVerified Dudunsparce move and fixed form branch\nVerified Maushold battle experience, fixed branch and level-100 limitation\nVerified Z-A Overqwil hit count and distinction from Arceus strong style\nVerified two Vanilla Cream Alcremie spin and Sweet routes\nVerified three Feebas Beauty routes and preparation/transfer requirements\nVerified Crabominable Ice Stone routes and exclusion of unavailable summit branches\nVerified competing Eevee evolution conditions",
+      "errors": ""
+    },
+    {
+      "check": "verify-friend-safari.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 378 Friend Safari species/game routes against the pinned roster, including Floette and Vivillon\nVerified exact slots and type assignments for Normal, Fire, Fighting, Water, Grass, Poison, Electric, Ground, Psychic, Rock and Ice Safaris\nVerified Flying Safari slots and both Fire/Flying routes for Fletchinder\nVerified Bug, Dragon and Ghost slots, Vivillon pattern and Pumpkaboo size requirements\nVerified all 18 Safari types have slot assignments for every roster species",
+      "errors": ""
+    },
+    {
+      "check": "verify-gen-five-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 442 Generation V level requirements against every eligible decoded branch in both game pairs\nVerified 136 Generation V item, trade and known-move routes against decoded requirements\nVerified 46 Generation V friendship, gender, time, stat and party routes; later-generation Eevee requirements excluded\nVerified 18 remaining Gen V special/location routes, including Wurmple PID and pre-Gen V Beauty preparation",
+      "errors": ""
+    },
+    {
+      "check": "verify-gen-four-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 486 Generation IV ordinary level routes across all three game groups\nVerified 162 Generation IV item, trade and known-move routes\nVerified 63 Generation IV friendship, time, gender, stat and party requirements\nVerified 27 Generation IV special routes, including HGSS grooming and Sinnoh trade detours\nAll 246 decoded Generation IV branches accounted for in each game group; full hunting acquisition coverage remains incomplete",
+      "errors": ""
+    },
+    {
+      "check": "verify-gen-six-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 484 Gen VI level routes against every eligible decoded branch in both game pairs\nVerified 150 Gen VI item, trade and known-move routes, including gender and paired-trade conditions\nVerified 56 Gen VI conditional routes, including Pok�mon-Amie affection and friendship/time/party/stat requirements\nVerified 14 Gen VI special routes, including Goodra rain omitted by the reference table and game-specific Beauty preparation\nVerified eight Gen VI location routes with separate Kalos/Hoenn locations and Shoal Cave low tide",
+      "errors": ""
+    },
+    {
+      "check": "verify-gen-three-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 536 Generation III ordinary level routes across Ruby/Sapphire, Emerald, FireRed and LeafGreen\nVerified 132 Generation III stone and trade routes against generation-specific item IDs\nVerified 40 Generation III friendship and Tyrogue stat routes\nVerified 8 Generation III Espeon/Umbreon routes with exact Hoenn times and FRLG trade detours\nVerified 20 Generation III special routes; all 184 decoded branches represented in each game group, acquisition audit still incomplete",
+      "errors": ""
+    },
+    {
+      "check": "verify-gen-two-breeding.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 348 Generation II DV egg routes and parent groups; parent acquisition remains under audit",
+      "errors": ""
+    },
+    {
+      "check": "verify-gen-two-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 258 Generation II level routes in Gold, Silver and Crystal; conditional evolutions and acquisitions remain under audit\nVerified 24 Generation II friendship routes, including its distinct Espeon/Umbreon clock windows\nVerified 84 Generation II stone/trade routes, with held-item requirements restored from gameplay references\nVerified 9 Generation II Tyrogue stat branches omitted by the source legality tree",
+      "errors": ""
+    },
+    {
+      "check": "verify-images.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Decoded 2166/2166 local images; 0 issues",
+      "errors": ""
+    },
+    {
+      "check": "verify-impossible-legacy.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 73 impossible evolution claims removed without falsely applying global shiny locks",
+      "errors": ""
+    },
+    {
+      "check": "verify-legacy-form-corrections.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified Midday Lycanroc version trades and retained detailed Wyrdeer/Ursaluna routes",
+      "errors": ""
+    },
+    {
+      "check": "verify-lets-go-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 114 Let�s Go level routes, including independent Alolan parent forms; remaining evolution methods under audit\nVerified 46 Let�s Go stone and trade routes, Alolan Ice Stones and partner exceptions",
+      "errors": ""
+    },
+    {
+      "check": "verify-method-sources.cjs",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified supporting references render for 11846 hunting routes; duplicate and unsafe links excluded",
+      "errors": ""
+    },
+    {
+      "check": "verify-modern.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified decoded source coverage: 180291 tracked-form slot/location records; 7521 routes; 50 regional forms",
+      "errors": ""
+    },
+    {
+      "check": "verify-older-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 264 Ultra Sun/Ultra Moon level requirements; special-condition evolutions excluded\nVerified 11 older trade routes, paired partners and Alolan Graveler\nVerified 62 older item routes, gender restrictions and Ultra Space form conditions\nVerified 9 older known-move evolution routes\nVerified 18 friendship routes and Sylveon affection, time and competing-branch requirements\nVerified 11 gender/time routes, female-only evolutions, Plant Cloak and Alolan form conditions\nVerified seven location routes, magnetic fields, evolution rocks and Ultra Space form selection\nVerified five stat/party routes: three Tyrogue branches, Remoraid and Dark-type party requirements\nVerified eight special routes, including version-specific Midday Lycanroc\nAccounted for all 410 branches: 396 rendered, 11 untracked forms and three shiny-locked branches; acquisition audit remains incomplete",
+      "errors": ""
+    },
+    {
+      "check": "verify-orre-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 24 Orre precise evolution replacements; parent acquisition remains under audit",
+      "errors": ""
+    },
+    {
+      "check": "verify-pelago.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified Pelago story gates, recruitment details and version exclusions; odds/reset audit remains pending.",
+      "errors": ""
+    },
+    {
+      "check": "verify-radar.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 440 ordinary-grass species/game routes on 26 approved routes; cave and water locations excluded\nVerified 114 explicit radar species/game routes, locations, walk methods and snapshot hashes; ordinary-grass coverage remains incomplete",
+      "errors": ""
+    },
+    {
+      "check": "verify-raids.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified raid coverage: 14684 tracked records; 3201 routes",
+      "errors": ""
+    },
+    {
+      "check": "verify-server.cjs",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified malformed URLs return 400 without stopping the server; pages/scripts still load and traversal is denied",
+      "errors": ""
+    },
+    {
+      "check": "verify-sos.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified mechanics for 843 SOS routes, version counter differences and special targets; full caller audit remains incomplete",
+      "errors": ""
+    },
+    {
+      "check": "verify-sun-moon-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified six Sun/Moon location routes with original-game locations and story access requirements\nVerified 264 Sun/Moon simple level routes using the shared Gen VII reader and Sun/Moon species support\nVerified 98 shared Sun/Moon item, friendship/affection, trade and known-move routes; Ultra Space and Poipole excluded\nVerified 23 additional gender, party, stat and special Sun/Moon evolutions\nVerified Midday Lycanroc is explicitly Sun-only",
+      "errors": ""
+    },
+    {
+      "check": "verify-superseded-breeding.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 7153 replacements, including 2972 complete same-game egg/evolution chains",
+      "errors": ""
+    },
+    {
+      "check": "verify-superseded-evolutions.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 4170 removed generic routes have retained same-game replacements; version-exclusive route remains Ultra Sun only",
+      "errors": ""
+    },
+    {
+      "check": "verify-upstream-images.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "All 2166 local artwork files match independently fetched upstream hashes",
+      "errors": ""
+    },
+    {
+      "check": "verify-xy-radar.py",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 168 X/Y flower-bed radar species/game entries and every location/color; grass coverage remains incomplete\nVerified 180 ordinary-grass radar species/game entries against encounter tables and fifteen Bulbapedia rosters",
+      "errors": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "encounter_sw_nest.pkl",
+    "serializedEntries": 2156,
+    "entrySize": 10
+  },
+  {
+    "file": "encounter_sw_dist.pkl",
+    "serializedEntries": 1171,
+    "entrySize": 16
+  },
+  {
+    "file": "encounter_sh_nest.pkl",
+    "serializedEntries": 2151,
+    "entrySize": 10
+  },
+  {
+    "file": "encounter_sh_dist.pkl",
+    "serializedEntries": 1179,
+    "entrySize": 16
+  },
+  {
+    "file": "encounter_swsh_underground.pkl",
+    "serializedEntries": 273,
+    "entrySize": 14
+  },
+  {
+    "file": "encounter_gem_paldea.pkl",
+    "serializedEntries": 454,
+    "entrySize": 24
+  },
+  {
+    "file": "encounter_gem_kitakami.pkl",
+    "serializedEntries": 133,
+    "entrySize": 24
+  },
+  {
+    "file": "encounter_gem_blueberry.pkl",
+    "serializedEntries": 113,
+    "entrySize": 24
+  },
+  {
+    "file": "encounter_dist_paldea.pkl",
+    "serializedEntries": 174,
+    "entrySize": 62
+  },
+  {
+    "file": "encounter_might_paldea.pkl",
+    "serializedEntries": 56,
+    "entrySize": 62
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-03",
+  "exceptions": [
+    {
+      "gameTable": "sv",
+      "sourceSpecies": 739,
+      "evolutionType": "LevelUpSummit",
+      "classification": "retained legacy branch without a working location",
+      "reason": "Mount Lanakila evolution applies to Alola games. Scarlet/Violet and Legends: Z-A use an Ice Stone; do not advertise an unavailable summit route.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Crabominable_(Pok%C3%A9mon)"
+    },
+    {
+      "gameTable": "za",
+      "sourceSpecies": 739,
+      "evolutionType": "LevelUpSummit",
+      "classification": "retained legacy branch without a working location",
+      "reason": "Mount Lanakila evolution applies to Alola games. Scarlet/Violet and Legends: Z-A use an Ice Stone; do not advertise an unavailable summit route.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Crabominable_(Pok%C3%A9mon)"
+    }
+  ]
+}

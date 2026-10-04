@@ -1,0 +1,15 @@
+{
+  "checked": "2026-10-04",
+  "routes": 321,
+  "fullCoverageVerified": false,
+  "verified": "Pinned grass-slot location eligibility, independent exclusive roster samples, game-specific mechanics and National Dex prerequisites",
+  "remaining": [
+    "Exact time/swarm/Backlot conditions per slot",
+    "Independent complete Radar-exclusive roster comparison",
+    "All access prerequisites and short-grass tile mapping"
+  ],
+  "references": [
+    "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar",
+    "https://bulbapedia.bulbagarden.net/wiki/National_Pok%C3%A9dex"
+  ]
+}

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ShinyDex · National Pokédex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/"
+        >◉
+        <span
+          >Shiny<span class="accent">Dex</span
+          ><small>NATIONAL POKÉDEX · COLLECTION RECORD</small></span
+        ></a
+      >
+      <div class="header-right">
+        <span class="led"></span
+        ><span id="save" role="status">Saved on this device</span
+        ><button id="export">↓ Export backup</button>
+      </div>
+    </header>
+    <main>
+      <div class="intro">
+        <div>
+          <div class="eyebrow">POKÉDEX / NATIONAL MODE</div>
+          <h1>National Pokédex</h1>
+          <p>Browse Pokémon. Record captures. Track shinies.</p>
+        </div>
+        <div class="summary">
+          <span class="star">✧</span>
+          <div>
+            <strong id="total">0 <em>/ 1,025</em></strong
+            ><span>SHINIES CAUGHT</span>
+          </div>
+          <div class="progress"><i id="progress"></i></div>
+          <small id="percent"
+            >0% complete · Every journey starts somewhere.</small
+          >
+        </div>
+      </div>
+      <nav aria-label="Main views">
+        <button class="active" data-tab="dex">▤ &nbsp; Pokédex</button
+        ><button data-tab="home">▦ &nbsp; HOME boxes</button
+        ><button data-tab="collection">
+          ✧ &nbsp; Shiny collection <b id="collection-count">0</b></button
+        ><span>National Pokédex order <b>↑</b></span>
+      </nav>
+      <section class="toolbar">
+        <label class="search"
+          >⌕
+          <input
+            id="search"
+            placeholder="Search name or Pokédex number…"
+            aria-label="Search Pokémon" /></label
+        ><select id="generation" aria-label="Generation">
+          <option value="">All generations</option></select
+        ><select id="status" aria-label="Caught status">
+          <option value="all">All Pokémon</option>
+          <option value="captured">Captured</option>
+          <option value="missing-captured">Not captured</option>
+          <option value="shiny">Shiny captured</option>
+          <option value="missing-shiny">Still shiny hunting</option>
+        </select>
+        <div class="switch" aria-label="Image appearance">
+          <button data-mode="auto" class="active">Collection</button
+          ><button data-mode="normal">Normal</button
+          ><button data-mode="shiny">✧ Shiny</button>
+        </div>
+      </section>
+      <section id="dex" class="dex-layout">
+        <aside class="detail" id="detail"></aside>
+        <div class="catalog">
+          <div class="list-heading">
+            <span id="result-count"></span
+            ><span class="check-headings"
+              ><span>CAPTURED</span><span>SHINY</span></span
+            >
+          </div>
+          <div
+            id="list"
+            tabindex="0"
+            aria-label="Scrolling National Pokédex"
+          ></div>
+          <div class="list-footer">
+            ↑ ↓ Browse Pokémon <span>✧ Check to add to your collection</span>
+          </div>
+        </div>
+      </section>
+      <section id="home" hidden>
+        <div class="box-toolbar">
+          <div>
+            <h2>HOME storage boxes</h2>
+            <p>
+              30 slots per box · Left to right, top to bottom · Base species,
+              then regional forms
+            </p>
+          </div>
+          <label
+            >Jump to box
+            <select id="box-select" aria-label="Jump to box"></select
+          ></label>
+        </div>
+        <p class="box-note">
+          Regional forms follow their base species: Alola → Galar → Hisui →
+          Paldea. Filters keep every slot fixed. Silhouette = not captured;
+          shiny art = shiny captured.
+        </p>
+        <div id="boxes"></div>
+      </section>
+      <section id="collection" hidden>
+        <div class="box-toolbar">
+          <div>
+            <h2>Captured shinies</h2>
+            <p id="collection-summary"></p>
+          </div>
+        </div>
+        <div id="collection-grid"></div>
+      </section>
+      <section
+        id="hunt-panel"
+        class="hunt-panel"
+        aria-label="Shiny hunting methods"
+      ></section>
+      <footer>
+        <span>National mode · Regional forms included</span
+        ><span
+          >Images:
+          <a
+            href="https://bulbapedia.bulbagarden.net"
+            target="_blank"
+            rel="noreferrer"
+            >Bulbapedia / Bulbagarden Archives</a
+          >
+          · Data:
+          <a href="https://pokeapi.co" target="_blank" rel="noreferrer"
+            >PokéAPI</a
+          >
+          /
+          <a
+            href="https://github.com/kwsch/PKHeX"
+            target="_blank"
+            rel="noreferrer"
+            >PKHeX</a
+          ><br />Unofficial fan app · Pokémon © Nintendo / Creatures / GAME
+          FREAK</span
+        >
+      </footer>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
