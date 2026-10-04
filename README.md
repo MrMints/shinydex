@@ -4,7 +4,17 @@ An unofficial browser Pokédex and collection tracker with a scrolling National 
 
 **Development status:** the exhaustive hunting and final release audits are incomplete. The project is published at [MrMints/shinydex](https://github.com/MrMints/shinydex). Passing the verifiers establishes their stated checks, not complete game, event, location, form, or prerequisite coverage.
 
-## Run locally
+## Open on Windows
+
+Download [ShinyDex.exe](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe) from the [latest release](https://github.com/MrMints/shinydex/releases/latest), then double-click it. The app and all artwork are included in this one file. Windows 10/11's built-in .NET Framework runs the launcher; Node.js, Python, and a terminal are not required.
+
+ShinyDex opens in your default browser at http://localhost:5173. The launcher stays in the Windows system tray (you may need to open the hidden-icons arrow). Double-click its icon to reopen the app, or right-click and choose **Exit ShinyDex** when finished. Closing a browser tab leaves the launcher running. Opening the EXE again reopens the running app.
+
+Use the same browser as before to retain your collection. The address stays the same as the earlier local server. Export a backup before changing browsers or devices. Updates replace the EXE; collections stay in browser storage. The launcher caches bundled files under `%LOCALAPPDATA%\ShinyDex\app`; it does not store collections there. If port 5173 is already occupied, close the earlier local server and launch again.
+
+The EXE is unsigned, so Windows may show a publisher or SmartScreen prompt. Release assets include a SHA-256 checksum file. This is a development preview; the hunting audit remains incomplete.
+
+## Run from source
 
 Install Node.js, then run `npm start` from this directory and open http://localhost:5173. You can also run `node server.cjs` directly. The browser app has no npm runtime dependencies. Keep the local server running while using the app.
 
@@ -24,6 +34,8 @@ The current catalog contains 1,025 species and 58 regional-form entries, spannin
 The Python builders and checked-in reference snapshots support reproducible data generation. `python build-hunts.py` rebuilds the guide; `python build-catalog.py` rebuilds the catalog. Python tooling requires Pillow for image decoding. Preserve the CSVs and `reference/` when rebuilding. PKHeX resources are pinned to commit `542111fc8584ff29c9d1455553b8acd0e1f8a59a`; the decoders read these resources without executing upstream C# code.
 
 `Archive/` preserves obsolete app code, historical previews, and accumulated development notes. These files are not browser runtime dependencies.
+
+`windows/Launcher.cs` implements the Windows launcher, restricted loopback server, browser opening, and system-tray controls. Build the single-file EXE on Windows with `powershell -NoProfile -ExecutionPolicy Bypass -File windows/build-windows.ps1` (Python and the Windows .NET Framework compiler are build dependencies). Output is `dist/ShinyDex.exe` with a SHA-256 checksum. Run `python windows/verify-windows.py` to exercise the built EXE in an isolated cache and port. The payload includes runtime files, all artwork, attribution, and license notices; it omits development snapshots and user collections.
 
 ## Verification and remaining work
 

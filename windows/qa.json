@@ -1,0 +1,22 @@
+{
+  "testedOn": "2026-10-04",
+  "distribution": "Single Windows EXE with embedded web runtime and artwork",
+  "passed": true,
+  "checks": [
+    "Compile using Windows .NET Framework compiler",
+    "Start built EXE with isolated cache and loopback port",
+    "Serve exact HTML, JavaScript, CSS, catalog and hunting data bytes",
+    "Serve all 2166 PNGs with matching SHA-256 hashes",
+    "Reopening the launcher reuses its running instance",
+    "Reject path traversal, foreign Host headers, malformed percent escapes and unsupported HTTP methods",
+    "Support HEAD, missing-file responses and simultaneous artwork requests",
+    "Include attribution and upstream license notices in embedded bundle",
+    "Existing 33 project verifiers pass"
+  ],
+  "limitations": [
+    "Tray menu and default-browser launch have not been exercised through UI automation",
+    "Clean Windows 10/11 machines and SmartScreen behavior have not been independently tested",
+    "Executable is unsigned",
+    "Existing hunting audit limitations remain unchanged"
+  ]
+}
