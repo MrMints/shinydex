@@ -23,7 +23,7 @@ async function run({window,store,profile,app}){
     assert.equal(await evaluate('fetch("shiny://app/package.json").then(response=>response.status)'),403);
     const image=await window.webContents.capturePage();
     await fs.writeFile(path.join(profile,'smoke.png'),image.toPNG());
-    await fs.writeFile(path.join(profile,'smoke.json'),JSON.stringify({passed:true,packaged:app.isPackaged,url:window.webContents.getURL(),errors},null,2));
+    await fs.writeFile(path.join(profile,'smoke.json'),JSON.stringify({passed:true,version:app.getVersion(),packaged:app.isPackaged,url:window.webContents.getURL(),errors},null,2));
     app.exit(0);
   }catch(error){await fs.writeFile(path.join(profile,'smoke.json'),JSON.stringify({passed:false,error:error.stack,errors},null,2));app.exit(1);}
 }

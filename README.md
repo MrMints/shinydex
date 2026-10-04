@@ -2,38 +2,49 @@
 
 An unofficial desktop Pokédex and collection tracker with a scrolling National Dex, separate captured and shiny ownership, fixed HOME-style boxes, and a game-specific shiny hunting guide.
 
-**Development status:** the exhaustive hunting and final release audits are incomplete. The project is published at [MrMints/shinydex](https://github.com/MrMints/shinydex). Passing the verifiers establishes their stated checks, not complete game, event, location, form, or prerequisite coverage.
+## Download and start — 1.0 Release
 
-## Open on Windows
+**[Download ShinyDex for Windows](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe)** · [Release notes and checksums](https://github.com/MrMints/shinydex/releases/latest)
 
-Download [ShinyDex.exe](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe) and run it to install the Windows 10/11 x64 desktop app. Open ShinyDex from its desktop shortcut or Start menu. The installer includes the app, Chromium, and all artwork; Node.js, Python, and a terminal are not required.
+1. Download **ShinyDex.exe** and double-click it to install.
+2. Open **ShinyDex** from the desktop shortcut or Windows Start menu.
+3. Search by Pokémon name or number. Mark **Captured** or **Shiny captured**; changes save automatically.
+4. Use **HOME boxes** to browse box positions and **Shiny collection** to see your shinies. Use **Export backup** to keep a separate copy of your collection.
 
-Version 2 opens its own native desktop window. It uses the local `shiny://app/` protocol and requires no localhost server or TCP port. An occupied port 5173 does not affect it. Closing the window exits the app.
+The app opens its own desktop window and includes all artwork. It uses no localhost server or TCP port, so an occupied port 5173 does not affect it. Closing the window exits the app. Node.js, Python, a browser, and a terminal are not required.
 
-This is a fresh desktop profile. The former v1 browser launcher and its browser saves are separate; automatic migration from v1 is not included.
+## Requirements and installation notes
+
+Windows 10/11, 64-bit (x64). The installer is unsigned, so Windows may show a publisher or SmartScreen prompt. Download only from this project's GitHub release page; the release includes a SHA-256 checksum. Internet access is needed for update checks and linked reference pages; the bundled Pokédex, artwork, and collection work offline.
+
+This is a fresh desktop profile. The former browser preview launcher and its browser saves are separate; automatic migration from browser previews is not included.
 
 ## Updates and older versions
 
-On startup, a newer desktop release offers **Update now** or **Later**. The adjacent version dropdown selects a published desktop version; reopen it with **Updates**. Version 1 browser launchers are excluded. The updater downloads the selected installer, verifies its manifest SHA-512 and GitHub SHA-256 digest, and installs and restarts automatically. An offline check or failed verification leaves the installed app usable.
+On startup, a newer desktop release offers **Update now** or **Later**. The adjacent version dropdown selects a compatible published desktop version; reopen it with **Updates**. **Versions older than 1.0.0 Release cannot be selected.** This is the first native release, so only 1.0.0 is available initially. Future native releases can be installed or rolled back as far as 1.0.0. The old browser previews are named 0.1 and 0.2 and are excluded.
+
+The updater downloads the selected installer, verifies its manifest SHA-512 and GitHub SHA-256 digest, and installs and restarts automatically. An offline check or failed verification leaves the installed app usable.
 
 Collection files remain in `%APPDATA%\ShinyDexDesktop\collection-v2.json` across desktop updates and rollbacks. Before installation the app writes a JSON backup in that profile's `backups` folder. Future catalog IDs are retained when an older desktop catalog saves. Collection contents are never uploaded to GitHub. **Export backup** saves a portable JSON file; **Import backup** restores a compatible version-2 collection after backing up the current one.
 
-The installer is unsigned, so Windows may show a publisher or SmartScreen prompt. Release assets include `ShinyDex.exe.sha256`, `latest.yml`, and the installer blockmap. The hunting audit remains incomplete.
+## Collection
+
+- Captured and Shiny captured are separate checkboxes, with Captured on the left. Marking shiny also marks captured; clearing captured clears shiny.
+- Every change autosaves in the desktop profile. Base species and regional forms have independent keys. Browser development has separate storage and synchronizes changes between browser tabs.
+- HOME boxes retain National Dex positions when filtered: six columns, five rows, 30 slots. Unowned entries use silhouettes; owned shinies use shiny art. Hover labels give the name and position.
+- The Shiny collection tab shows owned shinies. Export backup saves a JSON copy of collection ownership. Desktop storage is local to this Windows user. Export a backup before changing computers.
+
+The current catalog contains 1,025 species and 58 regional-form entries, spanning 37 boxes. These counts are checks of the current catalog and do not independently establish exhaustive correctness.
+
+## Data status
+
+The exhaustive hunting, event, transfer-prerequisite, and final attribution audits remain incomplete. Passing the verifiers establishes their stated checks, not complete game, event, location, form, or prerequisite coverage. Use the linked references in the hunting guide when planning a hunt.
 
 ## Run from source
 
 Install Node.js and pnpm, run `pnpm install`, then `pnpm start`. Build the Windows installer with `pnpm build:windows`; outputs are in `dist/desktop`. If dependency installation disables lifecycle scripts, run `node node_modules/electron/install.js` once to download Electron.
 
 For browser development only, run `node server.cjs` and open http://localhost:5173. Browser development uses browser storage and does not install desktop updates.
-
-## Collection
-
-- Captured and Shiny captured are separate checkboxes, with Captured on the left. Marking shiny also marks captured; clearing captured clears shiny.
-- Every change autosaves in the desktop profile; browser development uses `shinydex-collection-v2`. Base species and regional forms have independent keys. The earlier shiny-only format migrates automatically, and changes synchronize between tabs.
-- HOME boxes retain National Dex positions when filtered: six columns, five rows, 30 slots. Unowned entries use silhouettes; owned shinies use shiny art. Hover labels give the name and position.
-- The Shiny collection tab shows owned shinies. Export backup saves a JSON copy of collection ownership. Desktop storage is local to this Windows user. Export a backup before changing computers.
-
-The current catalog contains 1,025 species and 58 regional-form entries, spanning 37 boxes. These counts are checks of the current catalog and do not independently establish exhaustive correctness.
 
 ## Files
 
@@ -45,7 +56,7 @@ The Python builders and checked-in reference snapshots support reproducible data
 
 `desktop/main.cjs` implements the local protocol and sandboxed window; `preload.cjs` exposes a narrow IPC bridge. `storage.cjs` validates and atomically saves collection records. `updates.cjs` discovers public desktop releases and installs immutable release feeds with electron-updater. Run `pnpm test:desktop` for storage and updater regression tests. `desktop/smoke.cjs` runs only with `SHINYDEX_DESKTOP_QA=1` and an explicit isolated `SHINYDEX_DESKTOP_QA_DIR`; it checks rendering, persistence, bridge isolation, update controls, and forbidden protocol paths.
 
-`windows/` contains the historical v1 .NET browser launcher and its verifiers. It is excluded from desktop packages and should not be used to build v2. Published v1 assets remain historical downloads. For a desktop release, increment `package.json`, build and verify the installer, and publish an exact `vX.Y.Z` tag with `ShinyDex.exe`, `latest.yml`, the blockmap, and SHA-256 checksum. Keep release assets immutable and the profile path stable.
+`windows/` contains the historical browser-preview .NET browser launcher and its verifiers. It is excluded from desktop packages and should not be used to build the desktop app. Published browser-preview assets remain historical downloads. For a desktop release, increment `package.json`, build and verify the installer, and publish an exact `vX.Y.Z` tag with `ShinyDex.exe`, `latest.yml`, the blockmap, and SHA-256 checksum. Keep release assets immutable and the profile path stable.
 
 Implementation references: [Electron protocol](https://www.electronjs.org/docs/latest/api/protocol), [context isolation](https://www.electronjs.org/docs/latest/tutorial/context-isolation), and [NSIS automatic updates](https://www.electron.build/docs/features/auto-update/).
 
@@ -54,6 +65,8 @@ Implementation references: [Electron protocol](https://www.electronjs.org/docs/l
 Run `python check-project.py` to execute the checked-in `verify-*.py` and `verify-*.cjs` checks and refresh `project-checks.json`. Run `python audit-dexnav-coverage.py` to refresh the unresolved DexNav location/form inventory. Run `python audit-upstream-images.py --fresh` for a new network comparison of every artwork file. Run `python build-image-review.py` to recreate the visual-review sheets. Run `python audit-captions.py` to compare every image identity with cached Archives captions; missing captions are fetched from the Archives API.
 
 Audit evidence includes:
+
+- `desktop-qa.json`: packaged native rendering and persistence, operation while port 5173 is occupied, renderer isolation, updater controls, and NSIS installation checks. Public future-release installation and clean-machine Windows prompts remain unverified.
 
 - `data-audit.json` and `regional-form-audit.json`: catalog order, regional mapping, guide presence, and current scope limitations.
 - `image-audit.json`, `caption-audit.json`, and `local-image-audit.json`: Archives metadata, caption identity checks, and full local PNG decoding with SHA-256 hashes. Caption exceptions are documented. `upstream-image-audit.json` records fresh source-file fetches matching all 2,166 local SHA-256 hashes. `visual-image-audit.json` records visual inspection of every normal/shiny pair across 16 labeled contact sheets, with resolution limits stated.

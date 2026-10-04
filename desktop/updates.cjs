@@ -18,7 +18,7 @@ function compare(a,b) {
 function releasesFrom(rows) {
   return rows.flatMap(row=>{
     const number=version(row.tag_name);
-    if(row.draft||row.prerelease||!number||number[0]<2) return [];
+    if(row.draft||row.prerelease||!/^v\d+\.\d+\.\d+$/.test(row.tag_name||'')||!number||compare(row.tag_name,'v1.0.0')<0) return [];
     const expected=`https://github.com/MrMints/shinydex/releases/download/${row.tag_name}/ShinyDex.exe`;
     const asset=(row.assets||[]).find(item=>item.name==='ShinyDex.exe'&&item.browser_download_url===expected&&/^sha256:[a-f0-9]{64}$/.test(item.digest||''));
     const manifest=(row.assets||[]).find(item=>item.name==='latest.yml'&&item.browser_download_url===`https://github.com/MrMints/shinydex/releases/download/${row.tag_name}/latest.yml`);

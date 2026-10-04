@@ -50,7 +50,7 @@
   dialog.id = "update-dialog";
   dialog.setAttribute("aria-labelledby", "update-title");
   dialog.innerHTML = `<div class="update-heading"><h2 id="update-title">ShinyDex updates</h2><p id="update-current"></p></div>
-    <div class="update-body"><p class="update-note">Your collection stays saved. Choose the latest release or an older version.</p>
+    <div class="update-body"><p class="update-note">Your collection stays saved. Choose a desktop release, starting with 1.0.0. Earlier previews are unavailable.</p>
     <label class="update-label" for="update-version">Version to install</label><div class="update-control"><button id="update-install">Update now</button><select id="update-version" aria-label="Version to install"></select></div>
     <progress id="update-progress" max="100" value="0" hidden aria-label="Update download progress"></progress><p id="update-message" role="status" aria-live="polite"></p>
     <div class="update-footer"><button id="update-retry">Check again</button><button id="update-later">Later</button></div></div>`;

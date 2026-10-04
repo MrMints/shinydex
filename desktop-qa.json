@@ -1,5 +1,6 @@
 {
   "passed": true,
+  "version": "1.0.0",
   "packaged": true,
   "url": "shiny://app/",
   "errors": [],
@@ -7,6 +8,7 @@
   "nativeMainTCPListeners": 0,
   "installerExitCode": 0,
   "installedAppSmokePassed": true,
+  "testUninstallExitCode": 0,
   "limitations": [
     "Update and downgrade installer calls use controlled fixtures; a public future desktop release is not yet available.",
     "Clean-machine Windows and SmartScreen prompts were not tested.",
