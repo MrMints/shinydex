@@ -1,39 +1,37 @@
 # ShinyDex
 
-An unofficial browser Pokédex and collection tracker with a scrolling National Dex, separate captured and shiny ownership, fixed HOME-style boxes, and a game-specific shiny hunting guide.
+An unofficial desktop Pokédex and collection tracker with a scrolling National Dex, separate captured and shiny ownership, fixed HOME-style boxes, and a game-specific shiny hunting guide.
 
 **Development status:** the exhaustive hunting and final release audits are incomplete. The project is published at [MrMints/shinydex](https://github.com/MrMints/shinydex). Passing the verifiers establishes their stated checks, not complete game, event, location, form, or prerequisite coverage.
 
 ## Open on Windows
 
-Download [ShinyDex.exe](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe) from the [latest release](https://github.com/MrMints/shinydex/releases/latest), then double-click it. The app and all artwork are included in this one file. Windows 10/11's built-in .NET Framework runs the launcher; Node.js, Python, and a terminal are not required.
+Download [ShinyDex.exe](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe) and run it to install the Windows 10/11 x64 desktop app. Open ShinyDex from its desktop shortcut or Start menu. The installer includes the app, Chromium, and all artwork; Node.js, Python, and a terminal are not required.
 
-ShinyDex opens in your default browser at http://localhost:5173. The launcher stays in the Windows system tray (you may need to open the hidden-icons arrow). Double-click its icon to reopen the app, or right-click and choose **Exit ShinyDex** when finished. Closing a browser tab leaves the launcher running. Opening the EXE again reopens the running app.
+Version 2 opens its own native desktop window. It uses the local `shiny://app/` protocol and requires no localhost server or TCP port. An occupied port 5173 does not affect it. Closing the window exits the app.
 
-Use the same browser as before to retain your collection. The address stays the same as the earlier local server. Export a backup before changing browsers or devices. The launcher caches bundled files under `%LOCALAPPDATA%\ShinyDex\app`. If port 5173 is already occupied, close the earlier local server and launch again.
+This is a fresh desktop profile. The former v1 browser launcher and its browser saves are separate; automatic migration from v1 is not included.
 
 ## Updates and older versions
 
-The Windows app checks public GitHub releases when opened. When a newer release is available, choose **Update now** or **Later**. The dropdown attached to **Update now** selects the latest release or an older version. You can reopen this selector from the **Updates** button at any time. Downloads show progress, are checked against GitHub's SHA-256 digest, and are installed automatically; the browser reloads when ready. Failed checks or downloads leave the installed app usable.
+On startup, a newer desktop release offers **Update now** or **Later**. The adjacent version dropdown selects a published desktop version; reopen it with **Updates**. Version 1 browser launchers are excluded. The updater downloads the selected installer, verifies its manifest SHA-512 and GitHub SHA-256 digest, and installs and restarts automatically. An offline check or failed verification leaves the installed app usable.
 
-Captured and shiny ownership continue using the same `shinydex-collection-v2` record at `http://localhost:5173`, independent of the selected app version. Before installation, the updater also writes a local JSON backup under `%LOCALAPPDATA%\ShinyDex\collections\backups`. Collection data is never sent to GitHub. Storage warnings block installation until the collection can be backed up reliably. All current releases use the same catalog keys and save format.
+Collection files remain in `%APPDATA%\ShinyDexDesktop\collection-v2.json` across desktop updates and rollbacks. Before installation the app writes a JSON backup in that profile's `backups` folder. Future catalog IDs are retained when an older desktop catalog saves. Collection contents are never uploaded to GitHub. **Export backup** saves a portable JSON file; **Import backup** restores a compatible version-2 collection after backing up the current one.
 
-Downloaded executables are kept under `%LOCALAPPDATA%\ShinyDex\versions`, and the selected version is remembered in `installed.json`. Rolling back retains the newer launcher and update controls, including for the original release that has no updater. Future launcher updates restart automatically; opening the original updater-enabled EXE routes to the newer installed launcher. You can continue using the same shortcut.
-
-**One-time upgrade:** the first `v1.0.0-windows-preview` EXE predates the updater. Exit it from the tray, then download and open the latest EXE once to enable notifications and automatic updates. The Node.js source server does not install Windows updates.
-
-The EXE is unsigned, so Windows may show a publisher or SmartScreen prompt. Release assets include a SHA-256 checksum file. This is a development preview; the hunting audit remains incomplete.
+The installer is unsigned, so Windows may show a publisher or SmartScreen prompt. Release assets include `ShinyDex.exe.sha256`, `latest.yml`, and the installer blockmap. The hunting audit remains incomplete.
 
 ## Run from source
 
-Install Node.js, then run `npm start` from this directory and open http://localhost:5173. You can also run `node server.cjs` directly. The browser app has no npm runtime dependencies. Keep the local server running while using the app.
+Install Node.js and pnpm, run `pnpm install`, then `pnpm start`. Build the Windows installer with `pnpm build:windows`; outputs are in `dist/desktop`. If dependency installation disables lifecycle scripts, run `node node_modules/electron/install.js` once to download Electron.
+
+For browser development only, run `node server.cjs` and open http://localhost:5173. Browser development uses browser storage and does not install desktop updates.
 
 ## Collection
 
 - Captured and Shiny captured are separate checkboxes, with Captured on the left. Marking shiny also marks captured; clearing captured clears shiny.
-- Every change autosaves in this browser and origin under `shinydex-collection-v2`. Base species and regional forms have independent keys. The earlier shiny-only format migrates automatically, and changes synchronize between tabs.
+- Every change autosaves in the desktop profile; browser development uses `shinydex-collection-v2`. Base species and regional forms have independent keys. The earlier shiny-only format migrates automatically, and changes synchronize between tabs.
 - HOME boxes retain National Dex positions when filtered: six columns, five rows, 30 slots. Unowned entries use silhouettes; owned shinies use shiny art. Hover labels give the name and position.
-- The Shiny collection tab shows owned shinies. Export backup saves a JSON copy of collection ownership. Collection storage is local to the browser; changing browser, device, host, or port creates a different storage context.
+- The Shiny collection tab shows owned shinies. Export backup saves a JSON copy of collection ownership. Desktop storage is local to this Windows user. Export a backup before changing computers.
 
 The current catalog contains 1,025 species and 58 regional-form entries, spanning 37 boxes. These counts are checks of the current catalog and do not independently establish exhaustive correctness.
 
@@ -45,11 +43,11 @@ The Python builders and checked-in reference snapshots support reproducible data
 
 `Archive/` preserves obsolete app code, historical previews, and accumulated development notes. These files are not browser runtime dependencies.
 
-`windows/Launcher.cs` implements the Windows launcher, restricted loopback server, browser opening, and system-tray controls. Build the single-file EXE on Windows with `powershell -NoProfile -ExecutionPolicy Bypass -File windows/build-windows.ps1` (Python and the Windows .NET Framework compiler are build dependencies). Output is `dist/ShinyDex.exe` with a SHA-256 checksum. Run `python windows/verify-windows.py` to exercise the built EXE in an isolated cache and port. The payload includes runtime files, all artwork, attribution, and license notices; it omits development snapshots and user collections.
+`desktop/main.cjs` implements the local protocol and sandboxed window; `preload.cjs` exposes a narrow IPC bridge. `storage.cjs` validates and atomically saves collection records. `updates.cjs` discovers public desktop releases and installs immutable release feeds with electron-updater. Run `pnpm test:desktop` for storage and updater regression tests. `desktop/smoke.cjs` runs only with `SHINYDEX_DESKTOP_QA=1` and an explicit isolated `SHINYDEX_DESKTOP_QA_DIR`; it checks rendering, persistence, bridge isolation, update controls, and forbidden protocol paths.
 
-`windows/UpdateManager.cs` handles release discovery, download validation, atomic version selection, backups, and launcher handoff. `updater.js` supplies the accessible startup dialog and version dropdown. `python windows/verify-updates.py --old-exe PATH` tests against the original published v1.0.0 EXE and a locally built future release, with isolated storage and local release fixtures. The original download is SHA-256 checked by the test. For new releases, increment `package.json`, `UpdateManager.BuildTag`, and both assembly version attributes in `Launcher.cs`, rebuild, verify, and upload the EXE and checksum as release assets. Keep published version tags immutable and preserve catalog keys and save-format compatibility.
+`windows/` contains the historical v1 .NET browser launcher and its verifiers. It is excluded from desktop packages and should not be used to build v2. Published v1 assets remain historical downloads. For a desktop release, increment `package.json`, build and verify the installer, and publish an exact `vX.Y.Z` tag with `ShinyDex.exe`, `latest.yml`, the blockmap, and SHA-256 checksum. Keep release assets immutable and the profile path stable.
 
-Implementation references: [GitHub release API and asset digests](https://docs.github.com/en/rest/releases/releases) and [Microsoft .NET TLS guidance](https://learn.microsoft.com/en-us/dotnet/framework/network-programming/tls).
+Implementation references: [Electron protocol](https://www.electronjs.org/docs/latest/api/protocol), [context isolation](https://www.electronjs.org/docs/latest/tutorial/context-isolation), and [NSIS automatic updates](https://www.electron.build/docs/features/auto-update/).
 
 ## Verification and remaining work
 
@@ -72,6 +70,6 @@ Remaining work includes the full DexNav room/form/prerequisite review; remaining
 
 This is an unofficial fan project, unaffiliated with Nintendo, Creatures, GAME FREAK, The Pokémon Company, Bulbapedia, PokéAPI, or PKHeX. Pokémon characters and artwork belong to their respective rights holders. Artwork is sourced from [Bulbagarden Archives](https://archives.bulbagarden.net/), with per-image source pages retained in `data.json`. Hunting mechanics and location reviews link to [Bulbapedia](https://bulbapedia.bulbagarden.net/).
 
-Encounter and Pokédex CSV snapshots originate from [PokéAPI](https://github.com/PokeAPI/pokeapi), credited to Paul Hallett and PokéAPI contributors under BSD-3-Clause. Pinned encounter, evolution, and personal reference resources originate from [PKHeX](https://github.com/kwsch/PKHeX), under GNU GPLv3. Prettier 3.6.2, by James Long and contributors, was used during development under MIT; it is not a browser runtime dependency. Node.js is supplied separately by the user and is not bundled. Pillow supports the Python image audit and is not bundled in the browser app.
+Encounter and Pokédex CSV snapshots originate from [PokéAPI](https://github.com/PokeAPI/pokeapi), credited to Paul Hallett and PokéAPI contributors under BSD-3-Clause. Pinned encounter, evolution, and personal reference resources originate from [PKHeX](https://github.com/kwsch/PKHeX), under GNU GPLv3. Prettier 3.6.2, by James Long and contributors, was used during development under MIT; it is not a browser runtime dependency. The desktop app bundles Electron, Chromium, and Node.js; the renderer cannot access Node.js APIs. Electron notices and production dependency licenses ship with the app. Pillow supports the Python image audit and is not bundled in the browser app.
 
 See [ATTRIBUTIONS.txt](ATTRIBUTIONS.txt), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), `licenses/`, and `reference/pkhex/LICENSE` for retained notices and provenance. No blanket MIT license is asserted over this project, Pokémon artwork, or bundled reference material. Third-party rights and licenses remain separate. Complete attribution review is still part of the publication audit.

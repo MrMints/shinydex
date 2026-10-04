@@ -25,3 +25,5 @@ Additional audit derivatives: Archive/image-review contact sheets use the same a
 The current app uses locally available system fonts and downloads no web fonts. Contact-sheet labels were rendered with separately installed Arial; no font files are distributed. Artwork source-byte checks are in upstream-image-audit.json; visual-review evidence is in visual-image-audit.json.
 
 Windows distribution: ShinyDex.exe uses Microsoft's installed .NET Framework, Windows Forms, and a Windows system tray icon. These system components are not redistributed. The executable bundles the attributed web app, Pokémon artwork, and upstream license notices; the separate rights listed in this file continue to apply.
+
+Desktop v2: Electron 44.5.1 (MIT), Chromium (see installed LICENSES.chromium.html), electron-updater 6.8.9 and 15 transitive production packages (see licenses/Desktop-runtime-dependencies.txt). Default Electron icon. Node.js is bundled inside Electron; no Node.js renderer access.

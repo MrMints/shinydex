@@ -35,7 +35,9 @@ function decodeCollection(collection) {
 }
 
 try {
-  const saved = localStorage.getItem(storageKey);
+  const saved = window.shinydexDesktop
+    ? await window.shinydexDesktop.loadCollection()
+    : localStorage.getItem(storageKey);
   if (saved) {
     const collection = JSON.parse(saved);
     ({ captured, shinies } = decodeCollection(collection));
@@ -262,14 +264,15 @@ function setView(next) {
   render();
 }
 // Write immediately after each checkbox change, before repainting the views.
-function save() {
+async function save() {
   try {
     const collection = {
       version: 2,
       captured: [...captured],
       shinies: [...shinies],
     };
-    localStorage.setItem(storageKey, JSON.stringify(collection));
+    if (window.shinydexDesktop) await window.shinydexDesktop.saveCollection(collection);
+    else localStorage.setItem(storageKey, JSON.stringify(collection));
     $("#save").textContent = "✓ Saved just now";
   } catch {
     $("#save").textContent = "Not saved — export a backup";
@@ -405,4 +408,21 @@ window.addEventListener("storage", (event) => {
   }
 });
 
+if (window.shinydexDesktop) {
+  const button = document.createElement("button");
+  button.textContent = "Import backup";
+  button.addEventListener("click", async () => {
+    try {
+      const record = await window.shinydexDesktop.importCollection();
+      if (record) {
+        ({ captured, shinies } = decodeCollection(record));
+        render();
+        $("#save").textContent = "✓ Backup imported";
+      }
+    } catch {
+      $("#save").textContent = "Backup could not be imported — check the JSON file";
+    }
+  });
+  $(".header-right").append(button);
+}
 render();

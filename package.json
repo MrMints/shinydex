@@ -1,9 +1,27 @@
 {
   "name": "shinydex",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
+  "main": "desktop/main.cjs",
+  "description": "An unofficial National Pokédex and shiny collection desktop app",
+  "author": "MrMints",
   "scripts": {
-    "start": "node server.cjs"
+    "start": "electron .",
+    "start:browser": "node server.cjs",
+    "build:windows": "electron-builder --win nsis --x64 --publish never",
+    "test:desktop": "node --test desktop/*.test.cjs"
+  },
+  "dependencies": { "electron-updater": "6.8.9" },
+  "devDependencies": { "electron": "44.5.1", "electron-builder": "26.15.3" },
+  "build": {
+    "appId": "com.mrmints.shinydex",
+    "productName": "ShinyDex",
+    "artifactName": "ShinyDex.exe",
+    "directories": { "output": "dist/desktop" },
+    "files": ["desktop/*.cjs", "index.html", "main.js", "style.css", "updater.js", "data.json", "hunts.json", "assets/pokemon/*.png", "ATTRIBUTIONS.txt", "THIRD_PARTY_NOTICES.md", "licenses/*.txt", "reference/pkhex/LICENSE"],
+    "win": { "target": "nsis", "signAndEditExecutable": false },
+    "nsis": { "oneClick": true, "perMachine": false, "allowElevation": false, "deleteAppDataOnUninstall": false, "createDesktopShortcut": true },
+    "publish": { "provider": "github", "owner": "MrMints", "repo": "shinydex" }
   }
 }

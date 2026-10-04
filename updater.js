@@ -1,5 +1,4 @@
-// The Windows launcher supplies this controller even for older app versions.
-// Browser ownership remains at the same origin and storage key on every switch.
+// Desktop IPC and the archived browser launcher share the same update controls.
 (async () => {
   const endpoint = "/__updates/";
   let state;
@@ -12,6 +11,7 @@
   let versionsSignature = "";
   let installStarted;
   const status = async () => {
+    if (window.shinydexDesktop) return window.shinydexDesktop.updateStatus();
     const response = await fetch(endpoint + "status", { cache: "no-store" });
     if (!response.ok) throw Error("Update service unavailable");
     return response.json();
@@ -99,6 +99,11 @@
   }
   function show() { render(); if (!dialog.open) dialog.showModal(); }
   async function post(action, body = {}) {
+    if (window.shinydexDesktop) {
+      if (action === "check") return window.shinydexDesktop.checkUpdates();
+      if (action === "install") return window.shinydexDesktop.installVersion(body.tag);
+      throw Error("Unsupported update action");
+    }
     const response = await fetch(endpoint + action, { method: "POST", headers: { "Content-Type": "application/json", "X-ShinyDex-Token": state.token }, body: JSON.stringify(body), cache: "no-store" });
     const result = await response.json();
     if (!response.ok) throw Error(result.error || "The update could not start. Please try again.");
@@ -142,7 +147,9 @@
       // Never install over a collection that has unsaved changes or inaccessible storage.
       const saveWarning = document.querySelector("#save")?.textContent || "";
       if (/unavailable|not saved|recover/i.test(saveWarning)) throw Error("Export your collection backup before updating; browser storage is not saving reliably.");
-      let collection = localStorage.getItem("shinydex-collection-v2");
+      let collection = window.shinydexDesktop
+        ? await window.shinydexDesktop.loadCollection()
+        : localStorage.getItem("shinydex-collection-v2");
       if (collection === null) {
         const legacy = JSON.parse(localStorage.getItem("shinydex-caught-v1") || "[]");
         collection = JSON.stringify({ version: 2, captured: legacy, shinies: legacy });
