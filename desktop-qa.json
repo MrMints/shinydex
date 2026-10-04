@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "packaged": true,
+  "url": "shiny://app/",
+  "errors": [],
+  "port5173Occupied": true,
+  "nativeMainTCPListeners": 0,
+  "installerExitCode": 0,
+  "installedAppSmokePassed": true,
+  "limitations": [
+    "Update and downgrade installer calls use controlled fixtures; a public future desktop release is not yet available.",
+    "Clean-machine Windows and SmartScreen prompts were not tested.",
+    "TCP listener sampling covers the native main process during the smoke test."
+  ]
+}
