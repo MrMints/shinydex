@@ -11,7 +11,14 @@
     "Reject path traversal, foreign Host headers, malformed percent escapes and unsupported HTTP methods",
     "Support HEAD, missing-file responses and simultaneous artwork requests",
     "Include attribution and upstream license notices in embedded bundle",
-    "Existing 33 project verifiers pass"
+    "Existing 33 project verifiers pass",
+    "Startup notification with Update now, Later, and version selector verified in the in-app browser",
+    "Captured Bulbasaur, shiny Bulbasaur, and captured Alolan Rattata persist across real v1 rollback and v1.1 installation",
+    "Desktop and 390-pixel mobile update dialog visually reviewed with no horizontal overflow",
+    "Native update transactions verify checksums, reject untrusted request origins/tokens, recover from invalid downloads/bundles, and back up collections",
+    "Newer launcher restarts automatically and reopening the original updater-enabled EXE forwards to it",
+    "Native GitHub release discovery verified over TLS 1.2 against the public repository",
+    "Real GitHub v1.0 EXE downloaded over HTTPS, SHA-256 verified, installed automatically, and retained the updater and local collection backup"
   ],
   "limitations": [
     "Tray menu and default-browser launch have not been exercised through UI automation",

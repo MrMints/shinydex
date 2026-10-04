@@ -10,7 +10,17 @@ Download [ShinyDex.exe](https://github.com/MrMints/shinydex/releases/latest/down
 
 ShinyDex opens in your default browser at http://localhost:5173. The launcher stays in the Windows system tray (you may need to open the hidden-icons arrow). Double-click its icon to reopen the app, or right-click and choose **Exit ShinyDex** when finished. Closing a browser tab leaves the launcher running. Opening the EXE again reopens the running app.
 
-Use the same browser as before to retain your collection. The address stays the same as the earlier local server. Export a backup before changing browsers or devices. Updates replace the EXE; collections stay in browser storage. The launcher caches bundled files under `%LOCALAPPDATA%\ShinyDex\app`; it does not store collections there. If port 5173 is already occupied, close the earlier local server and launch again.
+Use the same browser as before to retain your collection. The address stays the same as the earlier local server. Export a backup before changing browsers or devices. The launcher caches bundled files under `%LOCALAPPDATA%\ShinyDex\app`. If port 5173 is already occupied, close the earlier local server and launch again.
+
+## Updates and older versions
+
+The Windows app checks public GitHub releases when opened. When a newer release is available, choose **Update now** or **Later**. The dropdown attached to **Update now** selects the latest release or an older version. You can reopen this selector from the **Updates** button at any time. Downloads show progress, are checked against GitHub's SHA-256 digest, and are installed automatically; the browser reloads when ready. Failed checks or downloads leave the installed app usable.
+
+Captured and shiny ownership continue using the same `shinydex-collection-v2` record at `http://localhost:5173`, independent of the selected app version. Before installation, the updater also writes a local JSON backup under `%LOCALAPPDATA%\ShinyDex\collections\backups`. Collection data is never sent to GitHub. Storage warnings block installation until the collection can be backed up reliably. All current releases use the same catalog keys and save format.
+
+Downloaded executables are kept under `%LOCALAPPDATA%\ShinyDex\versions`, and the selected version is remembered in `installed.json`. Rolling back retains the newer launcher and update controls, including for the original release that has no updater. Future launcher updates restart automatically; opening the original updater-enabled EXE routes to the newer installed launcher. You can continue using the same shortcut.
+
+**One-time upgrade:** the first `v1.0.0-windows-preview` EXE predates the updater. Exit it from the tray, then download and open the latest EXE once to enable notifications and automatic updates. The Node.js source server does not install Windows updates.
 
 The EXE is unsigned, so Windows may show a publisher or SmartScreen prompt. Release assets include a SHA-256 checksum file. This is a development preview; the hunting audit remains incomplete.
 
@@ -36,6 +46,10 @@ The Python builders and checked-in reference snapshots support reproducible data
 `Archive/` preserves obsolete app code, historical previews, and accumulated development notes. These files are not browser runtime dependencies.
 
 `windows/Launcher.cs` implements the Windows launcher, restricted loopback server, browser opening, and system-tray controls. Build the single-file EXE on Windows with `powershell -NoProfile -ExecutionPolicy Bypass -File windows/build-windows.ps1` (Python and the Windows .NET Framework compiler are build dependencies). Output is `dist/ShinyDex.exe` with a SHA-256 checksum. Run `python windows/verify-windows.py` to exercise the built EXE in an isolated cache and port. The payload includes runtime files, all artwork, attribution, and license notices; it omits development snapshots and user collections.
+
+`windows/UpdateManager.cs` handles release discovery, download validation, atomic version selection, backups, and launcher handoff. `updater.js` supplies the accessible startup dialog and version dropdown. `python windows/verify-updates.py --old-exe PATH` tests against the original published v1.0.0 EXE and a locally built future release, with isolated storage and local release fixtures. The original download is SHA-256 checked by the test. For new releases, increment `package.json`, `UpdateManager.BuildTag`, and both assembly version attributes in `Launcher.cs`, rebuild, verify, and upload the EXE and checksum as release assets. Keep published version tags immutable and preserve catalog keys and save-format compatibility.
+
+Implementation references: [GitHub release API and asset digests](https://docs.github.com/en/rest/releases/releases) and [Microsoft .NET TLS guidance](https://learn.microsoft.com/en-us/dotnet/framework/network-programming/tls).
 
 ## Verification and remaining work
 

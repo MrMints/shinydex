@@ -4,7 +4,7 @@ from pathlib import Path
 import zipfile
 
 root = Path(os.environ['SHINYDEX_BUILD_ROOT'])
-files = [root / name for name in ('index.html', 'main.js', 'style.css', 'data.json', 'hunts.json', 'ATTRIBUTIONS.txt', 'THIRD_PARTY_NOTICES.md')]
+files = [root / name for name in ('index.html', 'main.js', 'style.css', 'updater.js', 'data.json', 'hunts.json', 'ATTRIBUTIONS.txt', 'THIRD_PARTY_NOTICES.md')]
 files += sorted((root / 'assets' / 'pokemon').rglob('*.png'))
 files += sorted((root / 'licenses').glob('*.txt'))
 files.append(root / 'reference' / 'pkhex' / 'LICENSE')
