@@ -6,7 +6,7 @@ Complete and independently verify the remaining ShinyDex audit, fix confirmed is
 
 ## Remaining work
 
-- Verify historical event dates, regions, redemption requirements, Pokémon GO shiny availability, and globally shiny-locked species against authoritative evidence. Check the missing Pokémon HOME shiny Manaphy reward and the official shiny Keldeo GO announcement first.
+- Verify historical event dates, regions, redemption requirements, Pokémon GO shiny availability, and globally shiny-locked species against authoritative evidence. Continue the unresolved event inventory; the HOME Manaphy reward and GO Keldeo announcement reviews are complete.
 - Complete BDSP access prerequisites, actual Radar tile eligibility, remaining interior conditions, and encounter coverage beyond the reviewed outdoor time inventory and Lost Tower floors.
 - Complete ORAS room, terrain, form, Unown targeting, and prerequisite coverage beyond normalized species/location matches; finish remaining older Radar and hunting-method coverage.
 - Complete SOS caller and weather mapping. Resolve Poké Pelago shiny odds, Charm interaction, and reset behavior with reliable evidence.
@@ -16,6 +16,6 @@ Complete and independently verify the remaining ShinyDex audit, fix confirmed is
 
 ## Completed work excluded from new work
 
-The desktop conversion, existing GitHub publication, full species and regional-form catalog, artwork verification, HOME box ordering, completed hunting-route reviews, and completed BDSP section/time/floor reviews are not new tasks. Preserve their evidence. Recheck only affected behavior when changes warrant it.
+The desktop conversion, existing GitHub publication, full species and regional-form catalog, artwork verification, HOME box ordering, completed hunting-route reviews, and completed BDSP section/time/floor reviews are not new tasks. The verified HOME rewards and reviewed historical event windows are also complete within their documented scope. Preserve their evidence. Recheck only affected behavior when changes warrant it.
 
 The existing passing project checks do not establish exhaustive hunting coverage. Use the individual audit reports to track unresolved evidence.
