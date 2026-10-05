@@ -9954,9 +9954,9 @@
     {
       "key": "719",
       "game": "Pokémon Omega Ruby / Alpha Sapphire",
-      "method": "Historical shiny Diancie event distribution (Pokémon Center / All-Stars Battle)",
-      "status": "Past event · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Diancie_%28Pok%C3%A9mon%29#Game_locations",
+      "method": "Historical Japan shiny Diancie gift at Pokémon Centers and Pokémon Stores, December 12–31, 2015; distributed to Omega Ruby / Alpha Sapphire. These dates are corroborated by historical event records; the original official announcement is no longer available. The separate All-Stars Battle distribution requires further regional and redemption review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.serebii.net/events/dex/719.shtml",
       "kind": "gift-or-go",
       "needsAnnouncementReview": true
     },
@@ -19305,7 +19305,7 @@
     },
     {
       "kind": "gift-or-go",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Diancie_%28Pok%C3%A9mon%29#Game_locations",
+      "source": "https://www.serebii.net/events/dex/719.shtml",
       "eventIndices": [],
       "routeCount": 1,
       "catalogKeys": [

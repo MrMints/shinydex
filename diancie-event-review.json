@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-04",
+  "fullEventAuditComplete": false,
+  "reviewed": [
+    {
+      "species": 719,
+      "region": "Japan",
+      "games": [
+        "Omega Ruby",
+        "Alpha Sapphire"
+      ],
+      "startDate": "2015-12-12",
+      "endDate": "2015-12-31",
+      "evidenceLevel": "corroborated historical secondary records",
+      "sources": [
+        "https://www.serebii.net/events/dex/719.shtml",
+        "https://pf.ksrn.net/game/omegaruby_alphasapphire/special_pokemon/20151212_01.html"
+      ],
+      "originalOfficialSource": "https://www.pokemon.co.jp/info/2015/11/151120_p02.html",
+      "originalOfficialSourceStatus": "404 on review",
+      "excludedClaims": [
+        "Exact hours, regional software restrictions and connection method are not independently verified against the original announcement."
+      ]
+    }
+  ],
+  "remaining": [
+    "Korean All-Stars Battle dates, venue, regional software eligibility and redemption requirements; Serebii South Korea section contains an inconsistent Japan location label.",
+    "Recover original Japanese official announcement or direct official campaign evidence."
+  ]
+}

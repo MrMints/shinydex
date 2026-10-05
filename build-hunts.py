@@ -143,7 +143,8 @@ records['649']['entries'].append({
  'status':'Event rotation · availability varies','locations':[],
  'source':'https://pokemongo.com/news/aug2020-events'
 })
-add([719],'Pokémon Omega Ruby / Alpha Sapphire','Historical shiny Diancie event distribution (Pokémon Center / All-Stars Battle)','Past event · availability varies')
+add([719],'Pokémon Omega Ruby / Alpha Sapphire','Historical Japan shiny Diancie gift at Pokémon Centers and Pokémon Stores, December 12–31, 2015; distributed to Omega Ruby / Alpha Sapphire. These dates are corroborated by historical event records; the original official announcement is no longer available. The separate All-Stars Battle distribution requires further regional and redemption review.','Past event · distribution ended')
+records['719']['entries'][-1]['source']='https://www.serebii.net/events/dex/719.shtml'
 records['807']['entries'].append({
  'game':'Pokémon HOME',
  'method':'2020 shiny Zeraora reward: redeem Mystery Gift in mobile Pokémon HOME from June 30, 2020 at 00:00 UTC through July 6, 2020 at 23:59 UTC. Eligibility required depositing or withdrawing a Pokémon between Sword / Shield and Switch Pokémon HOME from June 17, 2020 at 15:00 UTC through July 6, 2020 at 23:59 UTC. The community raid target was achieved; Zeraora in those Max Raids could not be caught.',
