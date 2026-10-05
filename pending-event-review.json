@@ -1,12 +1,12 @@
 {
   "checked": "2026-10-04",
   "fullEventAuditComplete": false,
-  "candidateCount": 929,
+  "candidateCount": 926,
   "countsByKind": {
     "max-raid": 657,
     "tera-raid": 136,
     "outbreak": 132,
-    "gift-or-go": 4
+    "gift-or-go": 1
   },
   "limitations": [
     "Text-based candidates identify vague event routes, not exhaustive event coverage. Dated routes also require independent evidence review. Multiple routes can share one announcement.",
@@ -15234,15 +15234,6 @@
       "gigantamax": false
     },
     {
-      "key": "1004",
-      "game": "Pokémon Scarlet / Violet",
-      "method": "Shiny event distribution",
-      "status": "Past event · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Chi-Yu_%28Pok%C3%A9mon%29#Game_locations",
-      "kind": "gift-or-go",
-      "needsAnnouncementReview": true
-    },
-    {
       "key": "1005",
       "game": "Pokémon Scarlet / Violet",
       "method": "Historical Mightiest Mark Tera Raid event · availability depends on downloaded event data · 7-star raids · host in Scarlet; joining a host is possible from either version",
@@ -15327,24 +15318,6 @@
         7
       ],
       "gigantamax": false
-    },
-    {
-      "key": "1007",
-      "game": "Pokémon Scarlet / Violet",
-      "method": "Shiny event distribution",
-      "status": "Past event · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_%28Pok%C3%A9mon%29#Game_locations",
-      "kind": "gift-or-go",
-      "needsAnnouncementReview": true
-    },
-    {
-      "key": "1008",
-      "game": "Pokémon Scarlet / Violet",
-      "method": "Shiny event distribution",
-      "status": "Past event · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_%28Pok%C3%A9mon%29#Game_locations",
-      "kind": "gift-or-go",
-      "needsAnnouncementReview": true
     },
     {
       "key": "1009",
@@ -15932,7 +15905,7 @@
       "finding": "14 outbreak examples reviewed across four 2024 summer phases; other merged events remain unverified."
     }
   ],
-  "sourceGroupCount": 280,
+  "sourceGroupCount": 277,
   "sourceGroups": [
     {
       "kind": "max-raid",
@@ -20836,45 +20809,6 @@
       "catalogKeys": [
         "990",
         "1010"
-      ],
-      "games": [
-        "Pokémon Scarlet / Violet"
-      ],
-      "needsAnnouncementReview": true
-    },
-    {
-      "kind": "gift-or-go",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Chi-Yu_%28Pok%C3%A9mon%29#Game_locations",
-      "eventIndices": [],
-      "routeCount": 1,
-      "catalogKeys": [
-        "1004"
-      ],
-      "games": [
-        "Pokémon Scarlet / Violet"
-      ],
-      "needsAnnouncementReview": true
-    },
-    {
-      "kind": "gift-or-go",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_%28Pok%C3%A9mon%29#Game_locations",
-      "eventIndices": [],
-      "routeCount": 1,
-      "catalogKeys": [
-        "1007"
-      ],
-      "games": [
-        "Pokémon Scarlet / Violet"
-      ],
-      "needsAnnouncementReview": true
-    },
-    {
-      "kind": "gift-or-go",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_%28Pok%C3%A9mon%29#Game_locations",
-      "eventIndices": [],
-      "routeCount": 1,
-      "catalogKeys": [
-        "1008"
       ],
       "games": [
         "Pokémon Scarlet / Violet"

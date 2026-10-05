@@ -93,7 +93,14 @@ for sid in (999,1000):
    entry['sourceReferences']=['https://www.pokemon.com/es/noticias-pokemon/enfrentate-a-gimmighoul-forma-cofre-en-las-teraincursiones','https://sv-news.pokemon.co.jp/es/page/235.html']
 # Reviewed result announcements confirm these gifts were distributed, rather
 # than merely promised if a community raid target was reached.
-for sid,event_name,start_date in [(1001,'wo-chien','August 8, 2025'),(1002,'chien-pao','August 22, 2025'),(1003,'ting-lu','September 5, 2025')]:
+for sid,version in [(1007,'Violet'),(1008,'Scarlet')]:
+ for entry in records[str(sid)]['entries']:
+  if entry['game']=='Pokémon Scarlet / Violet' and entry['method']=='Shiny event distribution':
+   entry['game']='Pokémon '+version
+   entry['method']=f'2025 Japan shiny legendary code campaign: receive this gift in {version}. Code cards were distributed September 26–October 15, 2025 at participating Japanese game retailers, while supplies lasted; show a console HOME menu with a Scarlet or Violet software icon. One card per person carried separate codes for both gifts. Codes expired October 23, 2025; internet required, one use per code and one receipt of this gift per save. Other regional distributions require separate review.'
+   entry['status']='Past event · codes expired'
+   entry['source']='https://www.pokemon.co.jp/info/2025/09/250912_gm01.html'
+for sid,event_name,start_date in [(1001,'wo-chien','August 8, 2025'),(1002,'chien-pao','August 22, 2025'),(1003,'ting-lu','September 5, 2025'),(1004,'chi-yu','September 19, 2025')]:
  for entry in records[str(sid)]['entries']:
   if entry['game']=='Pokémon Scarlet / Violet' and entry['method']=='Shiny event distribution':
    entry['method']=f'2025 shiny {title(event_name)} community-challenge reward: Mystery Gift → Get via Internet, from {start_date} at 00:00 UTC through September 30, 2025 at 23:59 UTC; save after redemption. The challenge raids could not be caught; the reward was a separate Mystery Gift.'
@@ -101,6 +108,9 @@ for sid,event_name,start_date in [(1001,'wo-chien','August 8, 2025'),(1002,'chie
    entry['source']=f'https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-{event_name}-in-pokemon-scarlet-and-pokemon-violet'
    if sid==1003:
     entry['source']='https://www.pokemon.com/it/novita/annuncio-del-totale-di-vittorie-contro-ting-lu-cromatico-in-pokemon-scarlatto-e-pokemon-violetto'
+   if sid==1004:
+    entry['source']='https://sv-news.pokemon.co.jp/en/page/380.html'
+    entry['method']+=' Requires internet and a Nintendo Account linked to the Switch user profile; Mystery Gift must be unlocked (approximately 1–1.5 hours of play).'
    entry['sourceReferences']=['https://www.pokemon.com/us/news/shiny-wo-chien-appears-in-5-star-tera-raid-battles-in-pokemon-scarlet-and-pokemon-violet']
 add([409],'Pokémon Diamond / Platinum','Revive a shiny Cranidos from a Skull Fossil (soft reset), then evolve at level 30')
 add([411],'Pokémon Pearl / Platinum','Revive a shiny Shieldon from an Armor Fossil (soft reset), then evolve at level 30')

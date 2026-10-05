@@ -20,12 +20,43 @@
       "giftEndUTC": "2025-09-30T23:59:00Z",
       "source": "https://www.pokemon.com/it/novita/annuncio-del-totale-di-vittorie-contro-ting-lu-cromatico-in-pokemon-scarlatto-e-pokemon-violetto",
       "confirmedVictories": 3556583
+    },
+    {
+      "species": 1004,
+      "giftStartUTC": "2025-09-19T00:00:00Z",
+      "giftEndUTC": "2025-09-30T23:59:00Z",
+      "source": "https://sv-news.pokemon.co.jp/en/page/380.html",
+      "confirmedVictories": 3126823,
+      "requirements": "Internet, Nintendo Account linked to Switch user, unlocked Mystery Gift; Get via Internet and save."
+    },
+    {
+      "species": 1007,
+      "region": "Japan",
+      "redeemGame": "Violet",
+      "cardDistribution": [
+        "2025-09-26",
+        "2025-10-15"
+      ],
+      "codeExpiryDate": "2025-10-23",
+      "source": "https://www.pokemon.co.jp/info/2025/09/250912_gm01.html",
+      "limitations": "Do not extrapolate Japanese card count or retailer requirements to other regions; exact expiry time not stated by this source."
+    },
+    {
+      "species": 1008,
+      "region": "Japan",
+      "redeemGame": "Scarlet",
+      "cardDistribution": [
+        "2025-09-26",
+        "2025-10-15"
+      ],
+      "codeExpiryDate": "2025-10-23",
+      "source": "https://www.pokemon.co.jp/info/2025/09/250912_gm01.html",
+      "limitations": "Do not extrapolate Japanese card count or retailer requirements to other regions; exact expiry time not stated by this source."
     }
   ],
   "raidCatchable": false,
   "remaining": [
-    "Confirm Chi-Yu result announcement and redemption period; the preliminary raid announcement is conditional.",
-    "Review Koraidon and Miraidon regional code distributions and redemption deadlines.",
+    "Review non-Japanese Koraidon/Miraidon distributions and any later reruns; Japanese campaign verified.",
     "Complete other historical events and acquisition prerequisites."
   ]
 }
