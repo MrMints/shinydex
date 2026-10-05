@@ -10,7 +10,8 @@
   },
   "limitations": [
     "Text-based candidates identify vague event routes, not exhaustive event coverage. Dated routes also require independent evidence review. Multiple routes can share one announcement.",
-    "Source groups and decoded event indices are research pointers, not verified announcement identities or dates."
+    "Source groups and decoded event indices are research pointers, not verified announcement identities or dates.",
+    "Decoded event index 1 is shared across 55 Mightiest Mark routes in one source table. It must not be treated as a unique announcement ID. Source groups require species/form/host-aware review."
   ],
   "candidates": [
     {
@@ -15869,6 +15870,24 @@
       ],
       "requirements": "Send a GO Pokémon to HOME or Lets Go to obtain Mystery Box; open during shiny-enabled event.",
       "remaining": "Other Meltan events and later availability remain under review."
+    },
+    {
+      "species": [
+        999,
+        1000
+      ],
+      "windowsUTC": [
+        [
+          "2023-06-21T15:00:00Z",
+          "2023-07-02T23:59:00Z"
+        ],
+        [
+          "2024-08-09T00:00:00Z",
+          "2024-08-22T23:59:00Z"
+        ]
+      ],
+      "source": "https://sv-news.pokemon.co.jp/es/page/235.html",
+      "remaining": "Additional reruns and mapping the decoded event rows to announcements remain open."
     }
   ],
   "sourceGroupCount": 282,

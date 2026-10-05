@@ -85,6 +85,12 @@ for p in data:
  records[str(sid)]={'locked':sid in global_locked,'entries':entries}
 def add(ids,game,method,state='Huntable'):
  for sid in ids: records[str(sid)]['entries'].append({'game':game,'method':method,'status':state,'locations':[]})
+for sid in (999,1000):
+ for entry in records[str(sid)]['entries']:
+  if entry['game']=='Pokémon Scarlet / Violet' and entry['method'].startswith('Shiny-enabled Gimmighoul event Tera Raids'):
+   entry['method']='Chest Form Gimmighoul shiny hunting in 5-star event Tera Raids. Verified historical windows: June 21, 2023 at 15:00 UTC through July 2, 2023 at 23:59 UTC; August 9, 2024 at 00:00 UTC through August 22, 2024 at 23:59 UTC. Download the applicable Poké Portal News via Mystery Gift → Check Poké Portal News. Host 5-star raids after completing the main story or join another host; online multiplayer requires Nintendo Switch Online. Shiny encounters are possible, not guaranteed.'+('; evolve the shiny with 999 Gimmighoul Coins.' if sid==1000 else '')
+   entry['source']='https://www.pokemon.com/us/news/chest-form-gimmighoul-is-coming-to-tera-raid-battles'
+   entry['sourceReferences']=['https://www.pokemon.com/es/noticias-pokemon/enfrentate-a-gimmighoul-forma-cofre-en-las-teraincursiones','https://sv-news.pokemon.co.jp/es/page/235.html']
 # Reviewed result announcements confirm these gifts were distributed, rather
 # than merely promised if a community raid target was reached.
 for sid,event_name,start_date in [(1001,'wo-chien','August 8, 2025'),(1002,'chien-pao','August 22, 2025'),(1003,'ting-lu','September 5, 2025')]:

@@ -65,7 +65,7 @@ async function start(){
   handle('updates:install',tag=>updates.install(tag));
   window=new BrowserWindow({width:1280,height:900,minWidth:420,minHeight:600,title:'ShinyDex',backgroundColor:'#ad3946',show:false,webPreferences:{preload:path.join(__dirname,'preload.cjs'),nodeIntegration:false,contextIsolation:true,sandbox:true}});
   const external=url=>{
-    try{const target=new URL(url);if(target.protocol==='https:'&&['bulbapedia.bulbagarden.net','archives.bulbagarden.net','pokeapi.co','github.com','www.serebii.net','luminescent.team','www.pokemon.com','home.pokemon.com','pokemongo.com','swordshield.pokemon.com','www.pokemon.co.jp'].includes(target.hostname))shell.openExternal(target.href);}catch{}
+    try{const target=new URL(url);if(target.protocol==='https:'&&['bulbapedia.bulbagarden.net','archives.bulbagarden.net','pokeapi.co','github.com','www.serebii.net','luminescent.team','www.pokemon.com','home.pokemon.com','pokemongo.com','swordshield.pokemon.com','www.pokemon.co.jp','sv-news.pokemon.co.jp'].includes(target.hostname))shell.openExternal(target.href);}catch{}
   };
   window.webContents.setWindowOpenHandler(({url})=>{external(url);return {action:'deny'};});
   window.webContents.on('will-navigate',(event,url)=>{if(!url.startsWith(origin+'/')){event.preventDefault();external(url);}});
