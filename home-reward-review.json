@@ -1,0 +1,40 @@
+{
+  "checked": "2026-10-04",
+  "fullEventAuditComplete": false,
+  "reviewed": [
+    {
+      "species": 490,
+      "game": "Pokémon HOME",
+      "finding": "The official reward list confirms shiny Manaphy for completing the BDSP Sinnoh Pokédex in HOME. Confirm completion in the Games tab; a linked Nintendo Account is required and redemption is once per account. Already completed HOME Pokédexes are eligible.",
+      "source": "https://www.pokemon.com/uk/news/complete-pokedexes-to-earn-shiny-keldeo-and-shiny-meltan-in-pokemon-home",
+      "announcementDate": "2025-02-14",
+      "change": "Added missing Manaphy HOME reward to the guide builder and rebuilt hunts.json."
+    },
+    {
+      "species": [
+        490,
+        647,
+        648,
+        905,
+        808
+      ],
+      "game": "Pokémon HOME",
+      "finding": "Official HOME features confirm game-origin registration and mobile Mystery Gift redemption. Updated the five existing reward routes with these requirements and the linked-account, Games-tab and once-per-account requirements from the official reward announcement.",
+      "sources": [
+        "https://home.pokemon.com/en-ca/features/",
+        "https://www.pokemon.com/uk/news/complete-pokedexes-to-earn-shiny-keldeo-and-shiny-meltan-in-pokemon-home"
+      ]
+    },
+    {
+      "species": 647,
+      "game": "Pokémon GO",
+      "finding": "Final Justice worldwide paid Masterwork Research leads to shiny Keldeo. Ticket sales were November 25, 2025 10:00 through November 30, 2025 20:00 local time. Acquired research does not expire. Do not conflate separate seasonal research with the shiny reward.",
+      "source": "https://pokemongo.com/news/final-justice-2025"
+    }
+  ],
+  "remaining": [
+    "Verify exact excluded species and edge cases for game-origin registration against official HOME support.",
+    "Verify distribution start dates independently of the February reward-list announcement.",
+    "Complete remaining HOME rewards, historical events, Pokémon GO availability and global shiny-lock review."
+  ]
+}

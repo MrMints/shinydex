@@ -90,6 +90,12 @@ add([411],'Pokémon Pearl / Platinum','Revive a shiny Shieldon from an Armor Fos
 add([474],'Pokémon Diamond / Pearl / Platinum','Breed a shiny Porygon; trade holding Up-Grade, then trade holding Dubious Disc')
 add([489],'Pokémon Diamond / Pearl / Platinum','Breed Manaphy or Phione with Ditto; hatch shiny Phione eggs (Masuda method)')
 add([490],'Pokémon Diamond / Pearl / Platinum / HeartGold / SoulSilver','Transfer Ranger Manaphy Egg; trade the unhatched egg to another save to allow shininess')
+records['490']['entries'].append({
+ 'game':'Pokémon HOME',
+ 'method':'Complete the Brilliant Diamond / Shining Pearl Sinnoh Pokédex in Pokémon HOME, then confirm completion in the Games tab and claim shiny Manaphy through Mystery Gift. Requires a linked Nintendo Account; this gift can be received once per Nintendo Account. Previously completed HOME Pokédexes are eligible.',
+ 'status':'Reward · check requirements','locations':[],
+ 'source':'https://www.pokemon.com/uk/news/complete-pokedexes-to-earn-shiny-keldeo-and-shiny-meltan-in-pokemon-home'
+})
 add([496,499,502],'Pokémon Black / White / Black 2 / White 2','Breed shiny starter eggs (Masuda method); evolve to the middle stage')
 add([723,724,726,727,729,730],'Pokémon Sun / Moon / Ultra Sun / Ultra Moon','Breed shiny Alola starter eggs (Masuda method); evolve to the desired stage')
 add([811,812,814,815,817,818],'Pokémon Sword / Shield','Breed shiny Galar starter eggs (Masuda method); evolve to the desired stage')
@@ -109,6 +115,23 @@ add([807],'Pokémon HOME','Historical shiny Zeraora distribution','Past event ·
 add([808],'Pokémon GO','Mystery Box during a shiny-enabled Meltan event','Event rotation · availability varies')
 add([808],'Pokémon HOME',"Let's Go Pokédex-completion shiny Mystery Gift",'Reward · check requirements')
 add([809],'Pokémon GO','Evolve shiny Meltan with 400 Meltan Candy','Huntable')
+# HOME rewards use game-specific registration, rather than the in-game Dex.
+for reward_id in (490,647,648,905,808):
+ for reward in records[str(reward_id)]['entries']:
+  if reward['game']=='Pokémon HOME' and reward['status']=='Reward · check requirements':
+   if reward_id!=490:
+    reward['method']+='; confirm completion in the Games tab and redeem Mystery Gift in the mobile HOME app. Requires a linked Nintendo Account; once per Nintendo Account.'
+   else:
+    reward['method']+=' Redeem in the mobile HOME app.'
+   reward['method']+=' Register Pokémon originating in the corresponding games in HOME; importing Pokémon from other games does not satisfy the game-specific Pokédex.'
+   reward['source']='https://www.pokemon.com/uk/news/complete-pokedexes-to-earn-shiny-keldeo-and-shiny-meltan-in-pokemon-home'
+   reward['sourceReferences']=['https://home.pokemon.com/en-ca/features/']
+records['647']['entries'].append({
+ 'game':'Pokémon GO',
+ 'method':'Final Justice paid Masterwork Research rewards shiny Keldeo. Ticket sales ran worldwide from November 25, 2025 at 10:00 to November 30, 2025 at 20:00 local time, for US$7.99 or the local equivalent plus applicable taxes and fees; PokéCoins could not be used. The acquired Masterwork Research does not expire. The separate seasonal Keldeo encounter is not this shiny reward.',
+ 'status':'Past ticket sale · acquired research does not expire','locations':[],
+ 'source':'https://pokemongo.com/news/final-justice-2025'
+})
 # Wyrdeer and Ursaluna use the decoded, detailed Legends: Arceus routes below.
 add([647,648],'Pokémon Legends: Z-A · Mega Dimension','Special Hyperspace scan encounter','Shiny Locked')
 add([380,381,638,639,640],'Pokémon Legends: Z-A · Mega Dimension','After defeating Rayquaza, earn 25,000 survey points and use Philippe’s special Hyperspace scan; repeat the corresponding legendary encounter')

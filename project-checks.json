@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T01:43:02.476680+00:00",
+  "checkedAt": "2026-10-05T02:27:49.930718+00:00",
   "passed": true,
   "checkCount": 33,
   "fullHuntingAuditComplete": false,
@@ -145,7 +145,7 @@
       "check": "verify-method-sources.cjs",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified supporting references render for 12006 hunting routes; duplicate and unsafe links excluded",
+      "output": "Verified supporting references render for 12011 hunting routes; duplicate and unsafe links excluded",
       "errors": ""
     },
     {
