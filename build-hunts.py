@@ -195,7 +195,11 @@ for p in catalog:
   if sid in {144,145,146}:
    regional('Pokémon Sword / Shield · Crown Tundra','Roaming Galarian legendary bird encounter','Shiny Locked')
    regional('Pokémon GO','Daily Adventure Incense: hunt the shiny Galarian bird',source='https://pokemongolive.com/post/galarian-expedition-2024')
-   regional('Pokémon Sword / Shield','Historical 2022 online competition shiny distribution','Past event · availability varies')
+   if sid==145:
+    regional('Pokémon Sword / Shield','2022 International Challenge March shiny Galarian Zapdos reward: qualifying registered players had to participate in at least three battles, win or lose, from March 11, 2022 at 00:00 UTC through March 13, 2022 at 23:59 UTC. After the competition, redeem via Mystery Gift → Get a Mystery Gift → Get Battle Stadium Rewards. Entry and battles for this competition have ended.','Past competition · qualifying participants only',source='https://www.pokemon.com/uk/news/participate-in-the-2022-international-challenge-march-for-shiny-galarian-zapdos')
+   else:
+    month,registration,battles=('February','February 3, 2022 at 05:00 UTC through February 17, 2022 at 23:59 UTC','February 18–20, 2022 (ending 23:59 UTC)') if sid==144 else ('April','March 31, 2022 at 05:00 UTC through April 14, 2022 at 23:59 UTC','April 15–17, 2022 (ending 23:59 UTC)')
+    regional('Pokémon Sword / Shield',f'2022 International Challenge {month} shiny Galarian bird reward. Registration: {registration}; battles: {battles}. Registered players needed three completed battles. Entry and battles have ended.', 'Past competition · qualifying participants only',source=f'https://www.serebii.net/swordshield/onlinecompetitions/2022internationalchallenge{month.lower()}.shtml')
   else:
    regional('Pokémon Sword / Shield'+(' · Isle of Armor' if sid in {79,80} else ' · Crown Tundra' if sid==199 else ''),evolution or 'Breed shiny '+p['displayName']+' eggs using the Masuda method; use an Everstone on the regional parent to retain its form',source=p['source']+'#Evolution')
  elif region=='hisui':
