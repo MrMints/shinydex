@@ -1,0 +1,48 @@
+{
+  "reviewDate": "2026-10-04",
+  "fullBdspAuditComplete": false,
+  "source": "https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/",
+  "scope": "Unown room targeting and punctuation chamber prerequisites in BDSP only",
+  "games": [
+    "Pokémon Brilliant Diamond",
+    "Pokémon Shining Pearl"
+  ],
+  "mainRoomForms": [
+    "F",
+    "R",
+    "I",
+    "E",
+    "N",
+    "D"
+  ],
+  "sideRoomForms": [
+    "A",
+    "B",
+    "C",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    "M",
+    "O",
+    "P",
+    "Q",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "punctuationAccess": "Catch all 26 alphabetical forms, then visit Route 214 Ruin Maniac cave; completed tunnel reaches separate !/? chamber. Seeing one Unown is sufficient for the Sinnoh Dex entry.",
+  "correction": "Grass encounter label replaced with cave room encounters. Pictured A form belongs to mixed side rooms. Other nonregional forms described as targeting guidance, not added catalog ownership keys.",
+  "validation": "Exactly two routes changed; original eligibility, source, form ID, locations, statuses and all unrelated records unchanged.",
+  "remaining": [
+    "Exact encounter rates and levels per chamber",
+    "Earlier-generation Unown access conditions and ORAS forms",
+    "Other BDSP access and Radar eligibility requirements"
+  ]
+}

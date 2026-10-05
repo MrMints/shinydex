@@ -396,5 +396,10 @@ for sid,room in ((150,'Genome'),(249,'Squall'),(382,'Oceanic'),(383,'Tectonic'),
   if sid in (382,383): entry['method']+=' Surf is needed to reach this room.'
   entry['locations']=[f'Ramanas Park ({room} Room → Strange Space)']
   entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+ramanas_sources))
+# The official trainer guide distinguishes Unown rooms and punctuation access.
+for entry in records['201']['entries']:
+ if entry['game'] not in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') or entry.get('encounterKind')!='bdsp-1': continue
+ entry['method']='Cave room encounters: Unown. Enter Solaceon Ruins from the far-east side of Solaceon Town. Following the entrance wall directions takes you through six main rooms containing only F, R, I, E, N, and D respectively; dead-end side rooms contain the other 20 letters, including the pictured A form. For ! and ? forms, first catch all 26 alphabetical forms, then visit the Ruin Maniac cave on Route 214 south of Veilstone City: the completed tunnel leads to their separate chamber. Seeing one Unown suffices for its Sinnoh Pokédex entry; the 26-letter capture requirement applies to the punctuation chamber.'
+ entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+['https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/']))
 Path('hunts.json').write_text(json.dumps(records,separators=(',',':')))
 print(f'Built encounter guide for {len(records)} species, {sum(bool(r["entries"]) for r in records.values())} with game records')
