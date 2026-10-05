@@ -131,7 +131,8 @@ add([773],'Pokémon Sun / Moon / Ultra Sun / Ultra Moon','Soft reset the Type: N
 add([804],'Pokémon Ultra Sun / Ultra Moon','Soft reset the Poipole gift; evolve while knowing Dragon Pulse')
 add([647],'Pokémon HOME','Complete the Sword / Shield Galar, Isle of Armor and Crown Tundra Pokédexes in HOME; claim shiny Keldeo','Reward · check requirements')
 add([648],'Pokémon HOME','Complete Scarlet / Violet Paldea, Kitakami and Blueberry Pokédexes in HOME; claim shiny Meloetta','Reward · check requirements')
-add([721],'Pokémon HOME','Complete Legends: Z-A Lumiose, Hyperspace and Mega Evolution Pokédexes in HOME; claim shiny Volcanion','Reward · check requirements')
+add([721],'Pokémon HOME','Complete the Legends: Z-A Lumiose, Hyperspace and Mega Evolution Pokédexes in HOME, then confirm completion in the Games tab. Redeem shiny Volcanion through Mystery Gifts in the mobile iOS/Android HOME app with a linked Nintendo Account; once per account. Previously completed Pokédexes remain eligible.','Reward · check requirements')
+records['721']['entries'][-1]['source']='https://news.pokemon-home.com/en/page/757.html'
 add([905],'Pokémon HOME','Complete the Legends: Arceus Hisui Pokédex in HOME; claim shiny Enamorus','Reward · check requirements')
 add([647],'Pokémon Sword / Shield · Crown Tundra','Stationary Keldeo encounter','Shiny Locked')
 add([648],'Pokémon Scarlet / Violet · Indigo Disk','Stationary Meloetta encounter','Shiny Locked')

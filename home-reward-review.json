@@ -43,6 +43,12 @@
         "https://swordshield.pokemon.com/en-us/expansionpass/mythical-zeraora/",
         "https://www.pokemon.co.jp/info/2020/06/200630_gm01.html"
       ]
+    },
+    {
+      "species": 721,
+      "game": "Pokémon HOME",
+      "source": "https://news.pokemon-home.com/en/page/757.html",
+      "finding": "Official HOME announcement confirms three Z-A Pokédexes, Games-tab confirmation, mobile redemption, linked Nintendo Account, once per account and eligibility for previously completed Dexes. Distribution start date is not established by this undated source."
     }
   ],
   "remaining": [

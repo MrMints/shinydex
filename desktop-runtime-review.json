@@ -18,5 +18,12 @@
     "full source-link and UI coverage",
     "browser storage quota and completed downloads"
   ],
-  "fullDesktopAuditComplete": false
+  "fullDesktopAuditComplete": false,
+  "packagedRuntime": {
+    "passed": true,
+    "version": "1.0.0",
+    "url": "shiny://app/",
+    "rendererErrors": [],
+    "scope": "Built win-unpacked executable ran desktop/smoke.cjs with isolated temporary profile; installed NSIS behavior remains unverified."
+  }
 }
