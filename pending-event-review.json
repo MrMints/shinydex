@@ -1,12 +1,12 @@
 {
   "checked": "2026-10-04",
   "fullEventAuditComplete": false,
-  "candidateCount": 932,
+  "candidateCount": 931,
   "countsByKind": {
     "max-raid": 657,
     "tera-raid": 138,
     "outbreak": 132,
-    "gift-or-go": 5
+    "gift-or-go": 4
   },
   "limitations": [
     "Text-based candidates identify vague event routes, not exhaustive event coverage. Dated routes also require independent evidence review. Multiple routes can share one announcement."
@@ -5737,15 +5737,6 @@
       "needsAnnouncementReview": true
     },
     {
-      "key": "808",
-      "game": "Pokémon GO",
-      "method": "Mystery Box during a shiny-enabled Meltan event",
-      "status": "Event rotation · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Meltan_%28Pok%C3%A9mon%29#Game_locations",
-      "kind": "gift-or-go",
-      "needsAnnouncementReview": true
-    },
-    {
       "key": "812",
       "game": "Pokémon Scarlet / Violet",
       "method": "Historical Mightiest Mark Tera Raid event · availability depends on downloaded event data · 7-star raids · host in Scarlet / Violet; joining a host is possible from either version",
@@ -8408,6 +8399,25 @@
       "startUTC": "2020-08-14T20:00:00Z",
       "endUTC": "2020-08-21T20:00:00Z",
       "remaining": "Other Genesect raid rotations and drive-specific shiny releases remain under review."
+    },
+    {
+      "species": 808,
+      "windows": [
+        {
+          "event": "Lets GO",
+          "startLocal": "2023-03-21T10:00",
+          "endLocal": "2023-03-29T20:00",
+          "source": "https://pokemongo.com/en/post/lets-go-event-team-go-rocket-takeover"
+        },
+        {
+          "event": "Steeled Resolve",
+          "startLocal": "2026-04-28T10:00",
+          "endLocal": "2026-05-04T20:00",
+          "source": "https://pokemongo.com/en/news/steeled-resolve-2026"
+        }
+      ],
+      "requirements": "Send a GO Pokémon to HOME or Lets Go to obtain Mystery Box; open during shiny-enabled event.",
+      "remaining": "Other Meltan events and later availability remain under review."
     }
   ]
 }

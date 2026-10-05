@@ -134,7 +134,13 @@ records['807']['entries'].append({
  'source':'https://swordshield.pokemon.com/en-us/expansionpass/mythical-zeraora/',
  'sourceReferences':['https://www.pokemon.co.jp/info/2020/06/200630_gm01.html']
 })
-add([808],'Pokémon GO','Mystery Box during a shiny-enabled Meltan event','Event rotation · availability varies')
+records['808']['entries'].append({
+ 'game':'Pokémon GO',
+ 'method':"Obtain the Mystery Box by sending a Pokémon from GO to Pokémon HOME or Let's Go, Pikachu! / Eevee!, then use it during a shiny-enabled Meltan event. Verified windows: Let's GO, March 21, 2023 at 10:00 through March 29, 2023 at 20:00 local time; Steeled Resolve, April 28, 2026 at 10:00 through May 4, 2026 at 20:00 local time. Shiny encounters are possible, not guaranteed. These windows have ended; later availability requires an event announcement.",
+ 'status':'Event rotation · availability varies','locations':[],
+ 'source':'https://pokemongo.com/en/news/steeled-resolve-2026',
+ 'sourceReferences':['https://pokemongo.com/en/post/lets-go-event-team-go-rocket-takeover']
+})
 add([808],'Pokémon HOME',"Let's Go Pokédex-completion shiny Mystery Gift",'Reward · check requirements')
 add([809],'Pokémon GO','Evolve shiny Meltan with 400 Meltan Candy','Huntable')
 # HOME rewards use game-specific registration, rather than the in-game Dex.
