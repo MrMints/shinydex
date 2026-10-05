@@ -31,5 +31,24 @@
     "year": 2021,
     "finding": "Added four region-specific Zacian/Zamazenta routes and Toxtricity with the Wild Area requirement. Archive gives card/event periods but no separate code-expiry dates.",
     "coverageLimit": "2016 archive lists only Magearna; 2020 archive omits the independently verified shiny Zeraora HOME reward. Archives therefore cannot establish exhaustive event coverage."
+  },
+  "recentArchivesReview": {
+    "years": [
+      2022,
+      2023
+    ],
+    "species": [
+      890,
+      448,
+      59
+    ],
+    "finding": "Added two region-specific Eternatus gifts, Lucario password and expiry, and Arcanine window with one redemption per save. PST/PDT offsets converted explicitly. Lucario announcement date is not treated as an exact distribution start time.",
+    "sources": [
+      "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2022",
+      "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2023",
+      "https://www.pokemon.com/us/news/add-a-shiny-lucario-to-your-team",
+      "https://www.pokemon.com/us/play-pokemon/internationals/2023/north-america/pokemon-distributions"
+    ],
+    "remaining": "Original Eternatus regional campaign code expiry and exact Scarlet/Violet Mystery Gift access prerequisites."
   }
 }
