@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-04",
+  "fullEventAuditComplete": false,
+  "reviewed": [
+    {
+      "species": 1001,
+      "giftStartUTC": "2025-08-08T00:00:00Z",
+      "giftEndUTC": "2025-09-30T23:59:00Z",
+      "source": "https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-wo-chien-in-pokemon-scarlet-and-pokemon-violet"
+    },
+    {
+      "species": 1002,
+      "giftStartUTC": "2025-08-22T00:00:00Z",
+      "giftEndUTC": "2025-09-30T23:59:00Z",
+      "source": "https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-chien-pao-in-pokemon-scarlet-and-pokemon-violet"
+    }
+  ],
+  "raidCatchable": false,
+  "remaining": [
+    "Confirm Ting-Lu and Chi-Yu result announcements and redemption periods.",
+    "Review Koraidon and Miraidon regional code distributions and redemption deadlines.",
+    "Complete other historical events and acquisition prerequisites."
+  ]
+}
