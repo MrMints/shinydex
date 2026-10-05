@@ -160,6 +160,15 @@ archive_gifts=[
 for sid,game,year,details in archive_gifts:
  add([sid],game,'Historical North America gift: '+details+' Other regions and any additional redemption prerequisites require separate review.','Past event · distribution ended')
  records[str(sid)]['entries'][-1]['source']=f'https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/{year}'
+for sid,game,region,dates in [
+ (888,'Pokémon Shield','US','October 22–November 11, 2021'),
+ (888,'Pokémon Shield','Canada','October 22–November 4, 2021'),
+ (889,'Pokémon Sword','US','November 12–26, 2021'),
+ (889,'Pokémon Sword','Canada','November 5–18, 2021')]:
+ add([sid],game,f'2021 {region} shiny legendary gift: GameStop code cards distributed {dates}. This official archive lists the distribution period, not a separate code-expiry date. Full redemption prerequisites require further review.','Past event · distribution ended')
+ records[str(sid)]['entries'][-1]['source']='https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2021'
+add([849],'Pokémon Sword / Shield','2021 North America shiny Toxtricity gift: in-store Pokémon Pass distribution February 19–March 18, 2021. Must reach the Wild Area to use the code. Separate code expiry and other redemption requirements require further review.','Past event · distribution ended')
+records['849']['entries'][-1]['source']='https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2021'
 # The 2021 Japanese campaign gave the opposite version's legendary.
 for sid,game in [(888,'Pokémon Shield'),(889,'Pokémon Sword')]:
  add([sid],game,'2021 Japan shiny legendary code gift: participating game retailers distributed cards October 22–November 18, 2021, while supplies lasted. Show a Switch HOME menu containing a Sword or Shield software icon; one card per person with separate codes for both gifts. Codes expired November 25, 2021. Mystery Gift → Get a Mystery Gift → Get with Code/Password; requires internet and a Nintendo Account linked to the receiving user, but no paid Nintendo Switch Online membership. Unlock Mystery Gift by first visiting a Pokémon Center. One use per code and one receipt per save; redemption automatically saves. Other regions require separate review.','Past event · codes expired')

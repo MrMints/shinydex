@@ -1,0 +1,42 @@
+{
+  "checkpointDate": "2026-10-04",
+  "auditComplete": false,
+  "sourceBaseCommit": "ad716493e801e04de17fa4dc3c78baca6fb8e6e5",
+  "currentChanges": "2021 North American gifts and this checkpoint are included in the commit that contains this file.",
+  "releaseVersion": "1.0.0",
+  "releaseScope": "Public 1.0.0 installer predates recent guide fixes. Local 1.0.0 audit build passed unpackaged and packaged runtime smoke checks; installed NSIS update/rollback is not yet verified.",
+  "inputs": {
+    "data.json": "04c393e740fca4997341c4e53bde272ca219213c4c9cc72add27ea260f64187f",
+    "hunts.json": "0dac394ef09db422f004eeef3c4c094e66579262082d7dd98b3bbdcf086ec896",
+    "build-hunts.py": "494cb5dc1384c0e7b29c66cc4014b8d732e30a76985b583eb1f98fa3261bf141",
+    "summer_outbreak_review.py": "80d2b588d0f860bec842088b4013c84cd3daf596a9147e2996e3df6309e7a83d",
+    "main.js": "dc73f3c3d0dd1cfeeb52e3685bf06b9dc0d4f9f1c0d09f6955538d8df2b5feb7",
+    "style.css": "126fe6476ab6263d14a04f5c1430673408aab04732f04dc58c1466272b1e4106",
+    "updater.js": "ee602e0d9c379695c93a9b9424a46c049c09847a24459fb1e39c795baba2b3eb",
+    "desktop/main.cjs": "3512ed61bd307b90fa951be4f5b8b01f2ece39d5f1706b57532f53db8315621a",
+    "desktop/storage.cjs": "d88ea48f2fbb444383c14537df3bd7dbaaed8adba7fcf81d9ca57d1307f12dd9",
+    "desktop/updates.cjs": "b9ec350b4458c667355563363f52336c621261f437c0f0dc1eb142ae5f189571",
+    "package.json": "bf70f8267ef1a7912821441a011ba2b1341a2f9c0b344694a9a62760eeac03a5"
+  },
+  "evidenceReports": {
+    "local-image-audit.json": "03827a06e996c478cd2b283196aa5425e9880b91d7a66cd654f0d2894b79967d",
+    "bdsp-independent-tables.json": "61892e3db15518a0e22301924adb84dfff6750dce9db5f784780427167c674ee",
+    "bdsp-time-review.json": "ccf490bd87e0816e554469a85710c6a6a74f22f3c34c3be4d038c481e114ea55",
+    "bdsp-section-review.json": "3d8002515f5287a3074b432835d6ecf4d85f705aa1d91ae513495f3639e0bd66",
+    "home-reward-review.json": "9d7249185db14d702814c9c2e6257522722f96c64caee66c3a97a6b3fe69ac04",
+    "scarlet-violet-event-review.json": "bdf2401d6df0517d9ddddc2219f8053ae6c1a31570e438f134ebe6626ba678e0",
+    "sword-shield-event-review.json": "b2f0385b0a3a9a3baa1cb96a2a82a2ad52566f34e0527d134b47b2c762e4ddf6",
+    "north-america-gift-review.json": "236ed0bfb48630c7b50f1a73278d71ac66700db549cd892f96a2d85a53a12f36",
+    "diancie-event-review.json": "29fe8f2cc6fa44447cc24dbe0adb9de2fcb1518260addd1a480165e35a0d0f34",
+    "pending-event-review.json": "c3b6e576fc43e8c7befce7d6afb8edce912e43d886a907fc37c53b8d5047fc4b",
+    "desktop-runtime-review.json": "abad0a8d3781d6a18e0dbeb432bc92172815ebdf47c9cadb9a0dc9827798fc3b",
+    "evolution-pending-audit.json": "3e57da15847230cf05c6c039b51c0d183983f3db1342bcec5e2e08f28466dd17"
+  },
+  "remainingScopeFile": "REMAINING-AUDIT.md",
+  "resumeInstructionsFile": "AUDIT-CHECKPOINT.md",
+  "eventCandidateSnapshot": {
+    "count": 934,
+    "sourceIndexResearchGroups": 280,
+    "meaning": "Research candidates, not unique events, unresolved totals, or exhaustive coverage."
+  }
+}

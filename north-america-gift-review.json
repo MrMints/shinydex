@@ -10,17 +10,26 @@
     718,
     785,
     25,
-    133
+    133,
+    888,
+    889,
+    849
   ],
   "sources": [
     "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2017",
     "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2018",
-    "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019"
+    "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019",
+    "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2021"
   ],
   "remaining": [
     "Full code redemption prerequisites and original campaign announcements.",
     "Other regional campaigns.",
     "Competition reward qualifications for Tapu Lele, Tapu Bulu, Tapu Fini and Mimikyu; archive alone does not establish minimum battles."
   ],
-  "finding": "Added eight missing directly documented gift routes. Distribution windows are distinguished from separately stated code expiry; unspecified expiry times are not inferred."
+  "finding": "Added eight missing directly documented gift routes. Distribution windows are distinguished from separately stated code expiry; unspecified expiry times are not inferred.",
+  "additionalReview": {
+    "year": 2021,
+    "finding": "Added four region-specific Zacian/Zamazenta routes and Toxtricity with the Wild Area requirement. Archive gives card/event periods but no separate code-expiry dates.",
+    "coverageLimit": "2016 archive lists only Magearna; 2020 archive omits the independently verified shiny Zeraora HOME reward. Archives therefore cannot establish exhaustive event coverage."
+  }
 }

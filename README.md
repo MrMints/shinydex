@@ -40,6 +40,8 @@ The current catalog contains 1,025 species and 58 regional-form entries, spannin
 
 The exhaustive hunting, event, transfer-prerequisite, and final attribution audits remain incomplete. Passing the verifiers establishes their stated checks, not complete game, event, location, form, or prerequisite coverage. Use the linked references in the hunting guide when planning a hunt.
 
+Future audits resume from [AUDIT-CHECKPOINT.md](AUDIT-CHECKPOINT.md) and the machine-readable [audit-checkpoint.json](audit-checkpoint.json). They record evidence scopes, unresolved work, source hashes, and installer limits so new games and updates can be reviewed without repeating unaffected completed work.
+
 ## Run from source
 
 Install Node.js and pnpm, run `pnpm install`, then `pnpm start`. Build the Windows installer with `pnpm build:windows`; outputs are in `dist/desktop`. If dependency installation disables lifecycle scripts, run `node node_modules/electron/install.js` once to download Electron.
