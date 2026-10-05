@@ -1,14 +1,14 @@
 {
   "checkpointDate": "2026-10-04",
   "auditComplete": false,
-  "sourceBaseCommit": "f1b652fc2b5546193124b3a7f360f4229b5c1769",
-  "currentChanges": "2024/2025 archive limitations and confirmed Wo-Chien source conflict recorded in this checkpoint commit.",
+  "sourceBaseCommit": "8b5d2418a5a1b05f189e439d412d12d45954599b",
+  "currentChanges": "Added historical Pelipper championship gift, retaining announced-versus-recorded expiry conflict.",
   "releaseVersion": "1.0.0",
   "releaseScope": "Public 1.0.0 installer predates recent guide fixes. Local 1.0.0 audit build passed unpackaged and packaged runtime smoke checks; installed NSIS update/rollback is not yet verified.",
   "inputs": {
     "data.json": "04c393e740fca4997341c4e53bde272ca219213c4c9cc72add27ea260f64187f",
-    "hunts.json": "66528ba6e05085360a15eef3c7f017ca2d14ef46e1b1d15076638da109ceeba9",
-    "build-hunts.py": "627a91e25881d0d8628432974911cecbedc5e3f9caafbc1090c9a40edf62098a",
+    "hunts.json": "21c5511667e81ee6dc036b58f9be682534b70d59db13eaebbabf3706dd1ac324",
+    "build-hunts.py": "020772965c432351fc7c4a7b437b92e158847a83276222d6365f78274bfff972",
     "summer_outbreak_review.py": "80d2b588d0f860bec842088b4013c84cd3daf596a9147e2996e3df6309e7a83d",
     "main.js": "dc73f3c3d0dd1cfeeb52e3685bf06b9dc0d4f9f1c0d09f6955538d8df2b5feb7",
     "style.css": "126fe6476ab6263d14a04f5c1430673408aab04732f04dc58c1466272b1e4106",
@@ -24,18 +24,18 @@
     "bdsp-time-review.json": "ccf490bd87e0816e554469a85710c6a6a74f22f3c34c3be4d038c481e114ea55",
     "bdsp-section-review.json": "3d8002515f5287a3074b432835d6ecf4d85f705aa1d91ae513495f3639e0bd66",
     "home-reward-review.json": "9d7249185db14d702814c9c2e6257522722f96c64caee66c3a97a6b3fe69ac04",
-    "scarlet-violet-event-review.json": "df00a6b69412e36384b2dd0df433abf671629297f6721b281f8cc550623917ab",
+    "scarlet-violet-event-review.json": "9ea936b03e38143edc650e07088dd6e38a3cf246c089b0732de0b31e46c6a595",
     "sword-shield-event-review.json": "b2f0385b0a3a9a3baa1cb96a2a82a2ad52566f34e0527d134b47b2c762e4ddf6",
     "north-america-gift-review.json": "8820837d506d6f540dde29a64df4949692b253777387bbcdcb85d982b9e25c76",
     "diancie-event-review.json": "29fe8f2cc6fa44447cc24dbe0adb9de2fcb1518260addd1a480165e35a0d0f34",
-    "pending-event-review.json": "c3b6e576fc43e8c7befce7d6afb8edce912e43d886a907fc37c53b8d5047fc4b",
+    "pending-event-review.json": "32b1716a25368d5a4cf079782bbabf7a3187888886ed0804715379198054d8d0",
     "desktop-runtime-review.json": "abad0a8d3781d6a18e0dbeb432bc92172815ebdf47c9cadb9a0dc9827798fc3b",
     "evolution-pending-audit.json": "3e57da15847230cf05c6c039b51c0d183983f3db1342bcec5e2e08f28466dd17"
   },
   "remainingScopeFile": "REMAINING-AUDIT.md",
   "resumeInstructionsFile": "AUDIT-CHECKPOINT.md",
   "eventCandidateSnapshot": {
-    "count": 934,
+    "count": 935,
     "sourceIndexResearchGroups": 280,
     "meaning": "Research candidates, not unique events, unresolved totals, or exhaustive coverage."
   }

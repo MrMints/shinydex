@@ -69,7 +69,8 @@
       1003,
       1004,
       1007,
-      1008
+      1008,
+      279
     ],
     "finding": "Verified first Pokémon Center unlock (about one hour), linked Nintendo Account, current game updates, no paid NSO requirement, Poké Portal access and automatic saving. Applied only to specifically reviewed gift sources, not raids or outbreak news."
   },
@@ -93,6 +94,15 @@
       ],
       "resolution": "Retain detailed announcement gift window. Archive summary conflates raid and gift periods; cannot support gift dates. Read both pages in live browser.",
       "confirmedVictories": 6078885
+    },
+    {
+      "species": 279,
+      "event": "2025 LAIC, held November 2024",
+      "announcedExpiryUTC": "2024-11-22T00:00:00Z",
+      "source": "https://www.pokemon.com/us/play-pokemon/internationals/2025/latin-america/pokemon-distributions",
+      "preservedRecordExpiryUTC": "2024-11-22T23:59:00Z",
+      "preservedRecordSource": "https://projectpokemon.org/home/files/file/5525-wc-0513-patrick%E2%80%8B-shiny-pelipper/",
+      "resolution": "Announced deadline is verified; actual server cutoff or extension remains unresolved. Preserve distinction in guide. Shiny status corroborated by event encyclopedia and preserved record."
     }
   ]
 }

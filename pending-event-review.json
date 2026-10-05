@@ -1,12 +1,12 @@
 {
   "checked": "2026-10-04",
   "fullEventAuditComplete": false,
-  "candidateCount": 934,
+  "candidateCount": 935,
   "countsByKind": {
     "max-raid": 657,
     "tera-raid": 136,
     "outbreak": 132,
-    "gift-or-go": 9
+    "gift-or-go": 10
   },
   "limitations": [
     "Text-based candidates identify vague event routes, not exhaustive event coverage. Dated routes also require independent evidence review. Multiple routes can share one announcement.",
@@ -4601,6 +4601,19 @@
       "kind": "outbreak",
       "needsAnnouncementReview": true,
       "gameFormId": 0
+    },
+    {
+      "key": "279",
+      "game": "Pokémon Scarlet / Violet",
+      "method": "Historical 2025 LAIC Patrick Connors shiny Pelipper gift, distributed in November 2024 via the broadcast password. One redemption per save. The official announcement gave November 21, 2024 at 16:00 PST (November 22 at 00:00 UTC) as its expiry; a preserved event record lists a later cutoff, so the actual end time requires further review. Requires internet, a Nintendo Account linked to the receiving Switch user, and available game updates. Mystery Gift unlocks after first visiting a Pokémon Center (about one hour of play); paid Nintendo Switch Online is not required. Open Poké Portal → Mystery Gift and choose Get via Internet or Get with Code/Password as appropriate. Receiving the gift automatically saves.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/play-pokemon/internationals/2025/latin-america/pokemon-distributions",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true,
+      "sourceReferences": [
+        "https://bulbapedia.bulbagarden.net/wiki/List_of_event_Pok%C3%A9mon_distributions_in_Pok%C3%A9mon_Scarlet_and_Violet",
+        "https://www.pokemon.co.jp/support-sp/uketori_sv.html"
+      ]
     },
     {
       "key": "280",
@@ -15977,7 +15990,7 @@
       "finding": "14 outbreak examples reviewed across four 2024 summer phases; other merged events remain unverified."
     }
   ],
-  "sourceGroupCount": 280,
+  "sourceGroupCount": 281,
   "sourceGroups": [
     {
       "kind": "max-raid",
@@ -18403,6 +18416,19 @@
       "routeCount": 1,
       "catalogKeys": [
         "242"
+      ],
+      "games": [
+        "Pokémon Scarlet / Violet"
+      ],
+      "needsAnnouncementReview": true
+    },
+    {
+      "kind": "gift-or-go",
+      "source": "https://www.pokemon.com/us/play-pokemon/internationals/2025/latin-america/pokemon-distributions",
+      "eventIndices": [],
+      "routeCount": 1,
+      "catalogKeys": [
+        "279"
       ],
       "games": [
         "Pokémon Scarlet / Violet"

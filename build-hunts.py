@@ -177,6 +177,9 @@ records['448']['entries'][-1]['source']='https://www.pokemon.com/us/news/add-a-s
 add([59],'Pokémon Scarlet / Violet','2023 Paul Chua shiny Arcanine Mystery Gift: password shown during NAIC broadcast, redeem once per save through Mystery Gift. The official archive gives June 30, 2023 at 15:00 PDT through July 3, 2023 at 16:59 PDT (June 30 at 22:00 UTC through July 3 at 23:59 UTC). Must progress far enough to unlock Mystery Gift; exact unlock prerequisites require separate review.','Past event · password expired')
 records['59']['entries'][-1]['source']='https://www.pokemon.com/us/play-pokemon/internationals/2023/north-america/pokemon-distributions'
 records['59']['entries'][-1]['sourceReferences']=['https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2023']
+add([279],'Pokémon Scarlet / Violet','Historical 2025 LAIC Patrick Connors shiny Pelipper gift, distributed in November 2024 via the broadcast password. One redemption per save. The official announcement gave November 21, 2024 at 16:00 PST (November 22 at 00:00 UTC) as its expiry; a preserved event record lists a later cutoff, so the actual end time requires further review.','Past event · distribution ended')
+records['279']['entries'][-1]['source']='https://www.pokemon.com/us/play-pokemon/internationals/2025/latin-america/pokemon-distributions'
+records['279']['entries'][-1]['sourceReferences']=['https://bulbapedia.bulbagarden.net/wiki/List_of_event_Pok%C3%A9mon_distributions_in_Pok%C3%A9mon_Scarlet_and_Violet']
 # The 2021 Japanese campaign gave the opposite version's legendary.
 for sid,game in [(888,'Pokémon Shield'),(889,'Pokémon Sword')]:
  add([sid],game,'2021 Japan shiny legendary code gift: participating game retailers distributed cards October 22–November 18, 2021, while supplies lasted. Show a Switch HOME menu containing a Sword or Shield software icon; one card per person with separate codes for both gifts. Codes expired November 25, 2021. Mystery Gift → Get a Mystery Gift → Get with Code/Password; requires internet and a Nintendo Account linked to the receiving user, but no paid Nintendo Switch Online membership. Unlock Mystery Gift by first visiting a Pokémon Center. One use per code and one receipt per save; redemption automatically saves. Other regions require separate review.','Past event · codes expired')
@@ -354,11 +357,12 @@ from supersede_breeding import supersede as supersede_breeding
 print('Generic breeding rows superseded by exact egg routes:',supersede_breeding(records))
 # Apply documented access requirements only to reviewed Scarlet/Violet gifts.
 sv_gift_requirements=' Requires internet, a Nintendo Account linked to the receiving Switch user, and available game updates. Mystery Gift unlocks after first visiting a Pokémon Center (about one hour of play); paid Nintendo Switch Online is not required. Open Poké Portal → Mystery Gift and choose Get via Internet or Get with Code/Password as appropriate. Receiving the gift automatically saves.'
-for sid in (59,448,1001,1002,1003,1004,1007,1008):
+for sid in (59,279,448,1001,1002,1003,1004,1007,1008):
  for entry in records[str(sid)]['entries']:
   if entry['game'] not in ('Pokémon Scarlet','Pokémon Violet','Pokémon Scarlet / Violet'): continue
   if entry.get('source') not in (
    'https://www.pokemon.com/us/news/add-a-shiny-lucario-to-your-team',
+   'https://www.pokemon.com/us/play-pokemon/internationals/2025/latin-america/pokemon-distributions',
    'https://www.pokemon.com/us/play-pokemon/internationals/2023/north-america/pokemon-distributions',
    'https://www.pokemon.co.jp/info/2025/09/250912_gm01.html',
    'https://sv-news.pokemon.co.jp/en/page/380.html',
