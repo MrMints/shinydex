@@ -1,0 +1,39 @@
+{
+  "reviewDate": "2026-10-04",
+  "fullBdspAuditComplete": false,
+  "scope": "Mesprit/Cresselia roaming classification, release access and pre-release shiny determination",
+  "reviewedRoutes": [
+    {
+      "species": 481,
+      "game": "Pokémon Brilliant Diamond",
+      "releaseSite": "Lake Verity (Verity Cavern) · release location",
+      "definitionSource": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen8/Encounters8b.cs#L47"
+    },
+    {
+      "species": 481,
+      "game": "Pokémon Shining Pearl",
+      "releaseSite": "Lake Verity (Verity Cavern) · release location",
+      "definitionSource": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen8/Encounters8b.cs#L47"
+    },
+    {
+      "species": 488,
+      "game": "Pokémon Brilliant Diamond",
+      "releaseSite": "Fullmoon Island · release location",
+      "definitionSource": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen8/Encounters8b.cs#L48"
+    },
+    {
+      "species": 488,
+      "game": "Pokémon Shining Pearl",
+      "releaseSite": "Fullmoon Island · release location",
+      "definitionSource": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Legality/Encounters/Data/Gen8/Encounters8b.cs#L48"
+    }
+  ],
+  "walkthroughSource": "https://www.serebii.net/brilliantdiamondshiningpearl/legendary.shtml",
+  "rootCause": "Parser dropped IsRoaming=true. Generic merge treated legality met-location 197 as a stationary hunt location. Preserve source flag and use reviewed release/roaming locations for BDSP.",
+  "validation": "All 1960 parsed facts preserve original fields; four affected BDSP guide routes corrected and unrelated routes unchanged. Direct source-line checks confirm all four source records are marked roaming.",
+  "remaining": [
+    "Direct gameplay reset/respawn behavior after KO or Champion rematch",
+    "Other generations roaming timing and prerequisites",
+    "Remaining stationary legend access and event requirements"
+  ]
+}

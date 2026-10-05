@@ -37,7 +37,7 @@
   "remaining": [
     "Clock-change penalties and exact Rotom night boundary",
     "Spiritomb NPC exclusions, early access and repeat encounter conditions",
-    "Mesprit and Cresselia incorrectly decoded as stationary Valley Windworks encounters: review roaming triggers and shiny determination",
     "Other stationary legend, event and interior access requirements"
-  ]
+  ],
+  "followupResolved": "Initial roaming classification/release-site defect resolved in bdsp-roaming-review.json; direct gameplay respawn checks remain."
 }

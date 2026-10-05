@@ -8,7 +8,7 @@ Use `audit-checkpoint.json` to identify the source baseline, input hashes, evide
 
 ## Where work stopped
 
-The overworld interaction review added missing Drifloon, Spiritomb and Rotom triggers to six BDSP routes. Next review Mesprit/Cresselia: the decoder incorrectly describes them as stationary Valley Windworks encounters. See `bdsp-interaction-review.json` for this and retained timing/NPC gaps.
+The overworld interaction review added missing Drifloon, Spiritomb and Rotom triggers to six BDSP routes. The Mesprit/Cresselia decoder defect is now corrected: both are roaming hunts with release-site and pre-release reset guidance. See `bdsp-roaming-review.json`; KO/Champion respawn behavior remains unverified. See `bdsp-interaction-review.json` for this and retained timing/NPC gaps.
 
 The official BDSP Unown review corrected both game routes to cave room encounters and documented letter targeting plus the 26-letter punctuation chamber prerequisite. See `bdsp-unown-review.json`; exact rates/levels and older-game form requirements remain open.
 

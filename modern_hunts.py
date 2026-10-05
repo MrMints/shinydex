@@ -82,6 +82,19 @@ def merge(records,catalog):
    location=fact['location']
    names=[locs[location]] if location and location<len(locs) and locs[location].strip() else []
    row=dict(game=game,method=method,status=STATES[fact['shiny']],locations=names,source=fact['source'],verification='Explicit static encounter shiny specification, matched tracked form')
+   if fact['type']=='EncounterStatic8b' and fact.get('roaming'):
+    # Roaming legality locations describe allowed met data, not release sites.
+    row['method']='Roaming encounter: '+note+' (level '+str(fact['level'])+')'
+    row['roamingEncounter']=True
+    row['locations']=['Sinnoh roaming routes']
+    if fact['species']==481:
+     row['locations'].insert(0,'Lake Verity (Verity Cavern) · release location')
+     row['method']+=' After resolving the Spear Pillar story encounter, interact with Mesprit in the Lake Verity cave to release it.'
+    elif fact['species']==488:
+     row['locations'].insert(0,'Fullmoon Island · release location')
+     row['method']+=' Obtain the National Pokédex, speak to the sick child in Canalave City, then take the sailor to Fullmoon Island and interact with Cresselia to release it.'
+    row['method']+=' Track it with the Pokétch Marking Map. Shiny status is set when it leaves its release site: save before releasing it, encounter the roaming Pokémon to check, then reset to that pre-release save for another attempt. Encountering the same released roamer again does not reroll shininess.'
+    row['sourceReferences']=['https://www.serebii.net/brilliantdiamondshiningpearl/legendary.shtml']
    existing=next((e for e in records[str(catalog_key)]['entries'] if e['game']==game and e['method']==method and e['status']==row['status']),None)
    if existing:
     existing['locations']=sorted(set(existing['locations']+names))
