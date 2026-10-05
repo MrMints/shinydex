@@ -2,14 +2,52 @@
   "checked": "2026-10-04",
   "routes": 321,
   "fullCoverageVerified": false,
-  "verified": "Pinned grass-slot location eligibility, independent exclusive roster samples, game-specific mechanics and National Dex prerequisites",
+  "verified": "Pinned grass-slot location eligibility; complete 43-species Radar-exclusive roster comparison, all eight version exclusions and combined named locations; game-specific mechanics and National Dex prerequisites; all 16 Trophy Garden introductions and 28 daily swarms in both games with exact introduction/swarm conditions",
+  "exclusiveSpeciesVerified": 43,
+  "exclusiveSpeciesGamePairsVerified": 78,
+  "gardenConditionalRoutesVerified": 32,
+  "swarmConditionalRoutesVerified": 56,
+  "ordinaryGrassConditionalRoutesVerified": 88,
   "remaining": [
-    "Exact time/swarm/Backlot conditions per slot",
-    "Independent complete Radar-exclusive roster comparison",
+    "Time conditions for unmapped sections and other interior encounters",
+    "Individual grass sections outside reviewed Route 205 and Fuego Ironworks",
     "All access prerequisites and short-grass tile mapping"
   ],
   "references": [
     "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar",
-    "https://bulbapedia.bulbagarden.net/wiki/National_Pok%C3%A9dex"
-  ]
+    "https://bulbapedia.bulbagarden.net/wiki/National_Pok%C3%A9dex",
+    "https://bulbapedia.bulbagarden.net/wiki/Trophy_Garden",
+    "https://bulbapedia.bulbagarden.net/wiki/Mass_outbreak",
+    "https://www.serebii.net/brilliantdiamondshiningpearl/pokeradar.shtml",
+    "https://www.serebii.net/pokearth/sinnoh/route205.shtml",
+    "https://www.serebii.net/pokearth/sinnoh/fuegoironworks.shtml"
+  ],
+  "splitMapSpeciesGamePairsVerified": 6,
+  "lostTowerReview": {
+    "floors": 5,
+    "nightRestrictedSpeciesGameFloorCombinations": 10,
+    "rostersAndVersionExclusivesVerified": true,
+    "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml"
+  },
+  "sectionMappingReview": {
+    "resolvedLocationIds": [
+      206,
+      207,
+      323,
+      324
+    ],
+    "fullCoverageVerified": false,
+    "sources": [
+      "https://luminescent.team/rom-hacking/dictionary/zones",
+      "https://bulbapedia.bulbagarden.net/wiki/List_of_locations_by_index_number_(Brilliant_Diamond_%26_Shining_Pearl)"
+    ]
+  },
+  "independentTableInventory": {
+    "pages": 39,
+    "unmappedLocationIds": [],
+    "timeRestrictedCandidates": 92,
+    "guideConditionsPromoted": true,
+    "reviewedTimeRestrictedCombinations": 92,
+    "remainingTimeRestrictedCandidates": 0
+  }
 }

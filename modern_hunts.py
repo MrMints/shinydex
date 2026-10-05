@@ -4,7 +4,22 @@ from pathlib import Path
 from collections import defaultdict
 from form_mapping import catalog_forms
 ROOT=Path(__file__).parent
+SECTION_REVIEW=json.loads((ROOT/'bdsp-section-review.json').read_text(encoding='utf-8'))
+REVIEWED_SECTIONS={item['locationId']:item for item in SECTION_REVIEW['sections']}
 STATES={'Random':'Huntable','Never':'Shiny Locked','Always':'Guaranteed shiny','AlwaysStar':'Guaranteed shiny','AlwaysSquare':'Guaranteed shiny'}
+def display_location(slot):
+ if slot['game'] in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') and slot['locationId'] in REVIEWED_SECTIONS:
+  section=REVIEWED_SECTIONS[slot['locationId']]
+  return section['location']+' · '+section['displaySection']
+ if slot['game'] in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') and slot['locationId'] in (203,204,205,208,209,210,211,212,213,214,215):
+  return 'Mount Coronet · cave interior'
+ # The pinned BDSP reader identifies 368-372 as Lost Tower. Its met-location
+ # text uses Route 209, which must not collapse interior and exterior hunts.
+ if slot['game'] in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') and 368<=slot['locationId']<=372:
+  return f'Route 209 · Lost Tower {slot["locationId"]-367}F'
+ if slot['game'] in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') and slot['locationId'] in (260,261,262):
+  return 'Stark Mountain · cave interior'
+ return slot.get('displayLocation',slot['location'])
 def dlc_game(game,location):
  if game in {'Pokémon Scarlet / Violet','Pokémon Scarlet','Pokémon Violet'}:
   if location>=172:return game+' · The Indigo Disk'
@@ -21,7 +36,7 @@ def merge(records,catalog):
   catalog_key=forms.get((slot['species'],slot['form']))
   if catalog_key is None:continue
   key=(catalog_key,dlc_game(slot['game'],slot['locationId']),slot['kind'],slot['alpha'],slot['shiny'])
-  grouped[key].add(slot.get('displayLocation',slot['location']));sources[key]=slot['source']
+  grouped[key].add(display_location(slot));sources[key]=slot['source']
  added=0
  for key,locations in grouped.items():
   sid,game,kind,alpha,shiny=key
@@ -39,6 +54,17 @@ def merge(records,catalog):
    method='Fishing' if kind=='swsh-fishing' else 'Shaking berry-tree encounters' if kind=='swsh-tree' else 'Surfing / water encounters' if kind in {'swsh-5','swsh-6','swsh-11'} else 'Random grass encounters' if kind in {'swsh-3','swsh-4'} else 'Overworld encounters'
   elif alpha:method+=' · Alpha encounter'
   records[str(sid)]['entries'].append(dict(game=game,method=method,status=STATES[shiny],locations=sorted(locations),source=sources[key],encounterKind=kind,gameFormId=form_ids[sid],alphaEncounter=alpha,verification='Decoded species, tracked form, location and shiny status from pinned encounter table'))
+  if any(label.startswith('Route 209 · Lost Tower ') for label in locations):
+   records[str(sid)]['entries'][-1]['sourceReferences']=[sources[key], 'https://www.serebii.net/pokearth/sinnoh/losttower.shtml']
+  if 'Stark Mountain · cave interior' in locations:
+   row=records[str(sid)]['entries'][-1]
+   row['sourceReferences']=sorted({sources[key], *row.get('sourceReferences', []), 'https://www.serebii.net/pokearth/sinnoh/starkmountain.shtml'})
+  reviewed=[item for item in REVIEWED_SECTIONS.values() if any(label==item['location']+' · '+item['displaySection'] for label in locations)]
+  if reviewed:
+   row=records[str(sid)]['entries'][-1]
+   row['sourceReferences']=sorted({sources[key], *row.get('sourceReferences', []), *SECTION_REVIEW['sources'], *[item['encounterSource'] for item in reviewed]})
+  if 'Route 209 · Lost Tower interior' in locations:
+   records[str(sid)]['entries'][-1]['sourceReferences']=[sources[key], 'https://www.serebii.net/pokearth/sinnoh/losttower.shtml']
   added+=1
  for fact in json.loads((ROOT/'static-index.json').read_text()):
   if fact['type'] not in {'EncounterStatic9','EncounterStatic9a','EncounterGift9a','EncounterStatic8a','EncounterStatic8b','EncounterStatic8','EncounterStatic7'} or fact['shiny'] not in STATES:continue

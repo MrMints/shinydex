@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-04T17:20:59.831948+00:00",
+  "checkedAt": "2026-10-05T01:43:02.476680+00:00",
   "passed": true,
   "checkCount": 33,
   "fullHuntingAuditComplete": false,
@@ -12,7 +12,7 @@
       "check": "verify-bdsp-radar.py",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified 321 BDSP Radar routes, location exclusions, version-exclusive samples and mechanics; conditional pool audit remains incomplete",
+      "output": "Verified 321 BDSP Radar routes, 32 Garden introductions, 56 swarm conditions and 92 reviewed time combinations; remaining ordinary time slots and access audit incomplete",
       "errors": ""
     },
     {
@@ -61,7 +61,7 @@
       "check": "verify-evolutions.py",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified 789 level-only routes with source/destination forms and game presence\nVerified 242 item-based routes and gender/held-item regressions\nVerified 168 friendship/move/gender/time routes and representative regressions\nVerified 27 trade routes, matched trade partners and Arceus Linking Cord alternative\nVerified Arceus day/night evolution ID remapping\nVerified Tyrogue level/stat branch requirements\nVerified 28 walking, multiplayer, coin and move-use evolution routes\nVerified five party-dependent evolution routes\nVerified Hisuian move-style, recoil and full-moon requirements\nVerified critical-hit, damage/location and opponent-item evolution routes\nVerified Nincada branches and Shedinja party/Pok� Ball requirements\nVerified upside-down evolution conditions, including Legends: Z-A manual party-menu evolution\nVerified six Goodra weather evolution routes, including regional forms\nVerified four fixed Wurmple evolution branches\nVerified four modern Sylveon friendship/Fairy move requirements\nVerified three Amped Toxtricity routes and original-nature requirement\nVerified four Eevee rock evolution routes and game-specific locations\nVerified four magnetic-field evolution routes and game-specific locations\nVerified Dudunsparce move and fixed form branch\nVerified Maushold battle experience, fixed branch and level-100 limitation\nVerified Z-A Overqwil hit count and distinction from Arceus strong style\nVerified two Vanilla Cream Alcremie spin and Sweet routes\nVerified three Feebas Beauty routes and preparation/transfer requirements\nVerified Crabominable Ice Stone routes and exclusion of unavailable summit branches\nVerified competing Eevee evolution conditions",
+      "output": "Verified 789 level-only routes with source/destination forms and game presence\nVerified 242 item-based routes and gender/held-item regressions\nVerified 168 friendship/move/gender/time routes and representative regressions\nVerified 27 trade routes, matched trade partners and Arceus Linking Cord alternative\nVerified Arceus day/night evolution ID remapping\nVerified Tyrogue level/stat branch requirements\nVerified 28 walking, multiplayer, coin and move-use evolution routes\nVerified five party-dependent evolution routes\nVerified Hisuian move-style, recoil and full-moon requirements\nVerified critical-hit, damage/location and opponent-item evolution routes\nVerified Nincada branches and Shedinja party/Poké Ball requirements\nVerified upside-down evolution conditions, including Legends: Z-A manual party-menu evolution\nVerified six Goodra weather evolution routes, including regional forms\nVerified four fixed Wurmple evolution branches\nVerified four modern Sylveon friendship/Fairy move requirements\nVerified three Amped Toxtricity routes and original-nature requirement\nVerified four Eevee rock evolution routes and game-specific locations\nVerified four magnetic-field evolution routes and game-specific locations\nVerified Dudunsparce move and fixed form branch\nVerified Maushold battle experience, fixed branch and level-100 limitation\nVerified Z-A Overqwil hit count and distinction from Arceus strong style\nVerified two Vanilla Cream Alcremie spin and Sweet routes\nVerified three Feebas Beauty routes and preparation/transfer requirements\nVerified Crabominable Ice Stone routes and exclusion of unavailable summit branches\nVerified competing Eevee evolution conditions",
       "errors": ""
     },
     {
@@ -89,7 +89,7 @@
       "check": "verify-gen-six-evolutions.py",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified 484 Gen VI level routes against every eligible decoded branch in both game pairs\nVerified 150 Gen VI item, trade and known-move routes, including gender and paired-trade conditions\nVerified 56 Gen VI conditional routes, including Pok�mon-Amie affection and friendship/time/party/stat requirements\nVerified 14 Gen VI special routes, including Goodra rain omitted by the reference table and game-specific Beauty preparation\nVerified eight Gen VI location routes with separate Kalos/Hoenn locations and Shoal Cave low tide",
+      "output": "Verified 484 Gen VI level routes against every eligible decoded branch in both game pairs\nVerified 150 Gen VI item, trade and known-move routes, including gender and paired-trade conditions\nVerified 56 Gen VI conditional routes, including Pokémon-Amie affection and friendship/time/party/stat requirements\nVerified 14 Gen VI special routes, including Goodra rain omitted by the reference table and game-specific Beauty preparation\nVerified eight Gen VI location routes with separate Kalos/Hoenn locations and Shoal Cave low tide",
       "errors": ""
     },
     {
@@ -138,14 +138,14 @@
       "check": "verify-lets-go-evolutions.py",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified 114 Let�s Go level routes, including independent Alolan parent forms; remaining evolution methods under audit\nVerified 46 Let�s Go stone and trade routes, Alolan Ice Stones and partner exceptions",
+      "output": "Verified 114 Let’s Go level routes, including independent Alolan parent forms; remaining evolution methods under audit\nVerified 46 Let’s Go stone and trade routes, Alolan Ice Stones and partner exceptions",
       "errors": ""
     },
     {
       "check": "verify-method-sources.cjs",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified supporting references render for 11846 hunting routes; duplicate and unsafe links excluded",
+      "output": "Verified supporting references render for 12006 hunting routes; duplicate and unsafe links excluded",
       "errors": ""
     },
     {

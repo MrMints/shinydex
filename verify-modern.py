@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from collections import Counter
 from form_mapping import catalog_forms
-from modern_hunts import dlc_game,STATES
+from modern_hunts import dlc_game,display_location,STATES
 ROOT=Path(__file__).parent
 catalog=json.loads((ROOT/'data.json').read_text());forms=catalog_forms(catalog)
 hunts=json.loads((ROOT/'hunts.json').read_text());wild=json.loads((ROOT/'modern-wild.json').read_text())
@@ -23,7 +23,18 @@ for slot in wild:
  identity=(key,dlc_game(slot['game'],slot['locationId']),slot['kind'],slot['alpha'],STATES[slot['shiny']],slot['source'])
  assert identity in index,identity
  entry=index[identity]
- assert entry['gameFormId']==slot['form'] and slot.get('displayLocation',slot['location']) in entry['locations'],identity
+ # Reviewed time labels enrich the same exact source location rather than
+ # creating a new route. Permit only that location ID's recorded annotation.
+ label=display_location(slot)
+ allowed_labels={label}
+ for condition in entry.get('reviewedTimeConditions',[]):
+  if condition['locationId']==slot['locationId'] and condition['location']==slot['location']:
+   assert condition['source'] in entry['sourceReferences']
+   allowed_labels.add(label+' · '+' or '.join(condition['times'])+' only')
+   if condition.get('section'):
+    allowed_labels.add(label+' · '+condition['section']+' · '+' or '.join(condition['times'])+' only')
+   allowed_labels.add(condition['location']+(' · '+condition['section'] if condition.get('section') else '')+' · '+' or '.join(condition['times'])+' only')
+ assert entry['gameFormId']==slot['form'] and allowed_labels.intersection(entry['locations']),identity
  mapped+=1;games[slot['game']]+=1
  if key>1025:regional.add(key)
 report=dict(decodedSlotLocationRecords=len(wild),mappedTrackedFormRecords=mapped,verifiedRoutes=len(index),regionalFormsWithDecodedRoutes=len(regional),recordsByGame=dict(games),excludedUntrackedForms=[dict(species=s,form=f,records=n) for (s,f),n in sorted(excluded.items())],fullHuntingAuditComplete=False,remaining=['Other game tables and raid formats','Gameplay prerequisites and encounter conditions','Breeding availability and exact evolution requirements','GO shiny releases and historical event coverage'])

@@ -1,0 +1,16 @@
+{
+  "mappingReviewed": true,
+  "fullCoverageVerified": false,
+  "scope": "Four previously unmapped zone identities; not terrain, access or full game coverage",
+  "sources": [
+    "https://luminescent.team/rom-hacking/dictionary/zones",
+    "https://bulbapedia.bulbagarden.net/wiki/List_of_locations_by_index_number_(Brilliant_Diamond_%26_Shining_Pearl)"
+  ],
+  "limitations": ["Paired encounter rosters are identical and cannot identify section order; mappings use explicit zone names and independently matching map filenames.", "The modding dictionary is used only for zone identities, never for modified encounter rosters."],
+  "sections": [
+    {"locationId":206,"location":"Mount Coronet","mapFile":"D05R0104","publishedSection":"Snow Area","displaySection":"snow area exterior","encounterSource":"https://www.serebii.net/pokearth/sinnoh/mt.coronet.shtml"},
+    {"locationId":207,"location":"Mount Coronet","mapFile":"D05R0105","publishedSection":"Top","displaySection":"summit exterior","encounterSource":"https://www.serebii.net/pokearth/sinnoh/mt.coronet.shtml"},
+    {"locationId":323,"location":"Lake Verity","mapFile":"D27R0101","publishedSection":"Before Galactic","displaySection":"before Galactic incident","encounterSource":"https://www.serebii.net/pokearth/sinnoh/lakeverity.shtml"},
+    {"locationId":324,"location":"Lake Verity","mapFile":"D27R0102","publishedSection":"After Galactic","displaySection":"after Galactic incident","encounterSource":"https://www.serebii.net/pokearth/sinnoh/lakeverity.shtml"}
+  ]
+}

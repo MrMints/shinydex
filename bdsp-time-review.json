@@ -1,0 +1,780 @@
+{
+  "scope": "Manually reviewed ordinary-grass time conditions; not complete BDSP encounter coverage",
+  "reviewed": "2026-10-04",
+  "conditions": [
+    {
+      "species": 401,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 362,
+      "location": "Route 206",
+      "times": [
+        "morning"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route206.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 362,
+      "location": "Route 206",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route206.shtml"
+    },
+    {
+      "species": 166,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 420,
+      "location": "Route 229",
+      "times": [
+        "morning"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route229.shtml"
+    },
+    {
+      "species": 168,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 420,
+      "location": "Route 229",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route229.shtml"
+    },
+    {
+      "species": 441,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 407,
+      "location": "Route 222",
+      "times": [
+        "morning",
+        "day"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route222.shtml"
+    },
+    {
+      "species": 441,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 411,
+      "location": "Route 224",
+      "times": [
+        "morning",
+        "day"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route224.shtml"
+    },
+    {
+      "species": 198,
+      "games": [
+        "Pokémon Brilliant Diamond"
+      ],
+      "locationId": 200,
+      "location": "Eterna Forest",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/eternaforest.shtml"
+    },
+    {
+      "species": 200,
+      "games": [
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 200,
+      "location": "Eterna Forest",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/eternaforest.shtml"
+    },
+    {
+      "species": 401,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 355,
+      "location": "Route 202",
+      "times": [
+        "morning",
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route202.shtml"
+    },
+    {
+      "species": 401,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 356,
+      "location": "Route 203",
+      "times": [
+        "morning",
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route203.shtml"
+    },
+    {
+      "species": 401,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 357,
+      "location": "Route 204",
+      "times": [
+        "morning",
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route204.shtml",
+      "section": "south section"
+    },
+    {
+      "species": 401,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 358,
+      "location": "Route 204",
+      "times": [
+        "morning",
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route204.shtml",
+      "section": "north section"
+    },
+    {
+      "species": 401,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 364,
+      "location": "Route 207",
+      "times": [
+        "morning",
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route207.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 356,
+      "location": "Route 203",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route203.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 357,
+      "location": "Route 204",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route204.shtml",
+      "section": "south section"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 358,
+      "location": "Route 204",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route204.shtml",
+      "section": "north section"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 364,
+      "location": "Route 207",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route207.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 367,
+      "location": "Route 209",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route209.shtml"
+    },
+    {
+      "species": 92,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 367,
+      "location": "Route 209",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route209.shtml"
+    },
+    {
+      "species": 42,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 259,
+      "location": "Stark Mountain",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/starkmountain.shtml",
+      "section": "exterior grass"
+    },
+    {
+      "species": 42,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 414,
+      "location": "Route 227",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route227.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 263,
+      "location": "Sendoff Spring",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/sendoffspring.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 327,
+      "location": "Lake Valor",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/lakevalor.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 330,
+      "location": "Lake Acuity",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/lakeacuity.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 351,
+      "location": "Acuity Lakefront",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/acuitylakefront.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 375,
+      "location": "Route 210",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route210.shtml",
+      "section": "north section"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 378,
+      "location": "Route 211",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route211.shtml",
+      "section": "east section"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 395,
+      "location": "Route 216",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route216.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 397,
+      "location": "Route 217",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route217.shtml"
+    },
+    {
+      "species": 354,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 259,
+      "location": "Stark Mountain",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/starkmountain.shtml",
+      "section": "exterior grass"
+    },
+    {
+      "species": 354,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 412,
+      "location": "Route 225",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route225.shtml"
+    },
+    {
+      "species": 354,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 414,
+      "location": "Route 227",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route227.shtml"
+    },
+    {
+      "species": 354,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 487,
+      "location": "Route 226",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route226.shtml"
+    },
+    {
+      "species": 307,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 351,
+      "location": "Acuity Lakefront",
+      "times": [
+        "morning",
+        "day"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/acuitylakefront.shtml"
+    },
+    {
+      "species": 307,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 397,
+      "location": "Route 217",
+      "times": [
+        "morning",
+        "day"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route217.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 351,
+      "location": "Acuity Lakefront",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/acuitylakefront.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 365,
+      "location": "Route 208",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route208.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 377,
+      "location": "Route 211",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route211.shtml",
+      "section": "west section"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 378,
+      "location": "Route 211",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route211.shtml",
+      "section": "east section"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 395,
+      "location": "Route 216",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route216.shtml"
+    },
+    {
+      "species": 41,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 397,
+      "location": "Route 217",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route217.shtml"
+    },
+    {
+      "species": 163,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 375,
+      "location": "Route 210",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route210.shtml",
+      "section": "north section"
+    },
+    {
+      "species": 163,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 377,
+      "location": "Route 211",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/route211.shtml",
+      "section": "west section"
+    },
+    {
+      "species": 198,
+      "games": [
+        "Pokémon Brilliant Diamond"
+      ],
+      "locationId": 368,
+      "location": "Route 209",
+      "section": "Lost Tower 1F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 17, matching this published floor table."
+    },
+    {
+      "species": 198,
+      "games": [
+        "Pokémon Brilliant Diamond"
+      ],
+      "locationId": 369,
+      "location": "Route 209",
+      "section": "Lost Tower 2F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 18, matching this published floor table."
+    },
+    {
+      "species": 198,
+      "games": [
+        "Pokémon Brilliant Diamond"
+      ],
+      "locationId": 370,
+      "location": "Route 209",
+      "section": "Lost Tower 3F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 19, matching this published floor table."
+    },
+    {
+      "species": 198,
+      "games": [
+        "Pokémon Brilliant Diamond"
+      ],
+      "locationId": 371,
+      "location": "Route 209",
+      "section": "Lost Tower 4F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 20, matching this published floor table."
+    },
+    {
+      "species": 198,
+      "games": [
+        "Pokémon Brilliant Diamond"
+      ],
+      "locationId": 372,
+      "location": "Route 209",
+      "section": "Lost Tower 5F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 21, matching this published floor table."
+    },
+    {
+      "species": 200,
+      "games": [
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 368,
+      "location": "Route 209",
+      "section": "Lost Tower 1F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 17, matching this published floor table."
+    },
+    {
+      "species": 200,
+      "games": [
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 369,
+      "location": "Route 209",
+      "section": "Lost Tower 2F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 18, matching this published floor table."
+    },
+    {
+      "species": 200,
+      "games": [
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 370,
+      "location": "Route 209",
+      "section": "Lost Tower 3F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 19, matching this published floor table."
+    },
+    {
+      "species": 200,
+      "games": [
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 371,
+      "location": "Route 209",
+      "section": "Lost Tower 4F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 20, matching this published floor table."
+    },
+    {
+      "species": 200,
+      "games": [
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 372,
+      "location": "Route 209",
+      "section": "Lost Tower 5F",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/losttower.shtml",
+      "mappingEvidence": "The version-exclusive night slot has level 21, matching this published floor table."
+    },
+    {
+      "species": 42,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 206,
+      "location": "Mount Coronet",
+      "section": "snow area exterior",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/mt.coronet.shtml"
+    },
+    {
+      "species": 42,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 207,
+      "location": "Mount Coronet",
+      "section": "summit exterior",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/mt.coronet.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 206,
+      "location": "Mount Coronet",
+      "section": "snow area exterior",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/mt.coronet.shtml"
+    },
+    {
+      "species": 164,
+      "games": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "locationId": 207,
+      "location": "Mount Coronet",
+      "section": "summit exterior",
+      "times": [
+        "night"
+      ],
+      "source": "https://www.serebii.net/pokearth/sinnoh/mt.coronet.shtml"
+    }
+  ]
+}
