@@ -72,5 +72,27 @@
       1008
     ],
     "finding": "Verified first Pokémon Center unlock (about one hour), linked Nintendo Account, current game updates, no paid NSO requirement, Poké Portal access and automatic saving. Applied only to specifically reviewed gift sources, not raids or outbreak news."
-  }
+  },
+  "sourceConflicts": [
+    {
+      "species": 1001,
+      "checked": "2026-10-04",
+      "summarySource": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2025",
+      "summaryGiftDates": [
+        "2025-07-22",
+        "2025-08-03"
+      ],
+      "detailedSource": "https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-wo-chien-in-pokemon-scarlet-and-pokemon-violet",
+      "confirmedRaidWindowUTC": [
+        "2025-07-23T00:00:00Z",
+        "2025-08-03T23:59:00Z"
+      ],
+      "confirmedGiftWindowUTC": [
+        "2025-08-08T00:00:00Z",
+        "2025-09-30T23:59:00Z"
+      ],
+      "resolution": "Retain detailed announcement gift window. Archive summary conflates raid and gift periods; cannot support gift dates. Read both pages in live browser.",
+      "confirmedVictories": 6078885
+    }
+  ]
 }

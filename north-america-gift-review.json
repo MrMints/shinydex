@@ -51,5 +51,10 @@
       "https://www.pokemon.co.jp/support-sp/uketori_sv.html"
     ],
     "remaining": "Original Eternatus regional campaign code expiry."
+  },
+  "archive2024And2025Limitations": {
+    "reviewDate": "2026-10-04",
+    "finding": "2024 archive lists four ordinary gifts and does not establish full championship shiny reward coverage. 2025 Wo-Chien gift dates conflict with its detailed result announcement; use exact result announcement for raid/gift distinction.",
+    "remaining": "Review championship announcements directly, rather than assuming omission from year archive means no shiny gift."
   }
 }

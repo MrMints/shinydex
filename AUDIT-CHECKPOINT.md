@@ -8,6 +8,8 @@ Use `audit-checkpoint.json` to identify the source baseline, input hashes, evide
 
 The latest pass added officially documented North American historical shiny gifts from the 2017–2019 and 2021 archives, including region-specific Zacian/Zamazenta windows and Toxtricity's Wild Area prerequisite. Follow `north-america-gift-review.json` for original campaign prerequisites still requiring review. These official archives are incomplete: the 2016 page lists only Magearna, and the 2020 page omits the independently verified shiny Zeraora reward.
 
+The latest archive pass also found a confirmed official source conflict: the 2025 summary uses Wo-Chien raid dates for the gift period. The detailed result announcement confirms the existing August 8–September 30 UTC gift dates. See `scarlet-violet-event-review.json` before using year archives for future updates. The 2024 archive does not cover all championship rewards; those announcements still require direct review.
+
 The source and packaged executable passed the native runtime smoke check. Failed updater transactions were tested with the real save store. Actual NSIS installation, update, downgrade, restart, and save persistence remain unverified. A refreshed public installer remains outstanding.
 
 Historical Max Raid, Tera Raid, outbreak, GO and gift evidence remains unfinished. `pending-event-review.json` is a reproducible research inventory; its decoded indices are not unique official event identifiers. BDSP, ORAS, SOS, Pelago, older Radar, parent acquisition/transfer, and Z-A Feebas edge cases retain the gaps documented in their reports and remaining-work checklist.

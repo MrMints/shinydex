@@ -1,8 +1,8 @@
 {
   "checkpointDate": "2026-10-04",
   "auditComplete": false,
-  "sourceBaseCommit": "745076c3b682d02130a642902e944245849f78f6",
-  "currentChanges": "Verified shared Scarlet/Violet Mystery Gift prerequisites included in this checkpoint commit.",
+  "sourceBaseCommit": "f1b652fc2b5546193124b3a7f360f4229b5c1769",
+  "currentChanges": "2024/2025 archive limitations and confirmed Wo-Chien source conflict recorded in this checkpoint commit.",
   "releaseVersion": "1.0.0",
   "releaseScope": "Public 1.0.0 installer predates recent guide fixes. Local 1.0.0 audit build passed unpackaged and packaged runtime smoke checks; installed NSIS update/rollback is not yet verified.",
   "inputs": {
@@ -24,9 +24,9 @@
     "bdsp-time-review.json": "ccf490bd87e0816e554469a85710c6a6a74f22f3c34c3be4d038c481e114ea55",
     "bdsp-section-review.json": "3d8002515f5287a3074b432835d6ecf4d85f705aa1d91ae513495f3639e0bd66",
     "home-reward-review.json": "9d7249185db14d702814c9c2e6257522722f96c64caee66c3a97a6b3fe69ac04",
-    "scarlet-violet-event-review.json": "40045308509d46598060d3dfe79d8bb3b2114aaa8e54390053884239296c24f2",
+    "scarlet-violet-event-review.json": "df00a6b69412e36384b2dd0df433abf671629297f6721b281f8cc550623917ab",
     "sword-shield-event-review.json": "b2f0385b0a3a9a3baa1cb96a2a82a2ad52566f34e0527d134b47b2c762e4ddf6",
-    "north-america-gift-review.json": "81c499f61a3ff2a8e058a7c121ac8230b1eccd2192a9b98b287dc37f8f32e730",
+    "north-america-gift-review.json": "8820837d506d6f540dde29a64df4949692b253777387bbcdcb85d982b9e25c76",
     "diancie-event-review.json": "29fe8f2cc6fa44447cc24dbe0adb9de2fcb1518260addd1a480165e35a0d0f34",
     "pending-event-review.json": "c3b6e576fc43e8c7befce7d6afb8edce912e43d886a907fc37c53b8d5047fc4b",
     "desktop-runtime-review.json": "abad0a8d3781d6a18e0dbeb432bc92172815ebdf47c9cadb9a0dc9827798fc3b",
