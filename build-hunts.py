@@ -120,7 +120,12 @@ add([905],'Pokémon HOME','Complete the Legends: Arceus Hisui Pokédex in HOME; 
 add([647],'Pokémon Sword / Shield · Crown Tundra','Stationary Keldeo encounter','Shiny Locked')
 add([648],'Pokémon Scarlet / Violet · Indigo Disk','Stationary Meloetta encounter','Shiny Locked')
 add([905],'Pokémon Legends: Arceus','Mission Enamorus encounter','Shiny Locked')
-add([649],'Pokémon GO','Shiny-enabled Genesect raids','Event rotation · availability varies')
+records['649']['entries'].append({
+ 'game':'Pokémon GO',
+ 'method':'Shiny-enabled five-star Genesect raids. Verified historical window: Ultra Unlock Unova Week, August 14, 2020 at 20:00 UTC through August 21, 2020 at 20:00 UTC; shiny encounters were possible, not guaranteed. Later raid rotations require their own announcement checks.',
+ 'status':'Event rotation · availability varies','locations':[],
+ 'source':'https://pokemongo.com/news/aug2020-events'
+})
 add([719],'Pokémon Omega Ruby / Alpha Sapphire','Historical shiny Diancie event distribution (Pokémon Center / All-Stars Battle)','Past event · availability varies')
 records['807']['entries'].append({
  'game':'Pokémon HOME',
