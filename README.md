@@ -62,7 +62,7 @@ Implementation references: [Electron protocol](https://www.electronjs.org/docs/l
 
 ## Verification and remaining work
 
-Run `python check-project.py` to execute the checked-in `verify-*.py` and `verify-*.cjs` checks and refresh `project-checks.json`. Run `python audit-dexnav-coverage.py` to refresh the unresolved DexNav location/form inventory. Run `python audit-upstream-images.py --fresh` for a new network comparison of every artwork file. Run `python build-image-review.py` to recreate the visual-review sheets. Run `python audit-captions.py` to compare every image identity with cached Archives captions; missing captions are fetched from the Archives API.
+Run `python check-project.py` to execute the checked-in `verify-*.py` and `verify-*.cjs` checks and refresh `project-checks.json`. Run `python audit-dexnav-coverage.py` to refresh the unresolved DexNav location/form inventory. Run `python audit-event-inventory.py` after rebuilding hunts to refresh vague historical event candidates and source/index research groups in `pending-event-review.json`. These groups are not unique announcement identities and do not certify coverage. Run `python audit-upstream-images.py --fresh` for a new network comparison of every artwork file. Run `python build-image-review.py` to recreate the visual-review sheets. Run `python audit-captions.py` to compare every image identity with cached Archives captions; missing captions are fetched from the Archives API.
 
 Audit evidence includes:
 

@@ -1,10 +1,10 @@
 {
   "checked": "2026-10-04",
   "fullEventAuditComplete": false,
-  "candidateCount": 931,
+  "candidateCount": 929,
   "countsByKind": {
     "max-raid": 657,
-    "tera-raid": 138,
+    "tera-raid": 136,
     "outbreak": 132,
     "gift-or-go": 4
   },
@@ -15189,15 +15189,6 @@
     {
       "key": "999",
       "game": "Pokémon Scarlet / Violet",
-      "method": "Shiny-enabled Gimmighoul event Tera Raids",
-      "status": "Past event · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_%28Pok%C3%A9mon%29#Game_locations",
-      "kind": "tera-raid",
-      "needsAnnouncementReview": true
-    },
-    {
-      "key": "999",
-      "game": "Pokémon Scarlet / Violet",
       "method": "Historical event Tera Raid Battles · availability depends on downloaded event data · 1, 2, 3, 4-star raids · host in Scarlet / Violet; joining a host is possible from either version",
       "status": "Shiny Locked",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_dist_paldea.pkl",
@@ -15241,15 +15232,6 @@
         5
       ],
       "gigantamax": false
-    },
-    {
-      "key": "1000",
-      "game": "Pokémon Scarlet / Violet",
-      "method": "Shiny-enabled Gimmighoul event Tera Raids; evolve with 999 Gimmighoul Coins",
-      "status": "Past event · availability varies",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Gholdengo_%28Pok%C3%A9mon%29#Game_locations",
-      "kind": "tera-raid",
-      "needsAnnouncementReview": true
     },
     {
       "key": "1004",
@@ -15950,7 +15932,7 @@
       "finding": "14 outbreak examples reviewed across four 2024 summer phases; other merged events remain unverified."
     }
   ],
-  "sourceGroupCount": 282,
+  "sourceGroupCount": 280,
   "sourceGroups": [
     {
       "kind": "max-raid",
@@ -20854,32 +20836,6 @@
       "catalogKeys": [
         "990",
         "1010"
-      ],
-      "games": [
-        "Pokémon Scarlet / Violet"
-      ],
-      "needsAnnouncementReview": true
-    },
-    {
-      "kind": "tera-raid",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_%28Pok%C3%A9mon%29#Game_locations",
-      "eventIndices": [],
-      "routeCount": 1,
-      "catalogKeys": [
-        "999"
-      ],
-      "games": [
-        "Pokémon Scarlet / Violet"
-      ],
-      "needsAnnouncementReview": true
-    },
-    {
-      "kind": "tera-raid",
-      "source": "https://bulbapedia.bulbagarden.net/wiki/Gholdengo_%28Pok%C3%A9mon%29#Game_locations",
-      "eventIndices": [],
-      "routeCount": 1,
-      "catalogKeys": [
-        "1000"
       ],
       "games": [
         "Pokémon Scarlet / Violet"
