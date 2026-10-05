@@ -1,0 +1,43 @@
+{
+  "reviewDate": "2026-10-04",
+  "fullBdspAuditComplete": false,
+  "reviewedRoutes": [
+    {
+      "species": 425,
+      "game": "Pokémon Brilliant Diamond"
+    },
+    {
+      "species": 425,
+      "game": "Pokémon Shining Pearl"
+    },
+    {
+      "species": 442,
+      "game": "Pokémon Brilliant Diamond"
+    },
+    {
+      "species": 442,
+      "game": "Pokémon Shining Pearl"
+    },
+    {
+      "species": 479,
+      "game": "Pokémon Brilliant Diamond"
+    },
+    {
+      "species": 479,
+      "game": "Pokémon Shining Pearl"
+    }
+  ],
+  "sources": [
+    "https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/",
+    "https://www.serebii.net/brilliantdiamondshiningpearl/interactable.shtml",
+    "https://www.serebii.net/brilliantdiamondshiningpearl/grandundergroundnpcs.shtml"
+  ],
+  "scope": "Drifloon weekly story trigger, Spiritomb distinct NPC/Keystone trigger, Rotom National Dex/night/TV trigger. Original decoded shiny eligibility unchanged.",
+  "validation": "Complete before/after comparison found exactly six methods enriched; no unrelated entries or original eligibility fields changed.",
+  "remaining": [
+    "Clock-change penalties and exact Rotom night boundary",
+    "Spiritomb NPC exclusions, early access and repeat encounter conditions",
+    "Mesprit and Cresselia incorrectly decoded as stationary Valley Windworks encounters: review roaming triggers and shiny determination",
+    "Other stationary legend, event and interior access requirements"
+  ]
+}

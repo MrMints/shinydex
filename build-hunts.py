@@ -401,5 +401,18 @@ for entry in records['201']['entries']:
  if entry['game'] not in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') or entry.get('encounterKind')!='bdsp-1': continue
  entry['method']='Cave room encounters: Unown. Enter Solaceon Ruins from the far-east side of Solaceon Town. Following the entrance wall directions takes you through six main rooms containing only F, R, I, E, N, and D respectively; dead-end side rooms contain the other 20 letters, including the pictured A form. For ! and ? forms, first catch all 26 alphabetical forms, then visit the Ruin Maniac cave on Route 214 south of Veilstone City: the completed tunnel leads to their separate chamber. Seeing one Unown suffices for its Sinnoh Pokédex entry; the 26-letter capture requirement applies to the punctuation chamber.'
  entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+['https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/']))
+# BDSP overworld triggers independently checked against published walkthroughs.
+bdsp_interactions={
+ 425:' Defeat Team Galactic at Valley Windworks, then return outside its entrance on a following Friday. If you clear Team Galactic on Friday, wait until the next Friday for its appearance.',
+ 442:' Put an Odd Keystone in the Hallowed Tower on Route 209, then speak to 32 distinct NPCs in the Grand Underground before returning to the tower. Repeated conversations with the same NPC do not supply distinct people; the tower dialogue indicates progress.',
+ 479:' Obtain the National Pokédex, then visit the Old Chateau at night and interact with the television in a second-floor room.'}
+for sid,requirements in bdsp_interactions.items():
+ for entry in records[str(sid)]['entries']:
+  if entry['game'] not in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') or not entry['method'].startswith('Stationary encounter:'): continue
+  entry['method']+=requirements
+  refs=['https://www.serebii.net/brilliantdiamondshiningpearl/interactable.shtml']
+  if sid==425: refs.append('https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/')
+  if sid==442: refs.append('https://www.serebii.net/brilliantdiamondshiningpearl/grandundergroundnpcs.shtml')
+  entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+refs))
 Path('hunts.json').write_text(json.dumps(records,separators=(',',':')))
 print(f'Built encounter guide for {len(records)} species, {sum(bool(r["entries"]) for r in records.values())} with game records')

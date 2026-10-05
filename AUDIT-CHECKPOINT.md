@@ -8,6 +8,8 @@ Use `audit-checkpoint.json` to identify the source baseline, input hashes, evide
 
 ## Where work stopped
 
+The overworld interaction review added missing Drifloon, Spiritomb and Rotom triggers to six BDSP routes. Next review Mesprit/Cresselia: the decoder incorrectly describes them as stationary Valley Windworks encounters. See `bdsp-interaction-review.json` for this and retained timing/NPC gaps.
+
 The official BDSP Unown review corrected both game routes to cave room encounters and documented letter targeting plus the 26-letter punctuation chamber prerequisite. See `bdsp-unown-review.json`; exact rates/levels and older-game form requirements remain open.
 
 Ramanas Park now has access, slate prices and room instructions for all 26 catchable stationary routes. The minimum Ho-Oh unlock condition still conflicts between secondary sources; direct gameplay reset/targeting verification remains open. See `bdsp-ramanas-review.json`.
