@@ -12,7 +12,7 @@ def merge(records,catalog):
  forms=catalog_forms(catalog);names={p['key']:p['displayName'] for p in catalog};sources={p['key']:p['source'] for p in catalog};added=[]
  items=(ROOT/'reference/pkhex/PKHeX.Core/Resources/text/items/text_Items_en.txt').read_text(encoding='utf-8-sig').splitlines()
  moves=(ROOT/'reference/pkhex/PKHeX.Core/Resources/text/other/en/text_Moves_en.txt').read_text(encoding='utf-8-sig').splitlines()
- for edge in json.loads((ROOT/'evolution-encounters.json').read_text()):
+ for edge in json.loads((ROOT/'audit/evolution-encounters.json').read_text()):
   kind=edge['evolutionType']
   if kind not in ITEM_TYPES|CONDITION_TYPES|TRADE_TYPES|ACTION_TYPES|{'LevelUp'} or not edge['sourcePresent'] or not edge['destinationPresent']:continue
   parent=forms.get((edge['sourceSpecies'],edge['sourceForm']));child=forms.get((edge['destinationSpecies'],edge['destinationForm']))
@@ -99,5 +99,5 @@ def merge(records,catalog):
   records[str(child)]['entries'].append(dict(game=game,method=method,status='Huntable',locations=[],source=edge['source'],sourceReferences=[edge['source'],sources[child]+'#Evolution_data'],evolutionKind='level-only' if kind=='LevelUp' else 'condition' if kind in CONDITION_TYPES else 'trade' if kind in TRADE_TYPES else 'action' if kind in ACTION_TYPES else 'item',evolutionType=kind,evolutionArgument=edge['argument'],evolutionParent=parent,evolutionLevel=edge['level'],gameFormId=edge['destinationForm'],verification='Evolution requirement and both forms present in game verified from pinned evolution/personal tables; acquisition prerequisites remain under audit'))
   if kind=='LevelUpInverted' and edge['gameTable']=='za':records[str(child)]['entries'][-1]['sourceReferences'].append('https://www.siliconera.com/how-to-evolve-inkay-in-pokemon-legends-z-a/')
   added.append(dict(key=child,parent=parent,game=game,level=edge['level'],type=kind,argument=edge['argument']))
- (ROOT/'evolution-route-audit.json').write_text(json.dumps(dict(routes=added,routeCount=len(added),fullHuntingAuditComplete=False,remaining=['Other evolution types and exact conditions','Shiny parent acquisition and transfer prerequisites']),indent=2))
+ (ROOT/'audit/evolution-route-audit.json').write_text(json.dumps(dict(routes=added,routeCount=len(added),fullHuntingAuditComplete=False,remaining=['Other evolution types and exact conditions','Shiny parent acquisition and transfer prerequisites']),indent=2))
  return len(added)

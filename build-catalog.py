@@ -5,7 +5,7 @@ ROOT=Path(__file__).parent
 def rows(file):return list(csv.DictReader(open(ROOT/file,encoding='utf-8-sig')))
 old=json.loads((ROOT/'data.json').read_text());base={p['id']:p for p in old if not p.get('region')}
 names={int(r['pokemon_species_id']):r['name'] for r in rows('pokemon_species_names.csv') if r['local_language_id']=='9'}
-registry={f['name']:f for f in json.loads((ROOT/'archives-images.json').read_text())}
+registry={f['name']:f for f in json.loads((ROOT/'audit/archives-images.json').read_text())}
 types={};tn=['','normal','fighting','flying','poison','ground','rock','bug','ghost','steel','fire','water','grass','electric','psychic','ice','dragon','dark','fairy']
 for r in rows('types.csv'):types.setdefault(int(r['pokemon_id']),[]).append(tn[int(r['type_id'])])
 result=[]

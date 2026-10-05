@@ -1,0 +1,74 @@
+{
+  "checked": "2026-10-03",
+  "fullRadarCoverageVerified": false,
+  "sinnohOrdinaryRouteGrass": {
+    "verifiedRoutes": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      221,
+      222,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230
+    ],
+    "pendingRoutes": [
+      210
+    ],
+    "reason": "The encounter snapshot separates southern and northern Route 210 encounter tables but does not encode short-grass versus extra-tall-grass tiles. Radar-only Tauros/Miltank and Kecleon/Bagon establish usable patches exist; this does not independently prove all ordinary species use those patches.",
+    "nextEvidenceNeeded": "Verify ordinary encounter tables and the usable grass tiles against game maps or game implementation for both Route 210 sections.",
+    "references": [
+      "https://bulbapedia.bulbagarden.net/wiki/Sinnoh_Route_210#Generation_IV",
+      "https://bulbapedia.bulbagarden.net/wiki/Tall_grass#Long_grass",
+      "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar"
+    ]
+  },
+  "remainingCoverage": [
+    "Sinnoh non-route ordinary grass areas",
+    "X/Y radar encounter coverage",
+    "Brilliant Diamond/Shining Pearl radar encounter coverage"
+  ],
+  "route210MapReview": {
+    "checked": "2026-10-04",
+    "maps": [
+      {
+        "file": "audit/artifacts/radar-maps/Sinnoh_Route_210_DP.png",
+        "sha256": "572b7cd86d590e876dce7b820266b673c7d9ab2595d55564b2833190cbce5c38",
+        "source": "https://archives.bulbagarden.net/wiki/File:Sinnoh_Route_210_DP.png"
+      },
+      {
+        "file": "audit/artifacts/radar-maps/Sinnoh_Route_210_Pt.png",
+        "sha256": "73bd9a7507431762989d2274103aae405b3f811f135acb980ab7b9dfba913e8d",
+        "source": "https://archives.bulbagarden.net/wiki/File:Sinnoh_Route_210_Pt.png"
+      }
+    ],
+    "observations": [
+      "DP and Platinum source maps visibly distinguish long grass in the southern corridor and between the cafe and northern foggy section from standard patches in the northern canyon.",
+      "Pinned Platinum radar implementation calls TileBehavior_IsTallGrass when selecting patches; this predicate accepts only TILE_BEHAVIOR_TALL_GRASS, separately from TILE_BEHAVIOR_VERY_TALL_GRASS.",
+      "Map section/encounter-header boundaries and small southern eligible patches still need exact collision/header evidence. Radar-exclusive table entries alone do not prove an eligible patch location."
+    ],
+    "implementationReferences": [
+      "https://github.com/pret/pokeplatinum/blob/c248fb3f8cc9934ded800e489567c5c0eeee92eb/src/pokeradar.c#L309",
+      "https://github.com/pret/pokeplatinum/blob/c248fb3f8cc9934ded800e489567c5c0eeee92eb/src/map_tile_behavior.c#L266"
+    ],
+    "status": "Incomplete; retain ordinary Route 210 candidates as unverified pending tile/header mapping"
+  }
+}

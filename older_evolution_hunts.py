@@ -29,7 +29,7 @@ def merge(records,catalog):
  forms=catalog_forms(catalog);names={p['key']:p['displayName'] for p in catalog};sources={p['key']:p['source'] for p in catalog};added=[];excluded=[]
  items=(ROOT/'reference/pkhex/PKHeX.Core/Resources/text/items/text_Items_en.txt').read_text(encoding='utf-8-sig').splitlines()
  moves=(ROOT/'reference/pkhex/PKHeX.Core/Resources/text/other/en/text_Moves_en.txt').read_text(encoding='utf-8-sig').splitlines()
- for edge in json.loads((ROOT/'older-evolution-encounters.json').read_text()):
+ for edge in json.loads((ROOT/'audit/older-evolution-encounters.json').read_text()):
   parent=forms.get((edge['sourceSpecies'],edge['sourceForm']));child=forms.get((edge['destinationSpecies'],edge['destinationForm']))
   reason='untracked-form' if parent is None or child is None else 'shiny-locked-parent-or-child' if records[str(parent)]['locked'] or records[str(child)]['locked'] else 'unsupported-condition' if edge['evolutionType'] not in {'LevelUp','Trade','TradeShelmetKarrablast','LevelUpKnowMove'}|ITEM_TYPES|CONDITION_TYPES|GENDER_TIME_TYPES|PARTY_STAT_TYPES|set(LOCATION_REQUIREMENTS)|set(SPECIAL_REQUIREMENTS) else None
   if reason:
@@ -92,5 +92,5 @@ def merge(records,catalog):
   records[str(child)]['entries'].append(dict(game=GAME,method=method,status='Huntable',locations=[],source=edge['source'],sourceReferences=references,olderEvolutionKind='level-only' if kind=='LevelUp' else 'special' if kind in SPECIAL_REQUIREMENTS else 'party-stat' if kind in PARTY_STAT_TYPES else 'location' if kind in LOCATION_REQUIREMENTS else 'gender-time' if kind in GENDER_TIME_TYPES else 'condition' if kind in CONDITION_TYPES else 'move' if kind=='LevelUpKnowMove' else 'item' if kind in ITEM_TYPES else 'trade',olderEvolutionType=kind,evolutionParent=parent,evolutionLevel=edge['level'],evolutionArgument=edge['argument'],gameFormId=edge['destinationForm'],verification='Evolution requirement decoded from pinned Ultra Sun/Ultra Moon table; shiny parent acquisition remains under audit'))
   if kind=='LevelUpVersionDay':records[str(child)]['entries'][-1]['game']='Pokémon Ultra Sun'
   added.append(dict(key=child,parent=parent,level=edge['level'],form=edge['destinationForm'],type=kind))
- (ROOT/'older-evolution-route-audit.json').write_text(json.dumps({'routes':added,'routeCount':len(added),'excludedBranches':excluded,'decodedBranchCount':len(added)+len(excluded),'fullHuntingAuditComplete':False},indent=2),encoding='utf-8')
+ (ROOT/'audit/older-evolution-route-audit.json').write_text(json.dumps({'routes':added,'routeCount':len(added),'excludedBranches':excluded,'decodedBranchCount':len(added)+len(excluded),'fullHuntingAuditComplete':False},indent=2),encoding='utf-8')
  return len(added)

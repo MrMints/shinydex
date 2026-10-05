@@ -57,6 +57,6 @@ for file in sorted((REF/'PKHeX.Core'/'Legality'/'Encounters'/'Data').rglob('*.cs
    records.append({**({'roaming':True} if re.search(r'\bIsRoaming\s*=\s*true',properties) else {}),'species':sid,'form':form,'games':['Pokémon '+g for g in games[game]],'shiny':shiny,'gift':('Gift = true' in properties or 'FixedBall = Ball.Poke' in properties or typ.startswith('EncounterGift') or typ=='EncounterStatic3XD' or typ=='EncounterTrade2' and nums[0] in {9,10} or typ=='EncounterTrade4PID' and nums[0] in {10,11}),'egg':val('EggLocation',1 if 'IsEgg = true' in properties else 0),'location':val('Location'),'level':val('Level',nums[2] if typ in {'EncounterStatic8a','EncounterStatic9a','EncounterGift9a'} and len(nums)>2 else nums[1] if typ in {'EncounterStatic3','EncounterStatic2'} and len(nums)>1 else 0),'table':table,'type':typ,'note':note,'line':line,'file':file.relative_to(REF).as_posix(),'source':'https://github.com/kwsch/PKHeX/blob/'+sha+'/'+file.relative_to(REF).as_posix()+'#L'+str(line)})
    parsed+=1
   if 'EncounterStatic' in typ or 'EncounterTrade' in typ: report.append({'file':file.name,'table':table,'type':typ,'constructors':len(re.findall(r'(?m)^\s*new\(',body)),'parsed':parsed})
-(ROOT/'static-index.json').write_text(json.dumps(records,separators=(',',':')))
-(ROOT/'static-parse-audit.json').write_text(json.dumps(report,indent=2))
+(ROOT/'audit/static-index.json').write_text(json.dumps(records,separators=(',',':')))
+(ROOT/'audit/static-parse-audit.json').write_text(json.dumps(report,indent=2))
 print('Parsed',len(records),'explicit encounters; unparsed tables:',[(r['file'],r['table'],r['constructors']-r['parsed']) for r in report if r['constructors']!=r['parsed']])

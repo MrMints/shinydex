@@ -31,5 +31,5 @@ def supersede(records):
     removed.append({'key':int(key),'replacedEntry':entry,'replacementGames':sorted(specific)})
    else:kept.append(entry)
   guide['entries']=kept
- Path('superseded-evolution-audit.json').write_text(json.dumps({'removedCount':len(removed),'records':removed,'fullHuntingAuditComplete':False},indent=2),encoding='utf-8')
+ Path('audit/superseded-evolution-audit.json').write_text(json.dumps({'removedCount':len(removed),'records':removed,'fullHuntingAuditComplete':False},indent=2),encoding='utf-8')
  return len(removed)

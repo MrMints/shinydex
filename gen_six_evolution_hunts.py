@@ -21,7 +21,7 @@ def merge(records,catalog):
  count=0
  for code,game,size in [('xy','Pokémon X / Y',64),('ao','Pokémon Omega Ruby / Alpha Sapphire',80)]:
   raw=(ROOT/('reference/pkhex/PKHeX.Core/Resources/byte/personal/personal_'+code)).read_bytes()
-  for edge in json.loads((ROOT/'gen-six-evolution-encounters.json').read_text()):
+  for edge in json.loads((ROOT/'audit/gen-six-evolution-encounters.json').read_text()):
    kind=edge['evolutionType']
    if kind not in SUPPORTED|CONDITION_TYPES|SPECIAL_TYPES|{'LevelUpElectric','LevelUpForest','LevelUpCold'} or edge['sourceForm'] or edge['destinationForm']:continue
    parent=edge['sourceSpecies'];child=edge['destinationSpecies']

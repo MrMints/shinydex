@@ -15,7 +15,7 @@ def identity(raid,forms):
  return (key,game,raid['kind'],raid['shiny'],raid.get('gigantamax',False),tuple(raid.get('hostVersions',[])),raid['source'])
 def merge(records,catalog):
  forms=catalog_forms(catalog);groups=defaultdict(list)
- for raid in json.loads((ROOT/'raid-encounters.json').read_text()):
+ for raid in json.loads((ROOT/'audit/raid-encounters.json').read_text()):
   key=identity(raid,forms)
   if key:groups[key].append(raid)
  for key,raids in groups.items():

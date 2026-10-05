@@ -19,5 +19,5 @@ def catalog_forms(catalog):
   result[pair]=p['key']
  assert len(audit)==58
  sha=json.loads((ROOT/'reference/pkhex/tree.json').read_text())['sha']
- (ROOT/'regional-form-audit.json').write_text(json.dumps(dict(source='https://github.com/kwsch/PKHeX/blob/'+sha+'/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs',forms=audit),indent=2))
+ (ROOT/'audit/regional-form-audit.json').write_text(json.dumps(dict(source='https://github.com/kwsch/PKHeX/blob/'+sha+'/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs',forms=audit),indent=2))
  return result
