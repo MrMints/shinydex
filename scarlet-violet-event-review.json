@@ -58,5 +58,19 @@
   "remaining": [
     "Review non-Japanese Koraidon/Miraidon distributions and any later reruns; Japanese campaign verified.",
     "Complete other historical events and acquisition prerequisites."
-  ]
+  ],
+  "sharedMysteryGiftRequirements": {
+    "source": "https://www.pokemon.co.jp/support-sp/uketori_sv.html",
+    "appliedSpecies": [
+      59,
+      448,
+      1001,
+      1002,
+      1003,
+      1004,
+      1007,
+      1008
+    ],
+    "finding": "Verified first Pokémon Center unlock (about one hour), linked Nintendo Account, current game updates, no paid NSO requirement, Poké Portal access and automatic saving. Applied only to specifically reviewed gift sources, not raids or outbreak news."
+  }
 }

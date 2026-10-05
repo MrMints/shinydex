@@ -352,5 +352,23 @@ from supersede_evolutions import supersede
 print('Generic evolution rows superseded by exact routes:',supersede(records))
 from supersede_breeding import supersede as supersede_breeding
 print('Generic breeding rows superseded by exact egg routes:',supersede_breeding(records))
+# Apply documented access requirements only to reviewed Scarlet/Violet gifts.
+sv_gift_requirements=' Requires internet, a Nintendo Account linked to the receiving Switch user, and available game updates. Mystery Gift unlocks after first visiting a Pokémon Center (about one hour of play); paid Nintendo Switch Online is not required. Open Poké Portal → Mystery Gift and choose Get via Internet or Get with Code/Password as appropriate. Receiving the gift automatically saves.'
+for sid in (59,448,1001,1002,1003,1004,1007,1008):
+ for entry in records[str(sid)]['entries']:
+  if entry['game'] not in ('Pokémon Scarlet','Pokémon Violet','Pokémon Scarlet / Violet'): continue
+  if entry.get('source') not in (
+   'https://www.pokemon.com/us/news/add-a-shiny-lucario-to-your-team',
+   'https://www.pokemon.com/us/play-pokemon/internationals/2023/north-america/pokemon-distributions',
+   'https://www.pokemon.co.jp/info/2025/09/250912_gm01.html',
+   'https://sv-news.pokemon.co.jp/en/page/380.html',
+   'https://www.pokemon.com/it/novita/annuncio-del-totale-di-vittorie-contro-ting-lu-cromatico-in-pokemon-scarlatto-e-pokemon-violetto') and not entry.get('source','').startswith('https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-'): continue
+  for stale in (
+   '; full account and unlock requirements require separate review.',
+   ' Must progress far enough to unlock Mystery Gift; exact unlock prerequisites require separate review.',
+   ' Requires internet and a Nintendo Account linked to the Switch user profile; Mystery Gift must be unlocked (approximately 1–1.5 hours of play).'):
+   entry['method']=entry['method'].replace(stale,'.' if stale.startswith(';') else '')
+  entry['method']+=sv_gift_requirements
+  entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+['https://www.pokemon.co.jp/support-sp/uketori_sv.html']))
 Path('hunts.json').write_text(json.dumps(records,separators=(',',':')))
 print(f'Built encounter guide for {len(records)} species, {sum(bool(r["entries"]) for r in records.values())} with game records')
