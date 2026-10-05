@@ -22,6 +22,17 @@
         "https://www.pokemon.co.jp/support-sp/uketori_sword_shield.html"
       ],
       "finding": "Added missing gift routes with opposite-version restriction, retailer eligibility, card limits, account/internet and Mystery Gift unlock requirements. Expiry source gives a date without an exact time."
+    },
+    {
+      "species": 890,
+      "region": "Japan",
+      "cardDistributionDates": [
+        "2022-10-21",
+        "2022-11-17"
+      ],
+      "codeExpiryDate": "2022-11-24",
+      "source": "https://www.pokemon.co.jp/info/2022/10/221006_cm01.html",
+      "finding": "Added missing shiny gift for both Sword and Shield, with per-game card limit, maximum two cards, internet/account and Mystery Gift redemption requirements. Other regions not verified."
     }
   ]
 }
