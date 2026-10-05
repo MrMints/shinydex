@@ -143,6 +143,11 @@ records['649']['entries'].append({
  'status':'Event rotation · availability varies','locations':[],
  'source':'https://pokemongo.com/news/aug2020-events'
 })
+# The 2021 Japanese campaign gave the opposite version's legendary.
+for sid,game in [(888,'Pokémon Shield'),(889,'Pokémon Sword')]:
+ add([sid],game,'2021 Japan shiny legendary code gift: participating game retailers distributed cards October 22–November 18, 2021, while supplies lasted. Show a Switch HOME menu containing a Sword or Shield software icon; one card per person with separate codes for both gifts. Codes expired November 25, 2021. Mystery Gift → Get a Mystery Gift → Get with Code/Password; requires internet and a Nintendo Account linked to the receiving user, but no paid Nintendo Switch Online membership. Unlock Mystery Gift by first visiting a Pokémon Center. One use per code and one receipt per save; redemption automatically saves. Other regions require separate review.','Past event · codes expired')
+ records[str(sid)]['entries'][-1]['source']='https://www.pokemon.co.jp/info/2021/09/210928_gm01.html'
+ records[str(sid)]['entries'][-1]['sourceReferences']=['https://www.pokemon.co.jp/support-sp/uketori_sword_shield.html']
 add([719],'Pokémon Omega Ruby / Alpha Sapphire','Historical Japan shiny Diancie gift at Pokémon Centers and Pokémon Stores, December 12–31, 2015; distributed to Omega Ruby / Alpha Sapphire. These dates are corroborated by historical event records; the original official announcement is no longer available. The separate All-Stars Battle distribution requires further regional and redemption review.','Past event · distribution ended')
 records['719']['entries'][-1]['source']='https://www.serebii.net/events/dex/719.shtml'
 records['807']['entries'].append({

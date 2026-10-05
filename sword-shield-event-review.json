@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-04",
+  "fullEventAuditComplete": false,
+  "reviewed": [
+    {
+      "species": [
+        888,
+        889
+      ],
+      "region": "Japan",
+      "cardDistributionDates": [
+        "2021-10-22",
+        "2021-11-18"
+      ],
+      "codeExpiryDate": "2021-11-25",
+      "receivingVersions": {
+        "888": "Shield",
+        "889": "Sword"
+      },
+      "sources": [
+        "https://www.pokemon.co.jp/info/2021/09/210928_gm01.html",
+        "https://www.pokemon.co.jp/support-sp/uketori_sword_shield.html"
+      ],
+      "finding": "Added missing gift routes with opposite-version restriction, retailer eligibility, card limits, account/internet and Mystery Gift unlock requirements. Expiry source gives a date without an exact time."
+    }
+  ]
+}
