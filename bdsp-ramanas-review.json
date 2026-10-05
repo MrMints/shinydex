@@ -1,0 +1,107 @@
+{
+  "reviewDate": "2026-10-04",
+  "fullBdspAuditComplete": false,
+  "scope": "Early Ramanas Park access and room targeting only",
+  "reviewedRoutes": [
+    {
+      "species": 144,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Kanto Room → Pure Space)"
+    },
+    {
+      "species": 145,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Kanto Room → Pure Space)"
+    },
+    {
+      "species": 146,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Kanto Room → Pure Space)"
+    },
+    {
+      "species": 243,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Johto Room → Pure Space)"
+    },
+    {
+      "species": 244,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Johto Room → Pure Space)"
+    },
+    {
+      "species": 245,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Johto Room → Pure Space)"
+    },
+    {
+      "species": 377,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Discovery Room → Pure Space)"
+    },
+    {
+      "species": 377,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Discovery Room → Pure Space)"
+    },
+    {
+      "species": 378,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Discovery Room → Pure Space)"
+    },
+    {
+      "species": 378,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Discovery Room → Pure Space)"
+    },
+    {
+      "species": 379,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Discovery Room → Pure Space)"
+    },
+    {
+      "species": 379,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Discovery Room → Pure Space)"
+    },
+    {
+      "species": 380,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Soul Room → Pure Space)"
+    },
+    {
+      "species": 380,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Soul Room → Pure Space)"
+    },
+    {
+      "species": 381,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Soul Room → Pure Space)"
+    },
+    {
+      "species": 381,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Soul Room → Pure Space)"
+    }
+  ],
+  "sources": [
+    "https://diamondpearl.pokemon.com/en-us/features/",
+    "https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/",
+    "https://bulbapedia.bulbagarden.net/wiki/Ramanas_Park",
+    "https://www.serebii.net/brilliantdiamondshiningpearl/ramanaspark.shtml"
+  ],
+  "verified": "Official Hall of Fame/update and initial 150 seen requirements; secondary National Dex access, initial Discovery room, Regi captures unlocking Soul/Kanto/Johto rooms, matching slates, random room target and consumed attempts. Existing decoded shiny eligibility remains unchanged.",
+  "inference": "Saving before consuming a slate preserves that slate when resetting; game reset/RNG behavior still requires direct gameplay verification.",
+  "sourceConflicts": [
+    {
+      "species": 250,
+      "detail": "Serebii requires beasts plus Latias/Latios for Rainbow Slate; Bulbapedia shop lists beasts only. Not resolved or changed."
+    }
+  ],
+  "remaining": [
+    "Later-room unlock requirements, including Ho-Oh source conflict",
+    "Exact shard prices from rendered item icons",
+    "Direct gameplay reset and target randomization checks",
+    "Other remaining BDSP access and Radar eligibility"
+  ]
+}

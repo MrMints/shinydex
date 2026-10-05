@@ -13,6 +13,7 @@ Complete and independently verify the remaining ShinyDex audit, fix confirmed is
 - Verify exact parent acquisition and transfer availability for breeding and evolution routes. Resolve the retained Z-A Feebas Beauty branch without assuming a decoded table proves working gameplay.
 - Finish outstanding browser storage/download and desktop installation, update, downgrade, and save-persistence checks. Review final UI, source links, attribution, essential code comments, and archive cleanup.
 - Run checks appropriate to resulting changes and publish the verified remaining fixes. Distinguish source publication from a refreshed downloadable installer.
+- Maintain the audit checkpoint as unfinished items are resolved. At completion, record the final source and installer baseline, evidence, and where future audits should resume when a new game or update arrives.
 
 ## Completed work excluded from new work
 

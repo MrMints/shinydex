@@ -8,6 +8,8 @@ Use `audit-checkpoint.json` to identify the source baseline, input hashes, evide
 
 ## Where work stopped
 
+The early Ramanas Park pass added access and slate requirements to 16 stationary routes (Discovery, Soul, Kanto and Johto rooms). Later rooms remain open; Ho-Oh unlock requirements conflict between secondary sources. See `bdsp-ramanas-review.json`.
+
 The latest pass added officially documented North American historical shiny gifts from the 2017–2019 and 2021 archives, including region-specific Zacian/Zamazenta windows and Toxtricity's Wild Area prerequisite. Follow `north-america-gift-review.json` for original campaign prerequisites still requiring review. These official archives are incomplete: the 2016 page lists only Magearna, and the 2020 page omits the independently verified shiny Zeraora reward.
 
 The latest archive pass also found a confirmed official source conflict: the 2025 summary uses Wo-Chien raid dates for the gift period. The detailed result announcement confirms the existing August 8–September 30 UTC gift dates. See `scarlet-violet-event-review.json` before using year archives for future updates. The 2024 archive does not cover all championship rewards; those announcements still require direct review.

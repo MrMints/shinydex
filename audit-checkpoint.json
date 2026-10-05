@@ -1,19 +1,19 @@
 {
   "checkpointDate": "2026-10-04",
   "auditComplete": false,
-  "sourceBaseCommit": "8b5d2418a5a1b05f189e439d412d12d45954599b",
-  "currentChanges": "Added historical Pelipper championship gift, retaining announced-versus-recorded expiry conflict.",
+  "sourceBaseCommit": "a4317118878072829e1215f60698b465fa9f1b06",
+  "currentChanges": "Reviewed 16 early Ramanas Park routes; preserved unresolved later-room conflict and remaining-only scope.",
   "releaseVersion": "1.0.0",
   "releaseScope": "Public 1.0.0 installer predates recent guide fixes. Local 1.0.0 audit build passed unpackaged and packaged runtime smoke checks; installed NSIS update/rollback is not yet verified.",
   "inputs": {
     "data.json": "04c393e740fca4997341c4e53bde272ca219213c4c9cc72add27ea260f64187f",
-    "hunts.json": "21c5511667e81ee6dc036b58f9be682534b70d59db13eaebbabf3706dd1ac324",
-    "build-hunts.py": "020772965c432351fc7c4a7b437b92e158847a83276222d6365f78274bfff972",
+    "hunts.json": "8e42bd0eb85e5966141585579f6fca40331dcda6cf11efa031d6dc78c3ed5e01",
+    "build-hunts.py": "801d34e6880f43321a94f65d335b49f42bfe0536077ab42494543b52500c0f1e",
     "summer_outbreak_review.py": "80d2b588d0f860bec842088b4013c84cd3daf596a9147e2996e3df6309e7a83d",
     "main.js": "dc73f3c3d0dd1cfeeb52e3685bf06b9dc0d4f9f1c0d09f6955538d8df2b5feb7",
     "style.css": "126fe6476ab6263d14a04f5c1430673408aab04732f04dc58c1466272b1e4106",
     "updater.js": "ee602e0d9c379695c93a9b9424a46c049c09847a24459fb1e39c795baba2b3eb",
-    "desktop/main.cjs": "3512ed61bd307b90fa951be4f5b8b01f2ece39d5f1706b57532f53db8315621a",
+    "desktop/main.cjs": "2ed6ed0a5eb77ca3921a6cb7781468fbe7347b7cdc0f0fe6beba6a20a8daf685",
     "desktop/storage.cjs": "d88ea48f2fbb444383c14537df3bd7dbaaed8adba7fcf81d9ca57d1307f12dd9",
     "desktop/updates.cjs": "b9ec350b4458c667355563363f52336c621261f437c0f0dc1eb142ae5f189571",
     "package.json": "bf70f8267ef1a7912821441a011ba2b1341a2f9c0b344694a9a62760eeac03a5"
@@ -30,7 +30,8 @@
     "diancie-event-review.json": "29fe8f2cc6fa44447cc24dbe0adb9de2fcb1518260addd1a480165e35a0d0f34",
     "pending-event-review.json": "32b1716a25368d5a4cf079782bbabf7a3187888886ed0804715379198054d8d0",
     "desktop-runtime-review.json": "abad0a8d3781d6a18e0dbeb432bc92172815ebdf47c9cadb9a0dc9827798fc3b",
-    "evolution-pending-audit.json": "3e57da15847230cf05c6c039b51c0d183983f3db1342bcec5e2e08f28466dd17"
+    "evolution-pending-audit.json": "3e57da15847230cf05c6c039b51c0d183983f3db1342bcec5e2e08f28466dd17",
+    "bdsp-ramanas-review.json": "8d8c10824e23747b88df675ad5e0960bc53591ba7febb665b1a10e6dd0a66528"
   },
   "remainingScopeFile": "REMAINING-AUDIT.md",
   "resumeInstructionsFile": "AUDIT-CHECKPOINT.md",
