@@ -2,6 +2,8 @@
 
 Checkpoint: 2026-10-04. The exhaustive audit remains incomplete.
 
+Run `python check-audit-checkpoint.py` to detect changed or missing baseline files. It reports drift only and never certifies completion.
+
 Use `audit-checkpoint.json` to identify the source baseline, input hashes, evidence reports, and installer scope. Git history identifies the commit containing each checkpoint. Use `REMAINING-AUDIT.md` for unfinished requirements. Do not infer completion from a passing verifier, a dated route, or an inventory count.
 
 ## Where work stopped
