@@ -546,12 +546,16 @@
     {
       "key": "25",
       "game": "Pokémon Scarlet / Violet · The Teal Mask",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: July 12–25, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Kitakami; increased shiny availability. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "25",
@@ -716,12 +720,16 @@
     {
       "key": "26",
       "game": "Pokémon Scarlet / Violet · The Indigo Disk",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: July 12–25, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Blueberry Academy; increased shiny availability. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "26",
@@ -3126,12 +3134,16 @@
     {
       "key": "172",
       "game": "Pokémon Scarlet / Violet",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: July 12–25, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Paldea; increased shiny availability. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "172",
@@ -4338,12 +4350,16 @@
     {
       "key": "246",
       "game": "Pokémon Scarlet / Violet",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 23–September 1, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Paldea; increased shiny availability. Increased Charismatic Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "246",
@@ -5471,12 +5487,16 @@
     {
       "key": "371",
       "game": "Pokémon Scarlet / Violet",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 23–September 1, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Paldea; increased shiny availability. Increased Charismatic Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "373",
@@ -5526,12 +5546,16 @@
     {
       "key": "374",
       "game": "Pokémon Scarlet / Violet · The Indigo Disk",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 23–September 1, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Blueberry Academy; increased shiny availability. Increased Charismatic Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "376",
@@ -6190,12 +6214,16 @@
     {
       "key": "447",
       "game": "Pokémon Scarlet / Violet · The Teal Mask",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 9–22, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Kitakami; increased shiny availability. Increased Pumped-Up Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "447",
@@ -9598,12 +9626,16 @@
     {
       "key": "704",
       "game": "Pokémon Scarlet / Violet · The Teal Mask",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 23–September 1, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Kitakami; increased shiny availability. Increased Charismatic Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "704",
@@ -10323,12 +10355,16 @@
     {
       "key": "764",
       "game": "Pokémon Scarlet / Violet · The Indigo Disk",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 9–22, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Blueberry Academy; increased shiny availability. Increased Pumped-Up Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "764",
@@ -10535,12 +10571,16 @@
     {
       "key": "778",
       "game": "Pokémon Scarlet / Violet · The Teal Mask",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: July 12–25, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Kitakami; increased shiny availability. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "778",
@@ -13932,12 +13972,16 @@
     {
       "key": "940",
       "game": "Pokémon Scarlet / Violet",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 9–22, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Paldea; increased shiny availability. Increased Pumped-Up Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "946",
@@ -14146,12 +14190,16 @@
     {
       "key": "978",
       "game": "Pokémon Scarlet / Violet",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: July 26–August 8, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Paldea; increased shiny availability. This example is Curly Form Tatsugiri only. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 0
+      "gameFormId": 0,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "979",
@@ -15363,12 +15411,16 @@
     {
       "key": "10100",
       "game": "Pokémon Scarlet / Violet · The Indigo Disk",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: July 12–25, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Blueberry Academy; increased shiny availability. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 1
+      "gameFormId": 1,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "10100",
@@ -15814,12 +15866,16 @@
     {
       "key": "10241",
       "game": "Pokémon Scarlet / Violet · The Teal Mask",
-      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses",
+      "method": "Historical distribution mass outbreak hunting · availability depends on downloaded event data; check the event announcement for dates and bonuses Verified historical example: August 23–September 1, 2024, from 00:00 UTC on the first date through 23:59 UTC on the last, in Kitakami; increased shiny availability. Increased Charismatic Mark availability also applied. Download the game update and applicable Poké Portal News; receiving news does not require paid Nintendo Switch Online. Other events represented by this decoded row still require review.",
       "status": "Huntable",
       "source": "https://github.com/kwsch/PKHeX/blob/542111fc8584ff29c9d1455553b8acd0e1f8a59a/PKHeX.Core/Resources/legality/wild/Gen9/encounter_outbreak_paldea.pkl",
       "kind": "outbreak",
       "needsAnnouncementReview": true,
-      "gameFormId": 1
+      "gameFormId": 1,
+      "sourceReferences": [
+        "https://sv-news.pokemon.co.jp/en/page/235.html"
+      ],
+      "partialAnnouncementReview": "2024 summer example verified; other merged events remain open."
     },
     {
       "key": "10244",
@@ -15888,6 +15944,10 @@
       ],
       "source": "https://sv-news.pokemon.co.jp/es/page/235.html",
       "remaining": "Additional reruns and mapping the decoded event rows to announcements remain open."
+    },
+    {
+      "source": "https://sv-news.pokemon.co.jp/en/page/235.html",
+      "finding": "14 outbreak examples reviewed across four 2024 summer phases; other merged events remain unverified."
     }
   ],
   "sourceGroupCount": 282,
