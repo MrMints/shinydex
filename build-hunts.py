@@ -146,6 +146,20 @@ records['649']['entries'].append({
 add([890],'Pokémon Sword / Shield','2022 Japan shiny Eternatus code gift: participating game retailers distributed cards October 21–November 17, 2022, while supplies lasted. Show a Switch HOME menu containing a Sword or Shield icon; one card per game, maximum two per person if both icons are shown. Codes expired November 24, 2022. Redeem through Mystery Gift → Get a Mystery Gift → Get with Code/Password; internet and a linked Nintendo Account required, no paid Nintendo Switch Online membership. Unlock Mystery Gift by first visiting a Pokémon Center. One use per code and one gift per save; redemption automatically saves. Other regional campaigns require separate review.','Past event · codes expired')
 records['890']['entries'][-1]['source']='https://www.pokemon.co.jp/info/2022/10/221006_cm01.html'
 records['890']['entries'][-1]['sourceReferences']=['https://www.pokemon.co.jp/support-sp/uketori_sword_shield.html']
+# North American gifts verified in the official historical distribution archive.
+archive_gifts=[
+ (791,'Pokémon Moon / Ultra Moon',2019,'Shiny Solgaleo via Pokémon Pass at GameStop; event October 21–November 10, 2019. The archive does not specify a separate code-expiry date.'),
+ (792,'Pokémon Sun / Ultra Sun',2019,'Shiny Lunala via Pokémon Pass at GameStop; event October 21–November 10, 2019. The archive does not specify a separate code-expiry date.'),
+ (803,'Pokémon Ultra Sun / Ultra Moon',2018,'Shiny Poipole via GameStop code card distributed September 17–October 7, 2018; code redemption ended December 20, 2018.'),
+ (773,'Pokémon Sun / Moon',2017,'Shiny Silvally via GameStop code card distributed October 23–November 13, 2017; code redemption ended February 13, 2018.'),
+ (718,'Pokémon Sun / Moon / Ultra Sun / Ultra Moon',2018,'Shiny Zygarde via GameStop code card distributed June 1–24, 2018; code redemption ended September 27, 2018.'),
+ (785,'Pokémon Sun / Moon',2017,'Shiny Tapu Koko via Nintendo Network, July 14–August 14, 2017.'),
+ (25,"Pokémon Let's Go, Eevee!",2019,'Shiny Pikachu at Target through Pokémon Pass, May 11–June 23, 2019.'),
+ (133,"Pokémon Let's Go, Pikachu!",2019,'Shiny Eevee at Target through Pokémon Pass, May 11–June 23, 2019.'),
+]
+for sid,game,year,details in archive_gifts:
+ add([sid],game,'Historical North America gift: '+details+' Other regions and any additional redemption prerequisites require separate review.','Past event · distribution ended')
+ records[str(sid)]['entries'][-1]['source']=f'https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/{year}'
 # The 2021 Japanese campaign gave the opposite version's legendary.
 for sid,game in [(888,'Pokémon Shield'),(889,'Pokémon Sword')]:
  add([sid],game,'2021 Japan shiny legendary code gift: participating game retailers distributed cards October 22–November 18, 2021, while supplies lasted. Show a Switch HOME menu containing a Sword or Shield software icon; one card per person with separate codes for both gifts. Codes expired November 25, 2021. Mystery Gift → Get a Mystery Gift → Get with Code/Password; requires internet and a Nintendo Account linked to the receiving user, but no paid Nintendo Switch Online membership. Unlock Mystery Gift by first visiting a Pokémon Center. One use per code and one receipt per save; redemption automatically saves. Other regions require separate review.','Past event · codes expired')

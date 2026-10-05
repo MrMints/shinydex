@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-04",
+  "fullEventAuditComplete": false,
+  "evidence": "Official 2017, 2018 and 2019 North American distribution archive read through browser accessibility state; web text extractor exposed only iframe.",
+  "species": [
+    791,
+    792,
+    803,
+    773,
+    718,
+    785,
+    25,
+    133
+  ],
+  "sources": [
+    "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2017",
+    "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2018",
+    "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019"
+  ],
+  "remaining": [
+    "Full code redemption prerequisites and original campaign announcements.",
+    "Other regional campaigns.",
+    "Competition reward qualifications for Tapu Lele, Tapu Bulu, Tapu Fini and Mimikyu; archive alone does not establish minimum battles."
+  ],
+  "finding": "Added eight missing directly documented gift routes. Distribution windows are distinguished from separately stated code expiry; unspecified expiry times are not inferred."
+}

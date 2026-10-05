@@ -1,12 +1,12 @@
 {
   "checked": "2026-10-04",
   "fullEventAuditComplete": false,
-  "candidateCount": 926,
+  "candidateCount": 934,
   "countsByKind": {
     "max-raid": 657,
     "tera-raid": 136,
     "outbreak": 132,
-    "gift-or-go": 1
+    "gift-or-go": 9
   },
   "limitations": [
     "Text-based candidates identify vague event routes, not exhaustive event coverage. Dated routes also require independent evidence review. Multiple routes can share one announcement.",
@@ -542,6 +542,15 @@
       "kind": "outbreak",
       "needsAnnouncementReview": true,
       "gameFormId": 0
+    },
+    {
+      "key": "25",
+      "game": "Pokémon Let's Go, Eevee!",
+      "method": "Historical North America gift: Shiny Pikachu at Target through Pokémon Pass, May 11–June 23, 2019. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
     },
     {
       "key": "25",
@@ -2480,6 +2489,15 @@
         5
       ],
       "gigantamax": false
+    },
+    {
+      "key": "133",
+      "game": "Pokémon Let's Go, Pikachu!",
+      "method": "Historical North America gift: Shiny Eevee at Target through Pokémon Pass, May 11–June 23, 2019. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
     },
     {
       "key": "133",
@@ -9952,6 +9970,15 @@
       "gigantamax": false
     },
     {
+      "key": "718",
+      "game": "Pokémon Sun / Moon / Ultra Sun / Ultra Moon",
+      "method": "Historical North America gift: Shiny Zygarde via GameStop code card distributed June 1–24, 2018; code redemption ended September 27, 2018. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2018",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
+    },
+    {
       "key": "719",
       "game": "Pokémon Omega Ruby / Alpha Sapphire",
       "method": "Historical Japan shiny Diancie gift at Pokémon Centers and Pokémon Stores, December 12–31, 2015; distributed to Omega Ruby / Alpha Sapphire. These dates are corroborated by historical event records; the original official announcement is no longer available. The separate All-Stars Battle distribution requires further regional and redemption review.",
@@ -10525,6 +10552,15 @@
       "gigantamax": false
     },
     {
+      "key": "773",
+      "game": "Pokémon Sun / Moon",
+      "method": "Historical North America gift: Shiny Silvally via GameStop code card distributed October 23–November 13, 2017; code redemption ended February 13, 2018. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2017",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
+    },
+    {
       "key": "776",
       "game": "Pokémon Sword",
       "method": "Historical event Max Raid Battles · availability depends on downloaded event data",
@@ -10670,6 +10706,42 @@
         7
       ],
       "gigantamax": false
+    },
+    {
+      "key": "785",
+      "game": "Pokémon Sun / Moon",
+      "method": "Historical North America gift: Shiny Tapu Koko via Nintendo Network, July 14–August 14, 2017. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2017",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
+    },
+    {
+      "key": "791",
+      "game": "Pokémon Moon / Ultra Moon",
+      "method": "Historical North America gift: Shiny Solgaleo via Pokémon Pass at GameStop; event October 21–November 10, 2019. The archive does not specify a separate code-expiry date. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
+    },
+    {
+      "key": "792",
+      "game": "Pokémon Sun / Ultra Sun",
+      "method": "Historical North America gift: Shiny Lunala via Pokémon Pass at GameStop; event October 21–November 10, 2019. The archive does not specify a separate code-expiry date. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
+    },
+    {
+      "key": "803",
+      "game": "Pokémon Ultra Sun / Ultra Moon",
+      "method": "Historical North America gift: Shiny Poipole via GameStop code card distributed September 17–October 7, 2018; code redemption ended December 20, 2018. Other regions and any additional redemption prerequisites require separate review.",
+      "status": "Past event · distribution ended",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2018",
+      "kind": "gift-or-go",
+      "needsAnnouncementReview": true
     },
     {
       "key": "812",
@@ -15905,7 +15977,7 @@
       "finding": "14 outbreak examples reviewed across four 2024 summer phases; other merged events remain unverified."
     }
   ],
-  "sourceGroupCount": 277,
+  "sourceGroupCount": 280,
   "sourceGroups": [
     {
       "kind": "max-raid",
@@ -16425,6 +16497,25 @@
         "Pokémon Scarlet / Violet",
         "Pokémon Scarlet / Violet · The Indigo Disk",
         "Pokémon Scarlet / Violet · The Teal Mask"
+      ],
+      "needsAnnouncementReview": true
+    },
+    {
+      "kind": "gift-or-go",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2019",
+      "eventIndices": [],
+      "routeCount": 4,
+      "catalogKeys": [
+        "25",
+        "133",
+        "791",
+        "792"
+      ],
+      "games": [
+        "Pokémon Let's Go, Eevee!",
+        "Pokémon Let's Go, Pikachu!",
+        "Pokémon Moon / Ultra Moon",
+        "Pokémon Sun / Ultra Sun"
       ],
       "needsAnnouncementReview": true
     },
@@ -19305,6 +19396,21 @@
     },
     {
       "kind": "gift-or-go",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2018",
+      "eventIndices": [],
+      "routeCount": 2,
+      "catalogKeys": [
+        "718",
+        "803"
+      ],
+      "games": [
+        "Pokémon Sun / Moon / Ultra Sun / Ultra Moon",
+        "Pokémon Ultra Sun / Ultra Moon"
+      ],
+      "needsAnnouncementReview": true
+    },
+    {
+      "kind": "gift-or-go",
       "source": "https://www.serebii.net/events/dex/719.shtml",
       "eventIndices": [],
       "routeCount": 1,
@@ -19379,6 +19485,20 @@
       ],
       "games": [
         "Pokémon Shield"
+      ],
+      "needsAnnouncementReview": true
+    },
+    {
+      "kind": "gift-or-go",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/past-pokemon-distributions/2017",
+      "eventIndices": [],
+      "routeCount": 2,
+      "catalogKeys": [
+        "773",
+        "785"
+      ],
+      "games": [
+        "Pokémon Sun / Moon"
       ],
       "needsAnnouncementReview": true
     },
