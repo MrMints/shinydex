@@ -243,6 +243,8 @@ for sid in {20,105}:
  records[str(sid)]['entries']=[entry for entry in base if entry not in totems]
 from modern_hunts import merge
 print('Modern encounter routes:',merge(records,catalog))
+from summer_outbreak_review import merge as merge_summer_outbreak_review
+print('Reviewed 2024 summer outbreak examples:',merge_summer_outbreak_review(records,catalog))
 from sos_hunts import merge as merge_sos
 print('SOS mechanic and special-target reviews:',merge_sos(records,catalog))
 from pelago_hunts import merge as merge_pelago
