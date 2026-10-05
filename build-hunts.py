@@ -375,15 +375,26 @@ for sid in (59,279,448,1001,1002,1003,1004,1007,1008):
   entry['method']+=sv_gift_requirements
   entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+['https://www.pokemon.co.jp/support-sp/uketori_sv.html']))
 # Independently reviewed early Ramanas rooms; leave disputed later unlocks for review.
-ramanas_sources=['https://diamondpearl.pokemon.com/en-us/features/','https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/','https://bulbapedia.bulbagarden.net/wiki/Ramanas_Park','https://www.serebii.net/brilliantdiamondshiningpearl/ramanaspark.shtml']
+ramanas_sources=['https://diamondpearl.pokemon.com/en-us/features/','https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/','https://bulbapedia.bulbagarden.net/wiki/Ramanas_Park','https://www.serebii.net/brilliantdiamondshiningpearl/ramanaspark.shtml','https://www.thonky.com/pokemon-brilliant-diamond-shining-pearl/ramanas-park']
 for sid in (144,145,146,243,244,245,377,378,379,380,381):
  for entry in records[str(sid)]['entries']:
   if entry['game'] not in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') or not any('Ramanas Park' in loc for loc in entry['locations']) or not entry['method'].startswith('Stationary encounter:'): continue
   room='Discovery' if sid in (377,378,379) else 'Soul' if sid in (380,381) else 'Johto' if sid in (243,244,245) else 'Kanto'
   entry['method']+=' Requires Hall of Fame entry, the National Pokédex, and the Ramanas Park launch update. See all 150 initial Sinnoh Pokédex species, then show the completed seen Pokédex to Professor Rowan; catching all 150 is unnecessary.'
   if room!='Discovery': entry['method']+=' Catch Regirock, Regice, and Registeel to unlock this slate.'
-  entry['method']+=f' Exchange Grand Underground Mysterious Shards for a {room} Slate at the park shop and insert it into the {room} Room pedestal. The room randomly selects a remaining Pokémon; each attempt consumes a slate even if capture fails. Save before inserting the slate when resetting for a shiny.'
+  entry['method']+=f' Exchange three Mysterious Shards S or one Mysterious Shard L (dug up in the Grand Underground after becoming Champion) for a {room} Slate at the park shop and insert it into the {room} Room pedestal. The room randomly selects a remaining Pokémon; each attempt consumes a slate even if capture fails. Save before inserting the slate when resetting for a shiny.'
   entry['locations']=[f'Ramanas Park ({room} Room → Pure Space)']
+  entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+ramanas_sources))
+# Later rooms whose requirements agree across the reviewed references.
+for sid,room in ((150,'Genome'),(249,'Squall'),(382,'Oceanic'),(383,'Tectonic'),(384,'Stratospheric'),(250,'Rainbow')):
+ for entry in records[str(sid)]['entries']:
+  if entry['game'] not in ('Pokémon Brilliant Diamond','Pokémon Shining Pearl') or not any('Ramanas Park' in loc for loc in entry['locations']) or not entry['method'].startswith('Stationary encounter:'): continue
+  trio='Raikou, Entei, and Suicune' if entry['game']=='Pokémon Brilliant Diamond' else 'Articuno, Zapdos, and Moltres'
+  entry['method']+=f' Requires Hall of Fame entry, the National Pokédex (see all 150 initial Sinnoh species and visit Professor Rowan), and the Ramanas Park launch update. Catch Regirock, Regice, and Registeel, then catch {trio} to unlock later slates.'
+  if sid==250: entry['method']+=' Ho-Oh unlock evidence conflicts: Serebii also requires Latias and Latios, whereas other reviewed guides do not; the exact minimum requirement remains unverified.'
+  entry['method']+=f' Exchange three Mysterious Shards S or one Mysterious Shard L (Grand Underground digging after becoming Champion) for a {room} Slate; insert it into the {room} Room pedestal. Each attempt consumes a slate even if capture fails; save before inserting when resetting for a shiny.'
+  if sid in (382,383): entry['method']+=' Surf is needed to reach this room.'
+  entry['locations']=[f'Ramanas Park ({room} Room → Strange Space)']
   entry['sourceReferences']=list(dict.fromkeys(entry.get('sourceReferences',[])+ramanas_sources))
 Path('hunts.json').write_text(json.dumps(records,separators=(',',':')))
 print(f'Built encounter guide for {len(records)} species, {sum(bool(r["entries"]) for r in records.values())} with game records')

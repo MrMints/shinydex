@@ -8,7 +8,7 @@ Use `audit-checkpoint.json` to identify the source baseline, input hashes, evide
 
 ## Where work stopped
 
-The early Ramanas Park pass added access and slate requirements to 16 stationary routes (Discovery, Soul, Kanto and Johto rooms). Later rooms remain open; Ho-Oh unlock requirements conflict between secondary sources. See `bdsp-ramanas-review.json`.
+Ramanas Park now has access, slate prices and room instructions for all 26 catchable stationary routes. The minimum Ho-Oh unlock condition still conflicts between secondary sources; direct gameplay reset/targeting verification remains open. See `bdsp-ramanas-review.json`.
 
 The latest pass added officially documented North American historical shiny gifts from the 2017–2019 and 2021 archives, including region-specific Zacian/Zamazenta windows and Toxtricity's Wild Area prerequisite. Follow `north-america-gift-review.json` for original campaign prerequisites still requiring review. These official archives are incomplete: the 2016 page lists only Magearna, and the 2020 page omits the independently verified shiny Zeraora reward.
 

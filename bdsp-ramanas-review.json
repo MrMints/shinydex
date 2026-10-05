@@ -1,7 +1,7 @@
 {
   "reviewDate": "2026-10-04",
   "fullBdspAuditComplete": false,
-  "scope": "Early Ramanas Park access and room targeting only",
+  "scope": "All 26 catchable Ramanas stationary routes have documented access and slate instructions; minimum Ho-Oh unlock remains unresolved.",
   "reviewedRoutes": [
     {
       "species": 144,
@@ -82,13 +82,64 @@
       "species": 381,
       "game": "Pokémon Shining Pearl",
       "room": "Ramanas Park (Soul Room → Pure Space)"
+    },
+    {
+      "species": 150,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Genome Room → Strange Space)"
+    },
+    {
+      "species": 150,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Genome Room → Strange Space)"
+    },
+    {
+      "species": 249,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Squall Room → Strange Space)"
+    },
+    {
+      "species": 250,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Rainbow Room → Strange Space)"
+    },
+    {
+      "species": 382,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Oceanic Room → Strange Space)"
+    },
+    {
+      "species": 382,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Oceanic Room → Strange Space)"
+    },
+    {
+      "species": 383,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Tectonic Room → Strange Space)"
+    },
+    {
+      "species": 383,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Tectonic Room → Strange Space)"
+    },
+    {
+      "species": 384,
+      "game": "Pokémon Brilliant Diamond",
+      "room": "Ramanas Park (Stratospheric Room → Strange Space)"
+    },
+    {
+      "species": 384,
+      "game": "Pokémon Shining Pearl",
+      "room": "Ramanas Park (Stratospheric Room → Strange Space)"
     }
   ],
   "sources": [
     "https://diamondpearl.pokemon.com/en-us/features/",
     "https://diamondpearl.pokemon.com/en-us/trainersguide/pokedex/",
     "https://bulbapedia.bulbagarden.net/wiki/Ramanas_Park",
-    "https://www.serebii.net/brilliantdiamondshiningpearl/ramanaspark.shtml"
+    "https://www.serebii.net/brilliantdiamondshiningpearl/ramanaspark.shtml",
+    "https://www.thonky.com/pokemon-brilliant-diamond-shining-pearl/ramanas-park"
   ],
   "verified": "Official Hall of Fame/update and initial 150 seen requirements; secondary National Dex access, initial Discovery room, Regi captures unlocking Soul/Kanto/Johto rooms, matching slates, random room target and consumed attempts. Existing decoded shiny eligibility remains unchanged.",
   "inference": "Saving before consuming a slate preserves that slate when resetting; game reset/RNG behavior still requires direct gameplay verification.",
@@ -99,9 +150,16 @@
     }
   ],
   "remaining": [
-    "Later-room unlock requirements, including Ho-Oh source conflict",
-    "Exact shard prices from rendered item icons",
+    "Minimum Ho-Oh unlock condition: conflicting secondary evidence; underlying shop script not located",
     "Direct gameplay reset and target randomization checks",
     "Other remaining BDSP access and Radar eligibility"
-  ]
+  ],
+  "shardPriceReview": {
+    "small": 3,
+    "large": 1,
+    "alternatives": true,
+    "source": "https://www.thonky.com/pokemon-brilliant-diamond-shining-pearl/ramanas-park",
+    "shardsAvailable": "Grand Underground digging after becoming Champion"
+  },
+  "validation": "Compared complete generated guide with prior commit: exactly 26 Ramanas routes changed, 10 later-room instructions added; original sources, statuses and unrelated routes unchanged."
 }
