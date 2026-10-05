@@ -13,11 +13,18 @@
       "giftStartUTC": "2025-08-22T00:00:00Z",
       "giftEndUTC": "2025-09-30T23:59:00Z",
       "source": "https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-chien-pao-in-pokemon-scarlet-and-pokemon-violet"
+    },
+    {
+      "species": 1003,
+      "giftStartUTC": "2025-09-05T00:00:00Z",
+      "giftEndUTC": "2025-09-30T23:59:00Z",
+      "source": "https://www.pokemon.com/it/novita/annuncio-del-totale-di-vittorie-contro-ting-lu-cromatico-in-pokemon-scarlatto-e-pokemon-violetto",
+      "confirmedVictories": 3556583
     }
   ],
   "raidCatchable": false,
   "remaining": [
-    "Confirm Ting-Lu and Chi-Yu result announcements and redemption periods.",
+    "Confirm Chi-Yu result announcement and redemption period; the preliminary raid announcement is conditional.",
     "Review Koraidon and Miraidon regional code distributions and redemption deadlines.",
     "Complete other historical events and acquisition prerequisites."
   ]

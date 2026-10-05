@@ -87,12 +87,14 @@ def add(ids,game,method,state='Huntable'):
  for sid in ids: records[str(sid)]['entries'].append({'game':game,'method':method,'status':state,'locations':[]})
 # Reviewed result announcements confirm these gifts were distributed, rather
 # than merely promised if a community raid target was reached.
-for sid,event_name,start_date in [(1001,'wo-chien','August 8, 2025'),(1002,'chien-pao','August 22, 2025')]:
+for sid,event_name,start_date in [(1001,'wo-chien','August 8, 2025'),(1002,'chien-pao','August 22, 2025'),(1003,'ting-lu','September 5, 2025')]:
  for entry in records[str(sid)]['entries']:
   if entry['game']=='Pokémon Scarlet / Violet' and entry['method']=='Shiny event distribution':
    entry['method']=f'2025 shiny {title(event_name)} community-challenge reward: Mystery Gift → Get via Internet, from {start_date} at 00:00 UTC through September 30, 2025 at 23:59 UTC; save after redemption. The challenge raids could not be caught; the reward was a separate Mystery Gift.'
    entry['status']='Past event · distribution ended'
    entry['source']=f'https://www.pokemon.com/uk/news/announcing-the-total-victories-against-shiny-{event_name}-in-pokemon-scarlet-and-pokemon-violet'
+   if sid==1003:
+    entry['source']='https://www.pokemon.com/it/novita/annuncio-del-totale-di-vittorie-contro-ting-lu-cromatico-in-pokemon-scarlatto-e-pokemon-violetto'
    entry['sourceReferences']=['https://www.pokemon.com/us/news/shiny-wo-chien-appears-in-5-star-tera-raid-battles-in-pokemon-scarlet-and-pokemon-violet']
 add([409],'Pokémon Diamond / Platinum','Revive a shiny Cranidos from a Skull Fossil (soft reset), then evolve at level 30')
 add([411],'Pokémon Pearl / Platinum','Revive a shiny Shieldon from an Armor Fossil (soft reset), then evolve at level 30')
