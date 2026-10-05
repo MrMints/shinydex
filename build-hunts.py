@@ -122,7 +122,13 @@ add([648],'Pokémon Scarlet / Violet · Indigo Disk','Stationary Meloetta encoun
 add([905],'Pokémon Legends: Arceus','Mission Enamorus encounter','Shiny Locked')
 add([649],'Pokémon GO','Shiny-enabled Genesect raids','Event rotation · availability varies')
 add([719],'Pokémon Omega Ruby / Alpha Sapphire','Historical shiny Diancie event distribution (Pokémon Center / All-Stars Battle)','Past event · availability varies')
-add([807],'Pokémon HOME','Historical shiny Zeraora distribution','Past event · availability varies')
+records['807']['entries'].append({
+ 'game':'Pokémon HOME',
+ 'method':'2020 shiny Zeraora reward: redeem Mystery Gift in mobile Pokémon HOME from June 30, 2020 at 00:00 UTC through July 6, 2020 at 23:59 UTC. Eligibility required depositing or withdrawing a Pokémon between Sword / Shield and Switch Pokémon HOME from June 17, 2020 at 15:00 UTC through July 6, 2020 at 23:59 UTC. The community raid target was achieved; Zeraora in those Max Raids could not be caught.',
+ 'status':'Past event · distribution ended','locations':[],
+ 'source':'https://swordshield.pokemon.com/en-us/expansionpass/mythical-zeraora/',
+ 'sourceReferences':['https://www.pokemon.co.jp/info/2020/06/200630_gm01.html']
+})
 add([808],'Pokémon GO','Mystery Box during a shiny-enabled Meltan event','Event rotation · availability varies')
 add([808],'Pokémon HOME',"Let's Go Pokédex-completion shiny Mystery Gift",'Reward · check requirements')
 add([809],'Pokémon GO','Evolve shiny Meltan with 400 Meltan Candy','Huntable')

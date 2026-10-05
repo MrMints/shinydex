@@ -30,6 +30,19 @@
       "game": "Pokémon GO",
       "finding": "Final Justice worldwide paid Masterwork Research leads to shiny Keldeo. Ticket sales were November 25, 2025 10:00 through November 30, 2025 20:00 local time. Acquired research does not expire. Do not conflate separate seasonal research with the shiny reward.",
       "source": "https://pokemongo.com/news/final-justice-2025"
+    },
+    {
+      "species": 807,
+      "game": "Pokémon HOME",
+      "giftStartUTC": "2020-06-30T00:00:00Z",
+      "giftEndUTC": "2020-07-06T23:59:00Z",
+      "transferStartUTC": "2020-06-17T15:00:00Z",
+      "transferEndUTC": "2020-07-06T23:59:00Z",
+      "finding": "Required a Sword/Shield–Switch HOME deposit or withdrawal during eligibility period, then mobile HOME Mystery Gift redemption. The Japanese result announcement confirms actual distribution. Raids were uncatchable. UTC values converted from PDT and cross-checked against JST.",
+      "sources": [
+        "https://swordshield.pokemon.com/en-us/expansionpass/mythical-zeraora/",
+        "https://www.pokemon.co.jp/info/2020/06/200630_gm01.html"
+      ]
     }
   ],
   "remaining": [
