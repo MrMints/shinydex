@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).parent
 def merge(records,catalog):
  names={p['id']:p['displayName'] for p in catalog if not p.get('region')}
- edges=json.loads((ROOT/'gen-three-evolution-encounters.json').read_text());count=0
+ edges=json.loads((ROOT/'audit/gen-three-evolution-encounters.json').read_text());count=0
  for key,guide in records.items():
   for e in list(guide['entries']):
    if e['game'] not in {'Pokémon Colosseum','Pokémon XD: Gale of Darkness'} or not (e['method'].startswith('Catch shiny ') and e['method'].endswith(' and evolve it')):continue

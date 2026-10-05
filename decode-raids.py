@@ -49,6 +49,6 @@ for table,kind in [('dist','tera-raid-event'),('might','tera-raid-mightiest')]:
   assert hosts
   records.append(dict(species=species,form=raw[2],game='Pokémon Scarlet / Violet',kind=kind,shiny=shiny(raw[6]),stars=[raw[18]],hostVersions=hosts,eventIndex=raw[17],locationId=0,location='Event Tera Raid crystal',source=source(path)))
  audit.append(dict(file=path.name,serializedEntries=len(rows),entrySize=62))
-(ROOT/'raid-encounters.json').write_text(json.dumps(records,separators=(',',':')))
-(ROOT/'raid-decode-audit.json').write_text(json.dumps(audit,indent=2))
+(ROOT/'audit/raid-encounters.json').write_text(json.dumps(records,separators=(',',':')))
+(ROOT/'audit/raid-decode-audit.json').write_text(json.dumps(audit,indent=2))
 print('Decoded raid records:',len(records),audit)

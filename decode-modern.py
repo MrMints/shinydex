@@ -131,6 +131,6 @@ for code,game in [('sw','Sword'),('sh','Shield')]:
     assert seen<=total
    assert len(block)-offset in {0,2} and not any(block[offset:])
   audits.append(dict(file=path.name,areas=len(blocks),slots=len(records)-start))
-(ROOT/'modern-wild.json').write_text(json.dumps(records,separators=(',',':')))
-(ROOT/'modern-decode-audit.json').write_text(json.dumps(audits,indent=2))
+(ROOT/'audit/modern-wild.json').write_text(json.dumps(records,separators=(',',':')))
+(ROOT/'audit/modern-decode-audit.json').write_text(json.dumps(audits,indent=2))
 print('Decoded modern wild records:',len(records),audits)

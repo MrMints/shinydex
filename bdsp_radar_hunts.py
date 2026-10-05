@@ -48,7 +48,7 @@ DETAILS = {206: 'snow area exterior', 207: 'summit exterior',
 
 def merge_reviewed_times(records):
     """Apply explicit source reviews, never promote parsed inventory candidates."""
-    conditions = json.loads((ROOT / 'bdsp-time-review.json').read_text(encoding='utf-8'))['conditions']
+    conditions = json.loads((ROOT / 'audit/bdsp-time-review.json').read_text(encoding='utf-8'))['conditions']
     count = 0
     for condition in conditions:
         species, location, source = condition['species'], condition['location'], condition['source']
@@ -94,7 +94,7 @@ def merge_reviewed_times(records):
 
 def routes():
     grouped = defaultdict(dict)
-    for slot in json.loads((ROOT / 'modern-wild.json').read_text()):
+    for slot in json.loads((ROOT / 'audit/modern-wild.json').read_text()):
         if (slot['kind'] != 'bdsp-1' or slot['form'] != 0
                 or slot['locationId'] in EXCLUDED):
             continue

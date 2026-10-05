@@ -43,6 +43,6 @@ for code,personal,size,index,count,present,max_species in [
    method={48:'UseItemDay',49:'UseItemNight'}.get(kind,types[kind]) if code=='la' else types[kind]
    records.append(dict(gameTable=code,sourceSpecies=species,sourceForm=form,destinationSpecies=dest,destinationForm=destform,evolutionType=method,argument=arg,level=block[7],sourcePresent=presence.get((species,form),False),destinationPresent=presence.get((dest,destform),False),source='https://github.com/kwsch/PKHeX/blob/'+sha+'/'+path.relative_to(REF).as_posix()))
  audit.append(dict(table=code,entries=n,branches=len(records)-start))
-(ROOT/'evolution-encounters.json').write_text(json.dumps(records,indent=2))
-(ROOT/'evolution-decode-audit.json').write_text(json.dumps(dict(tables=audit,branches=len(records),fullHuntingAuditComplete=False,remaining=['Render and verify all evolution requirements','Validate source shiny acquisition routes','Replace unsupported generic evolution entries']),indent=2))
+(ROOT/'audit/evolution-encounters.json').write_text(json.dumps(records,indent=2))
+(ROOT/'audit/evolution-decode-audit.json').write_text(json.dumps(dict(tables=audit,branches=len(records),fullHuntingAuditComplete=False,remaining=['Render and verify all evolution requirements','Validate source shiny acquisition routes','Replace unsupported generic evolution entries']),indent=2))
 print('Decoded',len(records),'form-specific evolution branches:',audit)

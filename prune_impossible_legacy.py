@@ -20,5 +20,5 @@ def prune(records):
    if reason:removed.append(dict(key=int(key),entry=e,reason=reason))
    else:kept.append(e)
   guide['entries']=kept
- Path('impossible-legacy-audit.json').write_text(json.dumps(dict(removedCount=len(removed),records=removed,fullHuntingAuditComplete=False),indent=2),encoding='utf-8')
+ Path('audit/impossible-legacy-audit.json').write_text(json.dumps(dict(removedCount=len(removed),records=removed,fullHuntingAuditComplete=False),indent=2),encoding='utf-8')
  return len(removed)

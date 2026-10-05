@@ -17,7 +17,7 @@ def merge(records,catalog):
  items=(ROOT/'reference/pkhex/PKHeX.Core/Resources/text/items/gen3/text_ItemsG3_en.txt').read_text(encoding='utf-16').splitlines()
  for code,game in GAMES:
   raw=(ROOT/('reference/pkhex/PKHeX.Core/Resources/byte/personal/personal_'+code)).read_bytes()
-  for edge in json.loads((ROOT/'gen-three-evolution-encounters.json').read_text()):
+  for edge in json.loads((ROOT/'audit/gen-three-evolution-encounters.json').read_text()):
    kind=edge['evolutionType']
    if kind not in {'LevelUp','UseItem','Trade','TradeHeldItem'}|CONDITIONS|TIMED|set(SPECIAL) or edge['sourceForm'] or edge['destinationForm']:continue
    parent=edge['sourceSpecies'];child=edge['destinationSpecies'];level=edge['level']

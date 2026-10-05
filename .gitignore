@@ -15,5 +15,11 @@ shinydex-backup*.json
 *-preview.png
 *-preview.jpg
 
+# Reviewed audit artifacts are versioned in their canonical workspace.
+!audit/artifacts/**/*-preview.png
+!audit/artifacts/**/*-preview.jpg
+!audit/artifacts/*-preview.png
+!audit/artifacts/*-preview.jpg
+
 # Local repository-creation UI evidence is not project source.
 /Archive/github-repository-prepared.png

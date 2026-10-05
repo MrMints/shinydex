@@ -7,7 +7,7 @@ GAMES=["Pokémon Let's Go, Pikachu!","Pokémon Let's Go, Eevee!"]
 def merge(records,catalog):
  forms=catalog_forms(catalog);names={p['key']:p['displayName'] for p in catalog};count=0
  items=(ROOT/'reference/pkhex/PKHeX.Core/Resources/text/items/text_Items_en.txt').read_text(encoding='utf-8-sig').splitlines()
- for edge in json.loads((ROOT/'lets-go-evolution-encounters.json').read_text()):
+ for edge in json.loads((ROOT/'audit/lets-go-evolution-encounters.json').read_text()):
   parent=edge['sourceSpecies'];child=edge['destinationSpecies']
   kind=edge['evolutionType']
   if kind not in {'LevelUp','UseItem','Trade'} or not (1<=parent<=151 and 1<=child<=151):continue

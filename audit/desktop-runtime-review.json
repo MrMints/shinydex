@@ -1,0 +1,50 @@
+{
+  "checked": "2026-10-04",
+  "runtime": "Electron 44.5.1, unpackaged source app",
+  "profile": "isolated temporary QA profile",
+  "passed": [
+    "shiny protocol without HTTP server",
+    "renderer Node require unavailable",
+    "first artwork decoded",
+    "shiny selection persisted through native store and renderer reload",
+    "update dialog opened",
+    "package.json access denied by protocol allowlist",
+    "no renderer console errors observed"
+  ],
+  "evidence": "desktop/smoke.cjs executed successfully; smoke.json passed=true, packaged=false",
+  "remaining": [
+    "refreshed local audit-build NSIS installation (historical 1.0.0 installation evidence is separate)",
+    "actual update and downgrade with save persistence",
+    "full source-link and UI coverage",
+    "browser storage quota and completed downloads"
+  ],
+  "fullDesktopAuditComplete": false,
+  "packagedRuntime": {
+    "passed": true,
+    "version": "1.0.0",
+    "url": "shiny://app/",
+    "rendererErrors": [],
+    "scope": "Later local audit build: win-unpacked executable ran desktop/smoke.cjs with isolated temporary profile; its refreshed NSIS installer remains unverified. Historical 1.0.0 installation evidence is recorded separately in audit/desktop-qa.json."
+  },
+  "installationEvidenceReconciliation": {
+    "reviewedAt": "2026-10-05",
+    "historicalReport": "audit/desktop-qa.json",
+    "historicalCommits": [
+      "009f6d0",
+      "5286502"
+    ],
+    "laterPackagedSmokeCommit": "518c3dc",
+    "historicalResults": {
+      "version": "1.0.0",
+      "installerExitCode": 0,
+      "installedAppSmokePassed": true,
+      "testUninstallExitCode": 0
+    },
+    "limitations": [
+      "Historical summary does not identify the tested installer SHA-256 or preserve detailed installer logs.",
+      "Update/downgrade calls used controlled fixtures; real public update/downgrade, restart and collection persistence across that cycle remain unverified.",
+      "Later local audit-build NSIS installation and clean-machine Windows/SmartScreen prompts remain unverified."
+    ],
+    "newInstallationTestPerformed": false
+  }
+}

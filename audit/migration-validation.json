@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-05",
+  "movedFiles": 150,
+  "auditComplete": false,
+  "runtimeFilesUnchanged": true,
+  "runtimeGeneratorsReproduceExactBytes": [
+    "python build-catalog.py",
+    "python build-hunts.py"
+  ],
+  "projectChecks": {
+    "command": "python audit/check-project.py",
+    "passed": 34,
+    "total": 34
+  },
+  "desktopTests": {
+    "command": "node --test --test-isolation=none desktop/storage.test.cjs desktop/updates.test.cjs",
+    "passed": 6,
+    "total": 6
+  },
+  "limitations": [
+    "Location migration only; no new gameplay coverage or installer test.",
+    "Historical report/input hashes identify their original bytes; migration-baseline.json retains the pre-move hashes."
+  ]
+}

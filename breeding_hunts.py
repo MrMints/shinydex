@@ -118,5 +118,5 @@ def merge(records,catalog):
    if code in {'bw','b2w2'}|GEN3:records[str(p['key'])]['entries'][-1]['sourceReferences'].append('https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Day_Care')
    if code in {'sm','uu'}:records[str(p['key'])]['entries'][-1]['sourceReferences'].extend(['https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Nursery','https://home.pokemon.com/en-gb/move/'])
    audit.append(dict(key=p['key'],game=game,form=form,parent=parent))
- (ROOT/'breeding-audit.json').write_text(json.dumps(dict(directEggRoutes=audit,routeCount=len(audit),fullHuntingAuditComplete=False,remaining=['Exact evolution requirements','Older game breeding availability','Form inheritance exceptions and parent acquisition prerequisites']),indent=2))
+ (ROOT/'audit/breeding-audit.json').write_text(json.dumps(dict(directEggRoutes=audit,routeCount=len(audit),fullHuntingAuditComplete=False,remaining=['Exact evolution requirements','Older game breeding availability','Form inheritance exceptions and parent acquisition prerequisites']),indent=2))
  return len(audit)

@@ -4,7 +4,7 @@ from pathlib import Path
 from collections import defaultdict
 from form_mapping import catalog_forms
 ROOT=Path(__file__).parent
-SECTION_REVIEW=json.loads((ROOT/'bdsp-section-review.json').read_text(encoding='utf-8'))
+SECTION_REVIEW=json.loads((ROOT/'audit/bdsp-section-review.json').read_text(encoding='utf-8'))
 REVIEWED_SECTIONS={item['locationId']:item for item in SECTION_REVIEW['sections']}
 STATES={'Random':'Huntable','Never':'Shiny Locked','Always':'Guaranteed shiny','AlwaysStar':'Guaranteed shiny','AlwaysSquare':'Guaranteed shiny'}
 def display_location(slot):
@@ -32,7 +32,7 @@ def merge(records,catalog):
  forms=catalog_forms(catalog)
  form_ids={key:form for (species,form),key in forms.items()}
  grouped=defaultdict(set);sources={}
- for slot in json.loads((ROOT/'modern-wild.json').read_text()):
+ for slot in json.loads((ROOT/'audit/modern-wild.json').read_text()):
   catalog_key=forms.get((slot['species'],slot['form']))
   if catalog_key is None:continue
   key=(catalog_key,dlc_game(slot['game'],slot['locationId']),slot['kind'],slot['alpha'],slot['shiny'])
@@ -66,7 +66,7 @@ def merge(records,catalog):
   if 'Route 209 · Lost Tower interior' in locations:
    records[str(sid)]['entries'][-1]['sourceReferences']=[sources[key], 'https://www.serebii.net/pokearth/sinnoh/losttower.shtml']
   added+=1
- for fact in json.loads((ROOT/'static-index.json').read_text()):
+ for fact in json.loads((ROOT/'audit/static-index.json').read_text()):
   if fact['type'] not in {'EncounterStatic9','EncounterStatic9a','EncounterGift9a','EncounterStatic8a','EncounterStatic8b','EncounterStatic8','EncounterStatic7'} or fact['shiny'] not in STATES:continue
   catalog_key=forms.get((fact['species'],fact['form']))
   if catalog_key is None:continue

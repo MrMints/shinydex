@@ -18,7 +18,7 @@ def merge(records,catalog):
  names={p['id']:p['displayName'] for p in catalog if not p.get('region')};count=0
  for code,game in GAMES:
   raw=(ROOT/('reference/pkhex/PKHeX.Core/Resources/byte/personal/personal_'+code)).read_bytes()
-  for edge in json.loads((ROOT/'gen-four-evolution-encounters.json').read_text()):
+  for edge in json.loads((ROOT/'audit/gen-four-evolution-encounters.json').read_text()):
    kind=edge['evolutionType']
    if kind not in {'LevelUp','Trade','LevelUpKnowMove'}|ITEM_TYPES|CONDITION_TYPES|set(SPECIAL) or edge['sourceForm'] or edge['destinationForm']:continue
    parent=edge['sourceSpecies'];child=edge['destinationSpecies'];level=edge['level']

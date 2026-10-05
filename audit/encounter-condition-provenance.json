@@ -1,0 +1,17 @@
+{
+  "retrieved": "2026-10-03",
+  "files": [
+    {
+      "file": "encounter_condition_value_map.csv",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/encounter_condition_value_map.csv",
+      "sha256": "e7e566eb07f53aab34065869a245359cc8c0313ca97872de5fd07d1867a46c7a"
+    },
+    {
+      "file": "encounter_condition_values.csv",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/encounter_condition_values.csv",
+      "sha256": "f55fc7c4b4d821631695ff30d74f34b2122859c412d29b98d4d973cb6d2df902"
+    }
+  ],
+  "compatibilityAudit": "audit/condition-compatibility-audit.json",
+  "limitation": "Sources were downloaded from a mutable branch; hashes identify the checked-in snapshot, not a pinned upstream commit. Complete encounter identities for all 67,512 condition-bearing local rows match the separately retained comparison encounter table. This proves snapshot compatibility for those rows, not exhaustive hunting coverage."
+}

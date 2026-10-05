@@ -283,7 +283,7 @@ for p in catalog:
  record=records[str(p['key'])]
  for entry in record['entries']:
   entry.setdefault('source',p['source']+'#Game_locations')
-from audit_gifts import verify
+from audit.audit_gifts import verify
 print('Gift verification:',verify(records,catalog))
 # The CSV places these Totem rewards under the base species, but the rewards
 # are Alolan forms. Keep their restrictions in the matching regional guide.
