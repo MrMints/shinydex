@@ -70,6 +70,8 @@ assert confirmed and not confirmed['draft'] and len(confirmed['assets']) == 4
 for asset in confirmed['assets']:
     expected = next(a for a in report['package']['assets'] if a['name'] == asset['name'])
     assert asset['digest'] == 'sha256:' + expected['sha256']
-report.update(published=True, releaseUrl=confirmed['html_url'], sourceCommit=commit, publishedAt=confirmed['published_at'], publishedAssets=uploaded)
+published_assets = [{'name': asset['name'], 'sha256': asset['digest'].split(':', 1)[1],
+                     'url': asset['browser_download_url']} for asset in confirmed['assets']]
+report.update(published=True, releaseUrl=confirmed['html_url'], sourceCommit=commit, publishedAt=confirmed['published_at'], publishedAssets=published_assets)
 REPORT.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
 print('Published and verified ' + confirmed['html_url'], flush=True)

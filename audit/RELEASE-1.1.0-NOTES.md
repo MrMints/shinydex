@@ -1,6 +1,6 @@
 # ShinyDex 1.1.0
 
-Release tag: `v1.1.0`. Upload approved by the user on 2026-10-05.
+Published [ShinyDex 1.1.0](https://github.com/MrMints/shinydex/releases/tag/v1.1.0), tag `v1.1.0`, after user approval on 2026-10-05. Source commit: `8e6809dcd4633c923fb7f2e5f8d89d2eca011163`. All four public asset digests, the downloaded update manifest and checksum, latest-release selection, and unchanged 1.0.0 assets were verified. Exact hashes are in `release-1.1.0-ready.json`.
 
 ## Release description
 

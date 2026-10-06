@@ -2,6 +2,8 @@
 
 Checkpoint: 2026-10-04. The exhaustive audit remains incomplete.
 
+Release update, 2026-10-05: user-approved [ShinyDex 1.1.0](https://github.com/MrMints/shinydex/releases/tag/v1.1.0) publishes the living-dex source at `8e6809dcd4633c923fb7f2e5f8d89d2eca011163`. [Release evidence](release-1.1.0-ready.json) records the exact installer SHA-256, public asset/feed verification, packaged smoke pass and isolated 1.0.0 → 1.1.0 → 1.0.0 → 1.1.0 save checks. Older desktop autosaves retain newer form IDs, but 1.0.0 exports omit them; export in 1.1.0 before rollback. Real NSIS update/downgrade cycles remain unverified. Independent HOME/artwork/hunting review remains deferred under the user's working-reference instruction. The earlier audit hash baseline remains preserved and reports source drift; this release does not certify exhaustive audit completion.
+
 Location migration: 2026-10-05. Audit data, tooling and QA artifacts now live in `audit/`; read [the directory guide](README.md) before resuming from older chat instructions. `migration-baseline.json` preserves former paths and hashes. Checkpoint hashes were refreshed only for reviewed path changes and regenerated local verification evidence; no new hunting coverage or installer verification is asserted.
 
 Run `python audit/check-audit-checkpoint.py` to detect changed or missing baseline files. It reports drift only and never certifies completion.

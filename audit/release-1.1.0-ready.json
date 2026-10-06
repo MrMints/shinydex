@@ -5,7 +5,7 @@
   "reviewedDate": "2026-10-05",
   "readyForUpload": true,
   "uploadApproved": true,
-  "published": false,
+  "published": true,
   "auditComplete": false,
   "priorRelease": {
     "version": "1.0.0",
@@ -63,5 +63,37 @@
     "Roundtrip used actual verified release code in isolated Electron fixture runs; real NSIS install/update/downgrade and clean-machine behavior are not established.",
     "Browser 1.0.0 storage/exports do not preserve unknown forms; browser and desktop profiles remain separate.",
     "Independent HOME/artwork/hunting verification remains deferred as requested."
-  ]
+  ],
+  "releaseUrl": "https://github.com/MrMints/shinydex/releases/tag/v1.1.0",
+  "sourceCommit": "8e6809dcd4633c923fb7f2e5f8d89d2eca011163",
+  "publishedAt": "2026-10-06T01:56:47Z",
+  "publishedAssets": [
+    {
+      "name": "latest.yml",
+      "sha256": "621a6e207147faeb5e74ebc3738fd7161a2a21d7fa689ffaf4c79247e6fe8c89",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.0/latest.yml"
+    },
+    {
+      "name": "ShinyDex.exe",
+      "sha256": "b17197c0cc8c5d5671a9c0fee56d613e8329d1355f7c25c57f869010be441691",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.0/ShinyDex.exe"
+    },
+    {
+      "name": "ShinyDex.exe.blockmap",
+      "sha256": "6de1e0cf40472d49b0fad5abce98dd4883cf39ca901185695c8cd94cc8b217bf",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.0/ShinyDex.exe.blockmap"
+    },
+    {
+      "name": "ShinyDex.exe.sha256",
+      "sha256": "f9d6f781ca31438d84480f1649d9742be9ac4d3f4aff270533a9955d073ccc8c",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.0/ShinyDex.exe.sha256"
+    }
+  ],
+  "publicChecks": {
+    "latestRelease": "v1.1.0",
+    "publishedAssetUrlsVerified": true,
+    "downloadedManifestMatches": true,
+    "downloadedChecksumMatches": true,
+    "previousReleaseAssetsUnchanged": true
+  }
 }
