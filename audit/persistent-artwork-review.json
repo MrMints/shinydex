@@ -1,0 +1,3447 @@
+{
+  "auditComplete": false,
+  "reviewComplete": true,
+  "mappings": [
+    {
+      "identity": "deoxys-normal",
+      "key": 200386,
+      "legacyKey": 386,
+      "speciesId": 386,
+      "formLabel": "Normal Forme",
+      "pokemonId": 386,
+      "height": 17,
+      "weight": 608,
+      "normalFile": "HOME0386.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0386.png",
+      "shinyFile": "HOME0386_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0386_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "deoxys-attack",
+      "key": 210031,
+      "legacyKey": 386,
+      "speciesId": 386,
+      "formLabel": "Attack Forme",
+      "pokemonId": 10001,
+      "height": 17,
+      "weight": 608,
+      "normalFile": "HOME0386A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0386A.png",
+      "shinyFile": "HOME0386A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0386A_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "deoxys-defense",
+      "key": 210032,
+      "legacyKey": 386,
+      "speciesId": 386,
+      "formLabel": "Defense Forme",
+      "pokemonId": 10002,
+      "height": 17,
+      "weight": 608,
+      "normalFile": "HOME0386D.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0386D.png",
+      "shinyFile": "HOME0386D_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0386D_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "deoxys-speed",
+      "key": 210033,
+      "legacyKey": 386,
+      "speciesId": 386,
+      "formLabel": "Speed Forme",
+      "pokemonId": 10003,
+      "height": 17,
+      "weight": 608,
+      "normalFile": "HOME0386S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0386S.png",
+      "shinyFile": "HOME0386S_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0386S_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "burmy-plant",
+      "key": 200412,
+      "legacyKey": 412,
+      "speciesId": 412,
+      "formLabel": "Plant Cloak",
+      "pokemonId": 412,
+      "height": 2,
+      "weight": 34,
+      "normalFile": "HOME0412.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0412.png",
+      "shinyFile": "HOME0412_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0412_s.png",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "identity": "burmy-sandy",
+      "key": 210034,
+      "legacyKey": 412,
+      "speciesId": 412,
+      "formLabel": "Sandy Cloak",
+      "pokemonId": 412,
+      "height": 2,
+      "weight": 34,
+      "normalFile": "HOME0412G.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0412G.png",
+      "shinyFile": "HOME0412G_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0412G_s.png",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "identity": "burmy-trash",
+      "key": 210035,
+      "legacyKey": 412,
+      "speciesId": 412,
+      "formLabel": "Trash Cloak",
+      "pokemonId": 412,
+      "height": 2,
+      "weight": 34,
+      "normalFile": "HOME0412S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0412S.png",
+      "shinyFile": "HOME0412S_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0412S_s.png",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "identity": "wormadam-plant",
+      "key": 200413,
+      "legacyKey": 413,
+      "speciesId": 413,
+      "formLabel": "Plant Cloak",
+      "pokemonId": 413,
+      "height": 5,
+      "weight": 65,
+      "normalFile": "HOME0413.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0413.png",
+      "shinyFile": "HOME0413_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0413_s.png",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "identity": "wormadam-sandy",
+      "key": 210036,
+      "legacyKey": 413,
+      "speciesId": 413,
+      "formLabel": "Sandy Cloak",
+      "pokemonId": 10004,
+      "height": 5,
+      "weight": 65,
+      "normalFile": "HOME0413G.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0413G.png",
+      "shinyFile": "HOME0413G_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0413G_s.png",
+      "types": [
+        "bug",
+        "ground"
+      ]
+    },
+    {
+      "identity": "wormadam-trash",
+      "key": 210037,
+      "legacyKey": 413,
+      "speciesId": 413,
+      "formLabel": "Trash Cloak",
+      "pokemonId": 10005,
+      "height": 5,
+      "weight": 65,
+      "normalFile": "HOME0413S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0413S.png",
+      "shinyFile": "HOME0413S_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0413S_s.png",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "identity": "shellos-west",
+      "key": 200422,
+      "legacyKey": 422,
+      "speciesId": 422,
+      "formLabel": "West Sea",
+      "pokemonId": 422,
+      "height": 3,
+      "weight": 63,
+      "normalFile": "HOME0422.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0422.png",
+      "shinyFile": "HOME0422_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0422_s.png",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "identity": "shellos-east",
+      "key": 210039,
+      "legacyKey": 422,
+      "speciesId": 422,
+      "formLabel": "East Sea",
+      "pokemonId": 422,
+      "height": 3,
+      "weight": 63,
+      "normalFile": "HOME0422E.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0422E.png",
+      "shinyFile": "HOME0422E_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0422E_s.png",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "identity": "gastrodon-west",
+      "key": 200423,
+      "legacyKey": 423,
+      "speciesId": 423,
+      "formLabel": "West Sea",
+      "pokemonId": 423,
+      "height": 9,
+      "weight": 299,
+      "normalFile": "HOME0423.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0423.png",
+      "shinyFile": "HOME0423_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0423_s.png",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "identity": "gastrodon-east",
+      "key": 210040,
+      "legacyKey": 423,
+      "speciesId": 423,
+      "formLabel": "East Sea",
+      "pokemonId": 423,
+      "height": 9,
+      "weight": 299,
+      "normalFile": "HOME0423E.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0423E.png",
+      "shinyFile": "HOME0423E_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0423E_s.png",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "identity": "rotom",
+      "key": 200479,
+      "legacyKey": 479,
+      "speciesId": 479,
+      "formLabel": "Rotom",
+      "pokemonId": 479,
+      "height": 3,
+      "weight": 3,
+      "normalFile": "HOME0479.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0479.png",
+      "shinyFile": "HOME0479_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0479_s.png",
+      "types": [
+        "electric",
+        "ghost"
+      ]
+    },
+    {
+      "identity": "rotom-heat",
+      "key": 210058,
+      "legacyKey": 479,
+      "speciesId": 479,
+      "formLabel": "Heat Rotom",
+      "pokemonId": 10008,
+      "height": 3,
+      "weight": 3,
+      "normalFile": "HOME0479O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0479O.png",
+      "shinyFile": "HOME0479O_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0479O_s.png",
+      "types": [
+        "electric",
+        "fire"
+      ]
+    },
+    {
+      "identity": "rotom-wash",
+      "key": 210059,
+      "legacyKey": 479,
+      "speciesId": 479,
+      "formLabel": "Wash Rotom",
+      "pokemonId": 10009,
+      "height": 3,
+      "weight": 3,
+      "normalFile": "HOME0479W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0479W.png",
+      "shinyFile": "HOME0479W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0479W_s.png",
+      "types": [
+        "electric",
+        "water"
+      ]
+    },
+    {
+      "identity": "rotom-frost",
+      "key": 210060,
+      "legacyKey": 479,
+      "speciesId": 479,
+      "formLabel": "Frost Rotom",
+      "pokemonId": 10010,
+      "height": 3,
+      "weight": 3,
+      "normalFile": "HOME0479R.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0479R.png",
+      "shinyFile": "HOME0479R_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0479R_s.png",
+      "types": [
+        "electric",
+        "ice"
+      ]
+    },
+    {
+      "identity": "rotom-fan",
+      "key": 210061,
+      "legacyKey": 479,
+      "speciesId": 479,
+      "formLabel": "Fan Rotom",
+      "pokemonId": 10011,
+      "height": 3,
+      "weight": 3,
+      "normalFile": "HOME0479F.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0479F.png",
+      "shinyFile": "HOME0479F_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0479F_s.png",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    {
+      "identity": "rotom-mow",
+      "key": 210062,
+      "legacyKey": 479,
+      "speciesId": 479,
+      "formLabel": "Mow Rotom",
+      "pokemonId": 10012,
+      "height": 3,
+      "weight": 3,
+      "normalFile": "HOME0479L.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0479L.png",
+      "shinyFile": "HOME0479L_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0479L_s.png",
+      "types": [
+        "electric",
+        "grass"
+      ]
+    },
+    {
+      "identity": "deerling-spring",
+      "key": 200585,
+      "legacyKey": 585,
+      "speciesId": 585,
+      "formLabel": "Spring Form",
+      "pokemonId": 585,
+      "height": 6,
+      "weight": 195,
+      "normalFile": "HOME0585.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0585.png",
+      "shinyFile": "HOME0585_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0585_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "deerling-summer",
+      "key": 210068,
+      "legacyKey": 585,
+      "speciesId": 585,
+      "formLabel": "Summer Form",
+      "pokemonId": 585,
+      "height": 6,
+      "weight": 195,
+      "normalFile": "HOME0585S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0585S.png",
+      "shinyFile": "HOME0585S_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0585S_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "deerling-autumn",
+      "key": 210069,
+      "legacyKey": 585,
+      "speciesId": 585,
+      "formLabel": "Autumn Form",
+      "pokemonId": 585,
+      "height": 6,
+      "weight": 195,
+      "normalFile": "HOME0585A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0585A.png",
+      "shinyFile": "HOME0585A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0585A_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "deerling-winter",
+      "key": 210070,
+      "legacyKey": 585,
+      "speciesId": 585,
+      "formLabel": "Winter Form",
+      "pokemonId": 585,
+      "height": 6,
+      "weight": 195,
+      "normalFile": "HOME0585W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0585W.png",
+      "shinyFile": "HOME0585W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0585W_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "sawsbuck-spring",
+      "key": 200586,
+      "legacyKey": 586,
+      "speciesId": 586,
+      "formLabel": "Spring Form",
+      "pokemonId": 586,
+      "height": 19,
+      "weight": 925,
+      "normalFile": "HOME0586.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0586.png",
+      "shinyFile": "HOME0586_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0586_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "sawsbuck-summer",
+      "key": 210071,
+      "legacyKey": 586,
+      "speciesId": 586,
+      "formLabel": "Summer Form",
+      "pokemonId": 586,
+      "height": 19,
+      "weight": 925,
+      "normalFile": "HOME0586S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0586S.png",
+      "shinyFile": "HOME0586S_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0586S_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "sawsbuck-autumn",
+      "key": 210072,
+      "legacyKey": 586,
+      "speciesId": 586,
+      "formLabel": "Autumn Form",
+      "pokemonId": 586,
+      "height": 19,
+      "weight": 925,
+      "normalFile": "HOME0586A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0586A.png",
+      "shinyFile": "HOME0586A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0586A_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "sawsbuck-winter",
+      "key": 210073,
+      "legacyKey": 586,
+      "speciesId": 586,
+      "formLabel": "Winter Form",
+      "pokemonId": 586,
+      "height": 19,
+      "weight": 925,
+      "normalFile": "HOME0586W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0586W.png",
+      "shinyFile": "HOME0586W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0586W_s.png",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "identity": "vivillon-meadow",
+      "key": 200666,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Meadow Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666.png",
+      "shinyFile": "HOME0666_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-icy-snow",
+      "key": 210086,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Icy Snow Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Icy.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Icy.png",
+      "shinyFile": "HOME0666Icy_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Icy_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-polar",
+      "key": 210087,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Polar Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Pol.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Pol.png",
+      "shinyFile": "HOME0666Pol_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Pol_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-tundra",
+      "key": 210088,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Tundra Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Tun.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Tun.png",
+      "shinyFile": "HOME0666Tun_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Tun_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-continental",
+      "key": 210089,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Continental Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Con.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Con.png",
+      "shinyFile": "HOME0666Con_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Con_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-garden",
+      "key": 210090,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Garden Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Gar.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Gar.png",
+      "shinyFile": "HOME0666Gar_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Gar_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-elegant",
+      "key": 210091,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Elegant Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Ele.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Ele.png",
+      "shinyFile": "HOME0666Ele_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Ele_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-modern",
+      "key": 210092,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Modern Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Mod.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Mod.png",
+      "shinyFile": "HOME0666Mod_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Mod_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-marine",
+      "key": 210093,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Marine Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Mar.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Mar.png",
+      "shinyFile": "HOME0666Mar_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Mar_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-archipelago",
+      "key": 210094,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Archipelago Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Arc.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Arc.png",
+      "shinyFile": "HOME0666Arc_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Arc_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-high-plains",
+      "key": 210095,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "High Plains Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Hig.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Hig.png",
+      "shinyFile": "HOME0666Hig_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Hig_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-sandstorm",
+      "key": 210096,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Sandstorm Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666San.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666San.png",
+      "shinyFile": "HOME0666San_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666San_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-river",
+      "key": 210097,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "River Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Riv.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Riv.png",
+      "shinyFile": "HOME0666Riv_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Riv_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-monsoon",
+      "key": 210098,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Monsoon Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Mon.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Mon.png",
+      "shinyFile": "HOME0666Mon_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Mon_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-savanna",
+      "key": 210099,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Savanna Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Sav.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Sav.png",
+      "shinyFile": "HOME0666Sav_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Sav_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-sun",
+      "key": 210100,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Sun Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Sun.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Sun.png",
+      "shinyFile": "HOME0666Sun_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Sun_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-ocean",
+      "key": 210101,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Ocean Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Oce.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Oce.png",
+      "shinyFile": "HOME0666Oce_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Oce_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-jungle",
+      "key": 210102,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Jungle Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Jun.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Jun.png",
+      "shinyFile": "HOME0666Jun_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Jun_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-fancy",
+      "key": 210161,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Fancy Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Fan.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Fan.png",
+      "shinyFile": "HOME0666Fan_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Fan_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "vivillon-poke-ball",
+      "key": 210162,
+      "legacyKey": 666,
+      "speciesId": 666,
+      "formLabel": "Pok\u00e9 Ball Pattern",
+      "pokemonId": 666,
+      "height": 12,
+      "weight": 170,
+      "normalFile": "HOME0666Pok.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0666Pok.png",
+      "shinyFile": "HOME0666Pok_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0666Pok_s.png",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "identity": "flabebe-red",
+      "key": 200669,
+      "legacyKey": 669,
+      "speciesId": 669,
+      "formLabel": "Red Flower",
+      "pokemonId": 669,
+      "height": 1,
+      "weight": 1,
+      "normalFile": "HOME0669.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0669.png",
+      "shinyFile": "HOME0669_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0669_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "flabebe-yellow",
+      "key": 210103,
+      "legacyKey": 669,
+      "speciesId": 669,
+      "formLabel": "Yellow Flower",
+      "pokemonId": 669,
+      "height": 1,
+      "weight": 1,
+      "normalFile": "HOME0669Y.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0669Y.png",
+      "shinyFile": "HOME0669Y_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0669Y_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "flabebe-orange",
+      "key": 210104,
+      "legacyKey": 669,
+      "speciesId": 669,
+      "formLabel": "Orange Flower",
+      "pokemonId": 669,
+      "height": 1,
+      "weight": 1,
+      "normalFile": "HOME0669O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0669O.png",
+      "shinyFile": "HOME0669O_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0669O_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "flabebe-blue",
+      "key": 210105,
+      "legacyKey": 669,
+      "speciesId": 669,
+      "formLabel": "Blue Flower",
+      "pokemonId": 669,
+      "height": 1,
+      "weight": 1,
+      "normalFile": "HOME0669B.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0669B.png",
+      "shinyFile": "HOME0669B_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0669B_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "flabebe-white",
+      "key": 210106,
+      "legacyKey": 669,
+      "speciesId": 669,
+      "formLabel": "White Flower",
+      "pokemonId": 669,
+      "height": 1,
+      "weight": 1,
+      "normalFile": "HOME0669W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0669W.png",
+      "shinyFile": "HOME0669W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0669W_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "floette-red",
+      "key": 200670,
+      "legacyKey": 670,
+      "speciesId": 670,
+      "formLabel": "Red Flower",
+      "pokemonId": 670,
+      "height": 2,
+      "weight": 9,
+      "normalFile": "HOME0670.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0670.png",
+      "shinyFile": "HOME0670_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0670_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "floette-yellow",
+      "key": 210107,
+      "legacyKey": 670,
+      "speciesId": 670,
+      "formLabel": "Yellow Flower",
+      "pokemonId": 670,
+      "height": 2,
+      "weight": 9,
+      "normalFile": "HOME0670Y.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0670Y.png",
+      "shinyFile": "HOME0670Y_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0670Y_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "floette-orange",
+      "key": 210108,
+      "legacyKey": 670,
+      "speciesId": 670,
+      "formLabel": "Orange Flower",
+      "pokemonId": 670,
+      "height": 2,
+      "weight": 9,
+      "normalFile": "HOME0670O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0670O.png",
+      "shinyFile": "HOME0670O_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0670O_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "floette-blue",
+      "key": 210109,
+      "legacyKey": 670,
+      "speciesId": 670,
+      "formLabel": "Blue Flower",
+      "pokemonId": 670,
+      "height": 2,
+      "weight": 9,
+      "normalFile": "HOME0670B.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0670B.png",
+      "shinyFile": "HOME0670B_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0670B_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "floette-white",
+      "key": 210110,
+      "legacyKey": 670,
+      "speciesId": 670,
+      "formLabel": "White Flower",
+      "pokemonId": 670,
+      "height": 2,
+      "weight": 9,
+      "normalFile": "HOME0670W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0670W.png",
+      "shinyFile": "HOME0670W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0670W_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "florges-red",
+      "key": 200671,
+      "legacyKey": 671,
+      "speciesId": 671,
+      "formLabel": "Red Flower",
+      "pokemonId": 671,
+      "height": 11,
+      "weight": 100,
+      "normalFile": "HOME0671.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0671.png",
+      "shinyFile": "HOME0671_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0671_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "florges-yellow",
+      "key": 210111,
+      "legacyKey": 671,
+      "speciesId": 671,
+      "formLabel": "Yellow Flower",
+      "pokemonId": 671,
+      "height": 11,
+      "weight": 100,
+      "normalFile": "HOME0671Y.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0671Y.png",
+      "shinyFile": "HOME0671Y_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0671Y_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "florges-orange",
+      "key": 210112,
+      "legacyKey": 671,
+      "speciesId": 671,
+      "formLabel": "Orange Flower",
+      "pokemonId": 671,
+      "height": 11,
+      "weight": 100,
+      "normalFile": "HOME0671O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0671O.png",
+      "shinyFile": "HOME0671O_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0671O_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "florges-blue",
+      "key": 210113,
+      "legacyKey": 671,
+      "speciesId": 671,
+      "formLabel": "Blue Flower",
+      "pokemonId": 671,
+      "height": 11,
+      "weight": 100,
+      "normalFile": "HOME0671B.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0671B.png",
+      "shinyFile": "HOME0671B_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0671B_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "florges-white",
+      "key": 210114,
+      "legacyKey": 671,
+      "speciesId": 671,
+      "formLabel": "White Flower",
+      "pokemonId": 671,
+      "height": 11,
+      "weight": 100,
+      "normalFile": "HOME0671W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0671W.png",
+      "shinyFile": "HOME0671W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0671W_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "pumpkaboo-average",
+      "key": 200710,
+      "legacyKey": 710,
+      "speciesId": 710,
+      "formLabel": "Average Size",
+      "pokemonId": 710,
+      "height": 4,
+      "weight": 50,
+      "normalFile": "HOME0710.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0710.png",
+      "shinyFile": "HOME0710_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0710_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "pumpkaboo-small",
+      "key": 210126,
+      "legacyKey": 710,
+      "speciesId": 710,
+      "formLabel": "Small Size",
+      "pokemonId": 10027,
+      "height": 3,
+      "weight": 35,
+      "normalFile": "HOME0710Sm.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0710Sm.png",
+      "shinyFile": "HOME0710Sm_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0710Sm_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "pumpkaboo-large",
+      "key": 210127,
+      "legacyKey": 710,
+      "speciesId": 710,
+      "formLabel": "Large Size",
+      "pokemonId": 10028,
+      "height": 5,
+      "weight": 75,
+      "normalFile": "HOME0710La.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0710La.png",
+      "shinyFile": "HOME0710La_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0710La_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "pumpkaboo-super",
+      "key": 210128,
+      "legacyKey": 710,
+      "speciesId": 710,
+      "formLabel": "Super Size",
+      "pokemonId": 10029,
+      "height": 8,
+      "weight": 150,
+      "normalFile": "HOME0710Su.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0710Su.png",
+      "shinyFile": "HOME0710Su_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0710Su_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "gourgeist-average",
+      "key": 200711,
+      "legacyKey": 711,
+      "speciesId": 711,
+      "formLabel": "Average Size",
+      "pokemonId": 711,
+      "height": 9,
+      "weight": 125,
+      "normalFile": "HOME0711.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0711.png",
+      "shinyFile": "HOME0711_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0711_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "gourgeist-small",
+      "key": 210129,
+      "legacyKey": 711,
+      "speciesId": 711,
+      "formLabel": "Small Size",
+      "pokemonId": 10030,
+      "height": 7,
+      "weight": 95,
+      "normalFile": "HOME0711Sm.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0711Sm.png",
+      "shinyFile": "HOME0711Sm_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0711Sm_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "gourgeist-large",
+      "key": 210130,
+      "legacyKey": 711,
+      "speciesId": 711,
+      "formLabel": "Large Size",
+      "pokemonId": 10031,
+      "height": 11,
+      "weight": 140,
+      "normalFile": "HOME0711La.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0711La.png",
+      "shinyFile": "HOME0711La_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0711La_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "gourgeist-super",
+      "key": 210131,
+      "legacyKey": 711,
+      "speciesId": 711,
+      "formLabel": "Super Size",
+      "pokemonId": 10032,
+      "height": 17,
+      "weight": 390,
+      "normalFile": "HOME0711Su.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0711Su.png",
+      "shinyFile": "HOME0711Su_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0711Su_s.png",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "identity": "oricorio-baile",
+      "key": 200741,
+      "legacyKey": 741,
+      "speciesId": 741,
+      "formLabel": "Baile Style",
+      "pokemonId": 741,
+      "height": 6,
+      "weight": 34,
+      "normalFile": "HOME0741.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0741.png",
+      "shinyFile": "HOME0741_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0741_s.png",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "identity": "oricorio-pom-pom",
+      "key": 210225,
+      "legacyKey": 741,
+      "speciesId": 741,
+      "formLabel": "Pom-Pom Style",
+      "pokemonId": 10123,
+      "height": 6,
+      "weight": 34,
+      "normalFile": "HOME0741Po.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0741Po.png",
+      "shinyFile": "HOME0741Po_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0741Po_s.png",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    {
+      "identity": "oricorio-pau",
+      "key": 210226,
+      "legacyKey": 741,
+      "speciesId": 741,
+      "formLabel": "Pa\u2019u Style",
+      "pokemonId": 10124,
+      "height": 6,
+      "weight": 34,
+      "normalFile": "HOME0741Pa.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0741Pa.png",
+      "shinyFile": "HOME0741Pa_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0741Pa_s.png",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "identity": "oricorio-sensu",
+      "key": 210227,
+      "legacyKey": 741,
+      "speciesId": 741,
+      "formLabel": "Sensu Style",
+      "pokemonId": 10125,
+      "height": 6,
+      "weight": 34,
+      "normalFile": "HOME0741Se.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0741Se.png",
+      "shinyFile": "HOME0741Se_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0741Se_s.png",
+      "types": [
+        "ghost",
+        "flying"
+      ]
+    },
+    {
+      "identity": "lycanroc-midday",
+      "key": 200745,
+      "legacyKey": 745,
+      "speciesId": 745,
+      "formLabel": "Midday Form",
+      "pokemonId": 745,
+      "height": 8,
+      "weight": 250,
+      "normalFile": "HOME0745.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0745.png",
+      "shinyFile": "HOME0745_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0745_s.png",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "identity": "lycanroc-midnight",
+      "key": 210228,
+      "legacyKey": 745,
+      "speciesId": 745,
+      "formLabel": "Midnight Form",
+      "pokemonId": 10126,
+      "height": 11,
+      "weight": 250,
+      "normalFile": "HOME0745Mn.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0745Mn.png",
+      "shinyFile": "HOME0745Mn_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0745Mn_s.png",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "identity": "lycanroc-dusk",
+      "key": 210311,
+      "legacyKey": 745,
+      "speciesId": 745,
+      "formLabel": "Dusk Form",
+      "pokemonId": 10152,
+      "height": 8,
+      "weight": 250,
+      "normalFile": "HOME0745D.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0745D.png",
+      "shinyFile": "HOME0745D_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0745D_s.png",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "identity": "toxtricity-amped",
+      "key": 200849,
+      "legacyKey": 849,
+      "speciesId": 849,
+      "formLabel": "Amped Form",
+      "pokemonId": 849,
+      "height": 16,
+      "weight": 400,
+      "normalFile": "HOME0849.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0849.png",
+      "shinyFile": "HOME0849_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0849_s.png",
+      "types": [
+        "electric",
+        "poison"
+      ]
+    },
+    {
+      "identity": "toxtricity-low-key",
+      "key": 210343,
+      "legacyKey": 849,
+      "speciesId": 849,
+      "formLabel": "Low Key Form",
+      "pokemonId": 10184,
+      "height": 16,
+      "weight": 400,
+      "normalFile": "HOME0849L.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0849L.png",
+      "shinyFile": "HOME0849L_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0849L_s.png",
+      "types": [
+        "electric",
+        "poison"
+      ]
+    },
+    {
+      "identity": "maushold-family-of-four",
+      "key": 200925,
+      "legacyKey": 925,
+      "speciesId": 925,
+      "formLabel": "Family of Four",
+      "pokemonId": 925,
+      "height": 3,
+      "weight": 28,
+      "normalFile": "HOME0925.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0925.png",
+      "shinyFile": "HOME0925_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0925_s.png",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "identity": "maushold-family-of-three",
+      "key": 210426,
+      "legacyKey": 925,
+      "speciesId": 925,
+      "formLabel": "Family of Three",
+      "pokemonId": 10257,
+      "height": 3,
+      "weight": 23,
+      "normalFile": "HOME0925T.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0925T.png",
+      "shinyFile": "HOME0925T_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0925T_s.png",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "identity": "squawkabilly-green-plumage",
+      "key": 200931,
+      "legacyKey": 931,
+      "speciesId": 931,
+      "formLabel": "Green Plumage",
+      "pokemonId": 931,
+      "height": 6,
+      "weight": 24,
+      "normalFile": "HOME0931.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0931.png",
+      "shinyFile": "HOME0931_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0931_s.png",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "identity": "squawkabilly-blue-plumage",
+      "key": 210429,
+      "legacyKey": 931,
+      "speciesId": 931,
+      "formLabel": "Blue Plumage",
+      "pokemonId": 10260,
+      "height": 6,
+      "weight": 24,
+      "normalFile": "HOME0931B.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0931B.png",
+      "shinyFile": "HOME0931B_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0931B_s.png",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "identity": "squawkabilly-yellow-plumage",
+      "key": 210430,
+      "legacyKey": 931,
+      "speciesId": 931,
+      "formLabel": "Yellow Plumage",
+      "pokemonId": 10261,
+      "height": 6,
+      "weight": 24,
+      "normalFile": "HOME0931Y.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0931Y.png",
+      "shinyFile": "HOME0931Y_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0931Y_s.png",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "identity": "squawkabilly-white-plumage",
+      "key": 210431,
+      "legacyKey": 931,
+      "speciesId": 931,
+      "formLabel": "White Plumage",
+      "pokemonId": 10262,
+      "height": 6,
+      "weight": 24,
+      "normalFile": "HOME0931W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0931W.png",
+      "shinyFile": "HOME0931W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0931W_s.png",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "identity": "tatsugiri-curly",
+      "key": 200978,
+      "legacyKey": 978,
+      "speciesId": 978,
+      "formLabel": "Curly Form",
+      "pokemonId": 978,
+      "height": 3,
+      "weight": 80,
+      "normalFile": "HOME0978.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0978.png",
+      "shinyFile": "HOME0978_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0978_s.png",
+      "types": [
+        "dragon",
+        "water"
+      ]
+    },
+    {
+      "identity": "tatsugiri-droopy",
+      "key": 210427,
+      "legacyKey": 978,
+      "speciesId": 978,
+      "formLabel": "Droopy Form",
+      "pokemonId": 10258,
+      "height": 3,
+      "weight": 80,
+      "normalFile": "HOME0978D.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0978D.png",
+      "shinyFile": "HOME0978D_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0978D_s.png",
+      "types": [
+        "dragon",
+        "water"
+      ]
+    },
+    {
+      "identity": "tatsugiri-stretchy",
+      "key": 210428,
+      "legacyKey": 978,
+      "speciesId": 978,
+      "formLabel": "Stretchy Form",
+      "pokemonId": 10259,
+      "height": 3,
+      "weight": 80,
+      "normalFile": "HOME0978S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0978S.png",
+      "shinyFile": "HOME0978S_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0978S_s.png",
+      "types": [
+        "dragon",
+        "water"
+      ]
+    },
+    {
+      "identity": "dudunsparce-two-segment",
+      "key": 200982,
+      "legacyKey": 982,
+      "speciesId": 982,
+      "formLabel": "Two-Segment Form",
+      "pokemonId": 982,
+      "height": 36,
+      "weight": 392,
+      "normalFile": "HOME0982.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0982.png",
+      "shinyFile": "HOME0982_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0982_s.png",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "identity": "dudunsparce-three-segment",
+      "key": 210424,
+      "legacyKey": 982,
+      "speciesId": 982,
+      "formLabel": "Three-Segment Form",
+      "pokemonId": 10255,
+      "height": 45,
+      "weight": 474,
+      "normalFile": "HOME0982Th.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0982Th.png",
+      "shinyFile": "HOME0982Th_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0982Th_s.png",
+      "types": [
+        "normal"
+      ]
+    }
+  ],
+  "captions": {
+    "HOME0386.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "018520ca6cd7a59e376654c5003861158cf6b9d97980dbfc60c606e8391739d7"
+    },
+    "HOME0386A.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Attack Forme)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1e235198ece006f6068d8296154ac3d9546539f027b67ae7f97d6d135ac5013a"
+    },
+    "HOME0386A_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Attack Forme; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f1df4457e29b9f09dd239de0316c669ae6fc5d9d1e449b49ef8ad4d0e310463b"
+    },
+    "HOME0386D.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Defense Forme)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "abcd1e8b6f1e1eec8a0503e586c5943d19743e13c6af26a8eec13a30a7e64d4d"
+    },
+    "HOME0386D_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Defense Forme; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d8ba365c17bb914fbff01970a14fe749db0e853e93e4c673e9722bbf364d23c7"
+    },
+    "HOME0386S.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Speed Forme)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "56409cc111c664f8e38c87d5455301e32340b6a7cd7fbfacb286971cf2b936dc"
+    },
+    "HOME0386S_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Speed Forme; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f5b5d0d8011edd8f7d9eaf3879d4f0100c497b80849d0f3ffc8a6489726553cd"
+    },
+    "HOME0386_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0386|Deoxys|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3ed25b7322e106e1241d33368615b714fed902cf79d7abcffad3414f2a0fbeef"
+    },
+    "HOME0412.png": {
+      "wikitext": "== Summary ==\n{{HOME|0412|Burmy}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fae98b7d8c64dad9bea1e2432309886d7fa6da084a67353eadafee82effba016"
+    },
+    "HOME0412G.png": {
+      "wikitext": "== Summary ==\n{{HOME|0412|Burmy|(Sandy Cloak)}}\n\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "271e1029a982b6b38867193136fe43ee5228e2e04095be3bbc4a9bd6673daa75"
+    },
+    "HOME0412G_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0412|Burmy|(Sandy Cloak; Shiny)}}\n\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "94ad1088a9813bac4ab7286dc1714413d19e7827f5b27cd636ad13d216d0e70a"
+    },
+    "HOME0412S.png": {
+      "wikitext": "== Summary ==\n{{HOME|0412|Burmy}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fae98b7d8c64dad9bea1e2432309886d7fa6da084a67353eadafee82effba016"
+    },
+    "HOME0412S_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0412|Burmy|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e9dae180f340395c1340558cf407a269ce042353fb26bea0c82f3a0d3e58f63b"
+    },
+    "HOME0412_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0412|Burmy|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e9dae180f340395c1340558cf407a269ce042353fb26bea0c82f3a0d3e58f63b"
+    },
+    "HOME0413.png": {
+      "wikitext": "== Summary ==\n{{HOME|0413|Wormadam}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9a6cb5a90dfa1cf19f28e74b60267501f57ee7dda0057dfc776bdea5ddb5ecd2"
+    },
+    "HOME0413G.png": {
+      "wikitext": "== Summary ==\n{{HOME|0413|Wormadam|(Sandy Cloak)}}\n\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f60688f09e49258b1d1cfc7ee814215a2dacb45dc0d2b1b21f9c6fe2b223a150"
+    },
+    "HOME0413G_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0413|Wormadam|(Sandy Cloak; Shiny)}}\n\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3e0f61f45bbd46f87116bd5ad6fbc2bce17009bef1e4220642d6ed056618d559"
+    },
+    "HOME0413S.png": {
+      "wikitext": "== Summary ==\n{{HOME|0413|Wormadam}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9a6cb5a90dfa1cf19f28e74b60267501f57ee7dda0057dfc776bdea5ddb5ecd2"
+    },
+    "HOME0413S_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0413|Wormadam|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "959590615b338038474a245103891861b0a3da630e16f5f922b23c6a39c2c5ab"
+    },
+    "HOME0413_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0413|Wormadam|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "959590615b338038474a245103891861b0a3da630e16f5f922b23c6a39c2c5ab"
+    },
+    "HOME0422.png": {
+      "wikitext": "== Summary ==\n{{HOME|0422|Shellos}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "523cffb6c1694012f10d08eb2f1feae74056ae161f912f275103b7955eac5823"
+    },
+    "HOME0422E.png": {
+      "wikitext": "== Summary ==\n{{HOME|0422|Shellos|(East Sea)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "51b1b75a9f8172bf3d9899d28c209b411cd53869725caf81fec385ee1bf448a7"
+    },
+    "HOME0422E_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0422|Shellos|(East Sea; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "20fb2783d8965d4bf54642964364d243aa76f071ecf13aaf77a5823d8238dfbb"
+    },
+    "HOME0422_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0422|Shellos|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8ebc5f447a0d2b91207eea446ca7d424c69dc9d854be443baf47322a1140f2ca"
+    },
+    "HOME0423.png": {
+      "wikitext": "== Summary ==\n{{HOME|0423|Gastrodon}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8ea350212151b12ccd0bdbe903fad4ba072c770b4d6b8872e88c4da4cdf99cb3"
+    },
+    "HOME0423E.png": {
+      "wikitext": "== Summary ==\n{{HOME|0423|Gastrodon|(East Sea)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4a619e699ec81870cfec76f58bd14844a5aca5de0b5a31aa46a6c97b3ca12613"
+    },
+    "HOME0423E_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0423|Gastrodon|(East Sea; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1ad494a2f97b121452659a620adf121475723125290a07226326e77943ab2124"
+    },
+    "HOME0423_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0423|Gastrodon|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2f7d7b380c6dca44d8a01adcfe39c95e98169377d708b930963d1cfce61e1178"
+    },
+    "HOME0479.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c4bf26368397570c171aed0b39b818dc6e8a601ffc6a7c51d32707d13bc03814"
+    },
+    "HOME0479F.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Fan Rotom)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e649722fbf97f14e0dd2db8cf030ecf17e56a5900ecb39c92278c32c241b8ef1"
+    },
+    "HOME0479F_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Fan Rotom; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "09b1ef934439b042ee193e96a5181fb3e6abf2b84dd09cf557a6860a999bd48a"
+    },
+    "HOME0479L.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Mow Rotom)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "911bc566afb147309e598cab02db037df14ba222a0e108d95f59a1496f0c6ce5"
+    },
+    "HOME0479L_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Mow Rotom; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c8414b2b0a9b4d891cd73e1a71a2d7dc1c6f95cc77ad30c4fbb4c4759920b8ae"
+    },
+    "HOME0479O.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Heat Rotom)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "831fc1117a6f8a4d73427a6459e91e7e107c32fc475e337030d070c681a0cc33"
+    },
+    "HOME0479O_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Heat Rotom; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "606d531bfe8ecab3a3f5860804cc30ec8c1221719699dd5f71bfbdb0b69c0e34"
+    },
+    "HOME0479R.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Frost Rotom)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3bb9d95d5c01ae06202b7c7ff1ec31935ce9995a74f4f1edac76824d26880027"
+    },
+    "HOME0479R_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Frost Rotom; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "004a389d99102023713dc88ae1abe25875394dbfda7128b60431108af3767e56"
+    },
+    "HOME0479W.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Wash Rotom)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e5e5c2a2c955a09c8778183060bed62fe5aff6213f6832f941db533c444844a1"
+    },
+    "HOME0479W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Wash Rotom; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f8f191b164ed4f63f76a52a9e6b1df51014ed32ca5c69e7998018859ae8cac75"
+    },
+    "HOME0479_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0479|Rotom|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5fa6ee332274b572b31bf0c377efc1a60bb422af07519ff84b0f96764d3e93b5"
+    },
+    "HOME0585.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "43e0cdc1fec2e62ff0b7cb7839d246f880843d5a88c52e9ac6fafda5ab3df481"
+    },
+    "HOME0585A.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Autumn Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d1fe7df1f2bff60e2105eedfed6c732edd84ba16a217f4ec4165e6a47059e1c9"
+    },
+    "HOME0585A_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Autumn Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "912c4037c74ba56b6cd6902ec3fa7ddd8b21eac0ff4cdc3a24549dda7f4a9b43"
+    },
+    "HOME0585S.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Summer Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7d516ab94b5e5a0dee4fa2a5f574f79bb2b3ae346de227d81373e1b039ebadad"
+    },
+    "HOME0585S_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Summer Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "29439fd34340e4d78eff3f80aa134b962fe77c0d57809046ce53ce7a9ef79dd0"
+    },
+    "HOME0585W.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Winter Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c47967c748dd693b2145c5b8cd575bc0980e099effb48a422a3728bd82a47d3b"
+    },
+    "HOME0585W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Winter Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b0f751225b0587e6e2cf9c8d27718fc4b9b8cbc5d86b73204e8292e15a440408"
+    },
+    "HOME0585_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0585|Deerling|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c208ed28c984e918975bdea21025112a3ae646ef0fc39cca083ba0462f4498f7"
+    },
+    "HOME0586.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "34b66c5e7347354fbdcc14d3829a660ccecd5310f78548771cb42b16a2b4b479"
+    },
+    "HOME0586A.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Autumn Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "841c6f64497221ce4aeb0f71e90647a9df2930478b99fa8229e188637474acfc"
+    },
+    "HOME0586A_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Autumn Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d86f8a1c649c03d9dfb6e8b027896f63d4bf9f621557cf08537ec5fa4eb54e04"
+    },
+    "HOME0586S.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Summer Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cbb6b6b88b41132d84831cf54efcf1e1acd8f9f76357ff91ac69f52b5ebf57c7"
+    },
+    "HOME0586S_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Summer Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e1c9e7663124d2dd5714b90073d1663bf6f19a310030386134f130a4446baf59"
+    },
+    "HOME0586W.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Winter Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d74dc6dfb37d58df637704b25d5bb7a343dcd7617bcc8d7c0d5aa3bad832527c"
+    },
+    "HOME0586W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Winter Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "909637a5dba99400e9e61315cf1815fc6c17ba398b89d27479c261431493f6a4"
+    },
+    "HOME0586_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0586|Sawsbuck|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "03456eee5b697f8efd2e9a9a5f740e78e61309203edff7b2f5a7b4dfe3674a21"
+    },
+    "HOME0666.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Meadow Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "bc9621648a094455469d83baced755d0a29e52d8482e6d51937d1ab04837e055"
+    },
+    "HOME0666Arc.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Archipelago Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "dff9fa734539b3cd04a0d421a17dfac317cad9a6158c19913e580a586047a502"
+    },
+    "HOME0666Arc_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Archipelago Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "beb9d0fe401a74867385d5960785e7903c61071192375e176924f02a5375f29b"
+    },
+    "HOME0666Con.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Continental Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1dec1d5afdb48a0bcbc22135479462e122359ec50657591057a0251d73b9c575"
+    },
+    "HOME0666Con_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Continental Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "097abc1981ce6c2e777eb5f533734a4d72f574c4c0b52b1c988a3ed6e491d874"
+    },
+    "HOME0666Ele.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Elegant Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0cf96cf0a35151319626b0c232c3d62c81491b26a305fb7e6334e2b36d6ff19e"
+    },
+    "HOME0666Ele_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Elegant Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4d7a7c029f70080ceb48038980f024eb6a4fa3706bc826cd469bef5723a60fc0"
+    },
+    "HOME0666Fan.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Fancy Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fbac7ba7b4957505c3ff20d9fd0c050f35edb9525a80bbc284e44adb12d82978"
+    },
+    "HOME0666Fan_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Fancy Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b79c99b3c250cd5e35c4e4e591d145905919683662bc8148d3e51cad32720b6a"
+    },
+    "HOME0666Gar.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Garden Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a34ea302304e6a13b8efdb56f2fc95716eea05802cc236f7e92a31bcdbb5baa7"
+    },
+    "HOME0666Gar_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Garden Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "43ec5682a74eb29495d56a0f21548130bbb02b2503619085248fc7556d22548e"
+    },
+    "HOME0666Hig.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(High Plains Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e49dcc9a39d6e9868cca26ef6f4ba6c4e3da8344b14d16fcb3d90b5462d0a55c"
+    },
+    "HOME0666Hig_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(High Plains Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ee388ea45f5c105b6b9a5e101a845d31b80b31fb55956bb1aabf4384f28de0e0"
+    },
+    "HOME0666Icy.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Icy Snow Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "14bccd7c929b1a6e1b4f3f913f46a2a69d899084b0c35c887c048c4be756353d"
+    },
+    "HOME0666Icy_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Icy Snow Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d48bf36ee0eeed3e222c76ea40b80cd88a77f471cd17efb6c73587eeccf55053"
+    },
+    "HOME0666Jun.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Jungle Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "98f5ee12cbd8f63ac56e9a276a97423245083eb3d77f68ad732a65049d2368da"
+    },
+    "HOME0666Jun_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Jungle Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5b97e609cea15ef6557bc551e3a1865528957ce9d8a7f520a27e0abd7c37139d"
+    },
+    "HOME0666Mar.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Marine Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "daf95f30c4ae89b7eb4793ea8a54f21c1da90f7cfbf52767fdecf92faaebb086"
+    },
+    "HOME0666Mar_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Marine Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6edf2d07fb7c10721315b45b33ccc1c4603dbb52686d1960c3a293e6c3aec554"
+    },
+    "HOME0666Mod.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Modern Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "012e071c4a29200b82b79f477d997ad70e2334ebdc07cccb30fdec2ba8c4707c"
+    },
+    "HOME0666Mod_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Modern Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1278fbb1e1ef85f31d733435c55a045b014346e0780d6161a97966a7e6f97553"
+    },
+    "HOME0666Mon.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Monsoon Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a28002f6c5b5fa3529d08222f246d8b6df08edb7d9cabd60c42e75953f22b972"
+    },
+    "HOME0666Mon_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Monsoon Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a837d01d4d8fba7a8f36d035b88792ea480e37b74b88fae8a9bf831751adfff0"
+    },
+    "HOME0666Oce.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Ocean Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1bc487770905310372de71689a9d5054bc6857a0fe9593a05183687b031e2fa8"
+    },
+    "HOME0666Oce_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Ocean Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "68f5d651674e71bb2bb6f04018851e6f1618bb5108331413373654b2bc736420"
+    },
+    "HOME0666Pok.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Pok\u00e9 Ball Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8848e48d75825cb9ea941debd7229eca116d5a35b452e45646c29e21c5bc450a"
+    },
+    "HOME0666Pok_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Pok\u00e9 Ball Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ded5435e76a514dee02a64e48e98284cbd62b3344881040177e570507f2db032"
+    },
+    "HOME0666Pol.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Polar Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f803bf53a4ba6b4ad76282262bf97981ee4a5f00eea556c89c0467b5f2b67913"
+    },
+    "HOME0666Pol_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Polar Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1f75af8b2722c7e9b7e47baa394738d16e5bc31aa938160ee4673fd2f1e7092d"
+    },
+    "HOME0666Riv.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(River Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "188347668da2f7de6f0f27963a2eddb2fe7c35556a74b5c7bf086db1f4340c4b"
+    },
+    "HOME0666Riv_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(River Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2c389af59b4d2efcd38f88287a33bce514337945f94982b6b43c401de9a7288c"
+    },
+    "HOME0666San.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Sandstorm Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c559e633454c3374a437d2ee72722810c238c574d5c7eecd1c586d94bdd22981"
+    },
+    "HOME0666San_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Sandstorm Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9344b896290f17e4b3cf66910bbe5d4f1a8c880d97c20d103d5d4a6ddf398bc3"
+    },
+    "HOME0666Sav.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Savanna Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5c77aac65f74181086876514a10e28f857be26a4414f33af164b389bb927ec4c"
+    },
+    "HOME0666Sav_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Savanna Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "bd88a24853f84e7896e80f806c2a82bfbc7b7357e6fdd5343cb9d2e70756c9a6"
+    },
+    "HOME0666Sun.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Sun Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0464d3e068fa6d20ec2981662205cee3c252c751c2612e371e2f5cbbcea16023"
+    },
+    "HOME0666Sun_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Sun Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8c20c63e9a8537f6fe172c84b4a4d47a91a98171f468133342737202831420df"
+    },
+    "HOME0666Tun.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Tundra Pattern)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1f6fee47142e970a167cdfc3b615ca48e3ee4c7d10dec9a87d7e67971de1e510"
+    },
+    "HOME0666Tun_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Tundra Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2dc1b53bf52c3763a351d90637826c557e27b7d1784166a67fa58ff9cb4c2786"
+    },
+    "HOME0666_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0666|Vivillon|(Meadow Pattern; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "532b23d862c8ab0c135bafb786ab8ce9d366f8e124a7fbc3503d83bc8ef4a433"
+    },
+    "HOME0669.png": {
+      "wikitext": "== Summary ==\n{{HOME|0669|Flab\u00e9b\u00e9}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "078fcbfc35d6e6b03b5bd1c44c51d4007d926e4582490044bbcb7a30e3ec3413"
+    },
+    "HOME0669B.png": {
+      "wikitext": "==Summary==\n{{HOME|0669|Flab\u00e9b\u00e9}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "8d020b51dd70b6a0a2574eb09e00d3329e1ce4c61c4fc41c4424253d9f87c2da"
+    },
+    "HOME0669B_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0669|Flab\u00e9b\u00e9|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "987dd2a1fcaa2bafd80fbac255ba5964c41e2fa1511e4b6d8914f32a6a931826"
+    },
+    "HOME0669O.png": {
+      "wikitext": "==Summary==\n{{HOME|0669|Flab\u00e9b\u00e9}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "8d020b51dd70b6a0a2574eb09e00d3329e1ce4c61c4fc41c4424253d9f87c2da"
+    },
+    "HOME0669O_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0669|Flab\u00e9b\u00e9|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "987dd2a1fcaa2bafd80fbac255ba5964c41e2fa1511e4b6d8914f32a6a931826"
+    },
+    "HOME0669W.png": {
+      "wikitext": "==Summary==\n{{HOME|0669|Flab\u00e9b\u00e9}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "8d020b51dd70b6a0a2574eb09e00d3329e1ce4c61c4fc41c4424253d9f87c2da"
+    },
+    "HOME0669W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0669|Flab\u00e9b\u00e9|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "987dd2a1fcaa2bafd80fbac255ba5964c41e2fa1511e4b6d8914f32a6a931826"
+    },
+    "HOME0669Y.png": {
+      "wikitext": "==Summary==\n{{HOME|0669|Flab\u00e9b\u00e9}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "8d020b51dd70b6a0a2574eb09e00d3329e1ce4c61c4fc41c4424253d9f87c2da"
+    },
+    "HOME0669Y_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0669|Flab\u00e9b\u00e9|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "987dd2a1fcaa2bafd80fbac255ba5964c41e2fa1511e4b6d8914f32a6a931826"
+    },
+    "HOME0669_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0669|Flab\u00e9b\u00e9|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "987dd2a1fcaa2bafd80fbac255ba5964c41e2fa1511e4b6d8914f32a6a931826"
+    },
+    "HOME0670.png": {
+      "wikitext": "== Summary ==\n{{HOME|0670|Floette}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f2e3eb469cf0fef7bdd5854048f2d846c3e7fc45e9c74cbe0b06e36c38962cb2"
+    },
+    "HOME0670B.png": {
+      "wikitext": "==Summary==\n{{HOME|0670|Floette}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "c9da19f25d4160ff6357c7381e2cc52fe4779e30bec7677db018b5318cd0f441"
+    },
+    "HOME0670B_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0670|Floette|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5d66eebc2644a4da67d3848b163f024f9a1e7b61285629a65758528dfd8bd083"
+    },
+    "HOME0670O.png": {
+      "wikitext": "==Summary==\n{{HOME|0670|Floette}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "c9da19f25d4160ff6357c7381e2cc52fe4779e30bec7677db018b5318cd0f441"
+    },
+    "HOME0670O_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0670|Floette|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5d66eebc2644a4da67d3848b163f024f9a1e7b61285629a65758528dfd8bd083"
+    },
+    "HOME0670W.png": {
+      "wikitext": "==Summary==\n{{HOME|0670|Floette}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "c9da19f25d4160ff6357c7381e2cc52fe4779e30bec7677db018b5318cd0f441"
+    },
+    "HOME0670W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0670|Floette|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5d66eebc2644a4da67d3848b163f024f9a1e7b61285629a65758528dfd8bd083"
+    },
+    "HOME0670Y.png": {
+      "wikitext": "==Summary==\n{{HOME|0670|Floette}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "c9da19f25d4160ff6357c7381e2cc52fe4779e30bec7677db018b5318cd0f441"
+    },
+    "HOME0670Y_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0670|Floette|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5d66eebc2644a4da67d3848b163f024f9a1e7b61285629a65758528dfd8bd083"
+    },
+    "HOME0670_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0670|Floette|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5d66eebc2644a4da67d3848b163f024f9a1e7b61285629a65758528dfd8bd083"
+    },
+    "HOME0671.png": {
+      "wikitext": "== Summary ==\n{{HOME|0671|Florges}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fbfb80adb69943d6921c0863356dc9d636e963d055fa6da5bfa9861908f00b14"
+    },
+    "HOME0671B.png": {
+      "wikitext": "==Summary==\n{{HOME|0671|Florges}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "4d0329dfc42c34c8968cefeaf037b22f39d5f6abe1c6adea2c6639670c2f7a6d"
+    },
+    "HOME0671B_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0671|Florges|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "430e097d2cc349bbbb0e11e2d2dfa0d5696c49e1bc332dfc04d8c3b55d84098e"
+    },
+    "HOME0671O.png": {
+      "wikitext": "==Summary==\n{{HOME|0671|Florges}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "4d0329dfc42c34c8968cefeaf037b22f39d5f6abe1c6adea2c6639670c2f7a6d"
+    },
+    "HOME0671O_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0671|Florges|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "430e097d2cc349bbbb0e11e2d2dfa0d5696c49e1bc332dfc04d8c3b55d84098e"
+    },
+    "HOME0671W.png": {
+      "wikitext": "==Summary==\n{{HOME|0671|Florges}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "4d0329dfc42c34c8968cefeaf037b22f39d5f6abe1c6adea2c6639670c2f7a6d"
+    },
+    "HOME0671W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0671|Florges|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "430e097d2cc349bbbb0e11e2d2dfa0d5696c49e1bc332dfc04d8c3b55d84098e"
+    },
+    "HOME0671Y.png": {
+      "wikitext": "==Summary==\n{{HOME|0671|Florges}}\n\n==Licensing==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "4d0329dfc42c34c8968cefeaf037b22f39d5f6abe1c6adea2c6639670c2f7a6d"
+    },
+    "HOME0671Y_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0671|Florges|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "430e097d2cc349bbbb0e11e2d2dfa0d5696c49e1bc332dfc04d8c3b55d84098e"
+    },
+    "HOME0671_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0671|Florges|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "430e097d2cc349bbbb0e11e2d2dfa0d5696c49e1bc332dfc04d8c3b55d84098e"
+    },
+    "HOME0710.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Average Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2bdd2c8993981a115cb345ada5892d246457a5d3fceb93b8c7cac73d202385cd"
+    },
+    "HOME0710La.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Large Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0c91ebd40ac7be28d4a72d89434293b0423ea5fdc9529be7d2065934b5092370"
+    },
+    "HOME0710La_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Large Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c3574c638bf13013f8ee8ef0f8a0dcacfafbcb6cdf478fe9fc578af5fbd569e8"
+    },
+    "HOME0710Sm.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Small Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6e276a2a3a1afb4e350582997c210f1377b2f530728a18de97c9613c3965b4e4"
+    },
+    "HOME0710Sm_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Small Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "750f12fcdddc93d8efc7872620aed582047f68083af259277ae5bc318017188c"
+    },
+    "HOME0710Su.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Super Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0051416dbe8d8486c3a58796d64a575777b4a3ac53cd057fb68fa33c113d37c3"
+    },
+    "HOME0710Su_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Super Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4638784a6a2761439edd056af57c10d057231b625fac7379dc18cc90588d1684"
+    },
+    "HOME0710_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0710|Pumpkaboo|(Average Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5379ff67636ab6fd68e507ab83e683cec47a641071bef397b994716836f0ee95"
+    },
+    "HOME0711.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Average Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b0f7c8c251aa2f22f3766d66f9ec103a57d4a4e482c762a184a937a934675b44"
+    },
+    "HOME0711La.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Large Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ba2182576e4af9bf69f0c0d4b98ecaf11e620bed02c19edf5d874f52725ab6d9"
+    },
+    "HOME0711La_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Large Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7c7f05322fba127ab88a8aa5a1fd9b7a509a187401fd2f676178f58240c4ad89"
+    },
+    "HOME0711Sm.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Small Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3bbed9275ff60541afc2bd0b5bb4d778ba6ad928563bcb83c049f1fd19e5808a"
+    },
+    "HOME0711Sm_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Small Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b1a49fa6411bb665dda6f97ce56f9220e45e30986d7338e1a81d091c25b0f54c"
+    },
+    "HOME0711Su.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Super Size)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b000ccf7c5024cbd3eda40cfbaf35a383b03d0972214c702ae65111d95cada95"
+    },
+    "HOME0711Su_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Small Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b1a49fa6411bb665dda6f97ce56f9220e45e30986d7338e1a81d091c25b0f54c"
+    },
+    "HOME0711_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0711|Gourgeist|(Average Size; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "88bbf71cd1067f7942225425e28ac617ef796d978fba97aab88b8ed1fa7d45c8"
+    },
+    "HOME0741.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Baile Style)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cf88273c6282d117445f780ef317774f95d11942ef666f8dbfe7bcc93a2a3211"
+    },
+    "HOME0741Pa.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Pa'u Style)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f791ba93c6fd55e67647836976dbc2dd4f79b58a3025449cce29662090ba5597"
+    },
+    "HOME0741Pa_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Pa'u Style; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e9aae58eba510e3a9cb258bde89c281134037b0874c35b44a8eff1103f7f7d8c"
+    },
+    "HOME0741Po.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Pom-Pom Style)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3f5c61651fc2fa3c5ab2ee2c07433461820ecd7271a8881fc5a43e5fd0bb8d8c"
+    },
+    "HOME0741Po_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Pom-Pom Style; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5ef3eee8287bc0af2773532a3600a5f5e5cc12e7348a0034b0c447171e4a5de1"
+    },
+    "HOME0741Se.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Sensu Style)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c6ea39776bc7e7308120b13aee4fab63024b3bf6ba14e6cc2ec85e3d67215843"
+    },
+    "HOME0741Se_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Sensu Style; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f143a40f99c9f36db1ff98b271cfe34310e4c9f086700cdcc0de0e4c3db5118c"
+    },
+    "HOME0741_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0741|Oricorio|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ef12dbd3bbe4ab77b3ea4ea86569b6d4cbeccb0d3042cdb0cfec425ca17056ca"
+    },
+    "HOME0745.png": {
+      "wikitext": "== Summary ==\n{{HOME|0745|Lycanroc|(Midday Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b6a0a54349d98c01b31fb1f188bcae48ed4e4412864ca59825ade4572b4f6ff2"
+    },
+    "HOME0745D.png": {
+      "wikitext": "== Summary ==\n{{HOME|0745|Lycanroc|(Dusk Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "18723164c06a7deaa54606190c72981afa69c7e483b32cd6454a699342388f72"
+    },
+    "HOME0745D_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0745|Lycanroc|(Dusk Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "419fec2890f893e584c42f256b24bda2092b91cfc7dfc5823d27e7a149b3b4cf"
+    },
+    "HOME0745Mn.png": {
+      "wikitext": "== Summary ==\n{{HOME|0745|Lycanroc|(Midnight Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "46cb7eb007ab0c9c5fa0efb5b18bff099d6e96c4d876e6508184bcdca76358e6"
+    },
+    "HOME0745Mn_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0745|Lycanroc|(Midnight Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e918233c247e39d1bbeb6c44854906aae980ec39c6cdb43ef4a47178a6d59ab9"
+    },
+    "HOME0745_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0745|Lycanroc|(Midday Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "62dd69f8990ca825471e1dfb12e98714890635638d0d4d1304225b4422901ad2"
+    },
+    "HOME0849.png": {
+      "wikitext": "== Summary ==\n{{HOME|0849|Toxtricity|(Amped Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6f223ba4287ab9a0e51e6cb99860f7769aeb1f591b3c7c147ea540b2226091e8"
+    },
+    "HOME0849L.png": {
+      "wikitext": "== Summary ==\n{{HOME|0849|Toxtricity|(Low-Key Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "06d2355c286efcb69809b47389df75e59a429ef056baf8b4b1f30fb3e804c8f8"
+    },
+    "HOME0849L_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0849|Toxtricity|(Low-Key Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "591238aaf2737c028caa56b99f8018302aa2d07bd6bc50aa3478bda7e7136d53"
+    },
+    "HOME0849_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0849|Toxtricity|(Amped Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "18f0238909245a2a56344b40002b04a882b1e621ba49c8500ad91fc27681ad91"
+    },
+    "HOME0925.png": {
+      "wikitext": "== Summary ==\n{{HOME|0925|Maushold|(Family of Four)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f87308999d3c81ce19e433ef0d01ac746a9ec0b5403f49ccf6f4b853e50fe182"
+    },
+    "HOME0925T.png": {
+      "wikitext": "== Summary ==\n{{HOME|0925|Maushold|(Family of Three)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "30bb856023c7e69a35e195379298b1d551636375ab21041318927dc7f35da23d"
+    },
+    "HOME0925T_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0925|Maushold|(Family of Three; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "503ae152b21671ab4ae5a1ed7ce0caa2efdc874aeab85fa4c414f6a487606220"
+    },
+    "HOME0925_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0925|Maushold|(Family of Four; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8cd3e5b6664c9774c5c67b65bbb94f0bb44d83e9a1873ce1706b96050730367d"
+    },
+    "HOME0931.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(Green Plumage)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c1c058718a3241668b6452ddfae69aa1c350d3b8f8a03a81eae20578b3c67814"
+    },
+    "HOME0931B.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(Blue Plumage)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "826b5c5c875808ed44213ea6f9af9f6ed4ad439afe896a9923a41a042b7b3834"
+    },
+    "HOME0931B_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(Blue Plumage; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "dff6b7272d3eefb108cda4ab5eb2f7b338f68179d74a560fa429a030f090e341"
+    },
+    "HOME0931W.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(White Plumage)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ce275ce2a3b66ea3b6cace220bf4c86bbb6dece4e1b7bf1601a8a68559a4c133"
+    },
+    "HOME0931W_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(White Plumage; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "212edcc256d12d517074d4a1e6dc4d03cf6d10debdddc5258f482bfbd1539c29"
+    },
+    "HOME0931Y.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(Yellow Plumage)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f6968ade388bc944b96a2747373661d45044a97aee6fee26d774be1e539b238d"
+    },
+    "HOME0931Y_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(Yellow Plumage; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1d6f667c30bea1715bd11788d3fe66331191fbc87114584debb4897e9bd6dd38"
+    },
+    "HOME0931_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0931|Squawkabilly|(Green Plumage; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ef2b020f8cfb8244ad46e3473522bbc23238d27d0babe49ee2f79e31c22f6db1"
+    },
+    "HOME0978.png": {
+      "wikitext": "== Summary ==\n{{HOME|0978|Tatsugiri|(Curly Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "06ad74975564c864ee741d76a3e4a06f16474f0eaf8557ddbc334ad096d15070"
+    },
+    "HOME0978D.png": {
+      "wikitext": "== Summary ==\n{{HOME|0978|Tatsugiri|(Droopy Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ab4ab95e5af0e9cb7d7a9ef4df722a4f3484014bad450a6a14e36b5638f2d584"
+    },
+    "HOME0978D_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0978|Tatsugiri|(Droopy Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "caa2a819ae3c07f7ea62144d688da532aa647219088faeced3e555fb2a38f95f"
+    },
+    "HOME0978S.png": {
+      "wikitext": "== Summary ==\n{{HOME|0978|Tatsugiri|(Stretchy Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0b7c46431347a44ae6db8a3fa59f78d51169cba473dc4af6ec379c5703fda934"
+    },
+    "HOME0978S_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0978|Tatsugiri|(Stretchy Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e59706340c6528a0a2e9dabfd1b0ff702c83e5a38ead5d0c12c178ec3b3b1976"
+    },
+    "HOME0978_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0978|Tatsugiri|(Curly Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "dd0f7f5d9ad41d459b54a9b381189d4f51f96e55a11217b7f0183b0eaa1c7b7b"
+    },
+    "HOME0982.png": {
+      "wikitext": "== Summary ==\n{{HOME|0982|Dudunsparce|(Two-Segment Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "337f64160c30253cd9d1117a15d94a8c2432ad80258ce8352aebefe97a01b016"
+    },
+    "HOME0982Th.png": {
+      "wikitext": "== Summary ==\n{{HOME|0982|Dudunsparce|(Three-Segment Form)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e96da592dea8cdf610f576fd917e81ba9bca5936450e4690eb6ab54b52316b36"
+    },
+    "HOME0982Th_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0982|Dudunsparce|(Three-Segment Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fc7e3e6811ef13aaa32943880a714ed7060fb49f5368a0015b12286c94b946a9"
+    },
+    "HOME0982_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0982|Dudunsparce|(Two-Segment Form; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7ff4f363b25b74d65d0452c46733f45e720c7ca8dbbbb4c2a509b3f682eacbea"
+    }
+  },
+  "downloads": [
+    {
+      "file": "HOME0386.png",
+      "sourceSha256": "1abe2f28d0d68a67ab58bb6bea36f2d7aaf8d3f94521d1c8ade2237ff3e7bb59",
+      "localSha256": "175a4880de2fb0fd15497bbdecaa73acb1119df2da579f83bb7b21f7f5d9d752",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386.png"
+    },
+    {
+      "file": "HOME0386A.png",
+      "sourceSha256": "34179d572246e1ce9b79c9fdf254d65e9a3e6c0258aa4e893671e39a1739a2ed",
+      "localSha256": "34179d572246e1ce9b79c9fdf254d65e9a3e6c0258aa4e893671e39a1739a2ed",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386A.png"
+    },
+    {
+      "file": "HOME0386A_s.png",
+      "sourceSha256": "c8ba846bdc25ed8b2068532aff79b04edcb21971af248f35e4e00e69c49488bb",
+      "localSha256": "c8ba846bdc25ed8b2068532aff79b04edcb21971af248f35e4e00e69c49488bb",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386A_s.png"
+    },
+    {
+      "file": "HOME0386D.png",
+      "sourceSha256": "8ef736d03c0ac51676bed192559a5de09a578ffc24545aaa3388ddb60fdcb96c",
+      "localSha256": "8ef736d03c0ac51676bed192559a5de09a578ffc24545aaa3388ddb60fdcb96c",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386D.png"
+    },
+    {
+      "file": "HOME0386D_s.png",
+      "sourceSha256": "f39b988b77e107ffce171021e908bf785068c01cba3ae39ed56ec1a8cbbf5343",
+      "localSha256": "f39b988b77e107ffce171021e908bf785068c01cba3ae39ed56ec1a8cbbf5343",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386D_s.png"
+    },
+    {
+      "file": "HOME0386S.png",
+      "sourceSha256": "fd99451b233733e20ee27dfdb992cd506b3a22c179dfe12b7f7c2058991e561e",
+      "localSha256": "fd99451b233733e20ee27dfdb992cd506b3a22c179dfe12b7f7c2058991e561e",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386S.png"
+    },
+    {
+      "file": "HOME0386S_s.png",
+      "sourceSha256": "5a82e289717d4c8856032ec2574b2eeefa0e3612fb7443bbd02f5f9a0dec1f9d",
+      "localSha256": "5a82e289717d4c8856032ec2574b2eeefa0e3612fb7443bbd02f5f9a0dec1f9d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386S_s.png"
+    },
+    {
+      "file": "HOME0386_s.png",
+      "sourceSha256": "ee5c8b0746bc94ff544870a4c213f80a95bb59341b78171fc96eabf8dc18d214",
+      "localSha256": "3e02a1be46232a15f728f182ef581845290b9db381b9e3e49cf862e2434db175",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0386_s.png"
+    },
+    {
+      "file": "HOME0412.png",
+      "sourceSha256": "fdfd5cc3d0c4f24c6253c95c2c199da434b89cec49e93619a18b154f0f1bd9ad",
+      "localSha256": "e6e4daf522a13fe45258178d094f41bce3284c75df0df27be0471e0e7602ed57",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0412.png"
+    },
+    {
+      "file": "HOME0412G.png",
+      "sourceSha256": "7e25cbec534d041c80c99ca33ef5e829a941676edbd10abdc5bb84630bf43479",
+      "localSha256": "7e25cbec534d041c80c99ca33ef5e829a941676edbd10abdc5bb84630bf43479",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0412G.png"
+    },
+    {
+      "file": "HOME0412G_s.png",
+      "sourceSha256": "eafd6a93f3c5fa8a856f3d5fcce7f0d6e5f030a449fc61bee4a32d658d5b1af6",
+      "localSha256": "eafd6a93f3c5fa8a856f3d5fcce7f0d6e5f030a449fc61bee4a32d658d5b1af6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0412G_s.png"
+    },
+    {
+      "file": "HOME0412S.png",
+      "sourceSha256": "5eee8818ddfa64a99ccba347592922554495ec5a77d06df939e14f204897efc9",
+      "localSha256": "5eee8818ddfa64a99ccba347592922554495ec5a77d06df939e14f204897efc9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0412S.png"
+    },
+    {
+      "file": "HOME0412S_s.png",
+      "sourceSha256": "566cf6d44c9ecb602abfee3c4cc1227cea458ca08827572f63d2fc51826ea157",
+      "localSha256": "566cf6d44c9ecb602abfee3c4cc1227cea458ca08827572f63d2fc51826ea157",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0412S_s.png"
+    },
+    {
+      "file": "HOME0412_s.png",
+      "sourceSha256": "d5cc0079da44e60b8613456ef226be67057ef82784b937b0ae2b017382b6c5d8",
+      "localSha256": "ae89cc20789c926d45201eda3beaff5d0d7a353ae406829c8dd0cd1872b7b53e",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0412_s.png"
+    },
+    {
+      "file": "HOME0413.png",
+      "sourceSha256": "8a8302dda19bb1821acbbce6c985763800206d64a9776896fcd1a2977ebc87ca",
+      "localSha256": "a2b7ba415d81a291279689f999909a8034eae24dedb47572f6abcba04bff8eb4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0413.png"
+    },
+    {
+      "file": "HOME0413G.png",
+      "sourceSha256": "baa57fe371cf9d376ae43ec9677bf37c903920a3e3be9fbbfba973196544d7d1",
+      "localSha256": "baa57fe371cf9d376ae43ec9677bf37c903920a3e3be9fbbfba973196544d7d1",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0413G.png"
+    },
+    {
+      "file": "HOME0413G_s.png",
+      "sourceSha256": "69b0f5cc368debfd000f7acc735265f823cf5d7af40692ccb612855f5ba1d764",
+      "localSha256": "69b0f5cc368debfd000f7acc735265f823cf5d7af40692ccb612855f5ba1d764",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0413G_s.png"
+    },
+    {
+      "file": "HOME0413S.png",
+      "sourceSha256": "c2e2964f76b754caf9f4fa9376e48e92268f83e4ba6f38e3dd9ec2eca606e2e4",
+      "localSha256": "c2e2964f76b754caf9f4fa9376e48e92268f83e4ba6f38e3dd9ec2eca606e2e4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0413S.png"
+    },
+    {
+      "file": "HOME0413S_s.png",
+      "sourceSha256": "e10a67ce3d1684b2bbd8bbaedc7c15eab507b7a366adea9f3ef4015d2441bc49",
+      "localSha256": "e10a67ce3d1684b2bbd8bbaedc7c15eab507b7a366adea9f3ef4015d2441bc49",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0413S_s.png"
+    },
+    {
+      "file": "HOME0413_s.png",
+      "sourceSha256": "b1a1a1291c96d06b10da00a9d84ce3d25a6291d8b61ecdba5e1acfa57acb4ae1",
+      "localSha256": "552985c21de8ed3ab92f7e4aafcb8ce255bee031e8b7c225d620ff6c1539ba79",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0413_s.png"
+    },
+    {
+      "file": "HOME0422.png",
+      "sourceSha256": "abe839b7491799b3eb89f1180008ef378c9a481842a1000e237717be82a52f74",
+      "localSha256": "a717c8bc40a351464b493e8e5d63e59071df2348f9708f235d8026d3ec685a68",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0422.png"
+    },
+    {
+      "file": "HOME0422E.png",
+      "sourceSha256": "35b27fd2bca510571999dafe04531a0460b4a627446cff81be8e298c3960d90d",
+      "localSha256": "35b27fd2bca510571999dafe04531a0460b4a627446cff81be8e298c3960d90d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0422E.png"
+    },
+    {
+      "file": "HOME0422E_s.png",
+      "sourceSha256": "293731febe183896e7f0361142ca8d7804b9539ed8353bc0cda0fbf3ca629cc4",
+      "localSha256": "293731febe183896e7f0361142ca8d7804b9539ed8353bc0cda0fbf3ca629cc4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0422E_s.png"
+    },
+    {
+      "file": "HOME0422_s.png",
+      "sourceSha256": "a078b5a72094c710c1bd0d42a5d3c3d6d74c6d9b0a45b808758a9ce4ca0f551e",
+      "localSha256": "1e68d5991bedacda7a10ce9da75b491b07221dd144deee893710712815d98987",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0422_s.png"
+    },
+    {
+      "file": "HOME0423.png",
+      "sourceSha256": "09ff966449f691cf2d3a1247bda6dc0523be77f4d72f8c56e98b17aead06ae03",
+      "localSha256": "fddd3dbfada6ac7caec125fc59bf2975e06a90999da4d3b8c5157569587ca5cf",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0423.png"
+    },
+    {
+      "file": "HOME0423E.png",
+      "sourceSha256": "aacf21310d24b0c6e74f766335ce5c80872f4c450b5ce1530b3064f440a8d5a7",
+      "localSha256": "aacf21310d24b0c6e74f766335ce5c80872f4c450b5ce1530b3064f440a8d5a7",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0423E.png"
+    },
+    {
+      "file": "HOME0423E_s.png",
+      "sourceSha256": "033d4915e91fdcd783a69d94ed27943122dee196fbf67e81015750ceeb61d801",
+      "localSha256": "033d4915e91fdcd783a69d94ed27943122dee196fbf67e81015750ceeb61d801",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0423E_s.png"
+    },
+    {
+      "file": "HOME0423_s.png",
+      "sourceSha256": "58a9ccc5dfd9f0925a262962e3c66671fd49112f9918ca139e62edd8cfd5f325",
+      "localSha256": "03bcdf5377f92cc8c1ecc5028ca53ae11066a34d725a7415b8b6fe5fd4c5d3a8",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0423_s.png"
+    },
+    {
+      "file": "HOME0479.png",
+      "sourceSha256": "48093bea617cc40007b96c3a7fdf8873fc0678301c9d22c3337ed6b480f8e4ab",
+      "localSha256": "432e2f64d89e5ec332f357c4e9d14bba1a51fc7372322bd6f4a67587535dc2a9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479.png"
+    },
+    {
+      "file": "HOME0479F.png",
+      "sourceSha256": "127534515546a3c0da19fc1aae6f9d5a6d680a7d43400ffc10479768e8d9b567",
+      "localSha256": "127534515546a3c0da19fc1aae6f9d5a6d680a7d43400ffc10479768e8d9b567",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479F.png"
+    },
+    {
+      "file": "HOME0479F_s.png",
+      "sourceSha256": "c391eec71b5163b26f71d7aa171dbb77a2e85fa22797b4dc772d405c5ad4758f",
+      "localSha256": "c391eec71b5163b26f71d7aa171dbb77a2e85fa22797b4dc772d405c5ad4758f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479F_s.png"
+    },
+    {
+      "file": "HOME0479L.png",
+      "sourceSha256": "71d16b5a659f874638b2ae871903e3108caa72b63c6521e735611bc8dd4fbe98",
+      "localSha256": "71d16b5a659f874638b2ae871903e3108caa72b63c6521e735611bc8dd4fbe98",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479L.png"
+    },
+    {
+      "file": "HOME0479L_s.png",
+      "sourceSha256": "1986880b9311c4374b4ee96abaa73dd571f001c8656ba7a4461382249b4ec1aa",
+      "localSha256": "1986880b9311c4374b4ee96abaa73dd571f001c8656ba7a4461382249b4ec1aa",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479L_s.png"
+    },
+    {
+      "file": "HOME0479O.png",
+      "sourceSha256": "857e5121cc436c5cff72bcdd629f97e6434da77280e59a4eaedb98eb5c73adc9",
+      "localSha256": "857e5121cc436c5cff72bcdd629f97e6434da77280e59a4eaedb98eb5c73adc9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479O.png"
+    },
+    {
+      "file": "HOME0479O_s.png",
+      "sourceSha256": "5a7a6f79a65e0883d13aeaea5e6adf20d53b7082918545cd18954df2a745d7ca",
+      "localSha256": "5a7a6f79a65e0883d13aeaea5e6adf20d53b7082918545cd18954df2a745d7ca",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479O_s.png"
+    },
+    {
+      "file": "HOME0479R.png",
+      "sourceSha256": "e987b06ea71ab6538d152b161846e585d85b333a916b9d2904ffe27c3b4c7d5e",
+      "localSha256": "e987b06ea71ab6538d152b161846e585d85b333a916b9d2904ffe27c3b4c7d5e",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479R.png"
+    },
+    {
+      "file": "HOME0479R_s.png",
+      "sourceSha256": "e4da619ec457c97b996af1883663efe09a0d77bdd29efb32fe5911b656b10052",
+      "localSha256": "e4da619ec457c97b996af1883663efe09a0d77bdd29efb32fe5911b656b10052",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479R_s.png"
+    },
+    {
+      "file": "HOME0479W.png",
+      "sourceSha256": "4e432a138e9543800575536afb15c3e5ce3654fd4446524b01b841fbf09cb5cc",
+      "localSha256": "4e432a138e9543800575536afb15c3e5ce3654fd4446524b01b841fbf09cb5cc",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479W.png"
+    },
+    {
+      "file": "HOME0479W_s.png",
+      "sourceSha256": "44a5381f56d3b9b2f5bcd8a906b2841d0003a477dbe0a7e24479a370dcdc9ef6",
+      "localSha256": "44a5381f56d3b9b2f5bcd8a906b2841d0003a477dbe0a7e24479a370dcdc9ef6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479W_s.png"
+    },
+    {
+      "file": "HOME0479_s.png",
+      "sourceSha256": "cc5b3b663267b4a73c88406382501248cb8cdfa51e18b5a65b7d923904f219b4",
+      "localSha256": "ab692d4501c0d4771b17e2e587b84c191c079975e68be0686f784a3854436868",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0479_s.png"
+    },
+    {
+      "file": "HOME0585.png",
+      "sourceSha256": "93c0b56ffdc246a855ead4c94ae39a9ec2f410d3b9fdd5cf901d9ad97fcc48ff",
+      "localSha256": "2c58dac44f7721c483a9f3d4be53442fa0cf90bc192738c1cba9216a8da8c4f9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585.png"
+    },
+    {
+      "file": "HOME0585A.png",
+      "sourceSha256": "59aae1397dd5338df91acd197e36d001e10f8c3e23db4262d85cdd099429e199",
+      "localSha256": "59aae1397dd5338df91acd197e36d001e10f8c3e23db4262d85cdd099429e199",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585A.png"
+    },
+    {
+      "file": "HOME0585A_s.png",
+      "sourceSha256": "204f327ec6246a7a3dc076522e63d89fe11b8d8fd7eb4d6cfed494755479c2ce",
+      "localSha256": "204f327ec6246a7a3dc076522e63d89fe11b8d8fd7eb4d6cfed494755479c2ce",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585A_s.png"
+    },
+    {
+      "file": "HOME0585S.png",
+      "sourceSha256": "3af71516fff8344fb6674194e4d186e850b38d155f3f5885c9c92342cd872c52",
+      "localSha256": "3af71516fff8344fb6674194e4d186e850b38d155f3f5885c9c92342cd872c52",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585S.png"
+    },
+    {
+      "file": "HOME0585S_s.png",
+      "sourceSha256": "238e3fb1b8779f1bf4e037bb5354f4722a683eb74347818a93d672c2bdf35796",
+      "localSha256": "238e3fb1b8779f1bf4e037bb5354f4722a683eb74347818a93d672c2bdf35796",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585S_s.png"
+    },
+    {
+      "file": "HOME0585W.png",
+      "sourceSha256": "7f2b897ac3ebdc0b69256d89aa3d66e986ef8579b2fb56284d1ebdbb51ec2dbb",
+      "localSha256": "7f2b897ac3ebdc0b69256d89aa3d66e986ef8579b2fb56284d1ebdbb51ec2dbb",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585W.png"
+    },
+    {
+      "file": "HOME0585W_s.png",
+      "sourceSha256": "cc47a57945e6d6c81ae859d6c165750d25feb98dc5e3ea7c9e9239842e61d847",
+      "localSha256": "cc47a57945e6d6c81ae859d6c165750d25feb98dc5e3ea7c9e9239842e61d847",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585W_s.png"
+    },
+    {
+      "file": "HOME0585_s.png",
+      "sourceSha256": "6835ffce85c7859b28695e961dc26ee0045b88d4655be9965656c4a264ebd024",
+      "localSha256": "31d12aed9fdb8de30e901c6eb64961ddd19d94e2f6f13f25c92c894e13f282fb",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0585_s.png"
+    },
+    {
+      "file": "HOME0586.png",
+      "sourceSha256": "85a3a3ac39eea5494e729f5deae1e4c3a76a712b0d2708a509b815c00630b37b",
+      "localSha256": "a70bdc7188b16ce7769508675e0649fdbac7c545dc96d1ed01d2049b98508b48",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586.png"
+    },
+    {
+      "file": "HOME0586A.png",
+      "sourceSha256": "45c93eaf5376881da9114d197fdbaa7dbb2b6b8c1016fbf18fa23c7fb69c15bc",
+      "localSha256": "45c93eaf5376881da9114d197fdbaa7dbb2b6b8c1016fbf18fa23c7fb69c15bc",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586A.png"
+    },
+    {
+      "file": "HOME0586A_s.png",
+      "sourceSha256": "534070cbf4cb76fcf2982ea37f90b00526e3bcd869e8d6a43892abbfff5ce45f",
+      "localSha256": "534070cbf4cb76fcf2982ea37f90b00526e3bcd869e8d6a43892abbfff5ce45f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586A_s.png"
+    },
+    {
+      "file": "HOME0586S.png",
+      "sourceSha256": "6386af6532953e581023d27932d6705bb3530e4f69f5acc754180dba8289ab96",
+      "localSha256": "6386af6532953e581023d27932d6705bb3530e4f69f5acc754180dba8289ab96",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586S.png"
+    },
+    {
+      "file": "HOME0586S_s.png",
+      "sourceSha256": "19cad7e297ece8f9eaa14b62027864ad7bb5bf897e7b4d22878b7deffe2a0b5f",
+      "localSha256": "19cad7e297ece8f9eaa14b62027864ad7bb5bf897e7b4d22878b7deffe2a0b5f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586S_s.png"
+    },
+    {
+      "file": "HOME0586W.png",
+      "sourceSha256": "17548d5a0be16638dd04d376c0bb3ece6efa077a64e0adcc9609f02978a3c4e2",
+      "localSha256": "17548d5a0be16638dd04d376c0bb3ece6efa077a64e0adcc9609f02978a3c4e2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586W.png"
+    },
+    {
+      "file": "HOME0586W_s.png",
+      "sourceSha256": "4156a14a0b500a0e8a2d8d9975a84490fcb1536d783330e400526f4ce9b09923",
+      "localSha256": "4156a14a0b500a0e8a2d8d9975a84490fcb1536d783330e400526f4ce9b09923",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586W_s.png"
+    },
+    {
+      "file": "HOME0586_s.png",
+      "sourceSha256": "39c4edd780c5d86a9bd87ad3ff3faa808fa6fb6d2543e07d4a60f4c4cebb6b69",
+      "localSha256": "50eaa1626320764d956d5c879265c95046ae7edb22d8463476c44551ca21f4c5",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0586_s.png"
+    },
+    {
+      "file": "HOME0666.png",
+      "sourceSha256": "4566f87935385d37fb3c3ac30cb072e2eebf3b10c2b911413a22102af080d990",
+      "localSha256": "40800aaa7b929b1357cadc5778c825844d2d383029324f84f90c09b3e2c711f4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666.png"
+    },
+    {
+      "file": "HOME0666Arc.png",
+      "sourceSha256": "d8689b88ce50910b2e29196307a26372875c5303e8e0951a778aa8c974db6234",
+      "localSha256": "d8689b88ce50910b2e29196307a26372875c5303e8e0951a778aa8c974db6234",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Arc.png"
+    },
+    {
+      "file": "HOME0666Arc_s.png",
+      "sourceSha256": "8a1a56994fbc5cabbd0364c47ad335001b8a00b877dfbb8f34af8c911aa8c331",
+      "localSha256": "8a1a56994fbc5cabbd0364c47ad335001b8a00b877dfbb8f34af8c911aa8c331",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Arc_s.png"
+    },
+    {
+      "file": "HOME0666Con.png",
+      "sourceSha256": "765871d1a14f81a63f86e1ad6000a29fda666eeb752ddbdf0bc02babb04d6948",
+      "localSha256": "765871d1a14f81a63f86e1ad6000a29fda666eeb752ddbdf0bc02babb04d6948",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Con.png"
+    },
+    {
+      "file": "HOME0666Con_s.png",
+      "sourceSha256": "f14c282ad1faa633b4e11a02ea22b6dd78712970a89709745c0047e03dd123f4",
+      "localSha256": "f14c282ad1faa633b4e11a02ea22b6dd78712970a89709745c0047e03dd123f4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Con_s.png"
+    },
+    {
+      "file": "HOME0666Ele.png",
+      "sourceSha256": "a8ad5b3f55a6596bbed3aaab1bf7af099c02ff366b3ec691fab8e2e1ebac6646",
+      "localSha256": "a8ad5b3f55a6596bbed3aaab1bf7af099c02ff366b3ec691fab8e2e1ebac6646",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Ele.png"
+    },
+    {
+      "file": "HOME0666Ele_s.png",
+      "sourceSha256": "d5da26599cd3563620be45f9036d612879086fcfc2a37aa1ea771f030decd9eb",
+      "localSha256": "d5da26599cd3563620be45f9036d612879086fcfc2a37aa1ea771f030decd9eb",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Ele_s.png"
+    },
+    {
+      "file": "HOME0666Fan.png",
+      "sourceSha256": "12cb9f1933bf2c8f444f8f0ac17fc9507dc7a7d5ddb43c0ffbbc61ff15d0cb3c",
+      "localSha256": "12cb9f1933bf2c8f444f8f0ac17fc9507dc7a7d5ddb43c0ffbbc61ff15d0cb3c",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Fan.png"
+    },
+    {
+      "file": "HOME0666Fan_s.png",
+      "sourceSha256": "339fd5f01e171733057f81c2cd8d5144fb2c402f76a9aba22bd43e3121ef5d19",
+      "localSha256": "339fd5f01e171733057f81c2cd8d5144fb2c402f76a9aba22bd43e3121ef5d19",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Fan_s.png"
+    },
+    {
+      "file": "HOME0666Gar.png",
+      "sourceSha256": "02d8a569c9eeb88f8aafb0bab7303c8d3bdd7882d99574e0c53837bb8d3f631d",
+      "localSha256": "02d8a569c9eeb88f8aafb0bab7303c8d3bdd7882d99574e0c53837bb8d3f631d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Gar.png"
+    },
+    {
+      "file": "HOME0666Gar_s.png",
+      "sourceSha256": "bd1bb43cc3e210b1cf827e52805ace1bc6447beb4a42fba7f8ad1829b9284aff",
+      "localSha256": "bd1bb43cc3e210b1cf827e52805ace1bc6447beb4a42fba7f8ad1829b9284aff",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Gar_s.png"
+    },
+    {
+      "file": "HOME0666Hig.png",
+      "sourceSha256": "933ac2f6d423bc63d3b0e84c44d499e29b8396f07242ac3fbdfe87d19d765c09",
+      "localSha256": "933ac2f6d423bc63d3b0e84c44d499e29b8396f07242ac3fbdfe87d19d765c09",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Hig.png"
+    },
+    {
+      "file": "HOME0666Hig_s.png",
+      "sourceSha256": "80506ad8f57cb052dcbfc6a396afb61e7969056bede92b82e3ec03c6bfb8e3c5",
+      "localSha256": "80506ad8f57cb052dcbfc6a396afb61e7969056bede92b82e3ec03c6bfb8e3c5",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Hig_s.png"
+    },
+    {
+      "file": "HOME0666Icy.png",
+      "sourceSha256": "d55e7f7f9596293b804be20ecc91a9bd926db1f9698c835a9afeca63c0c2b71f",
+      "localSha256": "d55e7f7f9596293b804be20ecc91a9bd926db1f9698c835a9afeca63c0c2b71f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Icy.png"
+    },
+    {
+      "file": "HOME0666Icy_s.png",
+      "sourceSha256": "b2c64d911ab8fa29ca64691681db7ac7527e840dd48a73a6a70a27c0230536bd",
+      "localSha256": "b2c64d911ab8fa29ca64691681db7ac7527e840dd48a73a6a70a27c0230536bd",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Icy_s.png"
+    },
+    {
+      "file": "HOME0666Jun.png",
+      "sourceSha256": "7ce5fd514ed0d931cd1792c08f95651c977329256c2d3625df804d85647211f2",
+      "localSha256": "7ce5fd514ed0d931cd1792c08f95651c977329256c2d3625df804d85647211f2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Jun.png"
+    },
+    {
+      "file": "HOME0666Jun_s.png",
+      "sourceSha256": "190c90cfdb23bc0a53d31a499a5d03fe16d5f00cea1ceac79ddd709cd82e5dcc",
+      "localSha256": "190c90cfdb23bc0a53d31a499a5d03fe16d5f00cea1ceac79ddd709cd82e5dcc",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Jun_s.png"
+    },
+    {
+      "file": "HOME0666Mar.png",
+      "sourceSha256": "7daef922cbb6aaa91a0b423c2899947d5e9e3cfdf0d62c1ad20982d4a8fb0f91",
+      "localSha256": "7daef922cbb6aaa91a0b423c2899947d5e9e3cfdf0d62c1ad20982d4a8fb0f91",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Mar.png"
+    },
+    {
+      "file": "HOME0666Mar_s.png",
+      "sourceSha256": "0543f772d4a6258690f7528c89cfc392ca8aa89e9e499b519feecf0c68a8a152",
+      "localSha256": "0543f772d4a6258690f7528c89cfc392ca8aa89e9e499b519feecf0c68a8a152",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Mar_s.png"
+    },
+    {
+      "file": "HOME0666Mod.png",
+      "sourceSha256": "d4f53104e76129152a7bfd19280ddb65c05a87324bb98ccb95e9b1889411e382",
+      "localSha256": "d4f53104e76129152a7bfd19280ddb65c05a87324bb98ccb95e9b1889411e382",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Mod.png"
+    },
+    {
+      "file": "HOME0666Mod_s.png",
+      "sourceSha256": "a47ece1ad267cd88bbf3827b06ede20f7f29fae42790d616ed0fdbadb282532d",
+      "localSha256": "a47ece1ad267cd88bbf3827b06ede20f7f29fae42790d616ed0fdbadb282532d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Mod_s.png"
+    },
+    {
+      "file": "HOME0666Mon.png",
+      "sourceSha256": "7b4add0fecd9ee940071fe1b47c58be5b26b3b289663cc3a211b68fa926d9c56",
+      "localSha256": "7b4add0fecd9ee940071fe1b47c58be5b26b3b289663cc3a211b68fa926d9c56",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Mon.png"
+    },
+    {
+      "file": "HOME0666Mon_s.png",
+      "sourceSha256": "e66e710ba88c16ecf69f0eb291ceea20c6f805548d37d0b1b2c9492da1724c57",
+      "localSha256": "e66e710ba88c16ecf69f0eb291ceea20c6f805548d37d0b1b2c9492da1724c57",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Mon_s.png"
+    },
+    {
+      "file": "HOME0666Oce.png",
+      "sourceSha256": "34c001c7e5d936e74921e8b8a94d0880a08af76051e0142931a62d453d0c532d",
+      "localSha256": "34c001c7e5d936e74921e8b8a94d0880a08af76051e0142931a62d453d0c532d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Oce.png"
+    },
+    {
+      "file": "HOME0666Oce_s.png",
+      "sourceSha256": "e069658f3731303f9484a91a2f8e21b437e5c7fdd8659721f7a1b9ce0578397e",
+      "localSha256": "e069658f3731303f9484a91a2f8e21b437e5c7fdd8659721f7a1b9ce0578397e",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Oce_s.png"
+    },
+    {
+      "file": "HOME0666Pok.png",
+      "sourceSha256": "6af3fdfd837a22a5205241c78070af26b36d0c51f00b38910d1142d5e83fdd87",
+      "localSha256": "6af3fdfd837a22a5205241c78070af26b36d0c51f00b38910d1142d5e83fdd87",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Pok.png"
+    },
+    {
+      "file": "HOME0666Pok_s.png",
+      "sourceSha256": "3870d32256e3e02d422cf205fad5a2a0ffd0cc02c968f23619a025782756fddf",
+      "localSha256": "3870d32256e3e02d422cf205fad5a2a0ffd0cc02c968f23619a025782756fddf",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Pok_s.png"
+    },
+    {
+      "file": "HOME0666Pol.png",
+      "sourceSha256": "8b1ad2d6ec2dad9a22e12456d9e0e4a795866673e5e736f44debf91995f5b506",
+      "localSha256": "8b1ad2d6ec2dad9a22e12456d9e0e4a795866673e5e736f44debf91995f5b506",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Pol.png"
+    },
+    {
+      "file": "HOME0666Pol_s.png",
+      "sourceSha256": "2eec818c60da97195d1ac4dc959e260723e73595e3cce190e36f87f92c80da40",
+      "localSha256": "2eec818c60da97195d1ac4dc959e260723e73595e3cce190e36f87f92c80da40",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Pol_s.png"
+    },
+    {
+      "file": "HOME0666Riv.png",
+      "sourceSha256": "ba13071df52989acdf7e763672e4cdb314df600177c3f34ee9bd7b7b494ecec4",
+      "localSha256": "ba13071df52989acdf7e763672e4cdb314df600177c3f34ee9bd7b7b494ecec4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Riv.png"
+    },
+    {
+      "file": "HOME0666Riv_s.png",
+      "sourceSha256": "dde218759f483387fa2272be26921815951a534c22369affeea40229a93bd70a",
+      "localSha256": "dde218759f483387fa2272be26921815951a534c22369affeea40229a93bd70a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Riv_s.png"
+    },
+    {
+      "file": "HOME0666San.png",
+      "sourceSha256": "eafc2287fc1d403f374e23f2104f44e0b0f5f79e7ec459d41862e036f6163d6d",
+      "localSha256": "eafc2287fc1d403f374e23f2104f44e0b0f5f79e7ec459d41862e036f6163d6d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666San.png"
+    },
+    {
+      "file": "HOME0666San_s.png",
+      "sourceSha256": "ffda84401eea1da9110a7966664f20f7871ff4606a961117a3a7ab58f7ec4525",
+      "localSha256": "ffda84401eea1da9110a7966664f20f7871ff4606a961117a3a7ab58f7ec4525",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666San_s.png"
+    },
+    {
+      "file": "HOME0666Sav.png",
+      "sourceSha256": "6b32ab80b00ddfa2fafa75a56c93fabb7334b4411a2c5d5a14fb0120cd47c2fe",
+      "localSha256": "6b32ab80b00ddfa2fafa75a56c93fabb7334b4411a2c5d5a14fb0120cd47c2fe",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Sav.png"
+    },
+    {
+      "file": "HOME0666Sav_s.png",
+      "sourceSha256": "50fb4945150772cfbd8353d7766502224c2a01eeca67e17e70d6101313f23f0b",
+      "localSha256": "50fb4945150772cfbd8353d7766502224c2a01eeca67e17e70d6101313f23f0b",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Sav_s.png"
+    },
+    {
+      "file": "HOME0666Sun.png",
+      "sourceSha256": "e07d3485edae83bb428d722db41be672b1957a0598080c23d1c11f1124285f46",
+      "localSha256": "e07d3485edae83bb428d722db41be672b1957a0598080c23d1c11f1124285f46",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Sun.png"
+    },
+    {
+      "file": "HOME0666Sun_s.png",
+      "sourceSha256": "0418f2e02d363850acf8feea132f81ddce7c72aaba34cce91ab4d284d1ad4eab",
+      "localSha256": "0418f2e02d363850acf8feea132f81ddce7c72aaba34cce91ab4d284d1ad4eab",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Sun_s.png"
+    },
+    {
+      "file": "HOME0666Tun.png",
+      "sourceSha256": "945f218c3131bd06928afcf4f254549794c30bb7e9bca754acffc62ebbd39594",
+      "localSha256": "945f218c3131bd06928afcf4f254549794c30bb7e9bca754acffc62ebbd39594",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Tun.png"
+    },
+    {
+      "file": "HOME0666Tun_s.png",
+      "sourceSha256": "b7467d79bd271097fbb49f4473559083b2b55e0be886cecba5c35019c76b8f1f",
+      "localSha256": "b7467d79bd271097fbb49f4473559083b2b55e0be886cecba5c35019c76b8f1f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666Tun_s.png"
+    },
+    {
+      "file": "HOME0666_s.png",
+      "sourceSha256": "4bc249887f229fcb8223b3e9924ce95d77a23b19d8561a16bba2bebc274e602c",
+      "localSha256": "6b6ce5f424f08ae4be73c67233b5b50de9cc9ad6bfde33c68e0efeb1286470f6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0666_s.png"
+    },
+    {
+      "file": "HOME0669.png",
+      "sourceSha256": "a6643658c5666307b82aebffb369f535a893c01b840ec4417fb51523d14ad890",
+      "localSha256": "903b63fdda1e47c27bf9d10e5d76fc862f8c2fb8aa3e37668cfaecdb41e673f2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669.png"
+    },
+    {
+      "file": "HOME0669B.png",
+      "sourceSha256": "8b8ae9ad4c0c07cd91ef9e7483c8ba38dc9266ff092777e97ed7e1cc5cb61aa9",
+      "localSha256": "8b8ae9ad4c0c07cd91ef9e7483c8ba38dc9266ff092777e97ed7e1cc5cb61aa9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669B.png"
+    },
+    {
+      "file": "HOME0669B_s.png",
+      "sourceSha256": "c35318d9ca787817b82866eca7a8ecaeede1a57ffc32e2afcf25ca0f544307ac",
+      "localSha256": "c35318d9ca787817b82866eca7a8ecaeede1a57ffc32e2afcf25ca0f544307ac",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669B_s.png"
+    },
+    {
+      "file": "HOME0669O.png",
+      "sourceSha256": "a5f9181ad2e4603b594ec0acd8da3655e6485b41df9d1127fd32993b75a5e320",
+      "localSha256": "a5f9181ad2e4603b594ec0acd8da3655e6485b41df9d1127fd32993b75a5e320",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669O.png"
+    },
+    {
+      "file": "HOME0669O_s.png",
+      "sourceSha256": "bf880c91f40c13bf75d458b404744ce506b2352508e6bc45bfd7f38e52bf596f",
+      "localSha256": "bf880c91f40c13bf75d458b404744ce506b2352508e6bc45bfd7f38e52bf596f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669O_s.png"
+    },
+    {
+      "file": "HOME0669W.png",
+      "sourceSha256": "5f825fc93e423b00e8092466c0f8142b214edcc8978cd487fc5758051a6af0c7",
+      "localSha256": "5f825fc93e423b00e8092466c0f8142b214edcc8978cd487fc5758051a6af0c7",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669W.png"
+    },
+    {
+      "file": "HOME0669W_s.png",
+      "sourceSha256": "a7db4965b77877c36356d29c63569b126ae1e7a2ccfc6468a618026711084070",
+      "localSha256": "a7db4965b77877c36356d29c63569b126ae1e7a2ccfc6468a618026711084070",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669W_s.png"
+    },
+    {
+      "file": "HOME0669Y.png",
+      "sourceSha256": "b963029003728ea0d0563aae7a59224def9267e5d221c55a179818fee147158d",
+      "localSha256": "b963029003728ea0d0563aae7a59224def9267e5d221c55a179818fee147158d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669Y.png"
+    },
+    {
+      "file": "HOME0669Y_s.png",
+      "sourceSha256": "3a2c4a5c423bdf2a8dab452a59959f910ff86cc772882cb5553c5fbf755484af",
+      "localSha256": "3a2c4a5c423bdf2a8dab452a59959f910ff86cc772882cb5553c5fbf755484af",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669Y_s.png"
+    },
+    {
+      "file": "HOME0669_s.png",
+      "sourceSha256": "3832f21537d602b47b6b696ca34a0a14f6998c4598656100327a762614953a52",
+      "localSha256": "340f1779c9ff52cac5ea9a8bc398bdb11d007a5568b5ccd4ea3550a18555ef21",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0669_s.png"
+    },
+    {
+      "file": "HOME0670.png",
+      "sourceSha256": "ab33a9ed7a8fba7c1b4cba79db6208989dcfa7ffd2381ebed87dfab460796a0b",
+      "localSha256": "3567897d03b14d69724816dbce08fef96303fee688cc0fb6b1e37ba6469cf10a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670.png"
+    },
+    {
+      "file": "HOME0670B.png",
+      "sourceSha256": "8979e4c9ff36d865c17e17055f67e49fbf2b554bd7f75331f2df126a7a0c8e17",
+      "localSha256": "8979e4c9ff36d865c17e17055f67e49fbf2b554bd7f75331f2df126a7a0c8e17",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670B.png"
+    },
+    {
+      "file": "HOME0670B_s.png",
+      "sourceSha256": "c090401d8a3b2baf6325c7ac1a0abafc369c09d909e2bce4d085915306829d59",
+      "localSha256": "c090401d8a3b2baf6325c7ac1a0abafc369c09d909e2bce4d085915306829d59",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670B_s.png"
+    },
+    {
+      "file": "HOME0670O.png",
+      "sourceSha256": "6c9eddf3e54957cd7b5e05867b3b58bae15d5b2cbc340f6efc40ce0813b58921",
+      "localSha256": "6c9eddf3e54957cd7b5e05867b3b58bae15d5b2cbc340f6efc40ce0813b58921",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670O.png"
+    },
+    {
+      "file": "HOME0670O_s.png",
+      "sourceSha256": "8daca40f4f607064477336e2df9d9b6559853606971021d7106d382f907a4353",
+      "localSha256": "8daca40f4f607064477336e2df9d9b6559853606971021d7106d382f907a4353",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670O_s.png"
+    },
+    {
+      "file": "HOME0670W.png",
+      "sourceSha256": "97795c9a40cddb3b10a3e40f99cb4c7db4d65fe37abad4e73f77ea41cfca28de",
+      "localSha256": "97795c9a40cddb3b10a3e40f99cb4c7db4d65fe37abad4e73f77ea41cfca28de",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670W.png"
+    },
+    {
+      "file": "HOME0670W_s.png",
+      "sourceSha256": "aa6bb69d608d29788180ab37fc00d5a0d1817c2dbf1a18a52edf4cdb659f42c2",
+      "localSha256": "aa6bb69d608d29788180ab37fc00d5a0d1817c2dbf1a18a52edf4cdb659f42c2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670W_s.png"
+    },
+    {
+      "file": "HOME0670Y.png",
+      "sourceSha256": "846754fe15730e7099f969ab0b5b2f07d0819c1460acb59272cd16056aecc304",
+      "localSha256": "846754fe15730e7099f969ab0b5b2f07d0819c1460acb59272cd16056aecc304",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670Y.png"
+    },
+    {
+      "file": "HOME0670Y_s.png",
+      "sourceSha256": "cfac7a70b61d793d6446b478aa72a2af3b735849da0dc4b7563b98b5f39d093f",
+      "localSha256": "cfac7a70b61d793d6446b478aa72a2af3b735849da0dc4b7563b98b5f39d093f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670Y_s.png"
+    },
+    {
+      "file": "HOME0670_s.png",
+      "sourceSha256": "cadda4aef57ec4ad0cb4c50f416cb0daba135eb9747705be76035358f77cd515",
+      "localSha256": "47808161c214c31100036d65859418efa660b35cfa349c438761e4cf7b7b8540",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0670_s.png"
+    },
+    {
+      "file": "HOME0671.png",
+      "sourceSha256": "978cbb77a255829d5501ef3f6aaab1823af93b1a7f19d3753c2ee6c47fdfc8b8",
+      "localSha256": "d25894d254df8df0fb3c88bf7f6e8716d316e49a44a6bbda8383488b6aa96c49",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671.png"
+    },
+    {
+      "file": "HOME0671B.png",
+      "sourceSha256": "1f69e0741ab12ffb479e731fb27ac147a7a7bda08eb5dec95c8bdd4808fb6ba4",
+      "localSha256": "1f69e0741ab12ffb479e731fb27ac147a7a7bda08eb5dec95c8bdd4808fb6ba4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671B.png"
+    },
+    {
+      "file": "HOME0671B_s.png",
+      "sourceSha256": "3d0653fdbe46924f91e2e32a62b057b05eb693f8451f40e6b87b91b4b9e3a469",
+      "localSha256": "3d0653fdbe46924f91e2e32a62b057b05eb693f8451f40e6b87b91b4b9e3a469",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671B_s.png"
+    },
+    {
+      "file": "HOME0671O.png",
+      "sourceSha256": "009afc39822f6893dc0de91cea2ba95370279b23cad64dfad5e498c60e870eb6",
+      "localSha256": "009afc39822f6893dc0de91cea2ba95370279b23cad64dfad5e498c60e870eb6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671O.png"
+    },
+    {
+      "file": "HOME0671O_s.png",
+      "sourceSha256": "7eb42a660a919e00981133af0cef083de17f14c2afd9fa61b968fba5d63b247b",
+      "localSha256": "7eb42a660a919e00981133af0cef083de17f14c2afd9fa61b968fba5d63b247b",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671O_s.png"
+    },
+    {
+      "file": "HOME0671W.png",
+      "sourceSha256": "11e4821728acff3714746d2c946d0b32ff0b3f4a28d053acec0ca7ee8964bd66",
+      "localSha256": "11e4821728acff3714746d2c946d0b32ff0b3f4a28d053acec0ca7ee8964bd66",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671W.png"
+    },
+    {
+      "file": "HOME0671W_s.png",
+      "sourceSha256": "35d7d378890835d366c7574543f4b131bf689bb836abd234de958f847292eb06",
+      "localSha256": "35d7d378890835d366c7574543f4b131bf689bb836abd234de958f847292eb06",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671W_s.png"
+    },
+    {
+      "file": "HOME0671Y.png",
+      "sourceSha256": "1b8b63a984590411592b6396707f5326b7229ba621308ce134b6b67157be37d2",
+      "localSha256": "1b8b63a984590411592b6396707f5326b7229ba621308ce134b6b67157be37d2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671Y.png"
+    },
+    {
+      "file": "HOME0671Y_s.png",
+      "sourceSha256": "2f2c659aec27c317d98dd7dd53b6c52e8ad4ddd21654d56fcbd29f0842e75301",
+      "localSha256": "2f2c659aec27c317d98dd7dd53b6c52e8ad4ddd21654d56fcbd29f0842e75301",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671Y_s.png"
+    },
+    {
+      "file": "HOME0671_s.png",
+      "sourceSha256": "e0553fc5c32486e235e53815f94f069bdb59c35a3f8cf42d5c2040f6a6de3525",
+      "localSha256": "efd6e9d1b29efbd746b046a3ef7819ee9bc1c19d0b4b9d803cff9c2dded09042",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0671_s.png"
+    },
+    {
+      "file": "HOME0710.png",
+      "sourceSha256": "691b84318eb521ae0626ec43aeb6d655f043cea5d45b09a14ab303e5a062678f",
+      "localSha256": "f85000e5425954da4b49bee5d703e5ab6cb3885a4b958571232545c13402bc90",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710.png"
+    },
+    {
+      "file": "HOME0710La.png",
+      "sourceSha256": "19ce52aa0f43ddcf662ff1a5be0dc77e1af33feefbcfad5ca8802304db1950fe",
+      "localSha256": "19ce52aa0f43ddcf662ff1a5be0dc77e1af33feefbcfad5ca8802304db1950fe",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710La.png"
+    },
+    {
+      "file": "HOME0710La_s.png",
+      "sourceSha256": "447a91f9c37d99385497b8e9172a71ac9cadb9cbe5d9ff5599c675b163c963ef",
+      "localSha256": "447a91f9c37d99385497b8e9172a71ac9cadb9cbe5d9ff5599c675b163c963ef",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710La_s.png"
+    },
+    {
+      "file": "HOME0710Sm.png",
+      "sourceSha256": "c0581c279d8a1d78f45f0739b4b0ae18f76f9d3efc413ab27c9a0df8eeee462a",
+      "localSha256": "c0581c279d8a1d78f45f0739b4b0ae18f76f9d3efc413ab27c9a0df8eeee462a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710Sm.png"
+    },
+    {
+      "file": "HOME0710Sm_s.png",
+      "sourceSha256": "57fb1452997a811a54069eb5e883d5c8e15758fd28650f4274b14eeb12f5cf54",
+      "localSha256": "57fb1452997a811a54069eb5e883d5c8e15758fd28650f4274b14eeb12f5cf54",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710Sm_s.png"
+    },
+    {
+      "file": "HOME0710Su.png",
+      "sourceSha256": "afd941762822dbfd9de2756f2014e07cba0872f231d2c462aac940ff2b828aca",
+      "localSha256": "afd941762822dbfd9de2756f2014e07cba0872f231d2c462aac940ff2b828aca",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710Su.png"
+    },
+    {
+      "file": "HOME0710Su_s.png",
+      "sourceSha256": "0e75a8e0e0b918d4f2d49b25fcf68bcc2dde26beccfc24094e0eed68ae8a42de",
+      "localSha256": "0e75a8e0e0b918d4f2d49b25fcf68bcc2dde26beccfc24094e0eed68ae8a42de",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710Su_s.png"
+    },
+    {
+      "file": "HOME0710_s.png",
+      "sourceSha256": "2762f7cb60d36328adb956c63079a2b8518cb1eef79d5e8495a69b2939989e0d",
+      "localSha256": "2f91ab32f990a869c24a8f93c4781210cf46164926557aa70ff7f6e9f9499d7d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0710_s.png"
+    },
+    {
+      "file": "HOME0711.png",
+      "sourceSha256": "1beefeac6e762212631ff48dbee1ee0ef890aa017ebf997457c7dd850cca27c4",
+      "localSha256": "b5737fbaf12270d46931a644dfaf6529afc80ed00bccec846aa987ab836b3ae4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711.png"
+    },
+    {
+      "file": "HOME0711La.png",
+      "sourceSha256": "5d99058daac748cff9e0ef76b111292b6ece728390856e6631289a1f530f1ba1",
+      "localSha256": "5d99058daac748cff9e0ef76b111292b6ece728390856e6631289a1f530f1ba1",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711La.png"
+    },
+    {
+      "file": "HOME0711La_s.png",
+      "sourceSha256": "2533d742e3e5c54eac20a0375761a36121e3b6582445344424a49a4c4a4b918a",
+      "localSha256": "2533d742e3e5c54eac20a0375761a36121e3b6582445344424a49a4c4a4b918a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711La_s.png"
+    },
+    {
+      "file": "HOME0711Sm.png",
+      "sourceSha256": "24375399a9832e65b5d242614834b176a092fc8cf398888baadb5dcb4a0cd76b",
+      "localSha256": "24375399a9832e65b5d242614834b176a092fc8cf398888baadb5dcb4a0cd76b",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711Sm.png"
+    },
+    {
+      "file": "HOME0711Sm_s.png",
+      "sourceSha256": "d2a98d0a3cca61283688f1df2c4d4956006962d1342d714bc376a607b5b896d2",
+      "localSha256": "d2a98d0a3cca61283688f1df2c4d4956006962d1342d714bc376a607b5b896d2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711Sm_s.png"
+    },
+    {
+      "file": "HOME0711Su.png",
+      "sourceSha256": "d19a7719f4da0728a90204a33a9386d5a615b3f167e355f444754c8bbc4f6675",
+      "localSha256": "d19a7719f4da0728a90204a33a9386d5a615b3f167e355f444754c8bbc4f6675",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711Su.png"
+    },
+    {
+      "file": "HOME0711Su_s.png",
+      "sourceSha256": "c23dff7b60fc3c3e549d437e6e63dda2b8ff377aed480ba3eee92ee3fd21ae61",
+      "localSha256": "c23dff7b60fc3c3e549d437e6e63dda2b8ff377aed480ba3eee92ee3fd21ae61",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711Su_s.png"
+    },
+    {
+      "file": "HOME0711_s.png",
+      "sourceSha256": "0ff81432bea4dbfc1aad32e2632ab96e07774f8d10c7b367ceebdadfdffa2201",
+      "localSha256": "51442570f2b3bf51d78886b03315a4bd7de5a82fc60ea716a325a59110129f30",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0711_s.png"
+    },
+    {
+      "file": "HOME0741.png",
+      "sourceSha256": "2e66087c4abb77d71f0fff87edb2bcff138b221eb60b2257d0a0c172d0ecbcc5",
+      "localSha256": "488ff615287f006e2db0cecdf43c2676f7db74bcaf1c942411aa58c738c0518f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741.png"
+    },
+    {
+      "file": "HOME0741Pa.png",
+      "sourceSha256": "76ec79b193022216034a8551339729be9548c8527f1691f617e9c500d5275aec",
+      "localSha256": "76ec79b193022216034a8551339729be9548c8527f1691f617e9c500d5275aec",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741Pa.png"
+    },
+    {
+      "file": "HOME0741Pa_s.png",
+      "sourceSha256": "371e40587cb58dfcdc2248494eb82becd1ec8b615cbcefabac54d1eb28d9a3f6",
+      "localSha256": "371e40587cb58dfcdc2248494eb82becd1ec8b615cbcefabac54d1eb28d9a3f6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741Pa_s.png"
+    },
+    {
+      "file": "HOME0741Po.png",
+      "sourceSha256": "1aaa78fde07dd09d2f2728d76e19e8d6e8eb641cf6ed5103fe3961b2df30cf63",
+      "localSha256": "1aaa78fde07dd09d2f2728d76e19e8d6e8eb641cf6ed5103fe3961b2df30cf63",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741Po.png"
+    },
+    {
+      "file": "HOME0741Po_s.png",
+      "sourceSha256": "fbf586c23c276ff2daaf76d5be448a05ea602ec7e7ce8c37affed45c38c88a05",
+      "localSha256": "fbf586c23c276ff2daaf76d5be448a05ea602ec7e7ce8c37affed45c38c88a05",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741Po_s.png"
+    },
+    {
+      "file": "HOME0741Se.png",
+      "sourceSha256": "0c36ffa56c93f2006a59a7d1d377a2565bfa07fa4a203dc135d34058648ab6cf",
+      "localSha256": "0c36ffa56c93f2006a59a7d1d377a2565bfa07fa4a203dc135d34058648ab6cf",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741Se.png"
+    },
+    {
+      "file": "HOME0741Se_s.png",
+      "sourceSha256": "20d24fd0cf6b148d3606320963c91007adbf98fc65fd7be07c5310e7b7b07a8b",
+      "localSha256": "20d24fd0cf6b148d3606320963c91007adbf98fc65fd7be07c5310e7b7b07a8b",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741Se_s.png"
+    },
+    {
+      "file": "HOME0741_s.png",
+      "sourceSha256": "ed68eefc4e7c01a7b2246043df47e5e724fda06955f706707a510b16e0081a6c",
+      "localSha256": "3c026f94da40eb0cff39149a388ed84e1c685d0bf652f63e6aea066c756376a5",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0741_s.png"
+    },
+    {
+      "file": "HOME0745.png",
+      "sourceSha256": "87afaad1051cfc90af7a4ad0568eea68cb39ddbb7f5372c49511700c0047c5a2",
+      "localSha256": "8d63b818de695ab5143b76e1a8908335bf119abbf6e216a00329edeeef637f3a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0745.png"
+    },
+    {
+      "file": "HOME0745D.png",
+      "sourceSha256": "ddd01257415692aef8af9d1821b232e8bda19a0851ea9f7358c92ba582f52f76",
+      "localSha256": "ddd01257415692aef8af9d1821b232e8bda19a0851ea9f7358c92ba582f52f76",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0745D.png"
+    },
+    {
+      "file": "HOME0745D_s.png",
+      "sourceSha256": "6828882de8ef7827714a260d0db50e11e9691072dd3862a6a43d0d4980c2d72c",
+      "localSha256": "6828882de8ef7827714a260d0db50e11e9691072dd3862a6a43d0d4980c2d72c",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0745D_s.png"
+    },
+    {
+      "file": "HOME0745Mn.png",
+      "sourceSha256": "bc548ae740b7263007bf0552965b1a11efbe2515bf0cccbda0fd983a88d988a1",
+      "localSha256": "bc548ae740b7263007bf0552965b1a11efbe2515bf0cccbda0fd983a88d988a1",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0745Mn.png"
+    },
+    {
+      "file": "HOME0745Mn_s.png",
+      "sourceSha256": "f2900109bfd3ed4e5d77b1058c5f5ee3e3c0b33f202c8db7c7499fa051754d76",
+      "localSha256": "f2900109bfd3ed4e5d77b1058c5f5ee3e3c0b33f202c8db7c7499fa051754d76",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0745Mn_s.png"
+    },
+    {
+      "file": "HOME0745_s.png",
+      "sourceSha256": "7f9515ca94b2c0212e33308158e5326598caa7177c02ca8be8e53ce19d2cc8e6",
+      "localSha256": "d7a7bf07aeb4138c5d1f728a1f08cdd42fd57fbc5d52c009e13ee6cd7b87d6ba",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0745_s.png"
+    },
+    {
+      "file": "HOME0849.png",
+      "sourceSha256": "fbafdf0d6bd57b4134517f586f599c5156253ab0bdc8a4ec1afb2f6d09f4d2a2",
+      "localSha256": "3176a8c7b6d471720dfc7912d09e601f079074f617823648c883167f2d2c8f38",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0849.png"
+    },
+    {
+      "file": "HOME0849L.png",
+      "sourceSha256": "04d7176ecee2d8ca093638b958c2ef5692c1602e96ec6838eabda2133069b3c8",
+      "localSha256": "04d7176ecee2d8ca093638b958c2ef5692c1602e96ec6838eabda2133069b3c8",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0849L.png"
+    },
+    {
+      "file": "HOME0849L_s.png",
+      "sourceSha256": "72aab2bd6b6ab01fa66ba4e01285da0b459760bb13822ceba69c462d96ed2ed1",
+      "localSha256": "72aab2bd6b6ab01fa66ba4e01285da0b459760bb13822ceba69c462d96ed2ed1",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0849L_s.png"
+    },
+    {
+      "file": "HOME0849_s.png",
+      "sourceSha256": "efd9c4cee9e558746c9eb7bed39a9b9bb024e257a4fcbb7f69c71fca8662acae",
+      "localSha256": "fd9911e7922104b6ad0ea354398030642213dc20eb66fccc72c8e618a41c9f84",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0849_s.png"
+    },
+    {
+      "file": "HOME0925.png",
+      "sourceSha256": "8edd18ddfb292772bf375ed742edb20c854c84177100478591a88c5a01e46bf3",
+      "localSha256": "abff8803a76090a99e63e58d6e051e6de180c2c701aead036e572683b64edc14",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0925.png"
+    },
+    {
+      "file": "HOME0925T.png",
+      "sourceSha256": "ce99b2bd7df1043d85917f6152a417c2383761547a5ec4ea46759255906ec2e8",
+      "localSha256": "ce99b2bd7df1043d85917f6152a417c2383761547a5ec4ea46759255906ec2e8",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0925T.png"
+    },
+    {
+      "file": "HOME0925T_s.png",
+      "sourceSha256": "f3136803d6bd5cedb529f08e1668a0cc0ac030fac1bed6d78cc8d5de5d9df6ca",
+      "localSha256": "f3136803d6bd5cedb529f08e1668a0cc0ac030fac1bed6d78cc8d5de5d9df6ca",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0925T_s.png"
+    },
+    {
+      "file": "HOME0925_s.png",
+      "sourceSha256": "978cb2e60a7901172c9691b31fa33672f74b6b8042cb8b87bd0585f6d9a8e7ef",
+      "localSha256": "e933d0b706a8c50909bdf3d08cb78d3cd7c8d30e95700629d0d675baefe6294d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0925_s.png"
+    },
+    {
+      "file": "HOME0931.png",
+      "sourceSha256": "1520d876c1511dfdfde2fd6f63b3ae2a481579f6d6e6087395fc3097883909e0",
+      "localSha256": "9f7e2fec9dc743cfef9880b0ff098f95f281a8fa99b61caa2d6ba5c2cf2c95d6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931.png"
+    },
+    {
+      "file": "HOME0931B.png",
+      "sourceSha256": "51be42d9da5f4959f34925c42586e5de60dc26d981f63f709ffd3df53e86b1ce",
+      "localSha256": "51be42d9da5f4959f34925c42586e5de60dc26d981f63f709ffd3df53e86b1ce",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931B.png"
+    },
+    {
+      "file": "HOME0931B_s.png",
+      "sourceSha256": "ecf0eeac6c88dbe32b911f51702c2b2362c3455215f151c6a78d9f31d4674a39",
+      "localSha256": "ecf0eeac6c88dbe32b911f51702c2b2362c3455215f151c6a78d9f31d4674a39",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931B_s.png"
+    },
+    {
+      "file": "HOME0931W.png",
+      "sourceSha256": "670d3ae90dd4da5c6794edefd31ea886f83dd990a02bc66bc5a964dab0d0d8f4",
+      "localSha256": "670d3ae90dd4da5c6794edefd31ea886f83dd990a02bc66bc5a964dab0d0d8f4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931W.png"
+    },
+    {
+      "file": "HOME0931W_s.png",
+      "sourceSha256": "3bc1d84f20b38eb5db4026d28d5ded369dea2d4003ac6e0ced8fad888d8a8806",
+      "localSha256": "3bc1d84f20b38eb5db4026d28d5ded369dea2d4003ac6e0ced8fad888d8a8806",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931W_s.png"
+    },
+    {
+      "file": "HOME0931Y.png",
+      "sourceSha256": "7356c574e1771798921dd20ddae775813497e2e54c826200e645f2401c765dcd",
+      "localSha256": "7356c574e1771798921dd20ddae775813497e2e54c826200e645f2401c765dcd",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931Y.png"
+    },
+    {
+      "file": "HOME0931Y_s.png",
+      "sourceSha256": "096891732430294800b89aabca290e9b88f5723ed0c6e2925fa41e2647e8b397",
+      "localSha256": "096891732430294800b89aabca290e9b88f5723ed0c6e2925fa41e2647e8b397",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931Y_s.png"
+    },
+    {
+      "file": "HOME0931_s.png",
+      "sourceSha256": "afaebe43651340dbe9bd6407314d8c7e304fe4c54efee390ba21e90ac65d4b05",
+      "localSha256": "3b146811b7d02b63cf673b2f2808916c9df22666421347bb1455ab3fa4cd5131",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0931_s.png"
+    },
+    {
+      "file": "HOME0978.png",
+      "sourceSha256": "5408b28128ad9ac089678243eb7da50878003f5e93140f4bb22c44ac6cc08f6c",
+      "localSha256": "88684e9a670a0a48d35dbbc9d8dd29b296492638fecac51f41753391d9c0d25a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0978.png"
+    },
+    {
+      "file": "HOME0978D.png",
+      "sourceSha256": "9636e918988fa5a9a358489031a95f3947d30b78faefea42e0e7382745584138",
+      "localSha256": "9636e918988fa5a9a358489031a95f3947d30b78faefea42e0e7382745584138",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0978D.png"
+    },
+    {
+      "file": "HOME0978D_s.png",
+      "sourceSha256": "25f2aab146a2b0e8569434c5aead89607d1d29df019f9b179a74d8834675b995",
+      "localSha256": "25f2aab146a2b0e8569434c5aead89607d1d29df019f9b179a74d8834675b995",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0978D_s.png"
+    },
+    {
+      "file": "HOME0978S.png",
+      "sourceSha256": "09ba0f4a29407f895787678206b355e796ec673030442724184a324e886aea35",
+      "localSha256": "09ba0f4a29407f895787678206b355e796ec673030442724184a324e886aea35",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0978S.png"
+    },
+    {
+      "file": "HOME0978S_s.png",
+      "sourceSha256": "62d8b165d0815697c1168bd1e4b426b8ae587767ed08ef56323aa9021c749942",
+      "localSha256": "62d8b165d0815697c1168bd1e4b426b8ae587767ed08ef56323aa9021c749942",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0978S_s.png"
+    },
+    {
+      "file": "HOME0978_s.png",
+      "sourceSha256": "a3e69b80927d5c5060d7feb48680e1a13d17ef0ca1f9eb613b8b5940861b0884",
+      "localSha256": "47d91e829d9d5cc6ae0ad5bf73073cfd67cd5de6a00b4f63d75bdab1b998d306",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0978_s.png"
+    },
+    {
+      "file": "HOME0982.png",
+      "sourceSha256": "31d16970ad49f4ac4119aa972e54851462abf1ba1da6ae89d0a590f67f122236",
+      "localSha256": "639d92ac64bdac371bea1f8c7e753bbe6c33c5ccb22e1926ffd028f1ed23e195",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0982.png"
+    },
+    {
+      "file": "HOME0982Th.png",
+      "sourceSha256": "bab2a6b02700d403675ccf5f1d0f370ba6627f8f4046082ccdc08fa6e2f0bbe1",
+      "localSha256": "bab2a6b02700d403675ccf5f1d0f370ba6627f8f4046082ccdc08fa6e2f0bbe1",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0982Th.png"
+    },
+    {
+      "file": "HOME0982Th_s.png",
+      "sourceSha256": "d8b0eddbbc59fae3434b9b1c671acc12d06519ac30f3a49ed32e6a98ccd78088",
+      "localSha256": "d8b0eddbbc59fae3434b9b1c671acc12d06519ac30f3a49ed32e6a98ccd78088",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0982Th_s.png"
+    },
+    {
+      "file": "HOME0982_s.png",
+      "sourceSha256": "6f0931eea1c0a383e44627a923cfe1133b952a54b2e856cbeddf4f1ab2d066fe",
+      "localSha256": "599122de9f33c620763572a6168b2f1d18f33ea4bb058288e3d5ad53ad5af868",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0982_s.png"
+    }
+  ],
+  "contactSheets": [
+    "audit/artifacts/living-dex/persistent-1.png",
+    "audit/artifacts/living-dex/persistent-2.png",
+    "audit/artifacts/living-dex/persistent-3.png",
+    "audit/artifacts/living-dex/persistent-4.png"
+  ],
+  "visualReviewScope": "All 91 normal/shiny pairs inspected on persistent-1 through persistent-4 sheets. Identity, color, appliance, cloak, season, pattern and visible family/segment counts checked. Size identity supported by captions and pinned height/weight, not thumbnail scale.",
+  "unresolved": [
+    "Eternal Flower Floette has no paired HOME artwork in this registry and remains outside this batch."
+  ]
+}

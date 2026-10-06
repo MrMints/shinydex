@@ -1,0 +1,2062 @@
+{
+  "auditComplete": false,
+  "visualReviewComplete": false,
+  "captions": {
+    "HOME0003_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0003|Venusaur|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c399a57de8fcded1375f98613c266558220c57c0ba171bec776def9dd10e9b18"
+    },
+    "HOME0003_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0003|Venusaur|(female; Shiny)}}\n== Licensing ==\n{i-Fairuse-model-game}",
+      "sha256": "94e4f8bf4afec3f2654bb99807a10097b1c51f8b4973c47adc38985213153e5d"
+    },
+    "HOME0012_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0012|Butterfree|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "64147c8262344422de0ae25d53b621328757e2f2eaa2e41695043bc004648b02"
+    },
+    "HOME0012_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0012|Butterfree|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "00a7f234193e2e4d86403c11949e0220325c86e4ed646220f8462f73154479a2"
+    },
+    "HOME0019_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0019|Rattata|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "70854b5192c594563917443daef4ab3cfd468dc291fddc46ff7093910072e1b6"
+    },
+    "HOME0019_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0019|Rattata|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a98e325ae5931c659895041930463fa4d0cf44115caea0bb8c3eab1c5afef000"
+    },
+    "HOME0020_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0020|Raticate|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1f726d379ef1dd64526979d81ddf40530ebcadf8c35080aacb687b5f2ab5fb15"
+    },
+    "HOME0020_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0020|Raticate|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1e5b01e5140d77a24e50715130285909857062f120a7793ec7cd3bd9a5853e5a"
+    },
+    "HOME0025_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0025|Pikachu|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "669b24d6eeafc3adcc7e3636f48fcf9cf58d7c94ccd5c0d078a556b4fbd18bb5"
+    },
+    "HOME0025_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0025|Pikachu|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c5fe68967223bd2457c4c21fe219bb6d13c9afdbb6601ad893df426d6e09b2ab"
+    },
+    "HOME0026_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0026|Raichu|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9d7da301d67eae945063b896d6ebdf3186c36ba4a9928feda0180bdfbdbf4e6a"
+    },
+    "HOME0026_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0026|Raichu|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "aa360e0f8f3251844138b1361692ede60f69b65ab79e0ffb936fdb700c59be95"
+    },
+    "HOME0041_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0041|Zubat|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "baddbb006d8623d8db2ace4e76fbc5ce65f66a0a7f55ecff487e92eaf0f22abd"
+    },
+    "HOME0041_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0041|Zubat|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6aeb2fb45bbd785d39dbbd82c066c5d1c560144cdaf4f42d97c3c815101b63d8"
+    },
+    "HOME0042_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0042|Golbat|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "92c2432b20e1abae9d38a6d55d9bc958c2a8fdffa06cada5f2a1674f1e8da861"
+    },
+    "HOME0042_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0042|Golbat|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "eb5bfa9e2fcede52ffe642f15e5a259e9b9df83788f2b2d7da5c0a83517d044b"
+    },
+    "HOME0044_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0044|Gloom|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ff5b87fd88eae2574d8cca75521c3c2e403b5cb5a6f63de0eb14f01f73a3a48f"
+    },
+    "HOME0044_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0044|Gloom|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a2c6c53c9ef28ee83f4d798ac65731f4386d1c88909472bb1955eff198f34aec"
+    },
+    "HOME0045_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0045|Vileplume|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1114feb332d7745ceb642a35d15106826533afef8cf8fb9ef0a45b06ff3c2592"
+    },
+    "HOME0045_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0045|Vileplume|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8b0d56defb2e3b7e898524bffa5b20c9987c5f4187b8cbae4d6275e56dc305b0"
+    },
+    "HOME0064_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0064|Kadabra|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ea6d3d10ce08d1d997e1468a8b693ee8f2a297dc9a302767dfefe5791f9b3964"
+    },
+    "HOME0064_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0064|Kadabra|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9a56853545f68e31e354609c999b749aabfe8d9500d00d384d98139eeaa515f1"
+    },
+    "HOME0065_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0065|Alakazam|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cde4366269b97f92c18e6085ec52314ac7fb9fe728f6b521e64a9fb6e687d146"
+    },
+    "HOME0065_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0065|Alakazam|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "783f4b22b6ae721b5cdd960639adce5f26e287bd32f5b7bf625a67d3fbc5000c"
+    },
+    "HOME0084_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0084|Doduo|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9c3edc6d809a77779f5dc4847dfb191f1173a78dec6ed805c19d366c14b99801"
+    },
+    "HOME0084_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0084|Doduo|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "67ceefdd70a6261c41c3dc2ffbff4b7f77e1c525775fc37da9403939f2d54dbd"
+    },
+    "HOME0085_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0085|Dodrio|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f752bedda05e04f142c7abd36960c6042d13bf322547cb79087bb3aa25a91c7e"
+    },
+    "HOME0085_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0085|Dodrio|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d273904c2dae7ef2c99a0e954019d00e450573738f6cca10c9d9ea0724893e34"
+    },
+    "HOME0097_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0097|Hypno|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "35a6ef7524a9138907e326d972c86aa0d8f4fc9ee10512c4472a415b3516bd78"
+    },
+    "HOME0097_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0097|Hypno|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "72047f082cb7545fed74a235e634271ba79883c4f19a555b9a9ab3658230b611"
+    },
+    "HOME0111_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0111|Rhyhorn|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b06e1dd7a786ffc7e4eb9b908ab2b022920fbf06bc6e18814874a7287bd3c485"
+    },
+    "HOME0111_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0111|Rhyhorn|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "02e63fb613e5f4261d14c8b1c6f96fecffc5a0b5f89904441264355e6b9e98e0"
+    },
+    "HOME0112_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0112|Rhydon|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a729d2b7532b4ea923398ea8765810286ffc0022c2384f05bd8051b7d9af6e86"
+    },
+    "HOME0112_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0112|Rhydon|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "df52b433d7f3a813e39a4570f61412dfb0b6381719fe3e52e2e9f9314efd9323"
+    },
+    "HOME0118_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0118|Goldeen|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "dd7834ebea28d64450235ff75d3795c408b1f7b4b0ea4e9e1e1b845b55414521"
+    },
+    "HOME0118_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0118|Goldeen|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "92b9f6574aa16301ee00748f0b6d42da5e38e0b2143ad189b861f779f5c02827"
+    },
+    "HOME0119_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0119|Seaking|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f50e650ed66ba8aa806f9f4e5666bf486e094aa8de1ffe20f934dcd09fa57d57"
+    },
+    "HOME0119_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0119|Seaking|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4ee3d8800ca9cadcd84f668c12a0fec6eda3a179bdfa6c12d84b30cb7d44a623"
+    },
+    "HOME0123_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0123|Scyther|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "21a8f020e780457c8af023059f4e7bb88c1318fb36c4c0e5d938243c7b4c1b5a"
+    },
+    "HOME0123_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0123|Scyther|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a6546ad398992e4f0449d7f40cc817b4166ed88691da50e335cda95db159b366"
+    },
+    "HOME0129_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0129|Magikarp|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5e80439b9db7e33020af1f4c52c23dbbd95539d16db4b4ef55c797ab9ee1e78e"
+    },
+    "HOME0129_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0129|Magikarp|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c702bc18002a4ba5c3482e57878b23e953ed00651eb760cf30ded2ec5f31b4dd"
+    },
+    "HOME0130_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0130|Gyarados|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7c0f6c020a647d90ca406b8768af843a6b4bfbaee5ef30ab8c25571706fa01ea"
+    },
+    "HOME0130_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0130|Gyarados|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d275d848da9867922075ed17e38856918faf54ae403a2b6f02d44e8af87a73ce"
+    },
+    "HOME0133_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0133|Eevee|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e01c8e837a9b4fe9e3756348f5d7f7357665b521eb97ea02ea6b7203a8dc4eaa"
+    },
+    "HOME0133_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0133|Eevee|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "112f73e688ed1b826d21d75fca11b6043bbca40735b1bef3158d86472ad98a61"
+    },
+    "HOME0154_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0154|Meganium|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "be23ad52dc62eae3f214463c875d7fcc0f3c4ce149cd3d6f3ff56181eaa2a68a"
+    },
+    "HOME0154_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0154|Meganium|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4139105df42b4d10c81ba7c7e542e0cefef753abd328c44bd1fb9062484231f4"
+    },
+    "HOME0165_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0165|Ledyba|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0db271129dc943073fc78f246a32ea27d8a341259a797faf2988bd2b681b5a34"
+    },
+    "HOME0165_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0165|Ledyba|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cf74849449752ff55e3401607c99901ceefd1b3c76379140dbf6ddd399275e1e"
+    },
+    "HOME0166_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0166|Ledian|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0cd58ad4e4d71f3e2c942775589861881286a3cbb83d89b816d6e1dafbfcb206"
+    },
+    "HOME0166_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0166|Ledian|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3fd439b9e1fa11bf8599678a88c9689477831c4ec94c727468f5cad94e596ad5"
+    },
+    "HOME0178_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0178|Xatu|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "28b8d98d169d38183778832b47b9ae8ea8e0c8688406f89e9bc914b38662f79c"
+    },
+    "HOME0178_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0178|Xatu|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "af19ebaf281dad1dd9bab4685cfb88f85b1acb573fd6f38e16922b660c90a54d"
+    },
+    "HOME0185_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0185|Sudowoodo|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "128509ce3e83b3c9c973cf03a10b6fb90d0fa0c3b86ba41d37283e549e8bf30c"
+    },
+    "HOME0185_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0185|Sudowoodo|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "abe3e2bb735d8c613b23b9f964eb52518713a2ce1bc0d449e17214eba782e66c"
+    },
+    "HOME0186_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0186|Politoed|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "da2a9dd64913d67157009590702f81c68e09b348d1677f7c8d089f98f6262a82"
+    },
+    "HOME0186_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0186|Politoed|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "74160a9f1e636b6fcb7bbc612c51bb70b571f640b83dc8526f8957dc6d3699bc"
+    },
+    "HOME0190_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0190|Aipom|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "72c15d60f1ef13053fa7eabc9b8ed606e1e8ee1f3d6b8a6f8d3c7b72b2a31807"
+    },
+    "HOME0190_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0190|Aipom|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e6f31051c58e52beeecd60feb9e204e04476e2050b6a89dac9831d6481ff295c"
+    },
+    "HOME0194_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0194|Wooper|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fbf7ce8fd381e6e15c8d526b3ab867b6eeed3bd0bf964bd67140463e9aca393c"
+    },
+    "HOME0194_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0194|Wooper|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4c00a6e98a0a1d2168375276a635dcd576413c70d8defb30e573de2302480220"
+    },
+    "HOME0195_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0195|Quagsire|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4d79aac6b9dd8f0eeab0f11a30ab99b548bc84ef3512fb3d9c93f5b98075d831"
+    },
+    "HOME0195_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0195|Quagsire|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9740047217bafa121ef1bb70c4d929c00d762868d9818550757d01632172335c"
+    },
+    "HOME0198_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0198|Murkrow|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cfde2a45b0f1a41c28a20e2647d8c19be531ec03f8ba7cf7fd6cb72a42269a05"
+    },
+    "HOME0198_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0198|Murkrow|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b5469e4a004a73210e9ffacd834615745f0b740ee20b31618ab8e67719104b03"
+    },
+    "HOME0202_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0202|Wobbuffet|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5982834ba4b442e228ce2846ff9462ae239535f41426aefaf99d4ec011b0621a"
+    },
+    "HOME0202_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0202|Wobbuffet|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "30883deff6c5d74861aec90c0592596aeeb1e715d8dafef2c67aa627f743781f"
+    },
+    "HOME0203_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0203|Girafarig|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1cd8fff1a44460cf78cc0f4953a0e3fe34de62cfa86d59db1eace0a052cc0a03"
+    },
+    "HOME0203_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0203|Girafarig|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "47b6666a213fac6e229189ccf03f52b1172a000ccbd99b3899129f6525ff80f7"
+    },
+    "HOME0207_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0207|Gligar|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "39791cc4631fd872e7f1cab6b35ae1d77627d5feffa8460691e678217a6c9b39"
+    },
+    "HOME0207_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0207|Gligar|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7a88d7c38978c3300e8c5e4c52bd3680640b7186bcb5300a694cfc9d5c990fe7"
+    },
+    "HOME0208_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0208|Steelix|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0927338a3e814a163986ae12912a10b6f1d5e43269e78361df422d16f2391084"
+    },
+    "HOME0208_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0208|Steelix|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1d4fb3ea0f798c40758f98df205eced1b4c1fe829b65c731dd4b078b5695179b"
+    },
+    "HOME0212_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0212|Scizor|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a54328fa5950b43c9172c7dcf65ecec11718924a875faa80db5066215e273f3c"
+    },
+    "HOME0212_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0212|Scizor|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f50ebd6d735b6e48890e9c8f92beadce7839ba6d3d0a791109465e5d385582c9"
+    },
+    "HOME0214_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0214|Heracross|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0e091e306a3a16c3b8f1176e3f9b2ff0a29b753a129cb5629a9f373c153333a8"
+    },
+    "HOME0214_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0214|Heracross|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3a48de949a1ac09e2856eb398cc307e46bf3226b12e250a68e44f6b7b999969f"
+    },
+    "HOME0215H_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0215|Sneasel|(Hisuian Form; female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ab6762267cda3f6b197001db31a60c60ccf1b52631eb7901297f9d05ef4b1e56"
+    },
+    "HOME0215H_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0215|Sneasel|(Hisuian Form; female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2475e5ff4bbd212aa87a9fda413bc9ba6a5e5895b8c2adb7c66bec33556c8f66"
+    },
+    "HOME0215_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0215|Sneasel|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "66a8cd99fe6c1471dca994d5803c9b30c5aa022c1672ae049cce48fc989c8412"
+    },
+    "HOME0215_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0215|Sneasel|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c356aae9bb510666451aa3c0ab0583d286ee9c428501b4bb2ffe1b5571d0713b"
+    },
+    "HOME0217_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0217|Ursaring|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b1a1705e02619d35bf0e358610a32dd911727cf4b4e4dd3a723e80631c516b12"
+    },
+    "HOME0217_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0217|Ursaring|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c626da4513d8daee5005287b46b5a1c00a7bfeb5f68a187c5f558033242f98c3"
+    },
+    "HOME0221_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0221|Piloswine|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9beea3b078ec1d2fe5efb7ac22b96ac8b7764480d3e5369b2fb05a6f14dfe3dd"
+    },
+    "HOME0221_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0221|Piloswine|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cd8d3730510707e3f4da9acf1c7991d6e9eef7e12610fa02db5d94b2b36c5318"
+    },
+    "HOME0224_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0224|Octillery|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e0555a79529dbcffddfc50abed7521afc1ac9ebce0d0a56ae85c58c8c177a348"
+    },
+    "HOME0224_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0224|Octillery|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "861a4baa15a5190a66680bfaf7a70f1689da5391da0aa4cf10256d37a9314f54"
+    },
+    "HOME0229_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0229|Houndoom|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b23cd09a458a3229186795f5b92979f7484328e8058986e7e6c2bb53a4e2c339"
+    },
+    "HOME0229_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0229|Houndoom|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d2f21bc312fcad77e677fb85d6176c0bfeaaed7c595492442d2a00330d7e1f2b"
+    },
+    "HOME0232_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0232|Donphan|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "300b6b6d35c85a0403022e1f9bdce837a4385c2018ae25bd708441eb1474598e"
+    },
+    "HOME0232_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0232|Donphan|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "06c7ab46992c17c959e0a6b5ca8023950e43341e4c82b26545059406bea9fb9b"
+    },
+    "HOME0256_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0256|Combusken|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2f124a12f13cf7ff5d00416662007b8e32cfc5db13f30e509f9f60e315e7774f"
+    },
+    "HOME0256_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0256|Combusken|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d38119d012093a81a98b1c8bac5664e27cce378b577011bdfca6eecaaf382435"
+    },
+    "HOME0257_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0257|Blaziken|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e74ebeda067d7ac49ca35b947df62ed3d2dda895662240358447791a596a79be"
+    },
+    "HOME0257_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0257|Blaziken|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a2050f32bcd2c2eb7d70b7714edb0e428b10ce8cbe9edc16f7de60f90d5d32ac"
+    },
+    "HOME0267_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0267|Beautifly|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6541f49a890a0c476beee7d97c51b59c3f4d73fb943ed769facb36db788d99e0"
+    },
+    "HOME0267_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0267|Beautifly|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "88bc1bc88dcd4ce109060a21bff67bd309ddd2fe45e1c0ad22d44b7107623427"
+    },
+    "HOME0269_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0269|Dustox|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b52c97a13f62bb683480651e032b9ee8428ac683297d5eb4a4b6e65cdd7cb3ba"
+    },
+    "HOME0269_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0269|Dustox|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6f413d7923dbc462f66cfa2acce273fa2573363902006aac8e7c1a4beaf1a50a"
+    },
+    "HOME0272_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0272|Ludicolo|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "68fe7a551147294ce711d08d35828f03c24880901cad6e61061f35fb82bb68c3"
+    },
+    "HOME0272_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0272|Ludicolo|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "54321e69100c3cd5c98bab7ab362bff5ceae3da86e3e6a87d6af2177c181a1a6"
+    },
+    "HOME0274_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0274|Nuzleaf|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f1fad9900d5c02b8cf049f6b0708157fde59823cf16b562dadbd27941956477f"
+    },
+    "HOME0274_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0274|Nuzleaf|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0fa25c92f6b8b343403f0b6fac6df2275462b76c025ccd20483ea132b25f6c48"
+    },
+    "HOME0275_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0275|Shiftry|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "94e7a65e349edb6986b21e5cfb7e6e5b3e5c975052f7e4df6d89210656384d2f"
+    },
+    "HOME0275_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0275|Shiftry|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "48623419f7b6df4f3b72e84f0625d29fb0bd7927d1cedc47c5b5884380927917"
+    },
+    "HOME0307_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0307|Meditite|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c42ed85512dc11e4cb0f697c4efad89f4b13b20dda7f40e010b3e03fe2689714"
+    },
+    "HOME0307_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0307|Meditite|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d947266de9777fd3aa08d6a0e7c7a35cab4730b1a9597bb847579198b2057bc7"
+    },
+    "HOME0308_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0308|Medicham|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5a041d42675fd4978e120f68fd67b90907eec096996e0c195852a903c3c48086"
+    },
+    "HOME0308_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0308|Medicham|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2d58add9bbe14fd6bb426eff8aa9f2f6913e6dab391f8d986bfd710da027fd81"
+    },
+    "HOME0315_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0315|Roselia|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4604cc04bd55bb14ec60eb829a6ea624a4d72fa3def6e6f1afee6527807a8832"
+    },
+    "HOME0315_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0315|Roselia|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "deb66a77565298760383a2f8c82e568bfb5d24203dfbde296481369dc1c98d38"
+    },
+    "HOME0316_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0316|Gulpin|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "23d05412d2c810a1da5c1d82644835f8686f1cbe2ce7bca7948791251b86f675"
+    },
+    "HOME0316_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0316|Gulpin|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "6e29875dc8f3e4f03dbd9675d7cee74a1d15f6456b34a3bfe5d41f6c1dccd865"
+    },
+    "HOME0317_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0317|Swalot|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f89cacf2c3446b725b7d544c65cf6e490799073d402788f6efebc284039e6e50"
+    },
+    "HOME0317_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0317|Swalot|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "35e3afa2909be134a6d07c10474fac2ffc15e650f8bb3c112851c325b425d46d"
+    },
+    "HOME0322_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0322|Numel|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "82d05894f8dbd983e4280113dddb2ff86e5aba1e430cbffa83d9b794b2928e69"
+    },
+    "HOME0322_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0322|Numel|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0f66ea3875d37e4adc5bae180cc158b5d6ddce73beca301ca60cb6881e4bc11d"
+    },
+    "HOME0323_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0323|Camerupt|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e62f0e842ea5d584c957a1ff22b94def31d502341b9388679def58247661fbc0"
+    },
+    "HOME0323_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0323|Camerupt|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "165bfba5a5c9241bb3cf76c716ea18eef07c71f6649f6d91eca285b7af3bea4f"
+    },
+    "HOME0332_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0332|Cacturne|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f3eb56539cc3aeffbf6d07edeb415c35259f7dc5c192a0ee5a60ef3c86d62b8a"
+    },
+    "HOME0332_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0332|Cacturne|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "090948b2fbbc76849b51ddd93a85cf9ca99360ebe445091865a9c40cd1469c98"
+    },
+    "HOME0350_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0350|Milotic|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e0308ad07fc4c26e10e7bb769518886add7ddbdde9dbe83631ba5e43ff3aabfc"
+    },
+    "HOME0350_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0350|Milotic|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "353aa28022716fadeb39e49dcc1d2d1ea52405f9bf3f10fa987fd1a739fdbef2"
+    },
+    "HOME0369_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0369|Relicanth|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c0fc5ec7e2798fa6b61f368e4b85174d0747c64ed41ab9d4a4c01a40a39b15c8"
+    },
+    "HOME0369_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0369|Relicanth|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f3ffdf4213f51c39825e71fd4c34f914ec6cba6f3f61ff5068c0872c31c02bd3"
+    },
+    "HOME0396_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0396|Starly|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f93e364f59a7af12fc163091f5470f9d754e173336476331fa65bccd32bced71"
+    },
+    "HOME0396_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0396|Starly|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "583445fd8cdd4d786ed64af1209bbec6b6b6e444ac9c0e20bb375517c07f0d04"
+    },
+    "HOME0397_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0397|Staravia|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3d366634fe10ff9a174a3cf0da44164d19c05e329a5d94dd7e840945a1e1b43f"
+    },
+    "HOME0397_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0397|Staravia|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8cdf83638b8ce9e161912f8fa6e1bab81cb1b288122dcbec5eb061effef9fc12"
+    },
+    "HOME0398_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0398|Staraptor|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1bbdc8416857aad7118b206baf16ba89ce1ea79506c1bc7236172deaf8918d80"
+    },
+    "HOME0398_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0398|Staraptor|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "59ba044591ced359380d00031e07e1d0d3e9ec976e9e0dd5703ea3c454d7ecaa"
+    },
+    "HOME0399_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0399|Bidoof|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "aabb1e526dd27bfca7d3027bc6630aeaba34e0771c21b3f0313cf2eb7dd2a57d"
+    },
+    "HOME0399_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0399|Bidoof|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "bc0efc429861cb0f8cb1404311a69db4e4e25749d5264ebce553fc39a4bb293a"
+    },
+    "HOME0400_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0400|Bibarel|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7713b9fe37a63c4fbafd700ddba06ffc8e370d0cb8a4cf312104184d957128f5"
+    },
+    "HOME0400_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0400|Bibarel|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f6f698ea054f734d5de663de08f8e0a4585583e75d7b4ddd2fadd916b66fe592"
+    },
+    "HOME0401_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0401|Kricketot|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4cfcafda17071fa7b99c9a225dc75b2abf1cebfb4f83251a9abd94dbabc72f4a"
+    },
+    "HOME0401_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0401|Kricketot|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5399fd54112e34be7ffb9d1ec086b0c76ae4b81304b6744f94fec4d7cec11eb4"
+    },
+    "HOME0402_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0402|Kricketune|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2f6b3af9f413aca60eddb53b569e4f3c5a75559cb30a977c4cdbbea69d0f41a5"
+    },
+    "HOME0402_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0402|Kricketune|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fbd4766b4628e39413c7c3b46913547832e7c1fdc12e9923a83cb61d932687f0"
+    },
+    "HOME0403_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0403|Shinx|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0093d2f9edf15916bc25b2c4881589b1035eaf6275e9006b5645cd511f2b63bd"
+    },
+    "HOME0403_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0403|Shinx|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3ee2160753cb4fefa7c0a77f35e3d7c35a83a93df1deacb0eb1c8d169ff21e1c"
+    },
+    "HOME0404_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0404|Luxio|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9b1cec9375bfa45e012dda1f616eb2da3db8b26a7cbf5512a842b7898ae63b43"
+    },
+    "HOME0404_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0404|Luxio|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "90b8e4ab028009b3f3f6aa81246ae5a837dd8b621330846297c22ecfb27d2d63"
+    },
+    "HOME0405_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0405|Luxray|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f3a93485194d7a28989f593da01565a147cf5b3f4b0bd2ca369340201dd2b0fa"
+    },
+    "HOME0405_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0405|Luxray|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "227b68c726431e2f1a5b4e51d14383931ab9ecee5d066b261e7aaf932894370e"
+    },
+    "HOME0407_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0407|Roserade|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e9296bd85f881b0f4592cc4619a41aaa3cf6c0b62366dac4f2fa13a655b21f5f"
+    },
+    "HOME0407_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0407|Roserade|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8d4dc52a99c2e3298bd96554a52a4d2e90864c0369ffe042d1dc88e29415b0ef"
+    },
+    "HOME0415_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0415|Combee|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "b992ace633d5b64b2119034e9f43c68073205a50824242e37361adb4e12e5313"
+    },
+    "HOME0415_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0415|Combee|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4169d51756aabe345abef4bfcbc3ad61dd599a5b1403b8661fba7876c37743e3"
+    },
+    "HOME0417_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0417|Pachirisu|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "22fab5e5de363c6d73ba8eae03d7fd58f59edd69fc1c39023b38c1f5b6f29749"
+    },
+    "HOME0417_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0417|Pachirisu|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e6c99407f72caa3f6ae292de1f61fad75ca8c76677aa1c159edaf8414cbcde0a"
+    },
+    "HOME0418_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0418|Buizel|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "551f258eaaf9b8ca25c15051fa2cc0870a1500be04abbbc9f87eb79506554882"
+    },
+    "HOME0418_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0418|Buizel|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f9f12d1ed94cdf3df1644f6185f5646ea02bb42af4e4cae97ac97ff435ff18c9"
+    },
+    "HOME0419_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0419|Floatzel|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2a4886b6c479f14ce962b4e991d3d2ce445d0d4448b4d01a81d7e78fd0e17d31"
+    },
+    "HOME0419_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0419|Floatzel|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ca0a35c3712aae40e8bb6bedd4aab974ffd77bf227bbd56e8c80e945200e1d20"
+    },
+    "HOME0424_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0424|Ambipom|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "88b84b73f510dbef0b75a96f0a39a8a99cb44afc2d57a773b8d2b122aee49953"
+    },
+    "HOME0424_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0424|Ambipom|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "29aa40c43653f24c368e9e51c0aec093fca44f67b0c5518d328a0985e208c5b5"
+    },
+    "HOME0443_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0443|Gible|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d12573fe303155aae07a80faf801a4fe697309f96a24dd974cc22275e80e5abf"
+    },
+    "HOME0443_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0443|Gible|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8bf4b7e0283687a6c1ab32b80947cf4cf6e11997a036c25c7d044e63a547d776"
+    },
+    "HOME0444_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0444|Gabite|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "8c4c00155e8388f096978c136f6b26a45634d0bd8598271fb25ba11ff21d9583"
+    },
+    "HOME0444_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0444|Gabite|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "88b538f5e0852b46b5939a88355df087cf9165dd7fefa7c409e563346f57ff01"
+    },
+    "HOME0445_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0445|Garchomp|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "49ca93c98b69cf11e2c8e11ea3c48faff6ed3b032d6aed64bda2710b44f9884f"
+    },
+    "HOME0445_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0445|Garchomp|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "25a11c983f23cedb5edb2a5e2bf4d5f4b1314b94d418136c0fe490f80d8a4429"
+    },
+    "HOME0449_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0449|Hippopotas|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "17f6d1419fcee8fbb7df7391c9680dc147bedc64041c1ef04458fcd78019ac1c"
+    },
+    "HOME0449_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0449|Hippopotas|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a36db19a6767b0bccde8d34c18c3ccefd47fc427a7b715854e4593511bc96e57"
+    },
+    "HOME0450_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0450|Hippowdon|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}\n[[Category:Missing Pok\u00e9mon key artwork]]",
+      "sha256": "45b9c7a816394ffe4edb7f917c12b9eaa404eb278da1385737303c2d6de97c8b"
+    },
+    "HOME0450_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0450|Hippowdon|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3557f41a5db2b213b90b3b03b6fb7f21df1448b2287fa33a8c1f8f7ab79fafc2"
+    },
+    "HOME0453_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0453|Croagunk|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "830e89b6dba16698b050224501bb3f3c5dc9c574bb0ea3ede91969f0e74fb296"
+    },
+    "HOME0453_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0453|Croagunk|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "75b7ad76cc18636170e51fd80531849b052182c5df083ccf86c90ae4b4734e55"
+    },
+    "HOME0454_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0454|Toxicroak|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "05dab18d7c1416be682af700c570b8fc20288946dca5f89a0d564f5d67acce14"
+    },
+    "HOME0454_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0454|Toxicroak|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2ede5059ec2c809ee78b3af14141f32948a003a39720242405890dec4903ec41"
+    },
+    "HOME0456_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0456|Finneon|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a74bdef5743b2b98b9b118c05d566b85f7e1094d990e8fc984fc097f97959783"
+    },
+    "HOME0456_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0456|Finneon|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4f99b1f91459f77d005723d7511d68bd07da31af1bc8f1798aab6af1b7d99e67"
+    },
+    "HOME0457_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0457|Lumineon|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "33c7682e1ecacbc212b88315e8fc0ca8814d026188f680489a7fc094daa4acc6"
+    },
+    "HOME0457_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0457|Lumineon|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "209d9b93ffaed47cbd47b5b93cc44939c0235539aaa47e4a131792ba96226c93"
+    },
+    "HOME0459_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0459|Snover|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "c2d6d8e70742d7051844ded40fd6715a940f4bc6662e304e5cab801b3e389108"
+    },
+    "HOME0459_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0459|Snover|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "3dba98203a319f7ee0c063e2968373fed3898fc85a7d81e89b68cd2f3b528c47"
+    },
+    "HOME0460_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0460|Abomasnow|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "40ee5bc057842caa53e8afc51b4307b61682cf7e16a9f62df7e74282653baaf8"
+    },
+    "HOME0460_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0460|Abomasnow|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "61d9a7056ed9ec237133a36f172c61b335de89a09f624fdc2c371fa1f42f2bd0"
+    },
+    "HOME0461_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0461|Weavile|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "55ee4c903195a4c1baf12ba03cec5225b7f6ffb46496e498db97da71d839ca9a"
+    },
+    "HOME0461_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0461|Weavile|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "a6418ede3d7f91b84d1da3125f08e7eb376c5ca2986980ad1aeb8066cb675c2f"
+    },
+    "HOME0464_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0464|Rhyperior|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d565ccf965b493c02138e6ae4c74b39968ad9098bc464b6f519d72bb9e80f0e3"
+    },
+    "HOME0464_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0464|Rhyperior|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "0b43d278c046b802c11f7fad2d44b46f78e21686ec8121be6fd3ac95508bb1e7"
+    },
+    "HOME0465_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0465|Tangrowth|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "f1f6120c5d3e334ce1f2855868f1b8ba7a30bbbac8c0098794c2fe146f7e8dfd"
+    },
+    "HOME0465_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0465|Tangrowth|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7eeaa58f8346d31c62d14c3d5117b474d5a290a0939785a3731ea1b3a971a79e"
+    },
+    "HOME0473_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0473|Mamoswine|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "cfaf1d31ce94a1b3b8ede91c3791f349b11e5db83923eff28b73c8bd06df7710"
+    },
+    "HOME0473_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0473|Mamoswine|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "530ecd1370b191a8cd1e5900b5226c0a69657453a703aed652181b7960a3124f"
+    },
+    "HOME0521_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0521|Unfezant|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "bf4d302e87eca9b78e8ce9d6fd15c633da8a571c8a3593aaa10faf50cbfabf51"
+    },
+    "HOME0521_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0521|Unfezant|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "e4c8a7c476800ba9607e3e1ed5545e0aba37f21618731558a01b86fe8e999655"
+    },
+    "HOME0592_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0592|Frillish|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "1a16f72a4cfeb9e88b3e79bee2b3313538e8a55d27ad3249a95aa36823b8d7bf"
+    },
+    "HOME0592_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0592|Frillish|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "84b457acf7024df4dd0a3d3f2f6d3e73d9c51b338617c2d50215353c66e6d142"
+    },
+    "HOME0593_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0593|Jellicent|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "19df68ed4532b7c774ef3524e1a7bc6120a622a519b88884cb751690a1f01f6c"
+    },
+    "HOME0593_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0593|Jellicent|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "5de06364f244779a6e1084c9266af426ec48c8e70ea82ac55c1c1b2260434dc8"
+    },
+    "HOME0668_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0668|Pyroar|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "4d723fe87e27b079c37a39dbea684ec11ca0c018b90bd97ef8851a89ad0d4ce6"
+    },
+    "HOME0668_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0668|Pyroar|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "7e177bab81f92505db3aafa473d8ea1b0bf45c6bfc1275fcbb6c9e73ef4435f2"
+    },
+    "HOME0678_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0678|Meowstic|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "daa842601ed09f8c82aaddb6b5e63b18a1142ac335fc5aa23c5b7fa4a6ea55f3"
+    },
+    "HOME0678_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0678|Meowstic|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "2cfdd5b0d779c27fd3770e7ba400261ef9398b375a9230dc09c18ec95ee28a24"
+    },
+    "HOME0876_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0876|Indeedee|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "676237a49879136028d2d7609eb459e8e32b977aea657123138e2c0e63406af8"
+    },
+    "HOME0876_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0876|Indeedee|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "fb3bed66a4e0c9ba6610694fffe25af3e175b9ec6f531b820c898709d55b0f4e"
+    },
+    "HOME0902_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0902|Basculegion|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "ec91d1f7c50719b1b5a85a5674683ffcc0d2ab06bcdbf197433dce7ed8015ff0"
+    },
+    "HOME0902_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0902|Basculegion|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d92da001105123ae083dd7dc3ee55a3a06162ba12b024f5686722262a7853854"
+    },
+    "HOME0916_f.png": {
+      "wikitext": "== Summary ==\n{{HOME|0916|Oinkologne|(female)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "d1d7506fc8a44baf262f8323d5906ab03a1880d645b69b8bdb0c665a5c514456"
+    },
+    "HOME0916_f_s.png": {
+      "wikitext": "== Summary ==\n{{HOME|0916|Oinkologne|(female; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "sha256": "9f4a3be8d03dcb08abd0b9e92dd79af5de5b6628be2ab81f7bca8ce56f16b892"
+    }
+  },
+  "downloads": [
+    {
+      "file": "HOME0003_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0003_f.png",
+      "sourceSha256": "ef0fbd099deb4cb9bb6e87e213e39dff3ec47b19ba9057a2315fa0b0cf7a5468",
+      "localSha256": "ef0fbd099deb4cb9bb6e87e213e39dff3ec47b19ba9057a2315fa0b0cf7a5468"
+    },
+    {
+      "file": "HOME0003_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0003_f_s.png",
+      "sourceSha256": "68b75ffaf3aebf53a3eb2e47bd4da824e099e11a2e20b887e85e6674590837b6",
+      "localSha256": "68b75ffaf3aebf53a3eb2e47bd4da824e099e11a2e20b887e85e6674590837b6"
+    },
+    {
+      "file": "HOME0012_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0012_f.png",
+      "sourceSha256": "6a15e413ab8e2ca27935e5f17aeff73a408baae1a68b696aa1e4a3912f8f4523",
+      "localSha256": "6a15e413ab8e2ca27935e5f17aeff73a408baae1a68b696aa1e4a3912f8f4523"
+    },
+    {
+      "file": "HOME0012_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0012_f_s.png",
+      "sourceSha256": "01725ba1216720afb77aab0bd17c265f61b940a5112a7040cfba9430be3b875a",
+      "localSha256": "01725ba1216720afb77aab0bd17c265f61b940a5112a7040cfba9430be3b875a"
+    },
+    {
+      "file": "HOME0019_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0019_f.png",
+      "sourceSha256": "eade0d7fa1b8ca146ac7bf125eaeb13d179be4f3764f575c7b774981884ec7ee",
+      "localSha256": "eade0d7fa1b8ca146ac7bf125eaeb13d179be4f3764f575c7b774981884ec7ee"
+    },
+    {
+      "file": "HOME0019_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0019_f_s.png",
+      "sourceSha256": "c94633b587453339ed1d5cccbde4f9900c46acace4ff066e598f24ec587e78d7",
+      "localSha256": "c94633b587453339ed1d5cccbde4f9900c46acace4ff066e598f24ec587e78d7"
+    },
+    {
+      "file": "HOME0020_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0020_f.png",
+      "sourceSha256": "113ee18f5d6ebc4b59eae281a2844283cb2c726e71bd63709dca2f167450d924",
+      "localSha256": "113ee18f5d6ebc4b59eae281a2844283cb2c726e71bd63709dca2f167450d924"
+    },
+    {
+      "file": "HOME0020_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0020_f_s.png",
+      "sourceSha256": "2cc8f528ad3fe3c2a8a9510ee4286b35678052ca3c0a858217779e00faddaac4",
+      "localSha256": "2cc8f528ad3fe3c2a8a9510ee4286b35678052ca3c0a858217779e00faddaac4"
+    },
+    {
+      "file": "HOME0025_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0025_f.png",
+      "sourceSha256": "c9606a9fb7e1271a126f8fa55615147f270fd548418a1995b7edb77b801420b7",
+      "localSha256": "c9606a9fb7e1271a126f8fa55615147f270fd548418a1995b7edb77b801420b7"
+    },
+    {
+      "file": "HOME0025_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0025_f_s.png",
+      "sourceSha256": "59ea2e31982b9a261aa1e0cd10135fb99229c0e46e5260e9a341281a91f4941c",
+      "localSha256": "59ea2e31982b9a261aa1e0cd10135fb99229c0e46e5260e9a341281a91f4941c"
+    },
+    {
+      "file": "HOME0026_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0026_f.png",
+      "sourceSha256": "3d2aed3083f1ca2ba05512d240ca09b56ac2b9534a16fab6bb2594629e17dcd4",
+      "localSha256": "3d2aed3083f1ca2ba05512d240ca09b56ac2b9534a16fab6bb2594629e17dcd4"
+    },
+    {
+      "file": "HOME0026_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0026_f_s.png",
+      "sourceSha256": "5a41fba1277a96e5262ba9eb67579823931a29bd938cc24b57e528005f31b1ff",
+      "localSha256": "5a41fba1277a96e5262ba9eb67579823931a29bd938cc24b57e528005f31b1ff"
+    },
+    {
+      "file": "HOME0041_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0041_f.png",
+      "sourceSha256": "90c105aeb2c9fcf04113b32007fa55394e94cbf5cf296ac75a09494e649bab7f",
+      "localSha256": "90c105aeb2c9fcf04113b32007fa55394e94cbf5cf296ac75a09494e649bab7f"
+    },
+    {
+      "file": "HOME0041_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0041_f_s.png",
+      "sourceSha256": "f64490f1076bc8614e8cdaff089914c2b2620aa5246ddef12218472eb7411543",
+      "localSha256": "f64490f1076bc8614e8cdaff089914c2b2620aa5246ddef12218472eb7411543"
+    },
+    {
+      "file": "HOME0042_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0042_f.png",
+      "sourceSha256": "e559aa4ad46951ac168360dcf4dc863e18092fd61e518683ee9ec0c3079cd7bc",
+      "localSha256": "e559aa4ad46951ac168360dcf4dc863e18092fd61e518683ee9ec0c3079cd7bc"
+    },
+    {
+      "file": "HOME0042_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0042_f_s.png",
+      "sourceSha256": "ca7d2fa381d401d570e290653713b772e53d99678e4b4cca3ddc339aa63329cd",
+      "localSha256": "ca7d2fa381d401d570e290653713b772e53d99678e4b4cca3ddc339aa63329cd"
+    },
+    {
+      "file": "HOME0044_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0044_f.png",
+      "sourceSha256": "c0b76318f6753639af0e2f476fcfc051fbc8c0705e3e2f4439cfd45f85447166",
+      "localSha256": "c0b76318f6753639af0e2f476fcfc051fbc8c0705e3e2f4439cfd45f85447166"
+    },
+    {
+      "file": "HOME0044_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0044_f_s.png",
+      "sourceSha256": "764849480f1be399afbac83da2865c958b5dd45c13b668e7b3a44a401144e28a",
+      "localSha256": "764849480f1be399afbac83da2865c958b5dd45c13b668e7b3a44a401144e28a"
+    },
+    {
+      "file": "HOME0045_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0045_f.png",
+      "sourceSha256": "988eb8da81414c92438f40ee07a19c19b4d508f4b5c548648008d84240916d78",
+      "localSha256": "988eb8da81414c92438f40ee07a19c19b4d508f4b5c548648008d84240916d78"
+    },
+    {
+      "file": "HOME0045_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0045_f_s.png",
+      "sourceSha256": "c038a211856ff5b25d3e39d61e9212482dd7976bf1dee628d0de3ac0dc17d0cd",
+      "localSha256": "c038a211856ff5b25d3e39d61e9212482dd7976bf1dee628d0de3ac0dc17d0cd"
+    },
+    {
+      "file": "HOME0064_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0064_f.png",
+      "sourceSha256": "80af32c5aa99b3c59a81be6c9a3ea37b47bc117c542a5403f5eb25175690d85f",
+      "localSha256": "80af32c5aa99b3c59a81be6c9a3ea37b47bc117c542a5403f5eb25175690d85f"
+    },
+    {
+      "file": "HOME0064_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0064_f_s.png",
+      "sourceSha256": "200f7db9f35e79b3eb458aaa0a47972a9b140259580f8e35be07b0e765b4633e",
+      "localSha256": "200f7db9f35e79b3eb458aaa0a47972a9b140259580f8e35be07b0e765b4633e"
+    },
+    {
+      "file": "HOME0065_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0065_f.png",
+      "sourceSha256": "1bce17f9b18b0b7804bf99d5a6070d93bcab4096c781617417ee91f7208abef2",
+      "localSha256": "1bce17f9b18b0b7804bf99d5a6070d93bcab4096c781617417ee91f7208abef2"
+    },
+    {
+      "file": "HOME0065_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0065_f_s.png",
+      "sourceSha256": "ea4870a48a527e887306283814f288ea7d0c0a8b81eb64486e43f80721af5904",
+      "localSha256": "ea4870a48a527e887306283814f288ea7d0c0a8b81eb64486e43f80721af5904"
+    },
+    {
+      "file": "HOME0084_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0084_f.png",
+      "sourceSha256": "b8c19ab4407174b0912cb548ff6d32c093af154d7349d868c47203ea789f4d9c",
+      "localSha256": "b8c19ab4407174b0912cb548ff6d32c093af154d7349d868c47203ea789f4d9c"
+    },
+    {
+      "file": "HOME0084_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0084_f_s.png",
+      "sourceSha256": "095de9df051339a95ac07d63d0d99e710bc64d7d0fee7bc0472b1229c496df6e",
+      "localSha256": "095de9df051339a95ac07d63d0d99e710bc64d7d0fee7bc0472b1229c496df6e"
+    },
+    {
+      "file": "HOME0085_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0085_f.png",
+      "sourceSha256": "90f1cf10eed502b85f8d24076f5dfed3fb5c247617828dad23caa27bad0e6ba7",
+      "localSha256": "90f1cf10eed502b85f8d24076f5dfed3fb5c247617828dad23caa27bad0e6ba7"
+    },
+    {
+      "file": "HOME0085_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0085_f_s.png",
+      "sourceSha256": "d32ebb0391613b67072fd72ac6bb4d64d0f38da4dd9d72fe4ecbad81e7d4ca1e",
+      "localSha256": "d32ebb0391613b67072fd72ac6bb4d64d0f38da4dd9d72fe4ecbad81e7d4ca1e"
+    },
+    {
+      "file": "HOME0097_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0097_f.png",
+      "sourceSha256": "06703d0893b5f4d6cd86b9bec4da9024bc576b6d51fb4505515566f73a12f6db",
+      "localSha256": "06703d0893b5f4d6cd86b9bec4da9024bc576b6d51fb4505515566f73a12f6db"
+    },
+    {
+      "file": "HOME0097_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0097_f_s.png",
+      "sourceSha256": "2789af2cb537a21956bebf334fc848003472d39f57ac67ffd5f64a29aee6258b",
+      "localSha256": "2789af2cb537a21956bebf334fc848003472d39f57ac67ffd5f64a29aee6258b"
+    },
+    {
+      "file": "HOME0111_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0111_f.png",
+      "sourceSha256": "d1f37df20f1529352a6d78125a3423cb2f1476271749a0e4bc7379f38ad2b148",
+      "localSha256": "d1f37df20f1529352a6d78125a3423cb2f1476271749a0e4bc7379f38ad2b148"
+    },
+    {
+      "file": "HOME0111_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0111_f_s.png",
+      "sourceSha256": "b8e69dc25cd01cea65e07b419f197228c4729e77d854522ef3942b3bf7158e41",
+      "localSha256": "b8e69dc25cd01cea65e07b419f197228c4729e77d854522ef3942b3bf7158e41"
+    },
+    {
+      "file": "HOME0112_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0112_f.png",
+      "sourceSha256": "bb0da96fd51a6ae80996cf92dce1652e8b680d263f2279d9d776661fa5fb826c",
+      "localSha256": "bb0da96fd51a6ae80996cf92dce1652e8b680d263f2279d9d776661fa5fb826c"
+    },
+    {
+      "file": "HOME0112_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0112_f_s.png",
+      "sourceSha256": "e5a0b728e9f7e1cf010709a2c32b2cf682d0d1130fb8c18aa7545b1842f6a8f7",
+      "localSha256": "e5a0b728e9f7e1cf010709a2c32b2cf682d0d1130fb8c18aa7545b1842f6a8f7"
+    },
+    {
+      "file": "HOME0118_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0118_f.png",
+      "sourceSha256": "3c911d5996ff46826c440387f5cd41501a15af4f9a28c7bcf21c2ddc650a9832",
+      "localSha256": "3c911d5996ff46826c440387f5cd41501a15af4f9a28c7bcf21c2ddc650a9832"
+    },
+    {
+      "file": "HOME0118_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0118_f_s.png",
+      "sourceSha256": "b570411f8e78dbbc6a3901e4c91165cef743622fe986342b8306b122776c3026",
+      "localSha256": "b570411f8e78dbbc6a3901e4c91165cef743622fe986342b8306b122776c3026"
+    },
+    {
+      "file": "HOME0119_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0119_f.png",
+      "sourceSha256": "0512412dc9e55c022f3a9e3ba983d7545c1abf2007254e52e2064265507eba24",
+      "localSha256": "0512412dc9e55c022f3a9e3ba983d7545c1abf2007254e52e2064265507eba24"
+    },
+    {
+      "file": "HOME0119_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0119_f_s.png",
+      "sourceSha256": "06f1d9c597da1fb2da0b1ff2a48cea9d6f7ba2966466aed2c2f89cb1feb18390",
+      "localSha256": "06f1d9c597da1fb2da0b1ff2a48cea9d6f7ba2966466aed2c2f89cb1feb18390"
+    },
+    {
+      "file": "HOME0123_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0123_f.png",
+      "sourceSha256": "11af7c54e00748dafdde062684ccc794e25e7514578da8e5751183f28f25e29e",
+      "localSha256": "11af7c54e00748dafdde062684ccc794e25e7514578da8e5751183f28f25e29e"
+    },
+    {
+      "file": "HOME0123_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0123_f_s.png",
+      "sourceSha256": "e72bf2495324903bf060ce79be3e4316f3a3e6a126a290671138fbb8c01e1ce0",
+      "localSha256": "e72bf2495324903bf060ce79be3e4316f3a3e6a126a290671138fbb8c01e1ce0"
+    },
+    {
+      "file": "HOME0129_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0129_f.png",
+      "sourceSha256": "f8099e02c9cbb9b1cc19a7e6525d21749d00759d7c8f4ec2ff265b02665d8287",
+      "localSha256": "f8099e02c9cbb9b1cc19a7e6525d21749d00759d7c8f4ec2ff265b02665d8287"
+    },
+    {
+      "file": "HOME0129_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0129_f_s.png",
+      "sourceSha256": "65844d4a50a397670ec463aa5c4010e389dbdca9117d498ec16f88a308cd3268",
+      "localSha256": "65844d4a50a397670ec463aa5c4010e389dbdca9117d498ec16f88a308cd3268"
+    },
+    {
+      "file": "HOME0130_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0130_f.png",
+      "sourceSha256": "a778155cb08d5e6d37124caf63122cb9c795eb0187007bb2db247fa25631927b",
+      "localSha256": "a778155cb08d5e6d37124caf63122cb9c795eb0187007bb2db247fa25631927b"
+    },
+    {
+      "file": "HOME0130_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0130_f_s.png",
+      "sourceSha256": "e1a468e9bd21fb67ffa8aedf6d4537e2df322e8a3b7b0d52f311ab2b4b6b0334",
+      "localSha256": "e1a468e9bd21fb67ffa8aedf6d4537e2df322e8a3b7b0d52f311ab2b4b6b0334"
+    },
+    {
+      "file": "HOME0133_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0133_f.png",
+      "sourceSha256": "a178eaed6aa739f5e997affcc321dc80246291e3c07bb0e51a3342da42cafccc",
+      "localSha256": "a178eaed6aa739f5e997affcc321dc80246291e3c07bb0e51a3342da42cafccc"
+    },
+    {
+      "file": "HOME0133_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0133_f_s.png",
+      "sourceSha256": "db902a30c65b65ccc8fee36c423839db8bed997172eff94c3f56ae3a36b29a8b",
+      "localSha256": "db902a30c65b65ccc8fee36c423839db8bed997172eff94c3f56ae3a36b29a8b"
+    },
+    {
+      "file": "HOME0154_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0154_f.png",
+      "sourceSha256": "9ac8bbc06aa018ccf69e66b4fcbc678bfef806ccf0936b62b0f34b0316c8db22",
+      "localSha256": "9ac8bbc06aa018ccf69e66b4fcbc678bfef806ccf0936b62b0f34b0316c8db22"
+    },
+    {
+      "file": "HOME0154_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0154_f_s.png",
+      "sourceSha256": "2527c71e73ad79124437fd32a597f6dbeb59b3b58a4c174bc53264508e378983",
+      "localSha256": "2527c71e73ad79124437fd32a597f6dbeb59b3b58a4c174bc53264508e378983"
+    },
+    {
+      "file": "HOME0165_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0165_f.png",
+      "sourceSha256": "2934fe05634631f48aa39c20553f240bf30ff0fdc5c2d0597bae43f9ce39cdce",
+      "localSha256": "2934fe05634631f48aa39c20553f240bf30ff0fdc5c2d0597bae43f9ce39cdce"
+    },
+    {
+      "file": "HOME0165_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0165_f_s.png",
+      "sourceSha256": "9ce08c8dc8d926dfd5d8d1bcfda26be8bc044424c4a22dd593b4760888246b43",
+      "localSha256": "9ce08c8dc8d926dfd5d8d1bcfda26be8bc044424c4a22dd593b4760888246b43"
+    },
+    {
+      "file": "HOME0166_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0166_f.png",
+      "sourceSha256": "5ace44de64a71b5d48642d637c5763f1cd54733b2f8384590db87938adbbbf28",
+      "localSha256": "5ace44de64a71b5d48642d637c5763f1cd54733b2f8384590db87938adbbbf28"
+    },
+    {
+      "file": "HOME0166_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0166_f_s.png",
+      "sourceSha256": "7af784bff4f050771ace4f9176b48caf848bf2df16b4f7dc8d1c691c4bd60d04",
+      "localSha256": "7af784bff4f050771ace4f9176b48caf848bf2df16b4f7dc8d1c691c4bd60d04"
+    },
+    {
+      "file": "HOME0178_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0178_f.png",
+      "sourceSha256": "a0009bd5224630621382c9eb4275291e405f0be691c929fe9c61982b43fa7cb4",
+      "localSha256": "a0009bd5224630621382c9eb4275291e405f0be691c929fe9c61982b43fa7cb4"
+    },
+    {
+      "file": "HOME0178_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0178_f_s.png",
+      "sourceSha256": "d1f7b44819e191b83b4bd79ffbac477378276f6b6f3d8b1c25437e2f9625e8e3",
+      "localSha256": "d1f7b44819e191b83b4bd79ffbac477378276f6b6f3d8b1c25437e2f9625e8e3"
+    },
+    {
+      "file": "HOME0185_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0185_f.png",
+      "sourceSha256": "dcdcb8230a29d1cdcbe51e854509523087a8499be310bd4d2c84173ae4d7b67a",
+      "localSha256": "dcdcb8230a29d1cdcbe51e854509523087a8499be310bd4d2c84173ae4d7b67a"
+    },
+    {
+      "file": "HOME0185_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0185_f_s.png",
+      "sourceSha256": "107a458c1ceec125d9d009b3d1a011e2a875bcb884f4a076f8339bf8603e3c3b",
+      "localSha256": "107a458c1ceec125d9d009b3d1a011e2a875bcb884f4a076f8339bf8603e3c3b"
+    },
+    {
+      "file": "HOME0186_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0186_f.png",
+      "sourceSha256": "31526827147519da374a2e042b3acafc74810dc57b44c12a8d4695cba04b5288",
+      "localSha256": "31526827147519da374a2e042b3acafc74810dc57b44c12a8d4695cba04b5288"
+    },
+    {
+      "file": "HOME0186_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0186_f_s.png",
+      "sourceSha256": "3e71d78878784446ed76ca2025fd128ec23bd4166c291e5e23e767245c83b08f",
+      "localSha256": "3e71d78878784446ed76ca2025fd128ec23bd4166c291e5e23e767245c83b08f"
+    },
+    {
+      "file": "HOME0190_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0190_f.png",
+      "sourceSha256": "dc29a96a1c79530859ccca016ed0b7d75091f6031106c3fc5baf47287a38037d",
+      "localSha256": "dc29a96a1c79530859ccca016ed0b7d75091f6031106c3fc5baf47287a38037d"
+    },
+    {
+      "file": "HOME0190_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0190_f_s.png",
+      "sourceSha256": "dd07947dbd93edbe7009afa1568455cf5b32eefb99c8ebcd14f8d87f0010bac3",
+      "localSha256": "dd07947dbd93edbe7009afa1568455cf5b32eefb99c8ebcd14f8d87f0010bac3"
+    },
+    {
+      "file": "HOME0194_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0194_f.png",
+      "sourceSha256": "1b4c89dd93e66b646ca59fe7c5e9717ed51ad5c1122f883c0c82ad9f42111b89",
+      "localSha256": "1b4c89dd93e66b646ca59fe7c5e9717ed51ad5c1122f883c0c82ad9f42111b89"
+    },
+    {
+      "file": "HOME0194_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0194_f_s.png",
+      "sourceSha256": "8df9bdf96423b3c5783baff102be24a8c25a0bc2427822e4435eb38a99a3f9f9",
+      "localSha256": "8df9bdf96423b3c5783baff102be24a8c25a0bc2427822e4435eb38a99a3f9f9"
+    },
+    {
+      "file": "HOME0195_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0195_f.png",
+      "sourceSha256": "9b93e7cc98b03710020522590e947cae2cf8d1b7b7358f5513cef7525f6e5038",
+      "localSha256": "9b93e7cc98b03710020522590e947cae2cf8d1b7b7358f5513cef7525f6e5038"
+    },
+    {
+      "file": "HOME0195_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0195_f_s.png",
+      "sourceSha256": "d3790b27d85a783da45a32d28bff6a3a2de4ddcaed2a9760ed2bbddd9afc07f8",
+      "localSha256": "d3790b27d85a783da45a32d28bff6a3a2de4ddcaed2a9760ed2bbddd9afc07f8"
+    },
+    {
+      "file": "HOME0198_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0198_f.png",
+      "sourceSha256": "8106e885db5baee226c0927e0c76c837931203e9ec197829aba1d0bba4b90b93",
+      "localSha256": "8106e885db5baee226c0927e0c76c837931203e9ec197829aba1d0bba4b90b93"
+    },
+    {
+      "file": "HOME0198_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0198_f_s.png",
+      "sourceSha256": "0434737955c7f56d8845a3539cf69d53bc91ad03e03c19864d91e9f370831e05",
+      "localSha256": "0434737955c7f56d8845a3539cf69d53bc91ad03e03c19864d91e9f370831e05"
+    },
+    {
+      "file": "HOME0202_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0202_f.png",
+      "sourceSha256": "0b4ef581232a8c3f298ff4812f8aec8b217333b79f125fdf04e03843370ab3ac",
+      "localSha256": "0b4ef581232a8c3f298ff4812f8aec8b217333b79f125fdf04e03843370ab3ac"
+    },
+    {
+      "file": "HOME0202_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0202_f_s.png",
+      "sourceSha256": "9b29d52bf263bdc8e6cda406b8c675ba5bbcea0081eb27b78cc473e03205693b",
+      "localSha256": "9b29d52bf263bdc8e6cda406b8c675ba5bbcea0081eb27b78cc473e03205693b"
+    },
+    {
+      "file": "HOME0203_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0203_f.png",
+      "sourceSha256": "62d04c46a86c44ecac9dac02c88b191f05bca740642eaa56756467e77b23f5ab",
+      "localSha256": "62d04c46a86c44ecac9dac02c88b191f05bca740642eaa56756467e77b23f5ab"
+    },
+    {
+      "file": "HOME0203_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0203_f_s.png",
+      "sourceSha256": "b04440ccd8a7aa0c07f7c17bf7ca78ecb62e0e464200547cc809bb8a1abc586d",
+      "localSha256": "b04440ccd8a7aa0c07f7c17bf7ca78ecb62e0e464200547cc809bb8a1abc586d"
+    },
+    {
+      "file": "HOME0207_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0207_f.png",
+      "sourceSha256": "ba313ed28890c2c0a14be31c060f06d1900e498764b3871ab081a35d010d2443",
+      "localSha256": "ba313ed28890c2c0a14be31c060f06d1900e498764b3871ab081a35d010d2443"
+    },
+    {
+      "file": "HOME0207_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0207_f_s.png",
+      "sourceSha256": "541e3b2998a5e392f56c390d1cf253aad3c0118a354ae8615e312afa83eaf489",
+      "localSha256": "541e3b2998a5e392f56c390d1cf253aad3c0118a354ae8615e312afa83eaf489"
+    },
+    {
+      "file": "HOME0208_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0208_f.png",
+      "sourceSha256": "5a8c0030eb858ff0d1c3f5a7fe2fe9a3b7993fe48edc4f3cf5b46b133d4a5038",
+      "localSha256": "5a8c0030eb858ff0d1c3f5a7fe2fe9a3b7993fe48edc4f3cf5b46b133d4a5038"
+    },
+    {
+      "file": "HOME0208_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0208_f_s.png",
+      "sourceSha256": "452707381c5bd93fc6d8b697dd347ab94af6ed4746327cc2471bbb8fa22df192",
+      "localSha256": "452707381c5bd93fc6d8b697dd347ab94af6ed4746327cc2471bbb8fa22df192"
+    },
+    {
+      "file": "HOME0212_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0212_f.png",
+      "sourceSha256": "0e241de084f4387bf6d054eea4fcf33df41a143d69d711417bb6ef640f0ee1fb",
+      "localSha256": "0e241de084f4387bf6d054eea4fcf33df41a143d69d711417bb6ef640f0ee1fb"
+    },
+    {
+      "file": "HOME0212_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0212_f_s.png",
+      "sourceSha256": "998869efbe082bf4a2c3c5a7cb7e5200b67a2df97e2cb2319455d45ea4b840b7",
+      "localSha256": "998869efbe082bf4a2c3c5a7cb7e5200b67a2df97e2cb2319455d45ea4b840b7"
+    },
+    {
+      "file": "HOME0214_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0214_f.png",
+      "sourceSha256": "e085ad025f50b62cf71dee19a74885144c4d22b4c5f8ab88c6b1469176a1ef31",
+      "localSha256": "e085ad025f50b62cf71dee19a74885144c4d22b4c5f8ab88c6b1469176a1ef31"
+    },
+    {
+      "file": "HOME0214_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0214_f_s.png",
+      "sourceSha256": "e9ee7461240e570a59d56dc5dad04c5ed18018edcac81b8124047358e874708f",
+      "localSha256": "e9ee7461240e570a59d56dc5dad04c5ed18018edcac81b8124047358e874708f"
+    },
+    {
+      "file": "HOME0215H_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0215H_f.png",
+      "sourceSha256": "dc5961c5bf4a32a945e2f9951c4c7b07c9ef1536d3b1fbb50b558e7f040f121f",
+      "localSha256": "dc5961c5bf4a32a945e2f9951c4c7b07c9ef1536d3b1fbb50b558e7f040f121f"
+    },
+    {
+      "file": "HOME0215H_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0215H_f_s.png",
+      "sourceSha256": "4c920fd09cf1f18228ecfd3da85c961e2cb3525b279a7c42a9d8851f743aa3a3",
+      "localSha256": "4c920fd09cf1f18228ecfd3da85c961e2cb3525b279a7c42a9d8851f743aa3a3"
+    },
+    {
+      "file": "HOME0215_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0215_f.png",
+      "sourceSha256": "a1f3003d7984700b438d653afd951e5deba30ad3209650817e1f0ba4124ca206",
+      "localSha256": "a1f3003d7984700b438d653afd951e5deba30ad3209650817e1f0ba4124ca206"
+    },
+    {
+      "file": "HOME0215_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0215_f_s.png",
+      "sourceSha256": "e18de489051dcf5b0250e061efe4e8d2cc8d38ce5286985020fc2b2acbfe1b55",
+      "localSha256": "e18de489051dcf5b0250e061efe4e8d2cc8d38ce5286985020fc2b2acbfe1b55"
+    },
+    {
+      "file": "HOME0217_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0217_f.png",
+      "sourceSha256": "bcbfc4ba025d43d9ad3411a1cfd3380251115058a570a34c9f28801496581124",
+      "localSha256": "bcbfc4ba025d43d9ad3411a1cfd3380251115058a570a34c9f28801496581124"
+    },
+    {
+      "file": "HOME0217_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0217_f_s.png",
+      "sourceSha256": "95a071ee88b2845768e9d82e7a7b217b3510bd7018e63680ed7968c92ae16e0b",
+      "localSha256": "95a071ee88b2845768e9d82e7a7b217b3510bd7018e63680ed7968c92ae16e0b"
+    },
+    {
+      "file": "HOME0221_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0221_f.png",
+      "sourceSha256": "4cb4b0beb887f52d6c5a673e2dae8b5724896c8aae09a4037c8414bc08778376",
+      "localSha256": "4cb4b0beb887f52d6c5a673e2dae8b5724896c8aae09a4037c8414bc08778376"
+    },
+    {
+      "file": "HOME0221_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0221_f_s.png",
+      "sourceSha256": "29ab278f0afe7a261a4011cb3a07300501d660c21cebbede712b0b72e93dcd5c",
+      "localSha256": "29ab278f0afe7a261a4011cb3a07300501d660c21cebbede712b0b72e93dcd5c"
+    },
+    {
+      "file": "HOME0224_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0224_f.png",
+      "sourceSha256": "1b41445463bb32512dbe9a9d9b3961c2e31052c0dec909a0dfb6332d848d16d0",
+      "localSha256": "1b41445463bb32512dbe9a9d9b3961c2e31052c0dec909a0dfb6332d848d16d0"
+    },
+    {
+      "file": "HOME0224_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0224_f_s.png",
+      "sourceSha256": "0673742cd3f049c0fe222939203423a885ed48b29fdd325b82730037860c1cf6",
+      "localSha256": "0673742cd3f049c0fe222939203423a885ed48b29fdd325b82730037860c1cf6"
+    },
+    {
+      "file": "HOME0229_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0229_f.png",
+      "sourceSha256": "ace48fac3701b1867ace73549ca31e1171c4d73b45d6f14cdf0b83bc4f169071",
+      "localSha256": "ace48fac3701b1867ace73549ca31e1171c4d73b45d6f14cdf0b83bc4f169071"
+    },
+    {
+      "file": "HOME0229_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0229_f_s.png",
+      "sourceSha256": "7a7aabbecf86b2be7c7da4e79879d9beccdb0556e85ab51f358536564a6c679c",
+      "localSha256": "7a7aabbecf86b2be7c7da4e79879d9beccdb0556e85ab51f358536564a6c679c"
+    },
+    {
+      "file": "HOME0232_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0232_f.png",
+      "sourceSha256": "f3de3cc25d07011104d9f0b094582865a4709edbde6720b19d135d7d14e68cb0",
+      "localSha256": "f3de3cc25d07011104d9f0b094582865a4709edbde6720b19d135d7d14e68cb0"
+    },
+    {
+      "file": "HOME0232_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0232_f_s.png",
+      "sourceSha256": "e80c789090fa92b3e3cd8643881778051eed19e3dddeb8de116de61d4f9ba0d0",
+      "localSha256": "e80c789090fa92b3e3cd8643881778051eed19e3dddeb8de116de61d4f9ba0d0"
+    },
+    {
+      "file": "HOME0256_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0256_f.png",
+      "sourceSha256": "4755435b8cc63a6bc459dc1ee63d9cb4aa916c0bae909a38717776efb10d679c",
+      "localSha256": "4755435b8cc63a6bc459dc1ee63d9cb4aa916c0bae909a38717776efb10d679c"
+    },
+    {
+      "file": "HOME0256_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0256_f_s.png",
+      "sourceSha256": "93132fe1405da24545627a6aaa50b12f65ff75ddcfe12b9db98ac0be6d7fa5af",
+      "localSha256": "93132fe1405da24545627a6aaa50b12f65ff75ddcfe12b9db98ac0be6d7fa5af"
+    },
+    {
+      "file": "HOME0257_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0257_f.png",
+      "sourceSha256": "c949ba484e1d349816855582bb199b726918c95535fdd671d2bbad8f92a50f32",
+      "localSha256": "c949ba484e1d349816855582bb199b726918c95535fdd671d2bbad8f92a50f32"
+    },
+    {
+      "file": "HOME0257_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0257_f_s.png",
+      "sourceSha256": "52b4270297c87fbddc414a863b6ddd061134d890dd6aeee7cb5e1d7d9e568904",
+      "localSha256": "52b4270297c87fbddc414a863b6ddd061134d890dd6aeee7cb5e1d7d9e568904"
+    },
+    {
+      "file": "HOME0267_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0267_f.png",
+      "sourceSha256": "83d06fa20ecbd36eb236d0c76e498ae2daf6f38aceea9972ccccf1c728b912c1",
+      "localSha256": "83d06fa20ecbd36eb236d0c76e498ae2daf6f38aceea9972ccccf1c728b912c1"
+    },
+    {
+      "file": "HOME0267_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0267_f_s.png",
+      "sourceSha256": "d838dde008644253fec764b61085b9bf75cbe900add884c0a6fedd888e73de28",
+      "localSha256": "d838dde008644253fec764b61085b9bf75cbe900add884c0a6fedd888e73de28"
+    },
+    {
+      "file": "HOME0269_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0269_f.png",
+      "sourceSha256": "403ee155a471e998fb63e50e31326a0d6d12eb58ccf67cce2a546b7881a509d9",
+      "localSha256": "403ee155a471e998fb63e50e31326a0d6d12eb58ccf67cce2a546b7881a509d9"
+    },
+    {
+      "file": "HOME0269_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0269_f_s.png",
+      "sourceSha256": "bd8082cde1c1815196d1cccc2706a3687b2f8470fa86acc8eae99685b6a480d3",
+      "localSha256": "bd8082cde1c1815196d1cccc2706a3687b2f8470fa86acc8eae99685b6a480d3"
+    },
+    {
+      "file": "HOME0272_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0272_f.png",
+      "sourceSha256": "9947eca0a50ab7c9aca478e2b7fa298b531f2aba21b969a3ce8c344387c5ce1a",
+      "localSha256": "9947eca0a50ab7c9aca478e2b7fa298b531f2aba21b969a3ce8c344387c5ce1a"
+    },
+    {
+      "file": "HOME0272_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0272_f_s.png",
+      "sourceSha256": "05c1014cf8daa6c421f4969340bf716e87a4254b20c24a53637064592f049067",
+      "localSha256": "05c1014cf8daa6c421f4969340bf716e87a4254b20c24a53637064592f049067"
+    },
+    {
+      "file": "HOME0274_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0274_f.png",
+      "sourceSha256": "83fc0ab518454f91c438005a376a22ae905908915cea7a9007e9f3a73079f657",
+      "localSha256": "83fc0ab518454f91c438005a376a22ae905908915cea7a9007e9f3a73079f657"
+    },
+    {
+      "file": "HOME0274_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0274_f_s.png",
+      "sourceSha256": "8f0a99b38185635092af7d74f77bca1fdfa11fd6244ebfd1e56942d63bec220d",
+      "localSha256": "8f0a99b38185635092af7d74f77bca1fdfa11fd6244ebfd1e56942d63bec220d"
+    },
+    {
+      "file": "HOME0275_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0275_f.png",
+      "sourceSha256": "add7e3e1070b7740ae64ba949230322848343ecf6abcdf66b508ec88f586b43b",
+      "localSha256": "add7e3e1070b7740ae64ba949230322848343ecf6abcdf66b508ec88f586b43b"
+    },
+    {
+      "file": "HOME0275_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0275_f_s.png",
+      "sourceSha256": "99e38c70387721abaea8d5a22da0ada2e616595bb77011ceea7cc68af4f46f73",
+      "localSha256": "99e38c70387721abaea8d5a22da0ada2e616595bb77011ceea7cc68af4f46f73"
+    },
+    {
+      "file": "HOME0307_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0307_f.png",
+      "sourceSha256": "f3450c440f85fe65d978d7d0c0dd500d8742bc4f756e814855542670e45af627",
+      "localSha256": "f3450c440f85fe65d978d7d0c0dd500d8742bc4f756e814855542670e45af627"
+    },
+    {
+      "file": "HOME0307_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0307_f_s.png",
+      "sourceSha256": "e412ab9d3e80f2ab7fd584c35c3aa548ace9c680d3487588c50a183914ec6bf9",
+      "localSha256": "e412ab9d3e80f2ab7fd584c35c3aa548ace9c680d3487588c50a183914ec6bf9"
+    },
+    {
+      "file": "HOME0308_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0308_f.png",
+      "sourceSha256": "a0d000b5034f2d391c4d0401f88b639e7f94e42c7e2c09e7c4deb2cda1e3713b",
+      "localSha256": "a0d000b5034f2d391c4d0401f88b639e7f94e42c7e2c09e7c4deb2cda1e3713b"
+    },
+    {
+      "file": "HOME0308_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0308_f_s.png",
+      "sourceSha256": "99709708a7e0ac8cb8c5d92e2f71fd366357893bbf8e4c33c2b662c4e4d37463",
+      "localSha256": "99709708a7e0ac8cb8c5d92e2f71fd366357893bbf8e4c33c2b662c4e4d37463"
+    },
+    {
+      "file": "HOME0315_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0315_f.png",
+      "sourceSha256": "06c3681df9d3c0738b8e74ca2a594144f21f8ed86bf47feadc36cad80be21fca",
+      "localSha256": "06c3681df9d3c0738b8e74ca2a594144f21f8ed86bf47feadc36cad80be21fca"
+    },
+    {
+      "file": "HOME0315_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0315_f_s.png",
+      "sourceSha256": "b9c274c6754e2d1a987caa2dee751725a761d00bd141a35a426741328b3ea517",
+      "localSha256": "b9c274c6754e2d1a987caa2dee751725a761d00bd141a35a426741328b3ea517"
+    },
+    {
+      "file": "HOME0316_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0316_f.png",
+      "sourceSha256": "37071681a197e3ccdc4a028a0fdc6981a7e734316448ac512e63a2fa1a1dec14",
+      "localSha256": "37071681a197e3ccdc4a028a0fdc6981a7e734316448ac512e63a2fa1a1dec14"
+    },
+    {
+      "file": "HOME0316_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0316_f_s.png",
+      "sourceSha256": "25c5da7a2aad68e7e61e06492fb315eed6fceedcc45d708cc94f4cf1bb498c9b",
+      "localSha256": "25c5da7a2aad68e7e61e06492fb315eed6fceedcc45d708cc94f4cf1bb498c9b"
+    },
+    {
+      "file": "HOME0317_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0317_f.png",
+      "sourceSha256": "ebd8e4722a83147ae910fe69a8998a56459e97289ba91040eaa5f725420db8b1",
+      "localSha256": "ebd8e4722a83147ae910fe69a8998a56459e97289ba91040eaa5f725420db8b1"
+    },
+    {
+      "file": "HOME0317_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0317_f_s.png",
+      "sourceSha256": "0b3918676661627b5d441a941c3e031021d6fb91f20314bf9929055f1e374ea0",
+      "localSha256": "0b3918676661627b5d441a941c3e031021d6fb91f20314bf9929055f1e374ea0"
+    },
+    {
+      "file": "HOME0322_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0322_f.png",
+      "sourceSha256": "1281d73c98fed5e801399988512326c4c53e684124c5f6346f6c4a587e593b36",
+      "localSha256": "1281d73c98fed5e801399988512326c4c53e684124c5f6346f6c4a587e593b36"
+    },
+    {
+      "file": "HOME0322_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0322_f_s.png",
+      "sourceSha256": "8ada2684709c595b4668873be0e26b5d868d1a44144f3dac36737a07f3f1014c",
+      "localSha256": "8ada2684709c595b4668873be0e26b5d868d1a44144f3dac36737a07f3f1014c"
+    },
+    {
+      "file": "HOME0323_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0323_f.png",
+      "sourceSha256": "c8db36f879ba83c38120a0d536846d329c37f1fea8b3bc90b17f5d4505ed312f",
+      "localSha256": "c8db36f879ba83c38120a0d536846d329c37f1fea8b3bc90b17f5d4505ed312f"
+    },
+    {
+      "file": "HOME0323_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0323_f_s.png",
+      "sourceSha256": "26ec1933221933f573cbdfb9a417fafd05f66e2212aa7e5204b090634b9d3caa",
+      "localSha256": "26ec1933221933f573cbdfb9a417fafd05f66e2212aa7e5204b090634b9d3caa"
+    },
+    {
+      "file": "HOME0332_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0332_f.png",
+      "sourceSha256": "378659183485ad184bb26e1481b0d4ce720c69719d6653bb905d868d1b92f72f",
+      "localSha256": "378659183485ad184bb26e1481b0d4ce720c69719d6653bb905d868d1b92f72f"
+    },
+    {
+      "file": "HOME0332_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0332_f_s.png",
+      "sourceSha256": "1a35caa413a8717caadf74c78524cc439d3671f3faaca2f4b2c11bb4f3562034",
+      "localSha256": "1a35caa413a8717caadf74c78524cc439d3671f3faaca2f4b2c11bb4f3562034"
+    },
+    {
+      "file": "HOME0350_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0350_f.png",
+      "sourceSha256": "4b7c92b33c3a948bcea4a74a7616d86295405e5895a9feae89bbbffbe2848697",
+      "localSha256": "4b7c92b33c3a948bcea4a74a7616d86295405e5895a9feae89bbbffbe2848697"
+    },
+    {
+      "file": "HOME0350_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0350_f_s.png",
+      "sourceSha256": "0723d24c8af561f54f6a92d53641aed1ac936b7593703f8d3e452674a93e1fa0",
+      "localSha256": "0723d24c8af561f54f6a92d53641aed1ac936b7593703f8d3e452674a93e1fa0"
+    },
+    {
+      "file": "HOME0369_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0369_f.png",
+      "sourceSha256": "a8ee0c2315ab097f5bfb2a65fdd2d45af21ac0385a41361e735ff9727a31d364",
+      "localSha256": "a8ee0c2315ab097f5bfb2a65fdd2d45af21ac0385a41361e735ff9727a31d364"
+    },
+    {
+      "file": "HOME0369_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0369_f_s.png",
+      "sourceSha256": "d5a3c11f07698d187d5b4c934002608ee75f651f35cb7d806a1e796267f9831d",
+      "localSha256": "d5a3c11f07698d187d5b4c934002608ee75f651f35cb7d806a1e796267f9831d"
+    },
+    {
+      "file": "HOME0396_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0396_f.png",
+      "sourceSha256": "db610577f609e83ab36753d62948bc8beb987b85bdef1783f79b0a645195a10e",
+      "localSha256": "db610577f609e83ab36753d62948bc8beb987b85bdef1783f79b0a645195a10e"
+    },
+    {
+      "file": "HOME0396_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0396_f_s.png",
+      "sourceSha256": "487bbbe32e000a2dbe5055d9116b08ed34939549094a7a44f3f0e73c18331aef",
+      "localSha256": "487bbbe32e000a2dbe5055d9116b08ed34939549094a7a44f3f0e73c18331aef"
+    },
+    {
+      "file": "HOME0397_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0397_f.png",
+      "sourceSha256": "e3f651069515ac42820d1c7429481d1a4df791b763f71a79db75e31dd5050b1e",
+      "localSha256": "e3f651069515ac42820d1c7429481d1a4df791b763f71a79db75e31dd5050b1e"
+    },
+    {
+      "file": "HOME0397_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0397_f_s.png",
+      "sourceSha256": "0c718b73e9cab3e957b1a917905214574c877bef868b4d1cde31b9c0f8cf4512",
+      "localSha256": "0c718b73e9cab3e957b1a917905214574c877bef868b4d1cde31b9c0f8cf4512"
+    },
+    {
+      "file": "HOME0398_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0398_f.png",
+      "sourceSha256": "03391c9fb0c3e661d24146fa0643c43341efd5fa83aa3268133259cedc32b467",
+      "localSha256": "03391c9fb0c3e661d24146fa0643c43341efd5fa83aa3268133259cedc32b467"
+    },
+    {
+      "file": "HOME0398_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0398_f_s.png",
+      "sourceSha256": "6a626a334abb7b1bc573dc805224788d3454afdf31ad217e5fdab6515b8955b8",
+      "localSha256": "6a626a334abb7b1bc573dc805224788d3454afdf31ad217e5fdab6515b8955b8"
+    },
+    {
+      "file": "HOME0399_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0399_f.png",
+      "sourceSha256": "eb6b1b199ed3a4ecdc768d00c5d2aec6ecbe960569a19e10300fa1730b270ce9",
+      "localSha256": "eb6b1b199ed3a4ecdc768d00c5d2aec6ecbe960569a19e10300fa1730b270ce9"
+    },
+    {
+      "file": "HOME0399_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0399_f_s.png",
+      "sourceSha256": "795e03e221c79d3fab75ed4a65af0d529e6ad83e1e281a1e7ef2bd4667ff6d85",
+      "localSha256": "795e03e221c79d3fab75ed4a65af0d529e6ad83e1e281a1e7ef2bd4667ff6d85"
+    },
+    {
+      "file": "HOME0400_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0400_f.png",
+      "sourceSha256": "481a52111d231819b4ed83ab7ae541010f384a53d7d050c736c44655c70b2f3c",
+      "localSha256": "481a52111d231819b4ed83ab7ae541010f384a53d7d050c736c44655c70b2f3c"
+    },
+    {
+      "file": "HOME0400_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0400_f_s.png",
+      "sourceSha256": "9667b0c5a94ac70df654c2c359df0743b71d76ded6f61028d38bc0a0bf61ddf4",
+      "localSha256": "9667b0c5a94ac70df654c2c359df0743b71d76ded6f61028d38bc0a0bf61ddf4"
+    },
+    {
+      "file": "HOME0401_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0401_f.png",
+      "sourceSha256": "59b2b9fcf4eb87aec99d52dd666a2dc0f3a47140330fe00d0c86f2ee4905d383",
+      "localSha256": "59b2b9fcf4eb87aec99d52dd666a2dc0f3a47140330fe00d0c86f2ee4905d383"
+    },
+    {
+      "file": "HOME0401_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0401_f_s.png",
+      "sourceSha256": "a3fc6259661fccdd49f3c7dce4df9a973cbf404e772567743355d1d1f5c26d35",
+      "localSha256": "a3fc6259661fccdd49f3c7dce4df9a973cbf404e772567743355d1d1f5c26d35"
+    },
+    {
+      "file": "HOME0402_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0402_f.png",
+      "sourceSha256": "dad1a9d6c7f269e4dba69bc09b7c5011fcf24fff8f7269e1774f0e794f9df775",
+      "localSha256": "dad1a9d6c7f269e4dba69bc09b7c5011fcf24fff8f7269e1774f0e794f9df775"
+    },
+    {
+      "file": "HOME0402_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0402_f_s.png",
+      "sourceSha256": "331ba9eb40da372e3b413c1874991b6ec0b515825060edebca6a390fa9b2780a",
+      "localSha256": "331ba9eb40da372e3b413c1874991b6ec0b515825060edebca6a390fa9b2780a"
+    },
+    {
+      "file": "HOME0403_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0403_f.png",
+      "sourceSha256": "0fc493b1b6b9636a137c486a67842fb072c2bb7e65721ca5178d3daae7b53a06",
+      "localSha256": "0fc493b1b6b9636a137c486a67842fb072c2bb7e65721ca5178d3daae7b53a06"
+    },
+    {
+      "file": "HOME0403_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0403_f_s.png",
+      "sourceSha256": "069d68d77b610eba2688daac5d922459448f55052d1c2a6710b8bec1e8823e38",
+      "localSha256": "069d68d77b610eba2688daac5d922459448f55052d1c2a6710b8bec1e8823e38"
+    },
+    {
+      "file": "HOME0404_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0404_f.png",
+      "sourceSha256": "7ac2b1a4f2affd4fa7bfc062b5e7dc413fd90f54749e3e51613f68c7dc84bf1d",
+      "localSha256": "7ac2b1a4f2affd4fa7bfc062b5e7dc413fd90f54749e3e51613f68c7dc84bf1d"
+    },
+    {
+      "file": "HOME0404_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0404_f_s.png",
+      "sourceSha256": "28b283d28234d6ada2dc8cb0b2206c703ee2d0ac3e7d1f9a43f0524ed70f8854",
+      "localSha256": "28b283d28234d6ada2dc8cb0b2206c703ee2d0ac3e7d1f9a43f0524ed70f8854"
+    },
+    {
+      "file": "HOME0405_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0405_f.png",
+      "sourceSha256": "e4960b936e081b3b4b94b815a88c9baaab4eea315d206b0ff2f6679e022291d4",
+      "localSha256": "e4960b936e081b3b4b94b815a88c9baaab4eea315d206b0ff2f6679e022291d4"
+    },
+    {
+      "file": "HOME0405_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0405_f_s.png",
+      "sourceSha256": "6531e4e30ddc163edd6f7f30ef74edf96ea14cca58dbd4bd94d44937e7b40c8b",
+      "localSha256": "6531e4e30ddc163edd6f7f30ef74edf96ea14cca58dbd4bd94d44937e7b40c8b"
+    },
+    {
+      "file": "HOME0407_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0407_f.png",
+      "sourceSha256": "8261073346fd1ad461b74ac4c3d45e4307178e142c05a231d6259a9739f67de5",
+      "localSha256": "8261073346fd1ad461b74ac4c3d45e4307178e142c05a231d6259a9739f67de5"
+    },
+    {
+      "file": "HOME0407_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0407_f_s.png",
+      "sourceSha256": "2116db485f2e2000e6329d72c166f557c6608be4ece7a1df9111dabcf8d69afa",
+      "localSha256": "2116db485f2e2000e6329d72c166f557c6608be4ece7a1df9111dabcf8d69afa"
+    },
+    {
+      "file": "HOME0415_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0415_f.png",
+      "sourceSha256": "74a3b52dd6f1b95e60e516f69a6ede46c097e704dcb6b2d726b5c17d92392aed",
+      "localSha256": "74a3b52dd6f1b95e60e516f69a6ede46c097e704dcb6b2d726b5c17d92392aed"
+    },
+    {
+      "file": "HOME0415_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0415_f_s.png",
+      "sourceSha256": "526fa10a86f9a19b1bde78daf7fa90a4dfea9ae184acff5febfd05dce5ee6b5e",
+      "localSha256": "526fa10a86f9a19b1bde78daf7fa90a4dfea9ae184acff5febfd05dce5ee6b5e"
+    },
+    {
+      "file": "HOME0417_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0417_f.png",
+      "sourceSha256": "417769eb26a700af38404e65f044d42c65791702eb1826e3a6f3d2a8f01f3088",
+      "localSha256": "417769eb26a700af38404e65f044d42c65791702eb1826e3a6f3d2a8f01f3088"
+    },
+    {
+      "file": "HOME0417_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0417_f_s.png",
+      "sourceSha256": "2c324a2fb16dede4cd20fadf0124aa83199119238346ff9be1c3c931fab134d5",
+      "localSha256": "2c324a2fb16dede4cd20fadf0124aa83199119238346ff9be1c3c931fab134d5"
+    },
+    {
+      "file": "HOME0418_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0418_f.png",
+      "sourceSha256": "4e13fe4168c6a08c0a7bd571d4cef7cfaafe462cec14ccc6d1160f0a0bc9cb66",
+      "localSha256": "4e13fe4168c6a08c0a7bd571d4cef7cfaafe462cec14ccc6d1160f0a0bc9cb66"
+    },
+    {
+      "file": "HOME0418_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0418_f_s.png",
+      "sourceSha256": "678d85e34987fdbb1dacc81e10c9672b32c90c919598eaa74c8d6419e281f9a8",
+      "localSha256": "678d85e34987fdbb1dacc81e10c9672b32c90c919598eaa74c8d6419e281f9a8"
+    },
+    {
+      "file": "HOME0419_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0419_f.png",
+      "sourceSha256": "71dc66d5edca42bae876235156b7e53c013708c62311b2133b1c37e132e83ca6",
+      "localSha256": "71dc66d5edca42bae876235156b7e53c013708c62311b2133b1c37e132e83ca6"
+    },
+    {
+      "file": "HOME0419_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0419_f_s.png",
+      "sourceSha256": "8d38c7fb1bb33e28da2af5fb48deaf90a1a7cfc3c7f85b361b5769e60ab2d597",
+      "localSha256": "8d38c7fb1bb33e28da2af5fb48deaf90a1a7cfc3c7f85b361b5769e60ab2d597"
+    },
+    {
+      "file": "HOME0424_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0424_f.png",
+      "sourceSha256": "9232be466636b147e1c979c01b7564ae0438044e4c803c3782fd776e40807f55",
+      "localSha256": "9232be466636b147e1c979c01b7564ae0438044e4c803c3782fd776e40807f55"
+    },
+    {
+      "file": "HOME0424_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0424_f_s.png",
+      "sourceSha256": "b1e7adaacb461b701dc1145c1734012fd75bd0baa9f579fdf9fb87610845aacd",
+      "localSha256": "b1e7adaacb461b701dc1145c1734012fd75bd0baa9f579fdf9fb87610845aacd"
+    },
+    {
+      "file": "HOME0443_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0443_f.png",
+      "sourceSha256": "888659e9a2329e13b888379ccf4aefde285c0b777a10d6b45b7b499bfc548e15",
+      "localSha256": "888659e9a2329e13b888379ccf4aefde285c0b777a10d6b45b7b499bfc548e15"
+    },
+    {
+      "file": "HOME0443_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0443_f_s.png",
+      "sourceSha256": "3ec77cd47c815f1b98fb2795cc1ff6469f66da4c12b7661425489ddce91ce447",
+      "localSha256": "3ec77cd47c815f1b98fb2795cc1ff6469f66da4c12b7661425489ddce91ce447"
+    },
+    {
+      "file": "HOME0444_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0444_f.png",
+      "sourceSha256": "211dcc84fab7b2ee150df4bf3edca1e7a58c4163d3f673e46df39262966f0ea5",
+      "localSha256": "211dcc84fab7b2ee150df4bf3edca1e7a58c4163d3f673e46df39262966f0ea5"
+    },
+    {
+      "file": "HOME0444_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0444_f_s.png",
+      "sourceSha256": "b5c7782cc1f61d6194ef552b3fd30ad9cadf2176e904a09f3095e362209efcb1",
+      "localSha256": "b5c7782cc1f61d6194ef552b3fd30ad9cadf2176e904a09f3095e362209efcb1"
+    },
+    {
+      "file": "HOME0445_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0445_f.png",
+      "sourceSha256": "81868c3b237229eb0024c3da7a7e394cb51f4be3b17df69e81daa035110d2be6",
+      "localSha256": "81868c3b237229eb0024c3da7a7e394cb51f4be3b17df69e81daa035110d2be6"
+    },
+    {
+      "file": "HOME0445_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0445_f_s.png",
+      "sourceSha256": "d4765cb4e60b0e21a509c17650cbcb0e8fcf566e1b6c4076b98d8834af71ed27",
+      "localSha256": "d4765cb4e60b0e21a509c17650cbcb0e8fcf566e1b6c4076b98d8834af71ed27"
+    },
+    {
+      "file": "HOME0449_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0449_f.png",
+      "sourceSha256": "0e055c172e9a42f0c67fce7a7c6d9241880e76293ef5e1da6250657839f81e6e",
+      "localSha256": "0e055c172e9a42f0c67fce7a7c6d9241880e76293ef5e1da6250657839f81e6e"
+    },
+    {
+      "file": "HOME0449_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0449_f_s.png",
+      "sourceSha256": "3c2767213a73ebd4b8d5f0d07f7bd881d34b0504d7382b634b61be2aa7d9cb8f",
+      "localSha256": "3c2767213a73ebd4b8d5f0d07f7bd881d34b0504d7382b634b61be2aa7d9cb8f"
+    },
+    {
+      "file": "HOME0450_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0450_f.png",
+      "sourceSha256": "fa2392d0faedca499216ddaefd585148f3002b1407de1fd33ff0fb3a1287980c",
+      "localSha256": "fa2392d0faedca499216ddaefd585148f3002b1407de1fd33ff0fb3a1287980c"
+    },
+    {
+      "file": "HOME0450_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0450_f_s.png",
+      "sourceSha256": "187f1fd4640520dc26a95418f56a60dcf882cf4f4d631b682acf89b4ff9fe9f9",
+      "localSha256": "187f1fd4640520dc26a95418f56a60dcf882cf4f4d631b682acf89b4ff9fe9f9"
+    },
+    {
+      "file": "HOME0453_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0453_f.png",
+      "sourceSha256": "49ff07aca6464abdcdbae0c0f9104ab7a2d2cd1eac3dc131647abc23a1ecfa94",
+      "localSha256": "49ff07aca6464abdcdbae0c0f9104ab7a2d2cd1eac3dc131647abc23a1ecfa94"
+    },
+    {
+      "file": "HOME0453_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0453_f_s.png",
+      "sourceSha256": "bedf6fb41a1c781b3c3aa4f4c1853451de3217e1e62172e7b9ce1e3ab7c1e0ba",
+      "localSha256": "bedf6fb41a1c781b3c3aa4f4c1853451de3217e1e62172e7b9ce1e3ab7c1e0ba"
+    },
+    {
+      "file": "HOME0454_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0454_f.png",
+      "sourceSha256": "897fc64fdf87df6f4d7d904218be937c4419117e96000d690dd4b60fa880e5ec",
+      "localSha256": "897fc64fdf87df6f4d7d904218be937c4419117e96000d690dd4b60fa880e5ec"
+    },
+    {
+      "file": "HOME0454_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0454_f_s.png",
+      "sourceSha256": "c6154e94e990e8eceacba116d7c233ba8c7deda0ac3f70cb31f48e87c19727e4",
+      "localSha256": "c6154e94e990e8eceacba116d7c233ba8c7deda0ac3f70cb31f48e87c19727e4"
+    },
+    {
+      "file": "HOME0456_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0456_f.png",
+      "sourceSha256": "7488329424bcdf5dc0c0a7910b8401b7ef6ce40a78dfb04547411a7a4777a9b7",
+      "localSha256": "7488329424bcdf5dc0c0a7910b8401b7ef6ce40a78dfb04547411a7a4777a9b7"
+    },
+    {
+      "file": "HOME0456_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0456_f_s.png",
+      "sourceSha256": "0d850e5619c45cdca01dd5629e4b16b8ac9a36781d5ff8623e31b3dee91ded8b",
+      "localSha256": "0d850e5619c45cdca01dd5629e4b16b8ac9a36781d5ff8623e31b3dee91ded8b"
+    },
+    {
+      "file": "HOME0457_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0457_f.png",
+      "sourceSha256": "9c265051111c689d43bae467831c733181499910873e7c3e644ef19227e91cce",
+      "localSha256": "9c265051111c689d43bae467831c733181499910873e7c3e644ef19227e91cce"
+    },
+    {
+      "file": "HOME0457_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0457_f_s.png",
+      "sourceSha256": "0c53374db278ff1e94ad23c57a6d56b20e9c3c72dfc7cb57aaf1c2a04a4677e8",
+      "localSha256": "0c53374db278ff1e94ad23c57a6d56b20e9c3c72dfc7cb57aaf1c2a04a4677e8"
+    },
+    {
+      "file": "HOME0459_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0459_f.png",
+      "sourceSha256": "2f2532912aa57ac7d26544d9d5a57e9e58708ce5d313543d71a8b7b4fc550248",
+      "localSha256": "2f2532912aa57ac7d26544d9d5a57e9e58708ce5d313543d71a8b7b4fc550248"
+    },
+    {
+      "file": "HOME0459_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0459_f_s.png",
+      "sourceSha256": "d771cdafeef260509dccee3f3ed2fd562d3379ebcc5d0a7abd68b9c066749b02",
+      "localSha256": "d771cdafeef260509dccee3f3ed2fd562d3379ebcc5d0a7abd68b9c066749b02"
+    },
+    {
+      "file": "HOME0460_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0460_f.png",
+      "sourceSha256": "a070f8f0bfb62f754056ccf7db5fed926a4b68f6e11faa58b3fa77203766b0c2",
+      "localSha256": "a070f8f0bfb62f754056ccf7db5fed926a4b68f6e11faa58b3fa77203766b0c2"
+    },
+    {
+      "file": "HOME0460_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0460_f_s.png",
+      "sourceSha256": "339f1e0c36b396f3dc7b675b442a32ef3c9f127a52bcfe322cb69c1f09c2d6d3",
+      "localSha256": "339f1e0c36b396f3dc7b675b442a32ef3c9f127a52bcfe322cb69c1f09c2d6d3"
+    },
+    {
+      "file": "HOME0461_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0461_f.png",
+      "sourceSha256": "ba35b556d74280b2506f05a796852911fc403e7a41d4e82dff2ed8500235363e",
+      "localSha256": "ba35b556d74280b2506f05a796852911fc403e7a41d4e82dff2ed8500235363e"
+    },
+    {
+      "file": "HOME0461_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0461_f_s.png",
+      "sourceSha256": "c91784d996308756724e15081eb5a54f3f4784549864c9be6b6e791c91a44679",
+      "localSha256": "c91784d996308756724e15081eb5a54f3f4784549864c9be6b6e791c91a44679"
+    },
+    {
+      "file": "HOME0464_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0464_f.png",
+      "sourceSha256": "4a5a4f765e64fd7b990bc73c61b3727c49bec7dc68253d6df43f199aa2939008",
+      "localSha256": "4a5a4f765e64fd7b990bc73c61b3727c49bec7dc68253d6df43f199aa2939008"
+    },
+    {
+      "file": "HOME0464_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0464_f_s.png",
+      "sourceSha256": "88840335f4145bd88754395a8a169884bd6c25ea0bbbb38cafc8d3dfff35f2d8",
+      "localSha256": "88840335f4145bd88754395a8a169884bd6c25ea0bbbb38cafc8d3dfff35f2d8"
+    },
+    {
+      "file": "HOME0465_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0465_f.png",
+      "sourceSha256": "09f386d09f5ed93ed45632ef085d6390889bef4216b88cacb01ef5e1c88f49b8",
+      "localSha256": "09f386d09f5ed93ed45632ef085d6390889bef4216b88cacb01ef5e1c88f49b8"
+    },
+    {
+      "file": "HOME0465_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0465_f_s.png",
+      "sourceSha256": "24321f1a91c2985ebf7f40ad50aa5d21c7564125c150a1394ec5c7d36f3ee6aa",
+      "localSha256": "24321f1a91c2985ebf7f40ad50aa5d21c7564125c150a1394ec5c7d36f3ee6aa"
+    },
+    {
+      "file": "HOME0473_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0473_f.png",
+      "sourceSha256": "023a55c398c2127a0f218631936ca68e19bd54917fa49f24fa971e53880cae67",
+      "localSha256": "023a55c398c2127a0f218631936ca68e19bd54917fa49f24fa971e53880cae67"
+    },
+    {
+      "file": "HOME0473_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0473_f_s.png",
+      "sourceSha256": "e2fb35bf13b1c0b24e19eb94fd087631c4ced7cb764ea5b421ef2bd22f0fb250",
+      "localSha256": "e2fb35bf13b1c0b24e19eb94fd087631c4ced7cb764ea5b421ef2bd22f0fb250"
+    },
+    {
+      "file": "HOME0521_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0521_f.png",
+      "sourceSha256": "5323beaed5426120abceb083746acbe09517a66f5b3d607c31d9cfe44c13622d",
+      "localSha256": "5323beaed5426120abceb083746acbe09517a66f5b3d607c31d9cfe44c13622d"
+    },
+    {
+      "file": "HOME0521_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0521_f_s.png",
+      "sourceSha256": "2ff99e094dd074fdf09a86d8e066475f4e4fefdaec1b3000537ecfe6417e3055",
+      "localSha256": "2ff99e094dd074fdf09a86d8e066475f4e4fefdaec1b3000537ecfe6417e3055"
+    },
+    {
+      "file": "HOME0592_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0592_f.png",
+      "sourceSha256": "1fc19b785c3d89c87bb9bb4e7b7a67d4725e06710c12bd9afdeb3220e8e22e56",
+      "localSha256": "1fc19b785c3d89c87bb9bb4e7b7a67d4725e06710c12bd9afdeb3220e8e22e56"
+    },
+    {
+      "file": "HOME0592_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0592_f_s.png",
+      "sourceSha256": "c03db0d5c27afa30e6fa9291db6eac411283fdb444a83b658f2282975abdc864",
+      "localSha256": "c03db0d5c27afa30e6fa9291db6eac411283fdb444a83b658f2282975abdc864"
+    },
+    {
+      "file": "HOME0593_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0593_f.png",
+      "sourceSha256": "a98f072f7e2c3442643639d98f4be6c0b8dcbb79698588bdb67b04563304e34a",
+      "localSha256": "a98f072f7e2c3442643639d98f4be6c0b8dcbb79698588bdb67b04563304e34a"
+    },
+    {
+      "file": "HOME0593_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0593_f_s.png",
+      "sourceSha256": "7d13c65f32e326f99c0c6832520cafaa77a7ab5f962da5427f488b20ca1d89e6",
+      "localSha256": "7d13c65f32e326f99c0c6832520cafaa77a7ab5f962da5427f488b20ca1d89e6"
+    },
+    {
+      "file": "HOME0668_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0668_f.png",
+      "sourceSha256": "9aaa70d52ca8bf98273faed0e02311fca0e9d5775ce790c5d0813cf2085fda88",
+      "localSha256": "9aaa70d52ca8bf98273faed0e02311fca0e9d5775ce790c5d0813cf2085fda88"
+    },
+    {
+      "file": "HOME0668_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0668_f_s.png",
+      "sourceSha256": "f99085a850ed8bcf561b642add4339041e0d080a726f4950edf815e644b89dee",
+      "localSha256": "f99085a850ed8bcf561b642add4339041e0d080a726f4950edf815e644b89dee"
+    },
+    {
+      "file": "HOME0678_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0678_f.png",
+      "sourceSha256": "0f89bc9e4b361d9e38b92bd0fa537bfdd6fecf50586a2738213781335df63f20",
+      "localSha256": "0f89bc9e4b361d9e38b92bd0fa537bfdd6fecf50586a2738213781335df63f20"
+    },
+    {
+      "file": "HOME0678_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0678_f_s.png",
+      "sourceSha256": "ad92f36c4684871da2dc281bca1add917cc287896c95ae0018584acfd5da563c",
+      "localSha256": "ad92f36c4684871da2dc281bca1add917cc287896c95ae0018584acfd5da563c"
+    },
+    {
+      "file": "HOME0876_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0876_f.png",
+      "sourceSha256": "330e093cb2373c2c179c7465da1da1343dc81881ac228b1294e741a44330be82",
+      "localSha256": "330e093cb2373c2c179c7465da1da1343dc81881ac228b1294e741a44330be82"
+    },
+    {
+      "file": "HOME0876_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0876_f_s.png",
+      "sourceSha256": "9e57abad1be72d0c62a022a7634b57a9e1e5d576431b6cc6ba050704024016f2",
+      "localSha256": "9e57abad1be72d0c62a022a7634b57a9e1e5d576431b6cc6ba050704024016f2"
+    },
+    {
+      "file": "HOME0902_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0902_f.png",
+      "sourceSha256": "ee2eda9c65105d9c1b3551b32553016a142e18fc67feb295f8daf3340f3fba7f",
+      "localSha256": "ee2eda9c65105d9c1b3551b32553016a142e18fc67feb295f8daf3340f3fba7f"
+    },
+    {
+      "file": "HOME0902_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0902_f_s.png",
+      "sourceSha256": "1c7acafbd49d244b10461e5a951d44e84b364d597fd3b993fa5f813650c268d6",
+      "localSha256": "1c7acafbd49d244b10461e5a951d44e84b364d597fd3b993fa5f813650c268d6"
+    },
+    {
+      "file": "HOME0916_f.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0916_f.png",
+      "sourceSha256": "4112abd047d877c30429dddc5eb3353559604ceed5516ee3ef61b9d740d8bb3b",
+      "localSha256": "4112abd047d877c30429dddc5eb3353559604ceed5516ee3ef61b9d740d8bb3b"
+    },
+    {
+      "file": "HOME0916_f_s.png",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0916_f_s.png",
+      "sourceSha256": "bfbe7a78ed9dce7bd2377879439c69c7af9defd60cb09f5213f00c952f88de87",
+      "localSha256": "bfbe7a78ed9dce7bd2377879439c69c7af9defd60cb09f5213f00c952f88de87"
+    }
+  ],
+  "sheets": [
+    "audit/artifacts/living-dex/gender-1.png",
+    "audit/artifacts/living-dex/gender-2.png",
+    "audit/artifacts/living-dex/gender-3.png",
+    "audit/artifacts/living-dex/gender-4.png",
+    "audit/artifacts/living-dex/gender-5.png"
+  ],
+  "limits": [
+    "Torchic rear-only dimorphism requires separate mapping review.",
+    "Regional forms do not automatically inherit a base species gender difference.",
+    "Source captions and visual pairs require review before catalog inclusion."
+  ],
+  "normalPairVisualReviewComplete": true,
+  "visualReviewScope": "101 base species normal Male/Female pairs inspected across five labeled sheets; source female and shiny captions checked. Subtle rear features and shiny colors are not certified by these normal-front sheets. Hisuian Sneasel pair needs separate visual review."
+}

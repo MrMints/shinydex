@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "forms": [
+    {
+      "identity": "raticate-totem-alola",
+      "key": 210195,
+      "legacyKey": 10092,
+      "speciesId": 20,
+      "pokemonId": 10093,
+      "formLabel": "Totem-like \u00b7 Alolan",
+      "height": 14,
+      "weight": 1050,
+      "types": [
+        "dark",
+        "normal"
+      ],
+      "normalFile": "HOME0020A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0020A.png",
+      "shinyFile": "HOME0020A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0020A_s.png"
+    },
+    {
+      "identity": "raticate-alola",
+      "key": 210194,
+      "legacyKey": 10092,
+      "speciesId": 20,
+      "pokemonId": 10092,
+      "formLabel": "Alolan \u00b7 Standard size",
+      "height": 7,
+      "weight": 255,
+      "types": [
+        "dark",
+        "normal"
+      ],
+      "normalFile": "HOME0020A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0020A.png",
+      "shinyFile": "HOME0020A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0020A_s.png"
+    },
+    {
+      "identity": "zygarde-10-power-construct",
+      "key": 210220,
+      "legacyKey": 718,
+      "speciesId": 718,
+      "pokemonId": 10118,
+      "formLabel": "10% Forme \u00b7 Power Construct",
+      "height": 12,
+      "weight": 335,
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "normalFile": "HOME0718T.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0718T.png",
+      "shinyFile": "HOME0718T_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0718T_s.png"
+    },
+    {
+      "identity": "zygarde-50-power-construct",
+      "key": 210221,
+      "legacyKey": 718,
+      "speciesId": 718,
+      "pokemonId": 10119,
+      "formLabel": "50% Forme \u00b7 Power Construct",
+      "height": 50,
+      "weight": 3050,
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "normalFile": "HOME0718.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0718.png",
+      "shinyFile": "HOME0718_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0718_s.png"
+    },
+    {
+      "identity": "gumshoos-totem",
+      "key": 210223,
+      "legacyKey": 735,
+      "speciesId": 735,
+      "pokemonId": 10121,
+      "formLabel": "Totem-like",
+      "height": 14,
+      "weight": 600,
+      "types": [
+        "normal"
+      ],
+      "normalFile": "HOME0735.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0735.png",
+      "shinyFile": "HOME0735_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0735_s.png"
+    },
+    {
+      "identity": "gumshoos",
+      "key": 200735,
+      "legacyKey": 735,
+      "speciesId": 735,
+      "pokemonId": 735,
+      "formLabel": "Standard",
+      "height": 7,
+      "weight": 142,
+      "types": [
+        "normal"
+      ],
+      "normalFile": "HOME0735.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0735.png",
+      "shinyFile": "HOME0735_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0735_s.png"
+    },
+    {
+      "identity": "vikavolt-totem",
+      "key": 210224,
+      "legacyKey": 738,
+      "speciesId": 738,
+      "pokemonId": 10122,
+      "formLabel": "Totem-like",
+      "height": 26,
+      "weight": 1475,
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "normalFile": "HOME0738.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0738.png",
+      "shinyFile": "HOME0738_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0738_s.png"
+    },
+    {
+      "identity": "vikavolt",
+      "key": 200738,
+      "legacyKey": 738,
+      "speciesId": 738,
+      "pokemonId": 738,
+      "formLabel": "Standard",
+      "height": 15,
+      "weight": 450,
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "normalFile": "HOME0738.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0738.png",
+      "shinyFile": "HOME0738_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0738_s.png"
+    },
+    {
+      "identity": "lurantis-totem",
+      "key": 210230,
+      "legacyKey": 754,
+      "speciesId": 754,
+      "pokemonId": 10128,
+      "formLabel": "Totem-like",
+      "height": 15,
+      "weight": 580,
+      "types": [
+        "grass"
+      ],
+      "normalFile": "HOME0754.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0754.png",
+      "shinyFile": "HOME0754_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0754_s.png"
+    },
+    {
+      "identity": "lurantis",
+      "key": 200754,
+      "legacyKey": 754,
+      "speciesId": 754,
+      "pokemonId": 754,
+      "formLabel": "Standard",
+      "height": 9,
+      "weight": 185,
+      "types": [
+        "grass"
+      ],
+      "normalFile": "HOME0754.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0754.png",
+      "shinyFile": "HOME0754_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0754_s.png"
+    },
+    {
+      "identity": "salazzle-totem",
+      "key": 210231,
+      "legacyKey": 758,
+      "speciesId": 758,
+      "pokemonId": 10129,
+      "formLabel": "Totem-like",
+      "height": 21,
+      "weight": 810,
+      "types": [
+        "poison",
+        "fire"
+      ],
+      "normalFile": "HOME0758.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0758.png",
+      "shinyFile": "HOME0758_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0758_s.png"
+    },
+    {
+      "identity": "salazzle",
+      "key": 200758,
+      "legacyKey": 758,
+      "speciesId": 758,
+      "pokemonId": 758,
+      "formLabel": "Standard",
+      "height": 12,
+      "weight": 222,
+      "types": [
+        "poison",
+        "fire"
+      ],
+      "normalFile": "HOME0758.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0758.png",
+      "shinyFile": "HOME0758_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0758_s.png"
+    },
+    {
+      "identity": "mimikyu-totem-disguised",
+      "key": 210263,
+      "legacyKey": 778,
+      "speciesId": 778,
+      "pokemonId": 10144,
+      "formLabel": "Totem-like",
+      "height": 4,
+      "weight": 28,
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "normalFile": "HOME0778.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0778.png",
+      "shinyFile": "HOME0778_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0778_s.png"
+    },
+    {
+      "identity": "mimikyu-disguised",
+      "key": 200778,
+      "legacyKey": 778,
+      "speciesId": 778,
+      "pokemonId": 778,
+      "formLabel": "Disguised Form",
+      "height": 2,
+      "weight": 7,
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "normalFile": "HOME0778.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0778.png",
+      "shinyFile": "HOME0778_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0778_s.png"
+    },
+    {
+      "identity": "kommo-o-totem",
+      "key": 210265,
+      "legacyKey": 784,
+      "speciesId": 784,
+      "pokemonId": 10146,
+      "formLabel": "Totem-like",
+      "height": 24,
+      "weight": 2075,
+      "types": [
+        "dragon",
+        "fighting"
+      ],
+      "normalFile": "HOME0784.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0784.png",
+      "shinyFile": "HOME0784_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0784_s.png"
+    },
+    {
+      "identity": "kommo-o",
+      "key": 200784,
+      "legacyKey": 784,
+      "speciesId": 784,
+      "pokemonId": 784,
+      "formLabel": "Standard",
+      "height": 16,
+      "weight": 782,
+      "types": [
+        "dragon",
+        "fighting"
+      ],
+      "normalFile": "HOME0784.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0784.png",
+      "shinyFile": "HOME0784_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0784_s.png"
+    },
+    {
+      "identity": "marowak-totem",
+      "key": 210268,
+      "legacyKey": 10115,
+      "speciesId": 105,
+      "pokemonId": 10149,
+      "formLabel": "Totem-like \u00b7 Alolan",
+      "height": 17,
+      "weight": 980,
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "normalFile": "HOME0105A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0105A.png",
+      "shinyFile": "HOME0105A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0105A_s.png"
+    },
+    {
+      "identity": "marowak-alola",
+      "key": 210217,
+      "legacyKey": 10115,
+      "speciesId": 105,
+      "pokemonId": 10115,
+      "formLabel": "Alolan \u00b7 Standard size",
+      "height": 10,
+      "weight": 340,
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "normalFile": "HOME0105A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0105A.png",
+      "shinyFile": "HOME0105A_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0105A_s.png"
+    },
+    {
+      "identity": "ribombee-totem",
+      "key": 210309,
+      "legacyKey": 743,
+      "speciesId": 743,
+      "pokemonId": 10150,
+      "formLabel": "Totem-like",
+      "height": 4,
+      "weight": 20,
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "normalFile": "HOME0743.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0743.png",
+      "shinyFile": "HOME0743_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0743_s.png"
+    },
+    {
+      "identity": "ribombee",
+      "key": 200743,
+      "legacyKey": 743,
+      "speciesId": 743,
+      "pokemonId": 743,
+      "formLabel": "Standard",
+      "height": 2,
+      "weight": 5,
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "normalFile": "HOME0743.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0743.png",
+      "shinyFile": "HOME0743_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0743_s.png"
+    },
+    {
+      "identity": "araquanid-totem",
+      "key": 210312,
+      "legacyKey": 752,
+      "speciesId": 752,
+      "pokemonId": 10153,
+      "formLabel": "Totem-like",
+      "height": 31,
+      "weight": 2175,
+      "types": [
+        "water",
+        "bug"
+      ],
+      "normalFile": "HOME0752.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0752.png",
+      "shinyFile": "HOME0752_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0752_s.png"
+    },
+    {
+      "identity": "araquanid",
+      "key": 200752,
+      "legacyKey": 752,
+      "speciesId": 752,
+      "pokemonId": 752,
+      "formLabel": "Standard",
+      "height": 18,
+      "weight": 820,
+      "types": [
+        "water",
+        "bug"
+      ],
+      "normalFile": "HOME0752.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0752.png",
+      "shinyFile": "HOME0752_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0752_s.png"
+    },
+    {
+      "identity": "togedemaru-totem",
+      "key": 210313,
+      "legacyKey": 777,
+      "speciesId": 777,
+      "pokemonId": 10154,
+      "formLabel": "Totem-like",
+      "height": 6,
+      "weight": 130,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "normalFile": "HOME0777.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0777.png",
+      "shinyFile": "HOME0777_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0777_s.png"
+    },
+    {
+      "identity": "togedemaru",
+      "key": 200777,
+      "legacyKey": 777,
+      "speciesId": 777,
+      "pokemonId": 777,
+      "formLabel": "Standard",
+      "height": 3,
+      "weight": 33,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "normalFile": "HOME0777.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0777.png",
+      "shinyFile": "HOME0777_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0777_s.png"
+    }
+  ],
+  "scopeSource": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Totem_Pok%C3%A9mon",
+  "notes": "Eleven obtainable Totem-like technical forms persist outside battle but do not retain size in HOME. Shared artwork is intentional; pinned dimensions distinguish them. Two Power Construct Zygarde identities retain separate ownership. Shiny eligibility remains separately unresolved."
+}

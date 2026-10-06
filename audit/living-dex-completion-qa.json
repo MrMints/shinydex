@@ -1,0 +1,33 @@
+{
+  "reviewedDate": "2026-10-05",
+  "auditComplete": false,
+  "workingReference": "https://pokepc.net/livingdex",
+  "speciesNumberReference": "https://pokepc.net/pokemon",
+  "species": 1025,
+  "catalogRecords": 1604,
+  "concreteSlots": 1431,
+  "homeBoxes": 48,
+  "unspecifiedLegacyRecords": 173,
+  "referenceUnmatchedForms": 0,
+  "additionalFormsPendingReferenceVerification": 43,
+  "checks": {
+    "packagedSmoke": "Passed, isolated fixture profile, shiny://app/, no renderer errors",
+    "visualReview": "1280 and 420 widths reviewed",
+    "livingDexVerifier": "Passed",
+    "homeGrid": "Six columns, five rows; filtered positions unchanged",
+    "projectChecks": "36/36 passed earlier in this task",
+    "desktopUnitTests": "6/6 passed"
+  },
+  "packagedSmokeReport": "audit/artifacts/living-dex-desktop-20261005-r2/smoke.json",
+  "firstSmokeFailure": "Test-source quoting error; corrected and rerun successfully",
+  "version": "1.0.0",
+  "installerSha256": "261170CA6518C2C8F5A46079266B42D38D3CAAF8FE34EFB54A25B2863BB474CE",
+  "applicationAsarSha256": "3E7C6DD2826874B035554056E9FF17320F9FBD863FB7068B1D8D0CD45EF60008",
+  "publication": "Local build only; no release published",
+  "deferred": [
+    "Independent HOME transfer/storage identity review, especially 43 additional entries",
+    "Unreviewed form artwork identity and shiny eligibility",
+    "Form-specific hunting availability and prerequisites",
+    "Real NSIS installation, public update/downgrade and clean-machine checks"
+  ]
+}

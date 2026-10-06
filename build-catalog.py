@@ -1,9 +1,10 @@
 import csv,json,re
+from living_forms import extend_catalog
 from pathlib import Path
 from urllib.parse import quote
 ROOT=Path(__file__).parent
 def rows(file):return list(csv.DictReader(open(ROOT/file,encoding='utf-8-sig')))
-old=json.loads((ROOT/'data.json').read_text());base={p['id']:p for p in old if not p.get('region')}
+old=json.loads((ROOT/'data.json').read_text());base={p['id']:p for p in old if not p.get('region') and not p.get('livingForm')}
 names={int(r['pokemon_species_id']):r['name'] for r in rows('pokemon_species_names.csv') if r['local_language_id']=='9'}
 registry={f['name']:f for f in json.loads((ROOT/'audit/archives-images.json').read_text())}
 types={};tn=['','normal','fighting','flying','poison','ground','rock','bug','ghost','steel','fire','water','grass','electric','psychic','ice','dragon','dark','fairy']
@@ -34,7 +35,11 @@ for r in regional:
  p={'id':sid,'key':pid,'name':identifier,'displayName':names[sid]+' · '+label,'region':region,'formLabel':label,'generation':7 if region=='alola' else 9 if region=='paldea' else 8,'sprite':pid,'height':int(r['height']),'weight':int(r['weight']),'types':types[pid]}
  finalize(p,suffix)
 region_order={'':0,'alola':1,'galar':2,'hisui':3,'paldea':4}
+result=extend_catalog(result)
 result.sort(key=lambda p:(p['id'],region_order.get(p.get('region',''),0),p['key']))
-for i,p in enumerate(result):p['position']=i
+slot=0
+for p in result:
+ if p.get('formUnspecified'):p['position']=None
+ else:p['position']=slot;slot+=1
 (ROOT/'data.json').write_text(json.dumps(result,separators=(',',':')),encoding='utf-8')
 print('Catalog:',len(base),'species +',len(regional),'regional forms =',len(result),'entries')

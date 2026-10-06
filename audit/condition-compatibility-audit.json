@@ -3,7 +3,7 @@
   "mismatchCount": 0,
   "mismatchIds": [],
   "localEncounterSha256": "93ba8853ac871719d230a6406c91f8418754fdc773f2f4b9f476007f743b4955",
-  "comparisonEncounterSha256": "93ba8853ac871719d230a6406c91f8418754fdc773f2f4b9f476007f743b4955",
+  "comparisonEncounterSha256": "9416f59db5d5b4c07f2c9795d3330ecaed2bd93521c471da4b76ee4f383288f6",
   "comparisonSource": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/encounters.csv",
   "fullHuntingAuditComplete": false
 }

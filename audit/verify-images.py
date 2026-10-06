@@ -19,12 +19,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image
+from artwork_evidence import living_artwork_evidence
 
 root = Path(__file__).resolve().parent.parent
 catalog = json.loads((root / 'data.json').read_text(encoding='utf-8'))
 captions = json.loads((root / 'audit/image-captions.json').read_text(encoding='utf-8'))
 registry = {item['name']: item for item in json.loads(
     (root / 'audit/archives-images.json').read_text(encoding='utf-8'))}
+form_captions, form_downloads = living_artwork_evidence()
+captions.update(form_captions)
+for filename, row in form_downloads.items():
+    registry.setdefault(filename, {'descriptionurl': row['source']})
 results = []
 issues = []
 for pokemon in catalog:
@@ -54,7 +59,7 @@ for pokemon in catalog:
         except Exception as error:
             issues.append({'key': pokemon['key'], 'mode': mode, 'file': filename,
                            'error': str(error)})
-    if len(pair) == 2 and pair[0] == pair[1]:
+    if len(pair) == 2 and pair[0] == pair[1] and pokemon.get('shinyArtworkAvailable') is not False:
         issues.append({'key': pokemon['key'], 'error': 'Identical normal/shiny payloads'})
 
 report = {'checkedAt': datetime.now(timezone.utc).isoformat(),

@@ -1,28 +1,30 @@
 {
-  "entries": 1083,
+  "entries": 1604,
+  "legacyEntries": 1083,
   "species": 1025,
   "regionalForms": 58,
-  "boxes": 37,
-  "imageFiles": 2166,
+  "boxes": 48,
+  "homeSlots": 1431,
+  "imageFiles": 2709,
   "globallyLocked": [
     "Victini",
-    "Hoopa",
+    "Hoopa · Form unspecified",
     "Cosmog",
     "Cosmoem",
-    "Magearna",
+    "Magearna · Form unspecified",
     "Marshadow",
     "Kubfu",
-    "Urshifu",
-    "Zarude",
+    "Urshifu · Form unspecified",
+    "Zarude · Form unspecified",
     "Glastrier",
     "Spectrier",
-    "Calyrex",
+    "Calyrex · Form unspecified",
     "Walking Wake",
     "Iron Leaves",
     "Okidogi",
     "Munkidori",
     "Fezandipiti",
-    "Ogerpon",
+    "Ogerpon · Form unspecified",
     "Gouging Fire",
     "Raging Bolt",
     "Iron Boulder",
@@ -32,5 +34,2091 @@
   ],
   "unverifiedGiftSpecies": 0,
   "needsReview": [],
+  "pendingFormGuides": [
+    {
+      "key": 300006,
+      "name": "Venusaur · Male"
+    },
+    {
+      "key": 300007,
+      "name": "Venusaur · Female"
+    },
+    {
+      "key": 300024,
+      "name": "Butterfree · Male"
+    },
+    {
+      "key": 300025,
+      "name": "Butterfree · Female"
+    },
+    {
+      "key": 300038,
+      "name": "Rattata · Male"
+    },
+    {
+      "key": 300039,
+      "name": "Rattata · Female"
+    },
+    {
+      "key": 300040,
+      "name": "Raticate · Male"
+    },
+    {
+      "key": 300041,
+      "name": "Raticate · Female"
+    },
+    {
+      "key": 210194,
+      "name": "Raticate · Alolan · Standard size"
+    },
+    {
+      "key": 210196,
+      "name": "Pikachu · Original Cap"
+    },
+    {
+      "key": 210197,
+      "name": "Pikachu · Hoenn Cap"
+    },
+    {
+      "key": 210198,
+      "name": "Pikachu · Sinnoh Cap"
+    },
+    {
+      "key": 210199,
+      "name": "Pikachu · Unova Cap"
+    },
+    {
+      "key": 210200,
+      "name": "Pikachu · Kalos Cap"
+    },
+    {
+      "key": 210201,
+      "name": "Pikachu · Alola Cap"
+    },
+    {
+      "key": 210267,
+      "name": "Pikachu · Partner Cap"
+    },
+    {
+      "key": 210319,
+      "name": "Pikachu · World Cap"
+    },
+    {
+      "key": 300050,
+      "name": "Pikachu · Male"
+    },
+    {
+      "key": 300051,
+      "name": "Pikachu · Female"
+    },
+    {
+      "key": 300052,
+      "name": "Raichu · Male"
+    },
+    {
+      "key": 300053,
+      "name": "Raichu · Female"
+    },
+    {
+      "key": 300082,
+      "name": "Zubat · Male"
+    },
+    {
+      "key": 300083,
+      "name": "Zubat · Female"
+    },
+    {
+      "key": 300084,
+      "name": "Golbat · Male"
+    },
+    {
+      "key": 300085,
+      "name": "Golbat · Female"
+    },
+    {
+      "key": 300088,
+      "name": "Gloom · Male"
+    },
+    {
+      "key": 300089,
+      "name": "Gloom · Female"
+    },
+    {
+      "key": 300090,
+      "name": "Vileplume · Male"
+    },
+    {
+      "key": 300091,
+      "name": "Vileplume · Female"
+    },
+    {
+      "key": 300128,
+      "name": "Kadabra · Male"
+    },
+    {
+      "key": 300129,
+      "name": "Kadabra · Female"
+    },
+    {
+      "key": 300130,
+      "name": "Alakazam · Male"
+    },
+    {
+      "key": 300131,
+      "name": "Alakazam · Female"
+    },
+    {
+      "key": 300168,
+      "name": "Doduo · Male"
+    },
+    {
+      "key": 300169,
+      "name": "Doduo · Female"
+    },
+    {
+      "key": 300170,
+      "name": "Dodrio · Male"
+    },
+    {
+      "key": 300171,
+      "name": "Dodrio · Female"
+    },
+    {
+      "key": 300194,
+      "name": "Hypno · Male"
+    },
+    {
+      "key": 300195,
+      "name": "Hypno · Female"
+    },
+    {
+      "key": 210217,
+      "name": "Marowak · Alolan · Standard size"
+    },
+    {
+      "key": 300222,
+      "name": "Rhyhorn · Male"
+    },
+    {
+      "key": 300223,
+      "name": "Rhyhorn · Female"
+    },
+    {
+      "key": 300224,
+      "name": "Rhydon · Male"
+    },
+    {
+      "key": 300225,
+      "name": "Rhydon · Female"
+    },
+    {
+      "key": 300236,
+      "name": "Goldeen · Male"
+    },
+    {
+      "key": 300237,
+      "name": "Goldeen · Female"
+    },
+    {
+      "key": 300238,
+      "name": "Seaking · Male"
+    },
+    {
+      "key": 300239,
+      "name": "Seaking · Female"
+    },
+    {
+      "key": 300246,
+      "name": "Scyther · Male"
+    },
+    {
+      "key": 300247,
+      "name": "Scyther · Female"
+    },
+    {
+      "key": 300258,
+      "name": "Magikarp · Male"
+    },
+    {
+      "key": 300259,
+      "name": "Magikarp · Female"
+    },
+    {
+      "key": 300260,
+      "name": "Gyarados · Male"
+    },
+    {
+      "key": 300261,
+      "name": "Gyarados · Female"
+    },
+    {
+      "key": 300266,
+      "name": "Eevee · Male"
+    },
+    {
+      "key": 300267,
+      "name": "Eevee · Female"
+    },
+    {
+      "key": 300308,
+      "name": "Meganium · Male"
+    },
+    {
+      "key": 300309,
+      "name": "Meganium · Female"
+    },
+    {
+      "key": 300330,
+      "name": "Ledyba · Male"
+    },
+    {
+      "key": 300331,
+      "name": "Ledyba · Female"
+    },
+    {
+      "key": 300332,
+      "name": "Ledian · Male"
+    },
+    {
+      "key": 300333,
+      "name": "Ledian · Female"
+    },
+    {
+      "key": 200172,
+      "name": "Pichu · Standard"
+    },
+    {
+      "key": 300356,
+      "name": "Xatu · Male"
+    },
+    {
+      "key": 300357,
+      "name": "Xatu · Female"
+    },
+    {
+      "key": 300370,
+      "name": "Sudowoodo · Male"
+    },
+    {
+      "key": 300371,
+      "name": "Sudowoodo · Female"
+    },
+    {
+      "key": 300372,
+      "name": "Politoed · Male"
+    },
+    {
+      "key": 300373,
+      "name": "Politoed · Female"
+    },
+    {
+      "key": 300380,
+      "name": "Aipom · Male"
+    },
+    {
+      "key": 300381,
+      "name": "Aipom · Female"
+    },
+    {
+      "key": 300388,
+      "name": "Wooper · Male"
+    },
+    {
+      "key": 300389,
+      "name": "Wooper · Female"
+    },
+    {
+      "key": 300390,
+      "name": "Quagsire · Male"
+    },
+    {
+      "key": 300391,
+      "name": "Quagsire · Female"
+    },
+    {
+      "key": 300396,
+      "name": "Murkrow · Male"
+    },
+    {
+      "key": 300397,
+      "name": "Murkrow · Female"
+    },
+    {
+      "key": 200201,
+      "name": "Unown · A"
+    },
+    {
+      "key": 210001,
+      "name": "Unown · B"
+    },
+    {
+      "key": 210002,
+      "name": "Unown · C"
+    },
+    {
+      "key": 210003,
+      "name": "Unown · D"
+    },
+    {
+      "key": 210004,
+      "name": "Unown · E"
+    },
+    {
+      "key": 210005,
+      "name": "Unown · F"
+    },
+    {
+      "key": 210006,
+      "name": "Unown · G"
+    },
+    {
+      "key": 210007,
+      "name": "Unown · H"
+    },
+    {
+      "key": 210008,
+      "name": "Unown · I"
+    },
+    {
+      "key": 210009,
+      "name": "Unown · J"
+    },
+    {
+      "key": 210010,
+      "name": "Unown · K"
+    },
+    {
+      "key": 210011,
+      "name": "Unown · L"
+    },
+    {
+      "key": 210012,
+      "name": "Unown · M"
+    },
+    {
+      "key": 210013,
+      "name": "Unown · N"
+    },
+    {
+      "key": 210014,
+      "name": "Unown · O"
+    },
+    {
+      "key": 210015,
+      "name": "Unown · P"
+    },
+    {
+      "key": 210016,
+      "name": "Unown · Q"
+    },
+    {
+      "key": 210017,
+      "name": "Unown · R"
+    },
+    {
+      "key": 210018,
+      "name": "Unown · S"
+    },
+    {
+      "key": 210019,
+      "name": "Unown · T"
+    },
+    {
+      "key": 210020,
+      "name": "Unown · U"
+    },
+    {
+      "key": 210021,
+      "name": "Unown · V"
+    },
+    {
+      "key": 210022,
+      "name": "Unown · W"
+    },
+    {
+      "key": 210023,
+      "name": "Unown · X"
+    },
+    {
+      "key": 210024,
+      "name": "Unown · Y"
+    },
+    {
+      "key": 210025,
+      "name": "Unown · Z"
+    },
+    {
+      "key": 210026,
+      "name": "Unown · !"
+    },
+    {
+      "key": 210027,
+      "name": "Unown · ?"
+    },
+    {
+      "key": 300404,
+      "name": "Wobbuffet · Male"
+    },
+    {
+      "key": 300405,
+      "name": "Wobbuffet · Female"
+    },
+    {
+      "key": 300406,
+      "name": "Girafarig · Male"
+    },
+    {
+      "key": 300407,
+      "name": "Girafarig · Female"
+    },
+    {
+      "key": 300414,
+      "name": "Gligar · Male"
+    },
+    {
+      "key": 300415,
+      "name": "Gligar · Female"
+    },
+    {
+      "key": 300416,
+      "name": "Steelix · Male"
+    },
+    {
+      "key": 300417,
+      "name": "Steelix · Female"
+    },
+    {
+      "key": 300424,
+      "name": "Scizor · Male"
+    },
+    {
+      "key": 300425,
+      "name": "Scizor · Female"
+    },
+    {
+      "key": 300428,
+      "name": "Heracross · Male"
+    },
+    {
+      "key": 300429,
+      "name": "Heracross · Female"
+    },
+    {
+      "key": 300430,
+      "name": "Sneasel · Male"
+    },
+    {
+      "key": 300431,
+      "name": "Sneasel · Female"
+    },
+    {
+      "key": 320470,
+      "name": "Sneasel · Hisuian · Male"
+    },
+    {
+      "key": 320471,
+      "name": "Sneasel · Hisuian · Female"
+    },
+    {
+      "key": 300434,
+      "name": "Ursaring · Male"
+    },
+    {
+      "key": 300435,
+      "name": "Ursaring · Female"
+    },
+    {
+      "key": 300442,
+      "name": "Piloswine · Male"
+    },
+    {
+      "key": 300443,
+      "name": "Piloswine · Female"
+    },
+    {
+      "key": 300448,
+      "name": "Octillery · Male"
+    },
+    {
+      "key": 300449,
+      "name": "Octillery · Female"
+    },
+    {
+      "key": 300458,
+      "name": "Houndoom · Male"
+    },
+    {
+      "key": 300459,
+      "name": "Houndoom · Female"
+    },
+    {
+      "key": 300464,
+      "name": "Donphan · Male"
+    },
+    {
+      "key": 300465,
+      "name": "Donphan · Female"
+    },
+    {
+      "key": 300510,
+      "name": "Torchic · Male"
+    },
+    {
+      "key": 300511,
+      "name": "Torchic · Female"
+    },
+    {
+      "key": 300512,
+      "name": "Combusken · Male"
+    },
+    {
+      "key": 300513,
+      "name": "Combusken · Female"
+    },
+    {
+      "key": 300514,
+      "name": "Blaziken · Male"
+    },
+    {
+      "key": 300515,
+      "name": "Blaziken · Female"
+    },
+    {
+      "key": 300534,
+      "name": "Beautifly · Male"
+    },
+    {
+      "key": 300535,
+      "name": "Beautifly · Female"
+    },
+    {
+      "key": 300538,
+      "name": "Dustox · Male"
+    },
+    {
+      "key": 300539,
+      "name": "Dustox · Female"
+    },
+    {
+      "key": 300544,
+      "name": "Ludicolo · Male"
+    },
+    {
+      "key": 300545,
+      "name": "Ludicolo · Female"
+    },
+    {
+      "key": 300548,
+      "name": "Nuzleaf · Male"
+    },
+    {
+      "key": 300549,
+      "name": "Nuzleaf · Female"
+    },
+    {
+      "key": 300550,
+      "name": "Shiftry · Male"
+    },
+    {
+      "key": 300551,
+      "name": "Shiftry · Female"
+    },
+    {
+      "key": 300614,
+      "name": "Meditite · Male"
+    },
+    {
+      "key": 300615,
+      "name": "Meditite · Female"
+    },
+    {
+      "key": 300616,
+      "name": "Medicham · Male"
+    },
+    {
+      "key": 300617,
+      "name": "Medicham · Female"
+    },
+    {
+      "key": 300630,
+      "name": "Roselia · Male"
+    },
+    {
+      "key": 300631,
+      "name": "Roselia · Female"
+    },
+    {
+      "key": 300632,
+      "name": "Gulpin · Male"
+    },
+    {
+      "key": 300633,
+      "name": "Gulpin · Female"
+    },
+    {
+      "key": 300634,
+      "name": "Swalot · Male"
+    },
+    {
+      "key": 300635,
+      "name": "Swalot · Female"
+    },
+    {
+      "key": 300644,
+      "name": "Numel · Male"
+    },
+    {
+      "key": 300645,
+      "name": "Numel · Female"
+    },
+    {
+      "key": 300646,
+      "name": "Camerupt · Male"
+    },
+    {
+      "key": 300647,
+      "name": "Camerupt · Female"
+    },
+    {
+      "key": 300664,
+      "name": "Cacturne · Male"
+    },
+    {
+      "key": 300665,
+      "name": "Cacturne · Female"
+    },
+    {
+      "key": 300700,
+      "name": "Milotic · Male"
+    },
+    {
+      "key": 300701,
+      "name": "Milotic · Female"
+    },
+    {
+      "key": 300738,
+      "name": "Relicanth · Male"
+    },
+    {
+      "key": 300739,
+      "name": "Relicanth · Female"
+    },
+    {
+      "key": 200386,
+      "name": "Deoxys · Normal Forme"
+    },
+    {
+      "key": 210031,
+      "name": "Deoxys · Attack Forme"
+    },
+    {
+      "key": 210032,
+      "name": "Deoxys · Defense Forme"
+    },
+    {
+      "key": 210033,
+      "name": "Deoxys · Speed Forme"
+    },
+    {
+      "key": 300792,
+      "name": "Starly · Male"
+    },
+    {
+      "key": 300793,
+      "name": "Starly · Female"
+    },
+    {
+      "key": 300794,
+      "name": "Staravia · Male"
+    },
+    {
+      "key": 300795,
+      "name": "Staravia · Female"
+    },
+    {
+      "key": 300796,
+      "name": "Staraptor · Male"
+    },
+    {
+      "key": 300797,
+      "name": "Staraptor · Female"
+    },
+    {
+      "key": 300798,
+      "name": "Bidoof · Male"
+    },
+    {
+      "key": 300799,
+      "name": "Bidoof · Female"
+    },
+    {
+      "key": 300800,
+      "name": "Bibarel · Male"
+    },
+    {
+      "key": 300801,
+      "name": "Bibarel · Female"
+    },
+    {
+      "key": 300802,
+      "name": "Kricketot · Male"
+    },
+    {
+      "key": 300803,
+      "name": "Kricketot · Female"
+    },
+    {
+      "key": 300804,
+      "name": "Kricketune · Male"
+    },
+    {
+      "key": 300805,
+      "name": "Kricketune · Female"
+    },
+    {
+      "key": 300806,
+      "name": "Shinx · Male"
+    },
+    {
+      "key": 300807,
+      "name": "Shinx · Female"
+    },
+    {
+      "key": 300808,
+      "name": "Luxio · Male"
+    },
+    {
+      "key": 300809,
+      "name": "Luxio · Female"
+    },
+    {
+      "key": 300810,
+      "name": "Luxray · Male"
+    },
+    {
+      "key": 300811,
+      "name": "Luxray · Female"
+    },
+    {
+      "key": 300814,
+      "name": "Roserade · Male"
+    },
+    {
+      "key": 300815,
+      "name": "Roserade · Female"
+    },
+    {
+      "key": 200412,
+      "name": "Burmy · Plant Cloak"
+    },
+    {
+      "key": 210034,
+      "name": "Burmy · Sandy Cloak"
+    },
+    {
+      "key": 210035,
+      "name": "Burmy · Trash Cloak"
+    },
+    {
+      "key": 200413,
+      "name": "Wormadam · Plant Cloak"
+    },
+    {
+      "key": 210036,
+      "name": "Wormadam · Sandy Cloak"
+    },
+    {
+      "key": 210037,
+      "name": "Wormadam · Trash Cloak"
+    },
+    {
+      "key": 200414,
+      "name": "Mothim · Plant · Burmy origin"
+    },
+    {
+      "key": 210269,
+      "name": "Mothim · Sandy · Burmy origin"
+    },
+    {
+      "key": 210270,
+      "name": "Mothim · Trash · Burmy origin"
+    },
+    {
+      "key": 300830,
+      "name": "Combee · Male"
+    },
+    {
+      "key": 300831,
+      "name": "Combee · Female"
+    },
+    {
+      "key": 300834,
+      "name": "Pachirisu · Male"
+    },
+    {
+      "key": 300835,
+      "name": "Pachirisu · Female"
+    },
+    {
+      "key": 300836,
+      "name": "Buizel · Male"
+    },
+    {
+      "key": 300837,
+      "name": "Buizel · Female"
+    },
+    {
+      "key": 300838,
+      "name": "Floatzel · Male"
+    },
+    {
+      "key": 300839,
+      "name": "Floatzel · Female"
+    },
+    {
+      "key": 200422,
+      "name": "Shellos · West Sea"
+    },
+    {
+      "key": 210039,
+      "name": "Shellos · East Sea"
+    },
+    {
+      "key": 200423,
+      "name": "Gastrodon · West Sea"
+    },
+    {
+      "key": 210040,
+      "name": "Gastrodon · East Sea"
+    },
+    {
+      "key": 300848,
+      "name": "Ambipom · Male"
+    },
+    {
+      "key": 300849,
+      "name": "Ambipom · Female"
+    },
+    {
+      "key": 300886,
+      "name": "Gible · Male"
+    },
+    {
+      "key": 300887,
+      "name": "Gible · Female"
+    },
+    {
+      "key": 300888,
+      "name": "Gabite · Male"
+    },
+    {
+      "key": 300889,
+      "name": "Gabite · Female"
+    },
+    {
+      "key": 300890,
+      "name": "Garchomp · Male"
+    },
+    {
+      "key": 300891,
+      "name": "Garchomp · Female"
+    },
+    {
+      "key": 300898,
+      "name": "Hippopotas · Male"
+    },
+    {
+      "key": 300899,
+      "name": "Hippopotas · Female"
+    },
+    {
+      "key": 300900,
+      "name": "Hippowdon · Male"
+    },
+    {
+      "key": 300901,
+      "name": "Hippowdon · Female"
+    },
+    {
+      "key": 300906,
+      "name": "Croagunk · Male"
+    },
+    {
+      "key": 300907,
+      "name": "Croagunk · Female"
+    },
+    {
+      "key": 300908,
+      "name": "Toxicroak · Male"
+    },
+    {
+      "key": 300909,
+      "name": "Toxicroak · Female"
+    },
+    {
+      "key": 300912,
+      "name": "Finneon · Male"
+    },
+    {
+      "key": 300913,
+      "name": "Finneon · Female"
+    },
+    {
+      "key": 300914,
+      "name": "Lumineon · Male"
+    },
+    {
+      "key": 300915,
+      "name": "Lumineon · Female"
+    },
+    {
+      "key": 300918,
+      "name": "Snover · Male"
+    },
+    {
+      "key": 300919,
+      "name": "Snover · Female"
+    },
+    {
+      "key": 300920,
+      "name": "Abomasnow · Male"
+    },
+    {
+      "key": 300921,
+      "name": "Abomasnow · Female"
+    },
+    {
+      "key": 300922,
+      "name": "Weavile · Male"
+    },
+    {
+      "key": 300923,
+      "name": "Weavile · Female"
+    },
+    {
+      "key": 300928,
+      "name": "Rhyperior · Male"
+    },
+    {
+      "key": 300929,
+      "name": "Rhyperior · Female"
+    },
+    {
+      "key": 300930,
+      "name": "Tangrowth · Male"
+    },
+    {
+      "key": 300931,
+      "name": "Tangrowth · Female"
+    },
+    {
+      "key": 300946,
+      "name": "Mamoswine · Male"
+    },
+    {
+      "key": 300947,
+      "name": "Mamoswine · Female"
+    },
+    {
+      "key": 200479,
+      "name": "Rotom · Rotom"
+    },
+    {
+      "key": 210058,
+      "name": "Rotom · Heat Rotom"
+    },
+    {
+      "key": 210059,
+      "name": "Rotom · Wash Rotom"
+    },
+    {
+      "key": 210060,
+      "name": "Rotom · Frost Rotom"
+    },
+    {
+      "key": 210061,
+      "name": "Rotom · Fan Rotom"
+    },
+    {
+      "key": 210062,
+      "name": "Rotom · Mow Rotom"
+    },
+    {
+      "key": 200483,
+      "name": "Dialga · Standard"
+    },
+    {
+      "key": 200484,
+      "name": "Palkia · Standard"
+    },
+    {
+      "key": 200487,
+      "name": "Giratina · Altered Forme"
+    },
+    {
+      "key": 200492,
+      "name": "Shaymin · Land Forme"
+    },
+    {
+      "key": 210064,
+      "name": "Shaymin · Sky Forme"
+    },
+    {
+      "key": 200493,
+      "name": "Arceus · Normal Type"
+    },
+    {
+      "key": 301042,
+      "name": "Unfezant · Male"
+    },
+    {
+      "key": 301043,
+      "name": "Unfezant · Female"
+    },
+    {
+      "key": 200550,
+      "name": "Basculin · Red-Striped Form"
+    },
+    {
+      "key": 210066,
+      "name": "Basculin · Blue-Striped Form"
+    },
+    {
+      "key": 200585,
+      "name": "Deerling · Spring Form"
+    },
+    {
+      "key": 210068,
+      "name": "Deerling · Summer Form"
+    },
+    {
+      "key": 210069,
+      "name": "Deerling · Autumn Form"
+    },
+    {
+      "key": 210070,
+      "name": "Deerling · Winter Form"
+    },
+    {
+      "key": 200586,
+      "name": "Sawsbuck · Spring Form"
+    },
+    {
+      "key": 210071,
+      "name": "Sawsbuck · Summer Form"
+    },
+    {
+      "key": 210072,
+      "name": "Sawsbuck · Autumn Form"
+    },
+    {
+      "key": 210073,
+      "name": "Sawsbuck · Winter Form"
+    },
+    {
+      "key": 301184,
+      "name": "Frillish · Male"
+    },
+    {
+      "key": 301185,
+      "name": "Frillish · Female"
+    },
+    {
+      "key": 301186,
+      "name": "Jellicent · Male"
+    },
+    {
+      "key": 301187,
+      "name": "Jellicent · Female"
+    },
+    {
+      "key": 200641,
+      "name": "Tornadus · Incarnate Forme"
+    },
+    {
+      "key": 210079,
+      "name": "Tornadus · Therian Forme"
+    },
+    {
+      "key": 200642,
+      "name": "Thundurus · Incarnate Forme"
+    },
+    {
+      "key": 210080,
+      "name": "Thundurus · Therian Forme"
+    },
+    {
+      "key": 200645,
+      "name": "Landorus · Incarnate Forme"
+    },
+    {
+      "key": 210081,
+      "name": "Landorus · Therian Forme"
+    },
+    {
+      "key": 200646,
+      "name": "Kyurem · Kyurem"
+    },
+    {
+      "key": 200647,
+      "name": "Keldeo · Ordinary Form"
+    },
+    {
+      "key": 210084,
+      "name": "Keldeo · Resolute Form"
+    },
+    {
+      "key": 200649,
+      "name": "Genesect · Standard"
+    },
+    {
+      "key": 200658,
+      "name": "Greninja · Standard"
+    },
+    {
+      "key": 210218,
+      "name": "Greninja · Battle Bond"
+    },
+    {
+      "key": 200664,
+      "name": "Scatterbug · Icy Snow · Vivillon pattern"
+    },
+    {
+      "key": 210271,
+      "name": "Scatterbug · Polar · Vivillon pattern"
+    },
+    {
+      "key": 210272,
+      "name": "Scatterbug · Tundra · Vivillon pattern"
+    },
+    {
+      "key": 210273,
+      "name": "Scatterbug · Continental · Vivillon pattern"
+    },
+    {
+      "key": 210274,
+      "name": "Scatterbug · Garden · Vivillon pattern"
+    },
+    {
+      "key": 210275,
+      "name": "Scatterbug · Elegant · Vivillon pattern"
+    },
+    {
+      "key": 210276,
+      "name": "Scatterbug · Meadow · Vivillon pattern"
+    },
+    {
+      "key": 210277,
+      "name": "Scatterbug · Modern · Vivillon pattern"
+    },
+    {
+      "key": 210278,
+      "name": "Scatterbug · Marine · Vivillon pattern"
+    },
+    {
+      "key": 210279,
+      "name": "Scatterbug · Archipelago · Vivillon pattern"
+    },
+    {
+      "key": 210280,
+      "name": "Scatterbug · High Plains · Vivillon pattern"
+    },
+    {
+      "key": 210281,
+      "name": "Scatterbug · Sandstorm · Vivillon pattern"
+    },
+    {
+      "key": 210282,
+      "name": "Scatterbug · River · Vivillon pattern"
+    },
+    {
+      "key": 210283,
+      "name": "Scatterbug · Monsoon · Vivillon pattern"
+    },
+    {
+      "key": 210284,
+      "name": "Scatterbug · Savanna · Vivillon pattern"
+    },
+    {
+      "key": 210285,
+      "name": "Scatterbug · Sun · Vivillon pattern"
+    },
+    {
+      "key": 210286,
+      "name": "Scatterbug · Ocean · Vivillon pattern"
+    },
+    {
+      "key": 210287,
+      "name": "Scatterbug · Jungle · Vivillon pattern"
+    },
+    {
+      "key": 210288,
+      "name": "Scatterbug · Fancy · Vivillon pattern"
+    },
+    {
+      "key": 210289,
+      "name": "Scatterbug · Poke Ball · Vivillon pattern"
+    },
+    {
+      "key": 200665,
+      "name": "Spewpa · Icy Snow · Vivillon pattern"
+    },
+    {
+      "key": 210290,
+      "name": "Spewpa · Polar · Vivillon pattern"
+    },
+    {
+      "key": 210291,
+      "name": "Spewpa · Tundra · Vivillon pattern"
+    },
+    {
+      "key": 210292,
+      "name": "Spewpa · Continental · Vivillon pattern"
+    },
+    {
+      "key": 210293,
+      "name": "Spewpa · Garden · Vivillon pattern"
+    },
+    {
+      "key": 210294,
+      "name": "Spewpa · Elegant · Vivillon pattern"
+    },
+    {
+      "key": 210295,
+      "name": "Spewpa · Meadow · Vivillon pattern"
+    },
+    {
+      "key": 210296,
+      "name": "Spewpa · Modern · Vivillon pattern"
+    },
+    {
+      "key": 210297,
+      "name": "Spewpa · Marine · Vivillon pattern"
+    },
+    {
+      "key": 210298,
+      "name": "Spewpa · Archipelago · Vivillon pattern"
+    },
+    {
+      "key": 210299,
+      "name": "Spewpa · High Plains · Vivillon pattern"
+    },
+    {
+      "key": 210300,
+      "name": "Spewpa · Sandstorm · Vivillon pattern"
+    },
+    {
+      "key": 210301,
+      "name": "Spewpa · River · Vivillon pattern"
+    },
+    {
+      "key": 210302,
+      "name": "Spewpa · Monsoon · Vivillon pattern"
+    },
+    {
+      "key": 210303,
+      "name": "Spewpa · Savanna · Vivillon pattern"
+    },
+    {
+      "key": 210304,
+      "name": "Spewpa · Sun · Vivillon pattern"
+    },
+    {
+      "key": 210305,
+      "name": "Spewpa · Ocean · Vivillon pattern"
+    },
+    {
+      "key": 210306,
+      "name": "Spewpa · Jungle · Vivillon pattern"
+    },
+    {
+      "key": 210307,
+      "name": "Spewpa · Fancy · Vivillon pattern"
+    },
+    {
+      "key": 210308,
+      "name": "Spewpa · Poke Ball · Vivillon pattern"
+    },
+    {
+      "key": 200666,
+      "name": "Vivillon · Meadow Pattern"
+    },
+    {
+      "key": 210086,
+      "name": "Vivillon · Icy Snow Pattern"
+    },
+    {
+      "key": 210087,
+      "name": "Vivillon · Polar Pattern"
+    },
+    {
+      "key": 210088,
+      "name": "Vivillon · Tundra Pattern"
+    },
+    {
+      "key": 210089,
+      "name": "Vivillon · Continental Pattern"
+    },
+    {
+      "key": 210090,
+      "name": "Vivillon · Garden Pattern"
+    },
+    {
+      "key": 210091,
+      "name": "Vivillon · Elegant Pattern"
+    },
+    {
+      "key": 210092,
+      "name": "Vivillon · Modern Pattern"
+    },
+    {
+      "key": 210093,
+      "name": "Vivillon · Marine Pattern"
+    },
+    {
+      "key": 210094,
+      "name": "Vivillon · Archipelago Pattern"
+    },
+    {
+      "key": 210095,
+      "name": "Vivillon · High Plains Pattern"
+    },
+    {
+      "key": 210096,
+      "name": "Vivillon · Sandstorm Pattern"
+    },
+    {
+      "key": 210097,
+      "name": "Vivillon · River Pattern"
+    },
+    {
+      "key": 210098,
+      "name": "Vivillon · Monsoon Pattern"
+    },
+    {
+      "key": 210099,
+      "name": "Vivillon · Savanna Pattern"
+    },
+    {
+      "key": 210100,
+      "name": "Vivillon · Sun Pattern"
+    },
+    {
+      "key": 210101,
+      "name": "Vivillon · Ocean Pattern"
+    },
+    {
+      "key": 210102,
+      "name": "Vivillon · Jungle Pattern"
+    },
+    {
+      "key": 210161,
+      "name": "Vivillon · Fancy Pattern"
+    },
+    {
+      "key": 210162,
+      "name": "Vivillon · Poké Ball Pattern"
+    },
+    {
+      "key": 301336,
+      "name": "Pyroar · Male"
+    },
+    {
+      "key": 301337,
+      "name": "Pyroar · Female"
+    },
+    {
+      "key": 200669,
+      "name": "Flabébé · Red Flower"
+    },
+    {
+      "key": 210103,
+      "name": "Flabébé · Yellow Flower"
+    },
+    {
+      "key": 210104,
+      "name": "Flabébé · Orange Flower"
+    },
+    {
+      "key": 210105,
+      "name": "Flabébé · Blue Flower"
+    },
+    {
+      "key": 210106,
+      "name": "Flabébé · White Flower"
+    },
+    {
+      "key": 200670,
+      "name": "Floette · Red Flower"
+    },
+    {
+      "key": 210107,
+      "name": "Floette · Yellow Flower"
+    },
+    {
+      "key": 210108,
+      "name": "Floette · Orange Flower"
+    },
+    {
+      "key": 210109,
+      "name": "Floette · Blue Flower"
+    },
+    {
+      "key": 210110,
+      "name": "Floette · White Flower"
+    },
+    {
+      "key": 210163,
+      "name": "Floette · Eternal Flower"
+    },
+    {
+      "key": 200671,
+      "name": "Florges · Red Flower"
+    },
+    {
+      "key": 210111,
+      "name": "Florges · Yellow Flower"
+    },
+    {
+      "key": 210112,
+      "name": "Florges · Orange Flower"
+    },
+    {
+      "key": 210113,
+      "name": "Florges · Blue Flower"
+    },
+    {
+      "key": 210114,
+      "name": "Florges · White Flower"
+    },
+    {
+      "key": 200676,
+      "name": "Furfrou · Natural Form"
+    },
+    {
+      "key": 210115,
+      "name": "Furfrou · Heart Trim"
+    },
+    {
+      "key": 210116,
+      "name": "Furfrou · Star Trim"
+    },
+    {
+      "key": 210117,
+      "name": "Furfrou · Diamond Trim"
+    },
+    {
+      "key": 210118,
+      "name": "Furfrou · Debutante Trim"
+    },
+    {
+      "key": 210119,
+      "name": "Furfrou · Matron Trim"
+    },
+    {
+      "key": 210120,
+      "name": "Furfrou · Dandy Trim"
+    },
+    {
+      "key": 210121,
+      "name": "Furfrou · La Reine Trim"
+    },
+    {
+      "key": 210122,
+      "name": "Furfrou · Kabuki Trim"
+    },
+    {
+      "key": 210123,
+      "name": "Furfrou · Pharaoh Trim"
+    },
+    {
+      "key": 301356,
+      "name": "Meowstic · Male"
+    },
+    {
+      "key": 301357,
+      "name": "Meowstic · Female"
+    },
+    {
+      "key": 200710,
+      "name": "Pumpkaboo · Average Size"
+    },
+    {
+      "key": 210126,
+      "name": "Pumpkaboo · Small Size"
+    },
+    {
+      "key": 210127,
+      "name": "Pumpkaboo · Large Size"
+    },
+    {
+      "key": 210128,
+      "name": "Pumpkaboo · Super Size"
+    },
+    {
+      "key": 200711,
+      "name": "Gourgeist · Average Size"
+    },
+    {
+      "key": 210129,
+      "name": "Gourgeist · Small Size"
+    },
+    {
+      "key": 210130,
+      "name": "Gourgeist · Large Size"
+    },
+    {
+      "key": 210131,
+      "name": "Gourgeist · Super Size"
+    },
+    {
+      "key": 200718,
+      "name": "Zygarde · 50% Forme"
+    },
+    {
+      "key": 210220,
+      "name": "Zygarde · 10% Forme · Power Construct"
+    },
+    {
+      "key": 210221,
+      "name": "Zygarde · 50% Forme · Power Construct"
+    },
+    {
+      "key": 210340,
+      "name": "Zygarde · 10% Forme"
+    },
+    {
+      "key": 200720,
+      "name": "Hoopa · Hoopa Confined"
+    },
+    {
+      "key": 210188,
+      "name": "Hoopa · Hoopa Unbound"
+    },
+    {
+      "key": 200735,
+      "name": "Gumshoos · Standard"
+    },
+    {
+      "key": 200738,
+      "name": "Vikavolt · Standard"
+    },
+    {
+      "key": 200741,
+      "name": "Oricorio · Baile Style"
+    },
+    {
+      "key": 210225,
+      "name": "Oricorio · Pom-Pom Style"
+    },
+    {
+      "key": 210226,
+      "name": "Oricorio · Pa’u Style"
+    },
+    {
+      "key": 210227,
+      "name": "Oricorio · Sensu Style"
+    },
+    {
+      "key": 200743,
+      "name": "Ribombee · Standard"
+    },
+    {
+      "key": 200744,
+      "name": "Rockruff · Standard"
+    },
+    {
+      "key": 210310,
+      "name": "Rockruff · Own Tempo"
+    },
+    {
+      "key": 200745,
+      "name": "Lycanroc · Midday Form"
+    },
+    {
+      "key": 210228,
+      "name": "Lycanroc · Midnight Form"
+    },
+    {
+      "key": 210311,
+      "name": "Lycanroc · Dusk Form"
+    },
+    {
+      "key": 200752,
+      "name": "Araquanid · Standard"
+    },
+    {
+      "key": 200754,
+      "name": "Lurantis · Standard"
+    },
+    {
+      "key": 200758,
+      "name": "Salazzle · Standard"
+    },
+    {
+      "key": 200773,
+      "name": "Silvally · Type: Normal"
+    },
+    {
+      "key": 210255,
+      "name": "Minior · Red Core"
+    },
+    {
+      "key": 210256,
+      "name": "Minior · Orange Core"
+    },
+    {
+      "key": 210257,
+      "name": "Minior · Yellow Core"
+    },
+    {
+      "key": 210258,
+      "name": "Minior · Green Core"
+    },
+    {
+      "key": 210259,
+      "name": "Minior · Blue Core"
+    },
+    {
+      "key": 210260,
+      "name": "Minior · Indigo Core"
+    },
+    {
+      "key": 210261,
+      "name": "Minior · Violet Core"
+    },
+    {
+      "key": 200777,
+      "name": "Togedemaru · Standard"
+    },
+    {
+      "key": 200778,
+      "name": "Mimikyu · Disguised Form"
+    },
+    {
+      "key": 200784,
+      "name": "Kommo-o · Standard"
+    },
+    {
+      "key": 200800,
+      "name": "Necrozma · Standard"
+    },
+    {
+      "key": 200801,
+      "name": "Magearna · Standard"
+    },
+    {
+      "key": 210266,
+      "name": "Magearna · Original Color"
+    },
+    {
+      "key": 200849,
+      "name": "Toxtricity · Amped Form"
+    },
+    {
+      "key": 210343,
+      "name": "Toxtricity · Low Key Form"
+    },
+    {
+      "key": 200854,
+      "name": "Sinistea · Phony Form"
+    },
+    {
+      "key": 210344,
+      "name": "Sinistea · Antique Form"
+    },
+    {
+      "key": 200855,
+      "name": "Polteageist · Phony Form"
+    },
+    {
+      "key": 210345,
+      "name": "Polteageist · Antique Form"
+    },
+    {
+      "key": 200869,
+      "name": "Alcremie · Vanilla Cream · Strawberry Sweet"
+    },
+    {
+      "key": 210346,
+      "name": "Alcremie · Ruby Cream · Strawberry Sweet"
+    },
+    {
+      "key": 210347,
+      "name": "Alcremie · Matcha Cream · Strawberry Sweet"
+    },
+    {
+      "key": 210348,
+      "name": "Alcremie · Mint Cream · Strawberry Sweet"
+    },
+    {
+      "key": 210349,
+      "name": "Alcremie · Lemon Cream · Strawberry Sweet"
+    },
+    {
+      "key": 210350,
+      "name": "Alcremie · Salted Cream · Strawberry Sweet"
+    },
+    {
+      "key": 210351,
+      "name": "Alcremie · Ruby Swirl · Strawberry Sweet"
+    },
+    {
+      "key": 210352,
+      "name": "Alcremie · Caramel Swirl · Strawberry Sweet"
+    },
+    {
+      "key": 210353,
+      "name": "Alcremie · Rainbow Swirl · Strawberry Sweet"
+    },
+    {
+      "key": 210449,
+      "name": "Alcremie · Vanilla Cream · Berry Sweet"
+    },
+    {
+      "key": 210450,
+      "name": "Alcremie · Ruby Cream · Berry Sweet"
+    },
+    {
+      "key": 210451,
+      "name": "Alcremie · Matcha Cream · Berry Sweet"
+    },
+    {
+      "key": 210452,
+      "name": "Alcremie · Mint Cream · Berry Sweet"
+    },
+    {
+      "key": 210453,
+      "name": "Alcremie · Lemon Cream · Berry Sweet"
+    },
+    {
+      "key": 210454,
+      "name": "Alcremie · Salted Cream · Berry Sweet"
+    },
+    {
+      "key": 210455,
+      "name": "Alcremie · Ruby Swirl · Berry Sweet"
+    },
+    {
+      "key": 210456,
+      "name": "Alcremie · Caramel Swirl · Berry Sweet"
+    },
+    {
+      "key": 210457,
+      "name": "Alcremie · Rainbow Swirl · Berry Sweet"
+    },
+    {
+      "key": 210458,
+      "name": "Alcremie · Vanilla Cream · Love Sweet"
+    },
+    {
+      "key": 210459,
+      "name": "Alcremie · Ruby Cream · Love Sweet"
+    },
+    {
+      "key": 210460,
+      "name": "Alcremie · Matcha Cream · Love Sweet"
+    },
+    {
+      "key": 210461,
+      "name": "Alcremie · Mint Cream · Love Sweet"
+    },
+    {
+      "key": 210462,
+      "name": "Alcremie · Lemon Cream · Love Sweet"
+    },
+    {
+      "key": 210463,
+      "name": "Alcremie · Salted Cream · Love Sweet"
+    },
+    {
+      "key": 210464,
+      "name": "Alcremie · Ruby Swirl · Love Sweet"
+    },
+    {
+      "key": 210465,
+      "name": "Alcremie · Caramel Swirl · Love Sweet"
+    },
+    {
+      "key": 210466,
+      "name": "Alcremie · Rainbow Swirl · Love Sweet"
+    },
+    {
+      "key": 210467,
+      "name": "Alcremie · Vanilla Cream · Star Sweet"
+    },
+    {
+      "key": 210468,
+      "name": "Alcremie · Ruby Cream · Star Sweet"
+    },
+    {
+      "key": 210469,
+      "name": "Alcremie · Matcha Cream · Star Sweet"
+    },
+    {
+      "key": 210470,
+      "name": "Alcremie · Mint Cream · Star Sweet"
+    },
+    {
+      "key": 210471,
+      "name": "Alcremie · Lemon Cream · Star Sweet"
+    },
+    {
+      "key": 210472,
+      "name": "Alcremie · Salted Cream · Star Sweet"
+    },
+    {
+      "key": 210473,
+      "name": "Alcremie · Ruby Swirl · Star Sweet"
+    },
+    {
+      "key": 210474,
+      "name": "Alcremie · Caramel Swirl · Star Sweet"
+    },
+    {
+      "key": 210475,
+      "name": "Alcremie · Rainbow Swirl · Star Sweet"
+    },
+    {
+      "key": 210476,
+      "name": "Alcremie · Vanilla Cream · Clover Sweet"
+    },
+    {
+      "key": 210477,
+      "name": "Alcremie · Ruby Cream · Clover Sweet"
+    },
+    {
+      "key": 210478,
+      "name": "Alcremie · Matcha Cream · Clover Sweet"
+    },
+    {
+      "key": 210479,
+      "name": "Alcremie · Mint Cream · Clover Sweet"
+    },
+    {
+      "key": 210480,
+      "name": "Alcremie · Lemon Cream · Clover Sweet"
+    },
+    {
+      "key": 210481,
+      "name": "Alcremie · Salted Cream · Clover Sweet"
+    },
+    {
+      "key": 210482,
+      "name": "Alcremie · Ruby Swirl · Clover Sweet"
+    },
+    {
+      "key": 210483,
+      "name": "Alcremie · Caramel Swirl · Clover Sweet"
+    },
+    {
+      "key": 210484,
+      "name": "Alcremie · Rainbow Swirl · Clover Sweet"
+    },
+    {
+      "key": 210485,
+      "name": "Alcremie · Vanilla Cream · Flower Sweet"
+    },
+    {
+      "key": 210486,
+      "name": "Alcremie · Ruby Cream · Flower Sweet"
+    },
+    {
+      "key": 210487,
+      "name": "Alcremie · Matcha Cream · Flower Sweet"
+    },
+    {
+      "key": 210488,
+      "name": "Alcremie · Mint Cream · Flower Sweet"
+    },
+    {
+      "key": 210489,
+      "name": "Alcremie · Lemon Cream · Flower Sweet"
+    },
+    {
+      "key": 210490,
+      "name": "Alcremie · Salted Cream · Flower Sweet"
+    },
+    {
+      "key": 210491,
+      "name": "Alcremie · Ruby Swirl · Flower Sweet"
+    },
+    {
+      "key": 210492,
+      "name": "Alcremie · Caramel Swirl · Flower Sweet"
+    },
+    {
+      "key": 210493,
+      "name": "Alcremie · Rainbow Swirl · Flower Sweet"
+    },
+    {
+      "key": 210494,
+      "name": "Alcremie · Vanilla Cream · Ribbon Sweet"
+    },
+    {
+      "key": 210495,
+      "name": "Alcremie · Ruby Cream · Ribbon Sweet"
+    },
+    {
+      "key": 210496,
+      "name": "Alcremie · Matcha Cream · Ribbon Sweet"
+    },
+    {
+      "key": 210497,
+      "name": "Alcremie · Mint Cream · Ribbon Sweet"
+    },
+    {
+      "key": 210498,
+      "name": "Alcremie · Lemon Cream · Ribbon Sweet"
+    },
+    {
+      "key": 210499,
+      "name": "Alcremie · Salted Cream · Ribbon Sweet"
+    },
+    {
+      "key": 210500,
+      "name": "Alcremie · Ruby Swirl · Ribbon Sweet"
+    },
+    {
+      "key": 210501,
+      "name": "Alcremie · Caramel Swirl · Ribbon Sweet"
+    },
+    {
+      "key": 210502,
+      "name": "Alcremie · Rainbow Swirl · Ribbon Sweet"
+    },
+    {
+      "key": 301752,
+      "name": "Indeedee · Male"
+    },
+    {
+      "key": 301753,
+      "name": "Indeedee · Female"
+    },
+    {
+      "key": 200892,
+      "name": "Urshifu · Single Strike Style"
+    },
+    {
+      "key": 210360,
+      "name": "Urshifu · Rapid Strike Style"
+    },
+    {
+      "key": 200893,
+      "name": "Zarude · Standard"
+    },
+    {
+      "key": 210361,
+      "name": "Zarude · Dada"
+    },
+    {
+      "key": 200898,
+      "name": "Calyrex · Standard"
+    },
+    {
+      "key": 200901,
+      "name": "Ursaluna · Standard"
+    },
+    {
+      "key": 210441,
+      "name": "Ursaluna · Bloodmoon"
+    },
+    {
+      "key": 301804,
+      "name": "Basculegion · Male"
+    },
+    {
+      "key": 301805,
+      "name": "Basculegion · Female"
+    },
+    {
+      "key": 200905,
+      "name": "Enamorus · Incarnate Forme"
+    },
+    {
+      "key": 210418,
+      "name": "Enamorus · Therian Forme"
+    },
+    {
+      "key": 301832,
+      "name": "Oinkologne · Male"
+    },
+    {
+      "key": 301833,
+      "name": "Oinkologne · Female"
+    },
+    {
+      "key": 200925,
+      "name": "Maushold · Family of Four"
+    },
+    {
+      "key": 210426,
+      "name": "Maushold · Family of Three"
+    },
+    {
+      "key": 200931,
+      "name": "Squawkabilly · Green Plumage"
+    },
+    {
+      "key": 210429,
+      "name": "Squawkabilly · Blue Plumage"
+    },
+    {
+      "key": 210430,
+      "name": "Squawkabilly · Yellow Plumage"
+    },
+    {
+      "key": 210431,
+      "name": "Squawkabilly · White Plumage"
+    },
+    {
+      "key": 200978,
+      "name": "Tatsugiri · Curly Form"
+    },
+    {
+      "key": 210427,
+      "name": "Tatsugiri · Droopy Form"
+    },
+    {
+      "key": 210428,
+      "name": "Tatsugiri · Stretchy Form"
+    },
+    {
+      "key": 200982,
+      "name": "Dudunsparce · Two-Segment Form"
+    },
+    {
+      "key": 210424,
+      "name": "Dudunsparce · Three-Segment Form"
+    },
+    {
+      "key": 200999,
+      "name": "Gimmighoul · Chest Form"
+    },
+    {
+      "key": 210432,
+      "name": "Gimmighoul · Roaming Form"
+    },
+    {
+      "key": 201012,
+      "name": "Poltchageist · Counterfeit Form"
+    },
+    {
+      "key": 210447,
+      "name": "Poltchageist · Artisan Form"
+    },
+    {
+      "key": 201013,
+      "name": "Sinistcha · Unremarkable Form"
+    },
+    {
+      "key": 210448,
+      "name": "Sinistcha · Masterpiece Form"
+    },
+    {
+      "key": 201017,
+      "name": "Ogerpon · Teal Mask"
+    }
+  ],
   "exhaustiveHuntingAuditComplete": false
 }

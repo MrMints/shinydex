@@ -5,8 +5,16 @@ import json
 from pathlib import Path
 ROOT=Path(__file__).parent
 def catalog_forms(catalog):
+ """Return the legacy encounter decoder's species/regional key mapping.
+
+ Living-dex gender and cosmetic identities have independent ownership keys,
+ but do not share this decoder's one-key-per-game-form representation. Their
+ hunting routes require separate reviewed mappings rather than overwriting
+ legacy routes with the last matching appearance.
+ """
  result={};audit=[]
  for p in catalog:
+  if p.get('livingForm'):continue
   form=0
   if p.get('region'):
    form=1

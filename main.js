@@ -1,4 +1,5 @@
 // Browser entry point. Collection keys identify species and regional forms.
+import { decodeCollection as decodeOwnership, encodeCollection, assignCapture } from "./collection-codec.js";
 const $ = (selector) => document.querySelector(selector);
 
 async function read(file) {
@@ -8,13 +9,23 @@ async function read(file) {
 }
 
 const data = await read("./data.json");
+const homeData = data.filter(p => !p.formUnspecified);
 const hunts = await read("./hunts.json");
 const byKey = new Map(data.map((pokemon) => [pokemon.key, pokemon]));
+const bySpecies = new Map();
+for (const p of data) {
+  if (!bySpecies.has(p.id)) bySpecies.set(p.id, []);
+  bySpecies.get(p.id).push(p);
+}
+const chosenForms = new Map();
+let assigningForm = false;
 
 // Save captures and shinies separately; every shiny must also be captured.
 const storageKey = "shinydex-collection-v2";
 let captured = new Set();
 let shinies = new Set();
+let futureCaptured = new Set();
+let futureShinies = new Set();
 let selected = 1;
 let mode = "auto";
 let view = "dex";
@@ -28,10 +39,11 @@ function valid(ids) {
 // Validate the whole record before replacing either part of the collection.
 // This keeps malformed saved data from leaving a partially applied state.
 function decodeCollection(collection) {
-  const nextCaptured = valid(collection.captured);
-  const nextShinies = valid(collection.shinies);
-  nextShinies.forEach((id) => nextCaptured.add(id));
-  return { captured: nextCaptured, shinies: nextShinies };
+  return decodeOwnership(collection, byKey);
+}
+
+function collectionRecord() {
+  return encodeCollection({ captured, shinies, futureCaptured, futureShinies });
 }
 
 try {
@@ -40,7 +52,7 @@ try {
     : localStorage.getItem(storageKey);
   if (saved) {
     const collection = JSON.parse(saved);
-    ({ captured, shinies } = decodeCollection(collection));
+    ({ captured, shinies, futureCaptured, futureShinies } = decodeCollection(collection));
   } else {
     // The previous format tracked only shinies; those are also normal captures.
     shinies = valid(
@@ -68,12 +80,15 @@ const isShiny = (p) =>
   view === "home" || view === "collection"
     ? shinies.has(p.key)
     : mode === "shiny" || (mode === "auto" && shinies.has(p.key));
-const image = (p, eager = false) =>
-  `<img loading="${eager ? "eager" : "lazy"}" src="${isShiny(p) ? p.shiny : p.normal}" alt="${isShiny(p) ? "Shiny" : "Normal"} ${esc(name(p))}" data-image>`;
+const image = (p, eager = false) => {
+  const shinyArt = isShiny(p) && p.shinyArtworkAvailable !== false;
+  return `<img loading="${eager ? "eager" : "lazy"}" src="${shinyArt ? p.shiny : p.normal}" alt="${shinyArt ? "Shiny" : "Normal"} ${esc(name(p))}${isShiny(p) && !shinyArt ? ' · separate shiny artwork unavailable' : ''}" data-image>`;
+};
 function check(p, kind) {
   const shiny = kind === "shiny",
     checked = (shiny ? shinies : captured).has(p.key);
-  return `<label class="catch ${shiny ? "shiny-check" : "captured-check"}" title="${shiny ? "Shiny captured" : "Captured"}"><input type="checkbox" data-kind="${kind}" data-catch="${p.key}" aria-label="${esc(name(p))} ${shiny ? "shiny captured" : "captured"}" ${checked ? "checked" : ""}><span>${shiny ? "✧" : "✓"}</span></label>`;
+  const blocked = !checked && (p.formUnspecified || (shiny && p.shinyLocked));
+  return `<label class="catch ${shiny ? "shiny-check" : "captured-check"}" title="${p.formUnspecified && !checked ? "Choose a concrete form to record a new capture" : shiny && p.shinyLocked ? "This form is shiny-locked" : shiny ? "Shiny captured" : "Captured"}"><input type="checkbox" data-kind="${kind}" data-catch="${p.key}" aria-label="${esc(name(p))} ${shiny ? "shiny captured" : "captured"}" ${checked ? "checked" : ""} ${blocked ? "disabled" : ""}><span>${shiny ? "✧" : "✓"}</span></label>`;
 }
 function matches(p) {
   const q = $("#search").value.toLowerCase().trim().replace(/^#/, ""),
@@ -91,6 +106,7 @@ function matches(p) {
 }
 // Positions come from the full catalog, so filtering never shifts HOME slots.
 function position(p) {
+  if (p.formUnspecified) return null;
   const slot = p.position % 30;
   return {
     box: Math.floor(p.position / 30) + 1,
@@ -111,9 +127,9 @@ function position(p) {
 ].forEach((r, i) =>
   $("#generation").add(new Option(`Gen ${i + 1} · ${r}`, i + 1)),
 );
-for (let b = 1; b <= Math.ceil(data.length / 30); b++) {
-  const first = data[(b - 1) * 30],
-    last = data[Math.min(b * 30 - 1, data.length - 1)];
+for (let b = 1; b <= Math.ceil(homeData.length / 30); b++) {
+  const first = homeData[(b - 1) * 30],
+    last = homeData[Math.min(b * 30 - 1, homeData.length - 1)];
   $("#box-select").add(
     new Option(
       `Box ${String(b).padStart(2, "0")} · #${num(first.id)}–${num(last.id)}`,
@@ -122,41 +138,149 @@ for (let b = 1; b <= Math.ceil(data.length / 30); b++) {
   );
 }
 function stats() {
+  const caughtTotal = homeData.filter(p => captured.has(p.key)).length;
+  const shinyTotal = homeData.filter(p => shinies.has(p.key)).length;
+  const pending = data.filter(p => p.formUnspecified && captured.has(p.key)).length;
+  $("#unassigned-summary").textContent = pending ? `${pending} saved captures need a form assignment. Choose a form in the Pokédex to assign them; they are preserved in your backup.` : "";
+  $("#captured-total").innerHTML =
+    `${caughtTotal.toLocaleString()} <em>/ ${homeData.length.toLocaleString()}</em>`;
   $("#total").innerHTML =
-    `${shinies.size} <em>/ ${data.length.toLocaleString()}</em>`;
-  const pc = (shinies.size / data.length) * 100;
+    `${shinyTotal} <em>/ ${homeData.length.toLocaleString()}</em>`;
+  const pc = (shinyTotal / homeData.length) * 100;
+  const capturedPc = (caughtTotal / homeData.length) * 100;
+  $("#captured-progress").style.width = capturedPc + "%";
+  $("#captured-percent").textContent =
+    `${capturedPc.toFixed(1)}% captured complete`;
   $("#progress").style.width = pc + "%";
   $("#percent").textContent =
-    `${pc.toFixed(1)}% shiny complete · ${captured.size.toLocaleString()} captured`;
+    `${pc.toFixed(1)}% shiny complete`;
   $("#collection-count").textContent = shinies.size;
 }
 function detail() {
   const p = byKey.get(selected),
-    loc = position(p);
+    loc = position(p) || { box: "—", row: "—", column: "—" };
   $("#detail").innerHTML =
     `<div class="detail-top"><span>POKÉMON DATA</span><span class="dot">● ● ●</span></div><div class="hero-image">${isShiny(p) ? '<span class="shiny-badge">✧ SHINY FORM</span>' : ""}${image(p, true)}<div class="orbit"></div></div><div class="detail-info"><div class="eyebrow">NATIONAL № ${num(p.id)}${p.formLabel ? " · " + esc(p.formLabel) : ""}</div><h2>${esc(p.speciesName)}</h2><div class="types">${p.types.map((t) => `<span class="type ${t}">${t}</span>`).join("")}</div><div class="measure"><div><small>HEIGHT</small><strong>${(p.height / 10).toFixed(1)} <em>m</em></strong></div><div><small>WEIGHT</small><strong>${(p.weight / 10).toFixed(1)} <em>kg</em></strong></div><div><small>GENERATION</small><strong>${p.generation}</strong></div></div><div class="detail-checks"><div>${check(p, "captured")}<span>Captured</span></div><div>${check(p, "shiny")}<span>Shiny captured</span></div></div><p class="auto-note">Each change saves automatically. Shiny captured also marks Captured.</p><button id="locate" class="location">▦ &nbsp; Box ${loc.box} · Row ${loc.row}, Column ${loc.column} <span>↗</span></button><a class="source-link" target="_blank" rel="noreferrer" href="${p.source}">View on Bulbapedia ↗</a></div>`;
 }
 function list() {
-  const items = data.filter(matches);
+  const items = listItems();
   $("#result-count").textContent = `${items.length.toLocaleString()} entries`;
   $("#list").innerHTML = items.length
     ? items
         .map(
           (p) =>
-            `<div class="row ${p.key === selected ? "selected" : ""} ${captured.has(p.key) ? "is-captured" : ""}" data-row="${p.key}"><button class="row-select" data-select="${p.key}"><span class="number">${num(p.id)}</span>${image(p)}<strong>${esc(name(p))}</strong><span class="row-types">${p.types.map((t) => `<i class="type ${t}">${t}</i>`).join("")}</span></button><div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div>`,
+            `<div class="row ${p.key === selected ? "selected" : ""} ${captured.has(p.key) ? "is-captured" : ""}" data-row="${p.key}"><button class="row-select" data-select="${p.key}"><span class="number">${num(p.id)}</span>${image(p)}<strong>${esc(p.speciesName)}</strong></button><select class="form-select" data-form-species="${p.id}" aria-label="${esc(p.speciesName)} form">${bySpecies.get(p.id).map(f => `<option value="${f.key}" ${f.key === p.key ? "selected" : ""}>${esc(f.formLabel || "Standard")}${captured.has(f.key) ? " · ✓" : ""}${shinies.has(f.key) ? " · ✧" : ""}</option>`).join("")}</select><div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div>`,
         )
         .join("")
     : '<div class="empty">No Pokémon found. Try another name or filter.</div>';
 }
+function assignmentControl() {
+  const p = byKey.get(selected);
+  if (p.shinyLocked) {
+    $("#detail .detail-info").insertAdjacentHTML("beforeend", `<p class="auto-note">This form is shiny-locked. <a href="${esc(p.shinyLockSource)}" target="_blank" rel="noreferrer">Source</a></p>`);
+  }
+  if (p.shinyArtworkAvailable === false && isShiny(p)) {
+    $("#detail .detail-info").insertAdjacentHTML("beforeend", '<p class="auto-note">Separate shiny artwork is unavailable for this form. Its normal artwork is shown; ownership remains recorded separately.</p>');
+  }
+  if (p.formUnspecified) {
+    $("#locate").outerHTML = '<p class="auto-note">Select a concrete form to find its HOME slot. This unspecified record preserves your earlier capture.</p>';
+  }
+  if (p.livingForm && p.legacyKey && captured.has(p.legacyKey)) {
+    $("#detail .detail-info").insertAdjacentHTML("beforeend",
+      `<p class="auto-note">A saved capture has an unspecified form. Assign it to ${esc(p.formLabel)} after saving a backup.</p><button id="assign-form" ${assigningForm ? "disabled" : ""}>Assign saved capture to this form</button>`);
+  }
+}
+async function assignSelectedForm() {
+  if (assigningForm) return;
+  const p = byKey.get(selected);
+  if (!p.livingForm || !p.legacyKey) return;
+  if (p.shinyLocked && shinies.has(p.legacyKey)) {
+    $("#save").textContent = "Cannot assign a shiny capture to a shiny-locked form. Choose another form or correct the old shiny record first.";
+    return;
+  }
+  assigningForm = true;
+  document.querySelectorAll("input[data-catch], .form-select, #assign-form").forEach(el => el.disabled = true);
+  try {
+    const previous = collectionRecord();
+    const next = assignCapture(previous, p.legacyKey, p.key);
+    if (window.shinydexDesktop) {
+      await window.shinydexDesktop.backupCollection();
+      await window.shinydexDesktop.saveCollection(next);
+    } else {
+      const backupKey = `shinydex-before-form-assignment-v2-${Date.now()}-${crypto.randomUUID()}`;
+      localStorage.setItem(backupKey, JSON.stringify(previous));
+      localStorage.setItem(storageKey, JSON.stringify(next));
+    }
+    ({ captured, shinies, futureCaptured, futureShinies } = decodeCollection(next));
+    $("#save").textContent = "✓ Form assigned · backup saved";
+  } catch {
+    $("#save").textContent = "Form not assigned — backup or save failed";
+  } finally {
+    assigningForm = false;
+    render();
+    refreshAssignmentBackups();
+  }
+}
+function refreshAssignmentBackups() {
+  if (window.shinydexDesktop) return;
+  const panel = $("#assignment-backups");
+  if (!panel) return;
+  const select = panel.querySelector("select");
+  select.replaceChildren();
+  try {
+    const keys = Array.from({ length: localStorage.length }, (_, i) => localStorage.key(i))
+      .filter(key => key?.startsWith("shinydex-before-form-assignment-v2-"))
+      .sort().reverse();
+    for (const key of keys) {
+      try {
+        const record = JSON.parse(localStorage.getItem(key));
+        decodeCollection(record);
+        const timestamp = Number(key.slice("shinydex-before-form-assignment-v2-".length).split("-")[0]);
+        select.add(new Option(`${new Date(timestamp).toLocaleString()} · ${record.captured.length} captures`, key));
+      } catch { /* A malformed backup never becomes a restore choice. */ }
+    }
+    panel.hidden = !select.options.length;
+  } catch {
+    panel.hidden = true;
+  }
+}
+function restoreAssignmentBackup() {
+  if (assigningForm || window.shinydexDesktop) return;
+  try {
+    const key = $("#assignment-backups select").value;
+    if (!key.startsWith("shinydex-before-form-assignment-v2-")) throw Error("Invalid backup selection");
+    const record = JSON.parse(localStorage.getItem(key));
+    const restored = decodeCollection(record);
+    const current = collectionRecord();
+    // Preserve the current collection before replacing it with the selected backup.
+    localStorage.setItem(`shinydex-before-form-assignment-v2-${Date.now()}-${crypto.randomUUID()}`, JSON.stringify(current));
+    localStorage.setItem(storageKey, JSON.stringify(encodeCollection(restored)));
+    ({ captured, shinies, futureCaptured, futureShinies } = restored);
+    render();
+    refreshAssignmentBackups();
+    $("#save").textContent = "✓ Assignment backup restored · current collection backed up";
+  } catch {
+    $("#save").textContent = "Backup not restored — invalid backup or storage unavailable";
+  }
+}
+function listItems() {
+  return [...bySpecies.values()].map(forms => {
+    const matching = forms.filter(matches);
+    return matching.find(p => p.key === chosenForms.get(forms[0].id)) ||
+      matching.find(p => p.formUnspecified && captured.has(p.key)) ||
+      matching.find(p => p.gender === "Male" && !p.region && !p.formUnspecified) ||
+      matching.find(p => !p.formUnspecified) || matching[0];
+  }).filter(Boolean);
+}
 function boxes() {
   const start = (box - 1) * 30,
-    first = data[start],
-    last = data[Math.min(start + 29, data.length - 1)];
+    first = homeData[start],
+    last = homeData[Math.min(start + 29, homeData.length - 1)];
   $("#boxes").innerHTML =
-    `<div class="box-heading"><button id="prev" ${box === 1 ? "disabled" : ""} aria-label="Previous box">←</button><div><small>NATIONAL POKÉDEX STORAGE</small><h3>Box ${String(box).padStart(2, "0")} <span>#${num(first.id)} — #${num(last.id)}</span></h3></div><button id="next" ${box === Math.ceil(data.length / 30) ? "disabled" : ""} aria-label="Next box">→</button></div><div class="box-grid">${Array.from(
+    `<div class="box-heading"><button id="prev" ${box === 1 ? "disabled" : ""} aria-label="Previous box">←</button><div><small>NATIONAL POKÉDEX STORAGE</small><h3>Box ${String(box).padStart(2, "0")} <span>#${num(first.id)} — #${num(last.id)}</span></h3></div><button id="next" ${box === Math.ceil(homeData.length / 30) ? "disabled" : ""} aria-label="Next box">→</button></div><div class="box-grid">${Array.from(
       { length: 30 },
       (_, i) => {
-        const p = data[start + i];
+        const p = homeData[start + i];
         if (!p) return '<div class="slot vacant"><span>Empty slot</span></div>';
         const loc = position(p),
           tooltip = `${name(p)} · #${num(p.id)} · Box ${loc.box}, Row ${loc.row}, Column ${loc.column} · ${shinies.has(p.key) ? "Shiny captured" : captured.has(p.key) ? "Captured" : "Not captured"}`;
@@ -174,7 +298,7 @@ function collection() {
     ? items
         .map((p) => {
           const loc = position(p);
-          return `<article class="collection-card"><div class="collection-card-head"><span>#${num(p.id)}</span><div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div><button data-select="${p.key}">${image(p)}<h3>${esc(name(p))}</h3></button><small>Box ${loc.box} · R${loc.row} · C${loc.column}</small></article>`;
+          return `<article class="collection-card"><div class="collection-card-head"><span>#${num(p.id)}</span><div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div><button data-select="${p.key}">${image(p)}<h3>${esc(name(p))}</h3></button><small>${loc ? `Box ${loc.box} · R${loc.row} · C${loc.column}` : "Choose a form to assign a HOME slot"}</small></article>`;
         })
         .join("")
     : `<div class="empty">${all.length ? "No captured shinies match these filters." : "Your shiny journey starts here. Check Shiny captured on a Pokémon to add it to this collection."}</div>`;
@@ -245,6 +369,7 @@ function imageErrors() {
 function render() {
   stats();
   detail();
+  assignmentControl();
   if (view === "dex") list();
   if (view === "home") boxes();
   if (view === "collection") collection();
@@ -266,11 +391,7 @@ function setView(next) {
 // Write immediately after each checkbox change, before repainting the views.
 async function save() {
   try {
-    const collection = {
-      version: 2,
-      captured: [...captured],
-      shinies: [...shinies],
-    };
+    const collection = collectionRecord();
     if (window.shinydexDesktop) await window.shinydexDesktop.saveCollection(collection);
     else localStorage.setItem(storageKey, JSON.stringify(collection));
     $("#save").textContent = "✓ Saved just now";
@@ -282,7 +403,15 @@ async function save() {
 // A single delegated handler supports checkboxes in every collection view.
 document.addEventListener("change", (event) => {
   const control = event.target;
-  if (control.dataset.catch) {
+  if (assigningForm) return;
+  if (control.dataset.formSpecies) {
+    const key = Number(control.value);
+    chosenForms.set(Number(control.dataset.formSpecies), key);
+    selected = key;
+    const scroll = $("#list").scrollTop;
+    render();
+    $("#list").scrollTop = scroll;
+  } else if (control.dataset.catch) {
     const id = Number(control.dataset.catch);
     const isShinyCheckbox = control.dataset.kind === "shiny";
     if (isShinyCheckbox) {
@@ -310,6 +439,7 @@ document.addEventListener("change", (event) => {
 document.addEventListener("click", (e) => {
   const b = e.target.closest("button");
   if (!b) return;
+  if (b.id === "assign-form") { assignSelectedForm(); return; }
   if (b.dataset.tab) setView(b.dataset.tab);
   if (b.dataset.mode) {
     mode = b.dataset.mode;
@@ -320,9 +450,11 @@ document.addEventListener("click", (e) => {
   }
   if (b.dataset.select) {
     selected = Number(b.dataset.select);
+    chosenForms.set(byKey.get(selected).id, selected);
     if (view !== "dex") setView("dex");
     else {
       detail();
+      assignmentControl();
       hunting();
       document
         .querySelectorAll("[data-row]")
@@ -346,9 +478,7 @@ document.addEventListener("click", (e) => {
   }
   if (b.id === "export") {
     const payload = {
-        version: 2,
-        captured: [...captured],
-        shinies: [...shinies],
+        ...collectionRecord(),
         entries: data
           .filter((p) => captured.has(p.key))
           .map((p) => ({
@@ -372,10 +502,10 @@ document.addEventListener("click", (e) => {
 });
 $("#search").addEventListener("input", render);
 $("#list").addEventListener("keydown", (e) => {
-  if (!["ArrowUp", "ArrowDown"].includes(e.key) || e.target.tagName === "INPUT")
+  if (!["ArrowUp", "ArrowDown"].includes(e.key) || ["INPUT", "SELECT"].includes(e.target.tagName))
     return;
   e.preventDefault();
-  const items = data.filter(matches),
+  const items = listItems(),
     index = items.findIndex((p) => p.key === selected),
     p =
       items[
@@ -397,9 +527,9 @@ window.addEventListener("storage", (event) => {
   if (event.key !== storageKey) return;
   try {
     const collection = JSON.parse(
-      event.newValue || '{"captured":[],"shinies":[]}',
+      event.newValue || '{"version":2,"captured":[],"shinies":[]}',
     );
-    ({ captured, shinies } = decodeCollection(collection));
+    ({ captured, shinies, futureCaptured, futureShinies } = decodeCollection(collection));
     render();
     // A later valid update recovers the collection and clears stale warnings.
     $("#save").textContent = "Saved on this device";
@@ -412,10 +542,11 @@ if (window.shinydexDesktop) {
   const button = document.createElement("button");
   button.textContent = "Import backup";
   button.addEventListener("click", async () => {
+    if (assigningForm) return;
     try {
       const record = await window.shinydexDesktop.importCollection();
       if (record) {
-        ({ captured, shinies } = decodeCollection(record));
+        ({ captured, shinies, futureCaptured, futureShinies } = decodeCollection(record));
         render();
         $("#save").textContent = "✓ Backup imported";
       }
@@ -424,5 +555,13 @@ if (window.shinydexDesktop) {
     }
   });
   $(".header-right").append(button);
+} else {
+  const panel = document.createElement("details");
+  panel.id = "assignment-backups";
+  panel.className = "assignment-backups";
+  panel.innerHTML = '<summary>Recover a form-assignment backup</summary><p>Restoring saves a backup of your current collection first.</p><label>Saved collection <select aria-label="Form-assignment backup"></select></label><button type="button">Restore selected backup</button>';
+  panel.querySelector("button").addEventListener("click", restoreAssignmentBackup);
+  $("header").after(panel);
+  refreshAssignmentBackups();
 }
 render();

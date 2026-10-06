@@ -6,6 +6,17 @@ __pycache__/
 dist/
 *.log
 
+# Release QA keeps verified installers and extracted runtimes local.
+/audit/artifacts/release-*/*.exe
+/audit/artifacts/release-*/payload/
+/audit/artifacts/release-*/previous-runtime/
+/audit/artifacts/release-*/profile*/
+
+# Native smoke profiles contain Chromium caches; keep only reviewed evidence.
+/audit/artifacts/living-dex-desktop-*/**
+!/audit/artifacts/living-dex-desktop-*/*.png
+!/audit/artifacts/living-dex-desktop-*/smoke.json
+
 # Local configuration and collection exports
 .env
 .env.*

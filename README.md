@@ -2,7 +2,9 @@
 
 An unofficial desktop Pokédex and collection tracker with a scrolling National Dex, separate captured and shiny ownership, fixed HOME-style boxes, and a game-specific shiny hunting guide.
 
-## Download and start — 1.0 Release
+## Download and start
+
+Version 1.1.0 adds the living dex and preserves version-2 desktop collections across upgrades and rollbacks.
 
 **[Download ShinyDex for Windows](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe)** · [Release notes and checksums](https://github.com/MrMints/shinydex/releases/latest)
 
@@ -27,14 +29,18 @@ The updater downloads the selected installer, verifies its manifest SHA-512 and 
 
 Collection files remain in `%APPDATA%\ShinyDexDesktop\collection-v2.json` across desktop updates and rollbacks. Before installation the app writes a JSON backup in that profile's `backups` folder. Future catalog IDs are retained when an older desktop catalog saves. Collection contents are never uploaded to GitHub. **Export backup** saves a portable JSON file; **Import backup** restores a compatible version-2 collection after backing up the current one.
 
+The 1.0.0 → 1.1.0 → 1.0.0 → 1.1.0 desktop save round trip was tested with the verified public 1.0.0 code and isolated fixtures. All 1,083 legacy IDs survive the upgrade; newer form ownership survives older desktop autosaves and reappears after upgrading again. **Export a backup in 1.1.0 before rolling back:** 1.0.0's Export backup button omits forms that it cannot recognize, although its on-disk desktop save retains them. Older browser previews do not provide the same unknown-form protection. These checks do not establish a real NSIS installation/update cycle; see [release preparation evidence](audit/release-1.1.0-ready.json).
+
 ## Collection
 
 - Captured and Shiny captured are separate checkboxes, with Captured on the left. Marking shiny also marks captured; clearing captured clears shiny.
-- Every change autosaves in the desktop profile. Base species and regional forms have independent keys. Browser development has separate storage and synchronizes changes between browser tabs.
+- Every species row has a form selector. Each concrete form has independent captured and shiny ownership. The separate Pokémon caught and shinies caught boxes show their own totals and completion. Browser development has separate storage and synchronizes changes between browser tabs.
 - HOME boxes retain National Dex positions when filtered: six columns, five rows, 30 slots. Unowned entries use silhouettes; owned shinies use shiny art. Hover labels give the name and position.
 - The Shiny collection tab shows owned shinies. Export backup saves a JSON copy of collection ownership. Desktop storage is local to this Windows user. Export a backup before changing computers.
 
-The current catalog contains 1,025 species and 58 regional-form entries, spanning 37 boxes. These counts are checks of the current catalog and do not independently establish exhaustive correctness.
+The current source catalog covers 1,025 species with 1,431 concrete living-dex slots across 48 HOME boxes. It also preserves 173 unspecified legacy ownership records, giving 1,604 stable records in total. Unspecified records have no HOME slot; use the form assignment control to choose their identity explicitly. Assignment backs up the collection first, and browser backups can be restored from the recovery panel. The published installer may predate these source changes.
+
+The working completeness reference is [PokéPC’s living dex](https://pokepc.net/livingdex); [its National Pokédex](https://pokepc.net/pokemon) supplies species names and Dex numbers. Only HOME-storable forms are in scope, excluding temporary battle transformations and Spiky-eared Pichu. All named forms in the saved living-dex layout have a matching concrete slot. Independent transfer, artwork and hunting verification remains unfinished; [the comparison report](audit/pokepc-living-dex-comparison.json) marks that work and 43 additional catalog entries for later review.
 
 ## Data status
 

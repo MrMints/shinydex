@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "forms": [
+    {
+      "identity": "pikachu-cosplay",
+      "key": 210187,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "pokemonId": 10085,
+      "formLabel": "Cosplay Pikachu",
+      "height": 4,
+      "weight": 60,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "0025Pikachu-Cosplay.png",
+      "shinyFile": "0025Pikachu-Cosplay.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Cosplay.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Cosplay.png",
+      "shinyArtworkAvailable": false,
+      "gender": "Female",
+      "shinyLocked": true,
+      "shinyLockSource": "https://bulbapedia.bulbagarden.net/wiki/Cosplay_Pikachu"
+    },
+    {
+      "identity": "pikachu-rock-star",
+      "key": 210182,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "pokemonId": 10080,
+      "formLabel": "Pikachu Rock Star",
+      "height": 4,
+      "weight": 60,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "0025Pikachu-Rock_Star.png",
+      "shinyFile": "0025Pikachu-Rock_Star.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Rock_Star.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Rock_Star.png",
+      "shinyArtworkAvailable": false,
+      "gender": "Female",
+      "shinyLocked": true,
+      "shinyLockSource": "https://bulbapedia.bulbagarden.net/wiki/Cosplay_Pikachu"
+    },
+    {
+      "identity": "pikachu-belle",
+      "key": 210183,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "pokemonId": 10081,
+      "formLabel": "Pikachu Belle",
+      "height": 4,
+      "weight": 60,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "0025Pikachu-Belle.png",
+      "shinyFile": "0025Pikachu-Belle.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Belle.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Belle.png",
+      "shinyArtworkAvailable": false,
+      "gender": "Female",
+      "shinyLocked": true,
+      "shinyLockSource": "https://bulbapedia.bulbagarden.net/wiki/Cosplay_Pikachu"
+    },
+    {
+      "identity": "pikachu-pop-star",
+      "key": 210184,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "pokemonId": 10082,
+      "formLabel": "Pikachu Pop Star",
+      "height": 4,
+      "weight": 60,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "0025Pikachu-Pop_Star.png",
+      "shinyFile": "0025Pikachu-Pop_Star.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Pop_Star.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Pop_Star.png",
+      "shinyArtworkAvailable": false,
+      "gender": "Female",
+      "shinyLocked": true,
+      "shinyLockSource": "https://bulbapedia.bulbagarden.net/wiki/Cosplay_Pikachu"
+    },
+    {
+      "identity": "pikachu-phd",
+      "key": 210185,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "pokemonId": 10083,
+      "formLabel": "Pikachu Ph.D.",
+      "height": 4,
+      "weight": 60,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "0025Pikachu-PhD.png",
+      "shinyFile": "0025Pikachu-PhD.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-PhD.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-PhD.png",
+      "shinyArtworkAvailable": false,
+      "gender": "Female",
+      "shinyLocked": true,
+      "shinyLockSource": "https://bulbapedia.bulbagarden.net/wiki/Cosplay_Pikachu"
+    },
+    {
+      "identity": "pikachu-libre",
+      "key": 210186,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "pokemonId": 10084,
+      "formLabel": "Pikachu Libre",
+      "height": 4,
+      "weight": 60,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "0025Pikachu-Libre.png",
+      "shinyFile": "0025Pikachu-Libre.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Libre.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0025Pikachu-Libre.png",
+      "shinyArtworkAvailable": false,
+      "gender": "Female",
+      "shinyLocked": true,
+      "shinyLockSource": "https://bulbapedia.bulbagarden.net/wiki/Cosplay_Pikachu"
+    },
+    {
+      "identity": "floette-eternal",
+      "key": 210163,
+      "legacyKey": 670,
+      "speciesId": 670,
+      "pokemonId": 10061,
+      "formLabel": "Eternal Flower",
+      "height": 2,
+      "weight": 9,
+      "types": [
+        "fairy"
+      ],
+      "normalFile": "0670Floette-Eternal.png",
+      "shinyFile": "0670Floette-Eternal.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:0670Floette-Eternal.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:0670Floette-Eternal.png",
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pichu",
+      "key": 200172,
+      "legacyKey": 172,
+      "speciesId": 172,
+      "pokemonId": 172,
+      "formLabel": "Standard",
+      "height": 3,
+      "weight": 20,
+      "types": [
+        "electric"
+      ],
+      "normalFile": "HOME0172.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0172.png",
+      "shinyFile": "HOME0172_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0172_s.png"
+    }
+  ],
+  "reviewEvidence": "audit/special-artwork-review.json"
+}

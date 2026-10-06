@@ -28,18 +28,26 @@
           <h1>National Pokédex</h1>
           <p>Browse Pokémon. Record captures. Track shinies.</p>
         </div>
+        <div class="summaries">
         <div class="summary">
-          <span class="star">✧</span>
           <div>
-            <strong id="total">0 <em>/ 1,025</em></strong
+            <strong id="captured-total">0 <em>/ 1,083</em></strong>
+            <span>POKÉMON CAUGHT</span>
+          </div>
+          <div class="progress"><i id="captured-progress"></i></div>
+          <small id="captured-percent">0.0% captured complete</small>
+        </div>
+        <div class="summary">
+          <div>
+            <strong id="total">0 <em>/ 1,083</em></strong
             ><span>SHINIES CAUGHT</span>
           </div>
           <div class="progress"><i id="progress"></i></div>
-          <small id="percent"
-            >0% complete · Every journey starts somewhere.</small
-          >
+          <small id="percent">0.0% shiny complete</small>
+        </div>
         </div>
       </div>
+      <p id="unassigned-summary" class="auto-note" aria-live="polite"></p>
       <nav aria-label="Main views">
         <button class="active" data-tab="dex">▤ &nbsp; Pokédex</button
         ><button data-tab="home">▦ &nbsp; HOME boxes</button
@@ -93,8 +101,8 @@
           <div>
             <h2>HOME storage boxes</h2>
             <p>
-              30 slots per box · Left to right, top to bottom · Base species,
-              then regional forms
+              30 slots per box · Left to right, top to bottom · National order,
+              with separate form slots
             </p>
           </div>
           <label
@@ -103,7 +111,7 @@
           ></label>
         </div>
         <p class="box-note">
-          Regional forms follow their base species: Alola → Galar → Hisui →
+          Forms are grouped with their species. Regional order: Alola → Galar → Hisui →
           Paldea. Filters keep every slot fixed. Silhouette = not captured;
           shiny art = shiny captured.
         </p>
@@ -124,7 +132,7 @@
         aria-label="Shiny hunting methods"
       ></section>
       <footer>
-        <span>National mode · Regional forms included</span
+        <span>National mode · Regional and living forms included</span
         ><span
           >Images:
           <a

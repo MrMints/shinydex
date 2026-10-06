@@ -1,0 +1,1019 @@
+{
+  "schemaVersion": 1,
+  "forms": [
+    {
+      "identity": "arceus-normal",
+      "key": 200493,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Normal Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493.png",
+      "shinyFile": "HOME0493_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493_s.png",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "identity": "arceus-fighting",
+      "key": 210045,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Fighting Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Fighting.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Fighting.png",
+      "shinyFile": "HOME0493Fighting_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Fighting_s.png",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "identity": "arceus-flying",
+      "key": 210047,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Flying Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Flying.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Flying.png",
+      "shinyFile": "HOME0493Flying_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Flying_s.png",
+      "types": [
+        "flying"
+      ]
+    },
+    {
+      "identity": "arceus-poison",
+      "key": 210052,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Poison Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Poison.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Poison.png",
+      "shinyFile": "HOME0493Poison_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Poison_s.png",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "identity": "arceus-ground",
+      "key": 210050,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Ground Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Ground.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Ground.png",
+      "shinyFile": "HOME0493Ground_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Ground_s.png",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "identity": "arceus-rock",
+      "key": 210054,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Rock Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Rock.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Rock.png",
+      "shinyFile": "HOME0493Rock_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Rock_s.png",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "identity": "arceus-bug",
+      "key": 210041,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Bug Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Bug.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Bug.png",
+      "shinyFile": "HOME0493Bug_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Bug_s.png",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "identity": "arceus-ghost",
+      "key": 210048,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Ghost Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Ghost.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Ghost.png",
+      "shinyFile": "HOME0493Ghost_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Ghost_s.png",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "identity": "arceus-steel",
+      "key": 210055,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Steel Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Steel.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Steel.png",
+      "shinyFile": "HOME0493Steel_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Steel_s.png",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "identity": "arceus-fire",
+      "key": 210046,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Fire Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Fire.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Fire.png",
+      "shinyFile": "HOME0493Fire_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Fire_s.png",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "identity": "arceus-water",
+      "key": 210056,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Water Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Water.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Water.png",
+      "shinyFile": "HOME0493Water_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Water_s.png",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "identity": "arceus-grass",
+      "key": 210049,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Grass Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Grass.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Grass.png",
+      "shinyFile": "HOME0493Grass_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Grass_s.png",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "identity": "arceus-electric",
+      "key": 210044,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Electric Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Electric.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Electric.png",
+      "shinyFile": "HOME0493Electric_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Electric_s.png",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "identity": "arceus-psychic",
+      "key": 210053,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Psychic Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Psychic.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Psychic.png",
+      "shinyFile": "HOME0493Psychic_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Psychic_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "arceus-ice",
+      "key": 210051,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Ice Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Ice.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Ice.png",
+      "shinyFile": "HOME0493Ice_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Ice_s.png",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "identity": "arceus-dragon",
+      "key": 210043,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Dragon Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Dragon.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Dragon.png",
+      "shinyFile": "HOME0493Dragon_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Dragon_s.png",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "identity": "arceus-dark",
+      "key": 210042,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Dark Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Dark.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Dark.png",
+      "shinyFile": "HOME0493Dark_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Dark_s.png",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "identity": "arceus-fairy",
+      "key": 210085,
+      "legacyKey": 493,
+      "speciesId": 493,
+      "formLabel": "Fairy Type",
+      "pokemonId": 493,
+      "height": 32,
+      "weight": 3200,
+      "normalFile": "HOME0493Fairy.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0493Fairy.png",
+      "shinyFile": "HOME0493Fairy_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0493Fairy_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "silvally-normal",
+      "key": 200773,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Normal",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773.png",
+      "shinyFile": "HOME0773_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773_s.png",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "identity": "silvally-fighting",
+      "key": 210232,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Fighting",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Fighting.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Fighting.png",
+      "shinyFile": "HOME0773Fighting_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Fighting_s.png",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "identity": "silvally-flying",
+      "key": 210233,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Flying",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Flying.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Flying.png",
+      "shinyFile": "HOME0773Flying_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Flying_s.png",
+      "types": [
+        "flying"
+      ]
+    },
+    {
+      "identity": "silvally-poison",
+      "key": 210234,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Poison",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Poison.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Poison.png",
+      "shinyFile": "HOME0773Poison_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Poison_s.png",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "identity": "silvally-ground",
+      "key": 210235,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Ground",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Ground.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Ground.png",
+      "shinyFile": "HOME0773Ground_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Ground_s.png",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "identity": "silvally-rock",
+      "key": 210236,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Rock",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Rock.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Rock.png",
+      "shinyFile": "HOME0773Rock_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Rock_s.png",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "identity": "silvally-bug",
+      "key": 210237,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Bug",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Bug.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Bug.png",
+      "shinyFile": "HOME0773Bug_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Bug_s.png",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "identity": "silvally-ghost",
+      "key": 210238,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Ghost",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Ghost.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Ghost.png",
+      "shinyFile": "HOME0773Ghost_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Ghost_s.png",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "identity": "silvally-steel",
+      "key": 210239,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Steel",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Steel.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Steel.png",
+      "shinyFile": "HOME0773Steel_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Steel_s.png",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "identity": "silvally-fire",
+      "key": 210240,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Fire",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Fire.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Fire.png",
+      "shinyFile": "HOME0773Fire_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Fire_s.png",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "identity": "silvally-water",
+      "key": 210241,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Water",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Water.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Water.png",
+      "shinyFile": "HOME0773Water_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Water_s.png",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "identity": "silvally-grass",
+      "key": 210242,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Grass",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Grass.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Grass.png",
+      "shinyFile": "HOME0773Grass_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Grass_s.png",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "identity": "silvally-electric",
+      "key": 210243,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Electric",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Electric.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Electric.png",
+      "shinyFile": "HOME0773Electric_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Electric_s.png",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "identity": "silvally-psychic",
+      "key": 210244,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Psychic",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Psychic.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Psychic.png",
+      "shinyFile": "HOME0773Psychic_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Psychic_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "silvally-ice",
+      "key": 210245,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Ice",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Ice.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Ice.png",
+      "shinyFile": "HOME0773Ice_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Ice_s.png",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "identity": "silvally-dragon",
+      "key": 210246,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Dragon",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Dragon.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Dragon.png",
+      "shinyFile": "HOME0773Dragon_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Dragon_s.png",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "identity": "silvally-dark",
+      "key": 210247,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Dark",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Dark.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Dark.png",
+      "shinyFile": "HOME0773Dark_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Dark_s.png",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "identity": "silvally-fairy",
+      "key": 210248,
+      "legacyKey": 773,
+      "speciesId": 773,
+      "formLabel": "Type: Fairy",
+      "pokemonId": 773,
+      "height": 23,
+      "weight": 1005,
+      "normalFile": "HOME0773Fairy.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0773Fairy.png",
+      "shinyFile": "HOME0773Fairy_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0773Fairy_s.png",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "identity": "genesect",
+      "key": 200649,
+      "legacyKey": 649,
+      "speciesId": 649,
+      "formLabel": "Standard",
+      "pokemonId": 649,
+      "height": 15,
+      "weight": 825,
+      "normalFile": "HOME0649.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0649.png",
+      "shinyFile": "HOME0649_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0649_s.png",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "identity": "genesect-douse",
+      "key": 210075,
+      "legacyKey": 649,
+      "speciesId": 649,
+      "formLabel": "Douse Drive",
+      "pokemonId": 649,
+      "height": 15,
+      "weight": 825,
+      "normalFile": "HOME0649B.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0649B.png",
+      "shinyFile": "HOME0649B_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0649B_s.png",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "identity": "genesect-shock",
+      "key": 210076,
+      "legacyKey": 649,
+      "speciesId": 649,
+      "formLabel": "Shock Drive",
+      "pokemonId": 649,
+      "height": 15,
+      "weight": 825,
+      "normalFile": "HOME0649Y.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0649Y.png",
+      "shinyFile": "HOME0649Y_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0649Y_s.png",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "identity": "genesect-burn",
+      "key": 210077,
+      "legacyKey": 649,
+      "speciesId": 649,
+      "formLabel": "Burn Drive",
+      "pokemonId": 649,
+      "height": 15,
+      "weight": 825,
+      "normalFile": "HOME0649R.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0649R.png",
+      "shinyFile": "HOME0649R_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0649R_s.png",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "identity": "genesect-chill",
+      "key": 210078,
+      "legacyKey": 649,
+      "speciesId": 649,
+      "formLabel": "Chill Drive",
+      "pokemonId": 649,
+      "height": 15,
+      "weight": 825,
+      "normalFile": "HOME0649W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0649W.png",
+      "shinyFile": "HOME0649W_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0649W_s.png",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "identity": "dialga",
+      "key": 200483,
+      "legacyKey": 483,
+      "speciesId": 483,
+      "formLabel": "Standard",
+      "pokemonId": 483,
+      "height": 54,
+      "weight": 6830,
+      "normalFile": "HOME0483.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0483.png",
+      "shinyFile": "HOME0483_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0483_s.png",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    {
+      "identity": "dialga-origin",
+      "key": 210414,
+      "legacyKey": 483,
+      "speciesId": 483,
+      "formLabel": "Origin Forme",
+      "pokemonId": 10245,
+      "height": 70,
+      "weight": 8487,
+      "normalFile": "HOME0483O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0483O.png",
+      "shinyFile": "HOME0483O_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0483O_s.png",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    {
+      "identity": "palkia",
+      "key": 200484,
+      "legacyKey": 484,
+      "speciesId": 484,
+      "formLabel": "Standard",
+      "pokemonId": 484,
+      "height": 42,
+      "weight": 3360,
+      "normalFile": "HOME0484.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0484.png",
+      "shinyFile": "HOME0484_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0484_s.png",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    {
+      "identity": "palkia-origin",
+      "key": 210415,
+      "legacyKey": 484,
+      "speciesId": 484,
+      "formLabel": "Origin Forme",
+      "pokemonId": 10246,
+      "height": 63,
+      "weight": 6590,
+      "normalFile": "HOME0484O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0484O.png",
+      "shinyFile": "HOME0484O_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0484O_s.png",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    {
+      "identity": "necrozma",
+      "key": 200800,
+      "legacyKey": 800,
+      "speciesId": 800,
+      "formLabel": "Standard",
+      "pokemonId": 800,
+      "height": 24,
+      "weight": 2300,
+      "normalFile": "HOME0800.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0800.png",
+      "shinyFile": "HOME0800_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0800_s.png",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "identity": "necrozma-dusk",
+      "key": 210314,
+      "legacyKey": 800,
+      "speciesId": 800,
+      "formLabel": "Dusk Mane",
+      "pokemonId": 10155,
+      "height": 38,
+      "weight": 4600,
+      "normalFile": "HOME0800DM.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0800DM.png",
+      "shinyFile": "HOME0800DM_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0800DM_s.png",
+      "types": [
+        "psychic",
+        "steel"
+      ]
+    },
+    {
+      "identity": "necrozma-dawn",
+      "key": 210315,
+      "legacyKey": 800,
+      "speciesId": 800,
+      "formLabel": "Dawn Wings",
+      "pokemonId": 10156,
+      "height": 42,
+      "weight": 3500,
+      "normalFile": "HOME0800DW.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0800DW.png",
+      "shinyFile": "HOME0800DW_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0800DW_s.png",
+      "types": [
+        "psychic",
+        "ghost"
+      ]
+    },
+    {
+      "identity": "enamorus-incarnate",
+      "key": 200905,
+      "legacyKey": 905,
+      "speciesId": 905,
+      "formLabel": "Incarnate Forme",
+      "pokemonId": 905,
+      "height": 16,
+      "weight": 480,
+      "normalFile": "HOME0905.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0905.png",
+      "shinyFile": "HOME0905_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0905_s.png",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    {
+      "identity": "enamorus-therian",
+      "key": 210418,
+      "legacyKey": 905,
+      "speciesId": 905,
+      "formLabel": "Therian Forme",
+      "pokemonId": 10249,
+      "height": 16,
+      "weight": 480,
+      "normalFile": "HOME0905T.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0905T.png",
+      "shinyFile": "HOME0905T_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0905T_s.png",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    {
+      "identity": "sinistea-phony",
+      "key": 200854,
+      "legacyKey": 854,
+      "speciesId": 854,
+      "formLabel": "Phony Form",
+      "pokemonId": 854,
+      "height": 1,
+      "weight": 2,
+      "normalFile": "HOME0854_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0854_b.png",
+      "shinyFile": "HOME0854_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0854_b_s.png",
+      "types": [
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "sinistea-antique",
+      "key": 210344,
+      "legacyKey": 854,
+      "speciesId": 854,
+      "formLabel": "Antique Form",
+      "pokemonId": 854,
+      "height": 1,
+      "weight": 2,
+      "normalFile": "HOME0854A_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0854A_b.png",
+      "shinyFile": "HOME0854A_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0854A_b_s.png",
+      "types": [
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "polteageist-phony",
+      "key": 200855,
+      "legacyKey": 855,
+      "speciesId": 855,
+      "formLabel": "Phony Form",
+      "pokemonId": 855,
+      "height": 2,
+      "weight": 4,
+      "normalFile": "HOME0855_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0855_b.png",
+      "shinyFile": "HOME0855_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0855_b_s.png",
+      "types": [
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "polteageist-antique",
+      "key": 210345,
+      "legacyKey": 855,
+      "speciesId": 855,
+      "formLabel": "Antique Form",
+      "pokemonId": 855,
+      "height": 2,
+      "weight": 4,
+      "normalFile": "HOME0855A_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0855A_b.png",
+      "shinyFile": "HOME0855A_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0855A_b_s.png",
+      "types": [
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "poltchageist-counterfeit",
+      "key": 201012,
+      "legacyKey": 1012,
+      "speciesId": 1012,
+      "formLabel": "Counterfeit Form",
+      "pokemonId": 1012,
+      "height": 1,
+      "weight": 11,
+      "normalFile": "HOME1012_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME1012_b.png",
+      "shinyFile": "HOME1012_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME1012_b_s.png",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "poltchageist-artisan",
+      "key": 210447,
+      "legacyKey": 1012,
+      "speciesId": 1012,
+      "formLabel": "Artisan Form",
+      "pokemonId": 1012,
+      "height": 1,
+      "weight": 11,
+      "normalFile": "HOME1012A_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME1012A_b.png",
+      "shinyFile": "HOME1012A_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME1012A_b_s.png",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "sinistcha-unremarkable",
+      "key": 201013,
+      "legacyKey": 1013,
+      "speciesId": 1013,
+      "formLabel": "Unremarkable Form",
+      "pokemonId": 1013,
+      "height": 2,
+      "weight": 22,
+      "normalFile": "HOME1013_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME1013_b.png",
+      "shinyFile": "HOME1013_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME1013_b_s.png",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "artworkView": "back"
+    },
+    {
+      "identity": "sinistcha-masterpiece",
+      "key": 210448,
+      "legacyKey": 1013,
+      "speciesId": 1013,
+      "formLabel": "Masterpiece Form",
+      "pokemonId": 1013,
+      "height": 2,
+      "weight": 22,
+      "normalFile": "HOME1013M_b.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME1013M_b.png",
+      "shinyFile": "HOME1013M_b_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME1013M_b_s.png",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "artworkView": "back"
+    }
+  ],
+  "reviewEvidence": "audit/type-artwork-review.json",
+  "typeInputSha256": "f1fc4bfd657a034ea3bf6972423b10276424aa068577b304a78a08996425ba05",
+  "captionLimitations": "All 58 pairs visually inspected on type-1 through type-3 and captions matched. Default captions can omit labels. Tea forms use rear artwork to expose authenticity marks. Arceus and Silvally types follow their explicit type identity; PokeAPI pokemon IDs can share a Normal-type record. Artwork does not establish shiny eligibility or HOME transfer compatibility."
+}

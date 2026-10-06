@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "identifier": "minior-red-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210255,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "arceus-unknown",
+      "disposition": "excluded-unobtainable",
+      "reason": "Unused unobtainable type",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)#Form_data"
+    },
+    {
+      "identifier": "pichu-spiky-eared",
+      "disposition": "excluded-user-scope",
+      "reason": "User explicitly excludes Spiky-eared Pichu: confined to HeartGold/SoulSilver and cannot transfer to HOME.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Spiky-eared_Pichu"
+    },
+    {
+      "identifier": "minior-orange-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210256,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "minior-yellow-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210257,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "minior-green-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210258,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "minior-blue-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210259,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "minior-indigo-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210260,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "minior-violet-meteor",
+      "disposition": "represented-state",
+      "catalogKey": 210261,
+      "reason": "Meteor shell and exposed core are Shields Down states of the same fixed-color individual; ownership is represented by its core-color slot.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Minior"
+    },
+    {
+      "identifier": "eternatus-eternamax",
+      "disposition": "excluded-unobtainable",
+      "reason": "Unobtainable boss/move-animation form",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon)#Form_data"
+    },
+    {
+      "identifier": "koraidon-limited-build",
+      "disposition": "represented-state",
+      "catalogKey": 1007,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "koraidon-sprinting-build",
+      "disposition": "represented-state",
+      "catalogKey": 1007,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "koraidon-swimming-build",
+      "disposition": "represented-state",
+      "catalogKey": 1007,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "koraidon-gliding-build",
+      "disposition": "represented-state",
+      "catalogKey": 1007,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "miraidon-low-power-mode",
+      "disposition": "represented-state",
+      "catalogKey": 1008,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "miraidon-drive-mode",
+      "disposition": "represented-state",
+      "catalogKey": 1008,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "miraidon-aquatic-mode",
+      "disposition": "represented-state",
+      "catalogKey": 1008,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    },
+    {
+      "identifier": "miraidon-glide-mode",
+      "disposition": "represented-state",
+      "catalogKey": 1008,
+      "reason": "Traversal/power state of the same partner, represented by its species ownership slot rather than another captured individual.",
+      "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Koraidon_and_Miraidon"
+    }
+  ]
+}

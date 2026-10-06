@@ -6,7 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 def rows(name): return list(csv.DictReader(open(name+'.csv',encoding='utf-8-sig')))
 def lookup(name): return {int(r['id']):r for r in rows(name)}
-catalog=json.loads(Path('data.json').read_text()); data=[p for p in catalog if not p.get('region')]; species=lookup('species'); versions=lookup('versions'); groups=lookup('version_groups'); slots=lookup('encounter_slots'); methods=lookup('encounter_methods'); areas=lookup('location_areas'); locations=lookup('locations')
+catalog=[p for p in json.loads(Path('data.json').read_text()) if not p.get('livingForm')]; data=[p for p in catalog if not p.get('region')]; species=lookup('species'); versions=lookup('versions'); groups=lookup('version_groups'); slots=lookup('encounter_slots'); methods=lookup('encounter_methods'); areas=lookup('location_areas'); locations=lookup('locations')
 pokemons=lookup('pokemon'); eggs=defaultdict(set)
 for r in rows('egg_groups'): eggs[int(r['species_id'])].add(int(r['egg_group_id']))
 enc=defaultdict(lambda:defaultdict(lambda:defaultdict(set)))

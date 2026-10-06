@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "forms": [
+    {
+      "identity": "scatterbug-icy-snow",
+      "key": 200664,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Icy Snow \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-polar",
+      "key": 210271,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Polar \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-tundra",
+      "key": 210272,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Tundra \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-continental",
+      "key": 210273,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Continental \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-garden",
+      "key": 210274,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Garden \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-elegant",
+      "key": 210275,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Elegant \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-meadow",
+      "key": 210276,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Meadow \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-modern",
+      "key": 210277,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Modern \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-marine",
+      "key": 210278,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Marine \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-archipelago",
+      "key": 210279,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Archipelago \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-high-plains",
+      "key": 210280,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "High Plains \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-sandstorm",
+      "key": 210281,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Sandstorm \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-river",
+      "key": 210282,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "River \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-monsoon",
+      "key": 210283,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Monsoon \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-savanna",
+      "key": 210284,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Savanna \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-sun",
+      "key": 210285,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Sun \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-ocean",
+      "key": 210286,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Ocean \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-jungle",
+      "key": 210287,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Jungle \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-fancy",
+      "key": 210288,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Fancy \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "scatterbug-poke-ball",
+      "key": 210289,
+      "legacyKey": 664,
+      "speciesId": 664,
+      "pokemonId": 664,
+      "formLabel": "Poke Ball \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 25,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0664.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0664.png",
+      "shinyFile": "HOME0664_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0664_s.png"
+    },
+    {
+      "identity": "spewpa-icy-snow",
+      "key": 200665,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Icy Snow \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-polar",
+      "key": 210290,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Polar \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-tundra",
+      "key": 210291,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Tundra \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-continental",
+      "key": 210292,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Continental \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-garden",
+      "key": 210293,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Garden \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-elegant",
+      "key": 210294,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Elegant \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-meadow",
+      "key": 210295,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Meadow \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-modern",
+      "key": 210296,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Modern \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-marine",
+      "key": 210297,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Marine \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-archipelago",
+      "key": 210298,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Archipelago \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-high-plains",
+      "key": 210299,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "High Plains \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-sandstorm",
+      "key": 210300,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Sandstorm \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-river",
+      "key": 210301,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "River \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-monsoon",
+      "key": 210302,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Monsoon \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-savanna",
+      "key": 210303,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Savanna \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-sun",
+      "key": 210304,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Sun \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-ocean",
+      "key": 210305,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Ocean \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-jungle",
+      "key": 210306,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Jungle \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-fancy",
+      "key": 210307,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Fancy \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "spewpa-poke-ball",
+      "key": 210308,
+      "legacyKey": 665,
+      "speciesId": 665,
+      "pokemonId": 665,
+      "formLabel": "Poke Ball \u00b7 Vivillon pattern",
+      "height": 3,
+      "weight": 84,
+      "types": [
+        "bug"
+      ],
+      "normalFile": "HOME0665.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0665.png",
+      "shinyFile": "HOME0665_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0665_s.png"
+    },
+    {
+      "identity": "greninja",
+      "key": 200658,
+      "legacyKey": 658,
+      "speciesId": 658,
+      "pokemonId": 658,
+      "formLabel": "Standard",
+      "height": 15,
+      "weight": 400,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "normalFile": "HOME0658.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0658.png",
+      "shinyFile": "HOME0658_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0658_s.png"
+    },
+    {
+      "identity": "greninja-battle-bond",
+      "key": 210218,
+      "legacyKey": 658,
+      "speciesId": 658,
+      "pokemonId": 10116,
+      "formLabel": "Battle Bond",
+      "height": 15,
+      "weight": 400,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "normalFile": "HOME0658.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0658.png",
+      "shinyFile": "HOME0658_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0658_s.png"
+    },
+    {
+      "identity": "rockruff",
+      "key": 200744,
+      "legacyKey": 744,
+      "speciesId": 744,
+      "pokemonId": 744,
+      "formLabel": "Standard",
+      "height": 5,
+      "weight": 92,
+      "types": [
+        "rock"
+      ],
+      "normalFile": "HOME0744.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0744.png",
+      "shinyFile": "HOME0744_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0744_s.png"
+    },
+    {
+      "identity": "rockruff-own-tempo",
+      "key": 210310,
+      "legacyKey": 744,
+      "speciesId": 744,
+      "pokemonId": 10151,
+      "formLabel": "Own Tempo",
+      "height": 5,
+      "weight": 92,
+      "types": [
+        "rock"
+      ],
+      "normalFile": "HOME0744.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0744.png",
+      "shinyFile": "HOME0744_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0744_s.png"
+    },
+    {
+      "identity": "mothim-plant",
+      "key": 200414,
+      "legacyKey": 414,
+      "speciesId": 414,
+      "pokemonId": 414,
+      "formLabel": "Plant \u00b7 Burmy origin",
+      "height": 9,
+      "weight": 233,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "normalFile": "HOME0414.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0414.png",
+      "shinyFile": "HOME0414_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0414_s.png"
+    },
+    {
+      "identity": "mothim-sandy",
+      "key": 210269,
+      "legacyKey": 414,
+      "speciesId": 414,
+      "pokemonId": 414,
+      "formLabel": "Sandy \u00b7 Burmy origin",
+      "height": 9,
+      "weight": 233,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "normalFile": "HOME0414.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0414.png",
+      "shinyFile": "HOME0414_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0414_s.png"
+    },
+    {
+      "identity": "mothim-trash",
+      "key": 210270,
+      "legacyKey": 414,
+      "speciesId": 414,
+      "pokemonId": 414,
+      "formLabel": "Trash \u00b7 Burmy origin",
+      "height": 9,
+      "weight": 233,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "normalFile": "HOME0414.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0414.png",
+      "shinyFile": "HOME0414_s.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0414_s.png"
+    }
+  ],
+  "sharedAppearance": true,
+  "scopeSource": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences#Scatterbug_and_Spewpa",
+  "reviewNote": "Source confirms 20 latent evolution-pattern forms in Scatterbug/Spewpa, Battle Bond Greninja and Own Tempo Rockruff as separate persistent technical forms. Shared normal/shiny appearance is intentional; old generic ownership does not identify a pattern or ability. Artwork does not establish shiny eligibility.",
+  "imageHashes": {
+    "HOME0664.png": "e9e091422bf964d8f6b49ab94bebc74f613a2422f2c43ef1b0bcf1951ddef3c5",
+    "HOME0664_s.png": "2e9ea506729cc9192f1061482793460fd94b881cdfbc6fffd9548c2ef558e692",
+    "HOME0665.png": "09d959c164fe23654a17af52facd898433e58f4a85869198fe19847e93cbb35d",
+    "HOME0665_s.png": "438936a2bc2626668c5f1715af9e9fe238362842002e842345f056972193364b",
+    "HOME0658.png": "9d91a1468c18d9420cc51ca113bc3a81077d29c5dc0566aeab350972fe547af1",
+    "HOME0658_s.png": "931ca9eccb4d9fb584e247681107c264c878b60bd5f701f19703b2037001e718",
+    "HOME0744.png": "81449aef57f631623a1cf0a69720544f4e8ffb24ae81e49fa8e090a2c03c01ce",
+    "HOME0744_s.png": "ce326f904c9376f37723697e186ed3d51166c19e2550991eab4fe75f1fa29fec",
+    "HOME0414.png": "10e73a98b08703b658e7147d264401612e66ca0f6b0577412bf1931ca7236618",
+    "HOME0414_s.png": "60ca31ad0f43b38499c205cab1a5f1d4d89349f452c264c17f1cad31da25f7cb"
+  }
+}

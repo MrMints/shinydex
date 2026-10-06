@@ -1,0 +1,1002 @@
+{
+  "auditComplete": false,
+  "scope": "Alcremie 63 cream/sweet combinations; caption capture awaiting independent mapping review",
+  "mappings": [
+    {
+      "formId": 869,
+      "identifier": "alcremie-vanilla-cream-strawberry-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10449,
+      "identifier": "alcremie-vanilla-cream-berry-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869B.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10458,
+      "identifier": "alcremie-vanilla-cream-love-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869L.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10467,
+      "identifier": "alcremie-vanilla-cream-star-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869S.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10476,
+      "identifier": "alcremie-vanilla-cream-clover-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869C.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10485,
+      "identifier": "alcremie-vanilla-cream-flower-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869F.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10494,
+      "identifier": "alcremie-vanilla-cream-ribbon-sweet",
+      "cream": "vanilla-cream",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869R.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10346,
+      "identifier": "alcremie-ruby-cream-strawberry-sweet",
+      "cream": "ruby-cream",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869RuC.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10450,
+      "identifier": "alcremie-ruby-cream-berry-sweet",
+      "cream": "ruby-cream",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869RuCB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10459,
+      "identifier": "alcremie-ruby-cream-love-sweet",
+      "cream": "ruby-cream",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869RuCL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10468,
+      "identifier": "alcremie-ruby-cream-star-sweet",
+      "cream": "ruby-cream",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869RuCS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10477,
+      "identifier": "alcremie-ruby-cream-clover-sweet",
+      "cream": "ruby-cream",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869RuCC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10486,
+      "identifier": "alcremie-ruby-cream-flower-sweet",
+      "cream": "ruby-cream",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869RuCF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10495,
+      "identifier": "alcremie-ruby-cream-ribbon-sweet",
+      "cream": "ruby-cream",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869RuCR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10347,
+      "identifier": "alcremie-matcha-cream-strawberry-sweet",
+      "cream": "matcha-cream",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869MaC.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10451,
+      "identifier": "alcremie-matcha-cream-berry-sweet",
+      "cream": "matcha-cream",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869MaCB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10460,
+      "identifier": "alcremie-matcha-cream-love-sweet",
+      "cream": "matcha-cream",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869MaCL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10469,
+      "identifier": "alcremie-matcha-cream-star-sweet",
+      "cream": "matcha-cream",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869MaCS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10478,
+      "identifier": "alcremie-matcha-cream-clover-sweet",
+      "cream": "matcha-cream",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869MaCC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10487,
+      "identifier": "alcremie-matcha-cream-flower-sweet",
+      "cream": "matcha-cream",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869MaCF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10496,
+      "identifier": "alcremie-matcha-cream-ribbon-sweet",
+      "cream": "matcha-cream",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869MaCR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10348,
+      "identifier": "alcremie-mint-cream-strawberry-sweet",
+      "cream": "mint-cream",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869MiC.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10452,
+      "identifier": "alcremie-mint-cream-berry-sweet",
+      "cream": "mint-cream",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869MiCB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10461,
+      "identifier": "alcremie-mint-cream-love-sweet",
+      "cream": "mint-cream",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869MiCL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10470,
+      "identifier": "alcremie-mint-cream-star-sweet",
+      "cream": "mint-cream",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869MiCS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10479,
+      "identifier": "alcremie-mint-cream-clover-sweet",
+      "cream": "mint-cream",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869MiCC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10488,
+      "identifier": "alcremie-mint-cream-flower-sweet",
+      "cream": "mint-cream",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869MiCF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10497,
+      "identifier": "alcremie-mint-cream-ribbon-sweet",
+      "cream": "mint-cream",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869MiCR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10349,
+      "identifier": "alcremie-lemon-cream-strawberry-sweet",
+      "cream": "lemon-cream",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869LeC.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10453,
+      "identifier": "alcremie-lemon-cream-berry-sweet",
+      "cream": "lemon-cream",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869LeCB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10462,
+      "identifier": "alcremie-lemon-cream-love-sweet",
+      "cream": "lemon-cream",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869LeCL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10471,
+      "identifier": "alcremie-lemon-cream-star-sweet",
+      "cream": "lemon-cream",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869LeCS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10480,
+      "identifier": "alcremie-lemon-cream-clover-sweet",
+      "cream": "lemon-cream",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869LeCC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10489,
+      "identifier": "alcremie-lemon-cream-flower-sweet",
+      "cream": "lemon-cream",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869LeCF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10498,
+      "identifier": "alcremie-lemon-cream-ribbon-sweet",
+      "cream": "lemon-cream",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869LeCR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10350,
+      "identifier": "alcremie-salted-cream-strawberry-sweet",
+      "cream": "salted-cream",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869SaC.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10454,
+      "identifier": "alcremie-salted-cream-berry-sweet",
+      "cream": "salted-cream",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869SaCB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10463,
+      "identifier": "alcremie-salted-cream-love-sweet",
+      "cream": "salted-cream",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869SaCL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10472,
+      "identifier": "alcremie-salted-cream-star-sweet",
+      "cream": "salted-cream",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869SaCS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10481,
+      "identifier": "alcremie-salted-cream-clover-sweet",
+      "cream": "salted-cream",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869SaCC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10490,
+      "identifier": "alcremie-salted-cream-flower-sweet",
+      "cream": "salted-cream",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869SaCF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10499,
+      "identifier": "alcremie-salted-cream-ribbon-sweet",
+      "cream": "salted-cream",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869SaCR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10351,
+      "identifier": "alcremie-ruby-swirl-strawberry-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869RuS.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10455,
+      "identifier": "alcremie-ruby-swirl-berry-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869RuSB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10464,
+      "identifier": "alcremie-ruby-swirl-love-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869RuSL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10473,
+      "identifier": "alcremie-ruby-swirl-star-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869RuSS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10482,
+      "identifier": "alcremie-ruby-swirl-clover-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869RuSC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10491,
+      "identifier": "alcremie-ruby-swirl-flower-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869RuSF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10500,
+      "identifier": "alcremie-ruby-swirl-ribbon-sweet",
+      "cream": "ruby-swirl",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869RuSR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10352,
+      "identifier": "alcremie-caramel-swirl-strawberry-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869CaS.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10456,
+      "identifier": "alcremie-caramel-swirl-berry-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869CaSB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10465,
+      "identifier": "alcremie-caramel-swirl-love-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869CaSL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10474,
+      "identifier": "alcremie-caramel-swirl-star-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869CaSS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10483,
+      "identifier": "alcremie-caramel-swirl-clover-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869CaSC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10492,
+      "identifier": "alcremie-caramel-swirl-flower-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869CaSF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10501,
+      "identifier": "alcremie-caramel-swirl-ribbon-sweet",
+      "cream": "caramel-swirl",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869CaSR.png",
+      "shinyFile": "HOME0869R_s.png"
+    },
+    {
+      "formId": 10353,
+      "identifier": "alcremie-rainbow-swirl-strawberry-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "strawberry-sweet",
+      "normalFile": "HOME0869RaS.png",
+      "shinyFile": "HOME0869_s.png"
+    },
+    {
+      "formId": 10457,
+      "identifier": "alcremie-rainbow-swirl-berry-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "berry-sweet",
+      "normalFile": "HOME0869RaSB.png",
+      "shinyFile": "HOME0869B_s.png"
+    },
+    {
+      "formId": 10466,
+      "identifier": "alcremie-rainbow-swirl-love-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "love-sweet",
+      "normalFile": "HOME0869RaSL.png",
+      "shinyFile": "HOME0869L_s.png"
+    },
+    {
+      "formId": 10475,
+      "identifier": "alcremie-rainbow-swirl-star-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "star-sweet",
+      "normalFile": "HOME0869RaSS.png",
+      "shinyFile": "HOME0869S_s.png"
+    },
+    {
+      "formId": 10484,
+      "identifier": "alcremie-rainbow-swirl-clover-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "clover-sweet",
+      "normalFile": "HOME0869RaSC.png",
+      "shinyFile": "HOME0869C_s.png"
+    },
+    {
+      "formId": 10493,
+      "identifier": "alcremie-rainbow-swirl-flower-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "flower-sweet",
+      "normalFile": "HOME0869RaSF.png",
+      "shinyFile": "HOME0869F_s.png"
+    },
+    {
+      "formId": 10502,
+      "identifier": "alcremie-rainbow-swirl-ribbon-sweet",
+      "cream": "rainbow-swirl",
+      "sweet": "ribbon-sweet",
+      "normalFile": "HOME0869RaSR.png",
+      "shinyFile": "HOME0869R_s.png"
+    }
+  ],
+  "captions": {
+    "HOME0869.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869.png",
+      "url": "https://archives.bulbagarden.net/media/upload/d/d1/HOME0869.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "feae953a1ba58c85a6fc05ba0f305ef2446ceaba5c5727d096b63031e3c7b95a"
+    },
+    "HOME0869B.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869B.png",
+      "url": "https://archives.bulbagarden.net/media/upload/c/c7/HOME0869B.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Vanilla Cream, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "3f68c5bb66cc4944d0b0873c7a3d28798cb8fd3a3eeab8f6d4fd9e63ef0b81ef"
+    },
+    "HOME0869B_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869B_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/2/20/HOME0869B_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Berry Sweet; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "2dba3ad5d9a01e0cf63dd1544e85b4e129308c50f2020b8c8cb62289f5d510dd"
+    },
+    "HOME0869C.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869C.png",
+      "url": "https://archives.bulbagarden.net/media/upload/f/f4/HOME0869C.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Vanilla Cream, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "1c2a01deae79492405317792f43d0f38e262a1493fe23c1aee7e5273dae366af"
+    },
+    "HOME0869C_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869C_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/16/HOME0869C_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Clover Sweet; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "1b92b1f51bac485f6fbeafb836f5ed1ac30811ffa715ac5d9ca6968f19b962f0"
+    },
+    "HOME0869CaS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/3/30/HOME0869CaS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "a50c0bbb50589feaeb7c3519d00fedc3191ff82c4f64f8b696b44121b5abba67"
+    },
+    "HOME0869CaSB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/c/ce/HOME0869CaSB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "3d7d3ee8b8a543189872a2f905638b3bebd24f9611131f6f9bb3698f29822d98"
+    },
+    "HOME0869CaSC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/8f/HOME0869CaSC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "3988a1d90f02fd41c4553c7df78a643922f22e64ab46c86798e06e80132912a7"
+    },
+    "HOME0869CaSF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/4/41/HOME0869CaSF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "3438f915f0554453c23298bf7f08a60aa94531e828102a26aeb0960b30d563c1"
+    },
+    "HOME0869CaSL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/e/ee/HOME0869CaSL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "b40db230d22243e92274fb5f61bbfd08e1a4e4b53a3c01495fc0d954bbc24978"
+    },
+    "HOME0869CaSR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/f/f3/HOME0869CaSR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "bd3f5a5492e46d718cf9d1913d007c5b40b8a073987b66c705cc116c618bc013"
+    },
+    "HOME0869CaSS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/2/26/HOME0869CaSS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Caramel Swirl, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "1ec43cf2df3fb86c45f78ae1189c8eb51794e268cf75103fc0f037b76516f6f6"
+    },
+    "HOME0869F.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869F.png",
+      "url": "https://archives.bulbagarden.net/media/upload/e/e5/HOME0869F.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Vanilla Cream, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "c7a846a325c2e9c34cebdcc590505b006adc1783d35794afe8c451ceb56c44c8"
+    },
+    "HOME0869F_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869F_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/c/c2/HOME0869F_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Flower Sweet; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "5eee922dc1c03efd386a6477acd99b864e39000540b485374e4c1e2d1dd0f1d3"
+    },
+    "HOME0869L.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869L.png",
+      "url": "https://archives.bulbagarden.net/media/upload/a/ad/HOME0869L.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Vanilla Cream, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "5f2988418d95ab6710ccfbfe271cde21387ec70c66bc571b1ef06353b9d4aed4"
+    },
+    "HOME0869L_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869L_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/bf/HOME0869L_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Love Sweet; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "2ab23e1fd4f2163d3d9808f82e1d98c10f28e6748e6019deb40607c6f778d781"
+    },
+    "HOME0869LeC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/7/71/HOME0869LeC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "d936c8a8c09310642be22358b58a0a2b97b3e7b1b8cfaaa842df371794634ac1"
+    },
+    "HOME0869LeCB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/b8/HOME0869LeCB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "882e06709a5ca28b6798f6d1617644671e09607294c007dfa9247578ac16b9b9"
+    },
+    "HOME0869LeCC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/3/34/HOME0869LeCC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "b89d2c8f90fb71fa10aff2cf9221ed837eed1b247cf8a675cc8e4e72939e4125"
+    },
+    "HOME0869LeCF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/7/78/HOME0869LeCF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "415bbc8bf0f4d18814ccf211ec2800ef7a36c41926c08228e95a246c00057d7c"
+    },
+    "HOME0869LeCL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/c/ce/HOME0869LeCL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "4120c400e31361227730d63a180ef2b0076c94c19937c46900705996d7f9bf58"
+    },
+    "HOME0869LeCR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/0/0e/HOME0869LeCR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "d1fcfc90321da7c96940165bd1cffb7895c185235af2addc0b1ebb31a887ee4c"
+    },
+    "HOME0869LeCS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/9d/HOME0869LeCS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Lemon Cream, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "de62d12f813261ba4f96c1999a37e0d228ea42353ecb1f91e634203679c7511a"
+    },
+    "HOME0869MaC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/c/cd/HOME0869MaC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "e53a6d2425a4e91ba64e296fe745446ec04cf0aff07f8c640489a3655668be42"
+    },
+    "HOME0869MaCB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/4/45/HOME0869MaCB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "86536bfd2d1e824fdcf504016b1b7738636f68351cb6d4c1799e53d4daf6ba0a"
+    },
+    "HOME0869MaCC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/8a/HOME0869MaCC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "2ac4a00af42aabe89ceec79b30e1276d17766a76550560ff83be1d2776ce9b45"
+    },
+    "HOME0869MaCF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/19/HOME0869MaCF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "d40367c023effcf7e9620d59f5b3474315816fae5f8162dba9014573bd12cc5c"
+    },
+    "HOME0869MaCL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/0/0e/HOME0869MaCL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "247fa162481c9c92a80a94597c114ec6508790b383749a0382d677c9789df2ce"
+    },
+    "HOME0869MaCR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/a/a4/HOME0869MaCR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "04707ef26e3f69d2c968782520ee621f13f225e7ebcd4cf2697489af80ffc8f3"
+    },
+    "HOME0869MaCS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/ba/HOME0869MaCS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Matcha Cream, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "db2d2747e3cb1b1857b15445d9bf6feb791534ac7f43baf8c75ea9d46083f8cb"
+    },
+    "HOME0869MiC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/83/HOME0869MiC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "dc025492a2faad0e506fa20c184c1db46fffa4febf69ae7f9616e428504ce68f"
+    },
+    "HOME0869MiCB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/0/00/HOME0869MiCB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "6d87a814d9637a7725a63b2af8d0948cdf3f8071cefe6ab90927e976bc0f5301"
+    },
+    "HOME0869MiCC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/b4/HOME0869MiCC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "47f1af52a2c921573100c932f523e41ff72f2fb632041af84d129a087887ff44"
+    },
+    "HOME0869MiCF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/90/HOME0869MiCF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "0e32cbd4da81259ecc5a3ada722ab2829c0b6a478d731fd38584790f5a522ebc"
+    },
+    "HOME0869MiCL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/99/HOME0869MiCL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "e1479b04d317137fcc1736de0a13636247e4650cca184cc5f4f52c06e77b2e72"
+    },
+    "HOME0869MiCR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/92/HOME0869MiCR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "6681109b24ab809b346008b9b4d74b618242eb0a2db679a9ba445a9ccd27a436"
+    },
+    "HOME0869MiCS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/5/5b/HOME0869MiCS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Mint Cream, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "ce2d9664efd1295315f253f4b7c65570bc9e537d1f65fabfad81b54aa7e7a0d8"
+    },
+    "HOME0869R.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869R.png",
+      "url": "https://archives.bulbagarden.net/media/upload/f/fa/HOME0869R.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Vanilla Cream, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "83479d590b2ce3ddcf7315d799f5c2dde3d5af6de6e4a19afc3351ab5db80ebc"
+    },
+    "HOME0869R_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869R_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/1a/HOME0869R_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ribbon Sweet; Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "8909b225d3a9225b974cf33d3ad85cdc956bcc399ac81f53b93a0bef9f3ae600"
+    },
+    "HOME0869RaS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/b3/HOME0869RaS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "046db4d5129193d24ab1384bd40834a20559c2dea1510df1e7b89b6c98d0cc6a"
+    },
+    "HOME0869RaSB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/b1/HOME0869RaSB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "5bdaa1cedde70ed5e7c92d2f240c75553b0d33137654febc08785eaf649770dc"
+    },
+    "HOME0869RaSC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/81/HOME0869RaSC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "a431ba19964454b8acf1b5e8b394c9395047c0fd579415f3fbcfc84eefc792a1"
+    },
+    "HOME0869RaSF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/5/53/HOME0869RaSF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "c23dd2926f8bc790f38c0d58174a84c2b4ada841d44604cac51fd484c0450304"
+    },
+    "HOME0869RaSL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/5/5e/HOME0869RaSL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "a59b8ac003ed9cae039735212856442287e7d472b0ccd60819c8355ce34e6ab9"
+    },
+    "HOME0869RaSR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/8d/HOME0869RaSR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "f85362ffe7da4511b47242ed203eac9d40f20b5ca06891563ef2e5755e0217ad"
+    },
+    "HOME0869RaSS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/84/HOME0869RaSS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Rainbow Swirl, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "fd2b4b7f13b624bd24978e00d29574f6a49c555abca93aa315588cb486354162"
+    },
+    "HOME0869RuC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/8/85/HOME0869RuC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "f5f9ef0c06742a6afccb663043979b0b24f17d3d856c2fd96c255db714571ad6"
+    },
+    "HOME0869RuCB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/4/44/HOME0869RuCB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "1954bf38ed2ae276f72ad8ea2c9babf808cef196afb1c0634a06e14b795c9e92"
+    },
+    "HOME0869RuCC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/0/0d/HOME0869RuCC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "9095ff2eec4a4d4996c3550d25f7e4ad269d6e099d1fdbfdb9006c3cf2338965"
+    },
+    "HOME0869RuCF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/15/HOME0869RuCF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "3fb911a91e012b392b8da81fe54bdee499eeaf852e7cad37691e8b565f29a944"
+    },
+    "HOME0869RuCL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/90/HOME0869RuCL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "5f169719dc42368b333e95e7502ff0ba40770fcd0533c5e4fa203c2667a41d81"
+    },
+    "HOME0869RuCR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/5/5f/HOME0869RuCR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "f523ac2e8d040aab52b9fcb1021e21cf19a3a76f0fcbf3f7b91aa99d15869978"
+    },
+    "HOME0869RuCS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/4/47/HOME0869RuCS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Cream, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "1c659888ba80439284957729053ee86192bbb4bca8ce39a2a29d1ca31eec3f55"
+    },
+    "HOME0869RuS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/19/HOME0869RuS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "dcb953b8e781007f3052877c0015fb8a217e06673fc2ae57a680e01d40be7dfb"
+    },
+    "HOME0869RuSB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/11/HOME0869RuSB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "a6120a83abe57170a2be96597519a7efb00537896a60b869f80fbf90a106e487"
+    },
+    "HOME0869RuSC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/3/37/HOME0869RuSC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "b200f567859b693b072c5b4abda3042da86ac1b85943722069fca5ca80922e84"
+    },
+    "HOME0869RuSF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/5/51/HOME0869RuSF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "0270a0723ac18ee27eee1bae8640ad0761c57cb567da85fa9615f8abf75007f6"
+    },
+    "HOME0869RuSL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/f/f8/HOME0869RuSL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "88224a70eada094e3fc75634e17126b0b7b1ba37b292b990f0575bc5c3041844"
+    },
+    "HOME0869RuSR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/a/a7/HOME0869RuSR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "7445d0ddf55b370513b7fc2de6738571e3bda84b6914453ad78bb111b9938bc5"
+    },
+    "HOME0869RuSS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/97/HOME0869RuSS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Ruby Swirl, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "f4fadf94f410c984e01dab74f8b44a0b243e6e1726165d6ccc0de606703041ab"
+    },
+    "HOME0869S.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869S.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/93/HOME0869S.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Vanilla Cream, Star Sweet)}}\n\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "0532ede199a0ea4a61a12dd8c88b61859d27fdaefdab682c11ec287061ce44f7"
+    },
+    "HOME0869S_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869S_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/b/b9/HOME0869S_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "035f6c4367bb4be7c9adfc4e083459d3821d05baa62e1a191d630fdbf8f6603d"
+    },
+    "HOME0869SaC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/a/a5/HOME0869SaC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Strawberry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "28d97cc5449d1cae844cf76f234607569289e3c0181eb73075ad671e0417a3cd"
+    },
+    "HOME0869SaCB.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCB.png",
+      "url": "https://archives.bulbagarden.net/media/upload/3/3d/HOME0869SaCB.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Berry Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "3c08bf592e039cb97958a628a980b0320bbc5e877649f19df79c1e54498a5780"
+    },
+    "HOME0869SaCC.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCC.png",
+      "url": "https://archives.bulbagarden.net/media/upload/e/ea/HOME0869SaCC.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Clover Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "ea153478b0d8fb39fc731b9c5c706b6b48a66f7bdf669bef1649a3a5ae742c9c"
+    },
+    "HOME0869SaCF.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCF.png",
+      "url": "https://archives.bulbagarden.net/media/upload/3/37/HOME0869SaCF.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Flower Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "4e89bf8432a6cfd1d266b9d73b215dae289d9fb9715eba74bec1ffa7c69fd75b"
+    },
+    "HOME0869SaCL.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCL.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/1a/HOME0869SaCL.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Love Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "cafe55bc09dfcec465597d5586365b15a633b5a6eb3c3f7835cd68f2ce157d54"
+    },
+    "HOME0869SaCR.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCR.png",
+      "url": "https://archives.bulbagarden.net/media/upload/c/cb/HOME0869SaCR.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Ribbon Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "855995cea12e70f4c5e3d2834e226df4eb65298439a525ae3bc3be096d0e2808"
+    },
+    "HOME0869SaCS.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCS.png",
+      "url": "https://archives.bulbagarden.net/media/upload/1/1f/HOME0869SaCS.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Salted Cream, Star Sweet)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "9538a54a749a980b634c63a1bfedcf1d796f4170bbb952a68543da1421594bf9"
+    },
+    "HOME0869_s.png": {
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869_s.png",
+      "url": "https://archives.bulbagarden.net/media/upload/9/92/HOME0869_s.png",
+      "description": "",
+      "wikitext": "== Summary ==\n{{HOME|0869|Alcremie|(Shiny)}}\n== Licensing ==\n{{i-Fairuse-model-game}}",
+      "wikitextSha256": "035f6c4367bb4be7c9adfc4e083459d3821d05baa62e1a191d630fdbf8f6603d"
+    }
+  }
+}

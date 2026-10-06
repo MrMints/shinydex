@@ -1,0 +1,787 @@
+{
+  "auditComplete": false,
+  "downloadedAndDecoded": [
+    {
+      "file": "HOME0869.png",
+      "sourceSha256": "cdda91dbf8805d4b83f52178d16b373b9a9fa67768b2634d6a84cbbb947503d6",
+      "localSha256": "5ab697e9a041efc681a6a1932a291d6a09f94db2f4b54ce695872b84208ce737",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/d/d1/HOME0869.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869B.png",
+      "sourceSha256": "779b22a3a765127a89382d853fb30ca2eee55590e987e77a65a33ce3a0d34c35",
+      "localSha256": "779b22a3a765127a89382d853fb30ca2eee55590e987e77a65a33ce3a0d34c35",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869B.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/c/c7/HOME0869B.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869B_s.png",
+      "sourceSha256": "948c43afb2dd753a76de8f02c97168dfd015b36786e713a5bda1e2f3f1bed9b5",
+      "localSha256": "948c43afb2dd753a76de8f02c97168dfd015b36786e713a5bda1e2f3f1bed9b5",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869B_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/2/20/HOME0869B_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869C.png",
+      "sourceSha256": "26b98910c22b1e141e60f9fa16ede67841ca6a96afec2951dcf90592d8f4a542",
+      "localSha256": "26b98910c22b1e141e60f9fa16ede67841ca6a96afec2951dcf90592d8f4a542",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869C.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/f/f4/HOME0869C.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869C_s.png",
+      "sourceSha256": "e7a766b2f0048d35157066faa87a5c333194e1498c102b49ef79c2b9c522e993",
+      "localSha256": "e7a766b2f0048d35157066faa87a5c333194e1498c102b49ef79c2b9c522e993",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869C_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/16/HOME0869C_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaS.png",
+      "sourceSha256": "8b3a52973487b5f8bfe66e9e20dd61e3a33815eb0228fc8a067228de7ef00f34",
+      "localSha256": "8b3a52973487b5f8bfe66e9e20dd61e3a33815eb0228fc8a067228de7ef00f34",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/3/30/HOME0869CaS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaSB.png",
+      "sourceSha256": "7fb8dc233bf74b82e46fe95ff253fad09dc1934d0bd29269b9fd3329b8d46a4f",
+      "localSha256": "7fb8dc233bf74b82e46fe95ff253fad09dc1934d0bd29269b9fd3329b8d46a4f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/c/ce/HOME0869CaSB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaSC.png",
+      "sourceSha256": "40191e3cb345b790b4d3241922f683b6b297f5ce3419a55ffaa1a549467b09e3",
+      "localSha256": "40191e3cb345b790b4d3241922f683b6b297f5ce3419a55ffaa1a549467b09e3",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/8f/HOME0869CaSC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaSF.png",
+      "sourceSha256": "1e74797e6abe451d4de1c3745f85ad41b3619a04455ea0767bdecae126362b52",
+      "localSha256": "1e74797e6abe451d4de1c3745f85ad41b3619a04455ea0767bdecae126362b52",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/4/41/HOME0869CaSF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaSL.png",
+      "sourceSha256": "ffcd3fca97db09b8e2ddc18fe2fbe0ea09bb4cf332ad01d7a5466ff240cc9019",
+      "localSha256": "ffcd3fca97db09b8e2ddc18fe2fbe0ea09bb4cf332ad01d7a5466ff240cc9019",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/e/ee/HOME0869CaSL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaSR.png",
+      "sourceSha256": "5772d31c7f165d62de99770c746b9c6b373b0c87b61920e3334c481a9c5a4861",
+      "localSha256": "5772d31c7f165d62de99770c746b9c6b373b0c87b61920e3334c481a9c5a4861",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/f/f3/HOME0869CaSR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869CaSS.png",
+      "sourceSha256": "303251491192359cb5eb24238dc93b7f6ff83ba21f056e92320ffaed38df7787",
+      "localSha256": "303251491192359cb5eb24238dc93b7f6ff83ba21f056e92320ffaed38df7787",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869CaSS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/2/26/HOME0869CaSS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869F.png",
+      "sourceSha256": "8fa6abd6e6170d947f47dbf1ea4f287dbf7b0bc5ea170afc11fcaa876bc1fd6f",
+      "localSha256": "8fa6abd6e6170d947f47dbf1ea4f287dbf7b0bc5ea170afc11fcaa876bc1fd6f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869F.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/e/e5/HOME0869F.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869F_s.png",
+      "sourceSha256": "9931744bc7dcfde1014496c8d088b620caf35c2049b03f13406d8a3a663fb812",
+      "localSha256": "9931744bc7dcfde1014496c8d088b620caf35c2049b03f13406d8a3a663fb812",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869F_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/c/c2/HOME0869F_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869L.png",
+      "sourceSha256": "17d57bf93206b8245ccbe2e45cdd07d30a7f3167339d2146640de056724daa07",
+      "localSha256": "17d57bf93206b8245ccbe2e45cdd07d30a7f3167339d2146640de056724daa07",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869L.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/a/ad/HOME0869L.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869L_s.png",
+      "sourceSha256": "fe8794bd1cf3a5f8df0a955e658adab62d4fec192a013b30c22b46a85a8b1457",
+      "localSha256": "fe8794bd1cf3a5f8df0a955e658adab62d4fec192a013b30c22b46a85a8b1457",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869L_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/bf/HOME0869L_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeC.png",
+      "sourceSha256": "78ba99389f6c56dd69beb91c01afb3d0a54decc7e6a8d9fa9ae8fc92e4d6606a",
+      "localSha256": "78ba99389f6c56dd69beb91c01afb3d0a54decc7e6a8d9fa9ae8fc92e4d6606a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/7/71/HOME0869LeC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeCB.png",
+      "sourceSha256": "6bc36cfc8a090908503681276f37bc4cf52389ef43a61f8b0aa3d3569bf1ec0b",
+      "localSha256": "6bc36cfc8a090908503681276f37bc4cf52389ef43a61f8b0aa3d3569bf1ec0b",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/b8/HOME0869LeCB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeCC.png",
+      "sourceSha256": "e67e6fc484ad03ffeb1313c07b2eea38f9456fbb0330b3425b6771f56c210b0c",
+      "localSha256": "e67e6fc484ad03ffeb1313c07b2eea38f9456fbb0330b3425b6771f56c210b0c",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/3/34/HOME0869LeCC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeCF.png",
+      "sourceSha256": "5884dcfe8ac0adccb9f0fbe15d54999e23ba601177a24a337b48598957958e29",
+      "localSha256": "5884dcfe8ac0adccb9f0fbe15d54999e23ba601177a24a337b48598957958e29",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/7/78/HOME0869LeCF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeCL.png",
+      "sourceSha256": "eba3d401c759ab45e14ff00efc6975fb5acec92bbc1d3029ab28e9b3e0bb7307",
+      "localSha256": "eba3d401c759ab45e14ff00efc6975fb5acec92bbc1d3029ab28e9b3e0bb7307",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/c/ce/HOME0869LeCL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeCR.png",
+      "sourceSha256": "1272fcf87929b779dfbb1735f43730f4482391805f2800abeaa170661d112137",
+      "localSha256": "1272fcf87929b779dfbb1735f43730f4482391805f2800abeaa170661d112137",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/0/0e/HOME0869LeCR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869LeCS.png",
+      "sourceSha256": "94262820f727c8fceed3b63694d64a4ff439c3461d89265a6d2ac96b29565f52",
+      "localSha256": "94262820f727c8fceed3b63694d64a4ff439c3461d89265a6d2ac96b29565f52",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869LeCS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/9d/HOME0869LeCS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaC.png",
+      "sourceSha256": "66acc4242fe040268366e6e27907ce33e0077ca638caababe7bbfedf1001cae8",
+      "localSha256": "66acc4242fe040268366e6e27907ce33e0077ca638caababe7bbfedf1001cae8",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/c/cd/HOME0869MaC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaCB.png",
+      "sourceSha256": "359def615fdc1d1f364d6843b18104acef0cd2afca425afd2d3e6644b295beae",
+      "localSha256": "359def615fdc1d1f364d6843b18104acef0cd2afca425afd2d3e6644b295beae",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/4/45/HOME0869MaCB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaCC.png",
+      "sourceSha256": "173a6c58f4c87bac4f5781347ee36a63eb1054230399188bdc9224034a396ad2",
+      "localSha256": "173a6c58f4c87bac4f5781347ee36a63eb1054230399188bdc9224034a396ad2",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/8a/HOME0869MaCC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaCF.png",
+      "sourceSha256": "12987ddbcd9750abb1bdebef435e9c141978c8dce7979b93b312dd20d6d32ad4",
+      "localSha256": "12987ddbcd9750abb1bdebef435e9c141978c8dce7979b93b312dd20d6d32ad4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/19/HOME0869MaCF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaCL.png",
+      "sourceSha256": "7c6ebd10416b4245741199b58475318f5830e1b6b147cdb8ec232cb2a766a656",
+      "localSha256": "7c6ebd10416b4245741199b58475318f5830e1b6b147cdb8ec232cb2a766a656",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/0/0e/HOME0869MaCL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaCR.png",
+      "sourceSha256": "9037af9ee870b90c9d788c2625fe852ad3268bfaeb9f156e33b7cee7e892d003",
+      "localSha256": "9037af9ee870b90c9d788c2625fe852ad3268bfaeb9f156e33b7cee7e892d003",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/a/a4/HOME0869MaCR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MaCS.png",
+      "sourceSha256": "a6407cc743db127e38e6caed561099c9e6d6b8d83a76afb948b3e1c6e3347a11",
+      "localSha256": "a6407cc743db127e38e6caed561099c9e6d6b8d83a76afb948b3e1c6e3347a11",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MaCS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/ba/HOME0869MaCS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiC.png",
+      "sourceSha256": "c05eb7994b36ad6b2a9bcf857af4c756ef88e170c228f1605db751f845d77ef9",
+      "localSha256": "c05eb7994b36ad6b2a9bcf857af4c756ef88e170c228f1605db751f845d77ef9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/83/HOME0869MiC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiCB.png",
+      "sourceSha256": "955bbb5a06c36d19bc4ed14076ec541897bf75271b97e968cfbc2b1e0a8c9f5d",
+      "localSha256": "955bbb5a06c36d19bc4ed14076ec541897bf75271b97e968cfbc2b1e0a8c9f5d",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/0/00/HOME0869MiCB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiCC.png",
+      "sourceSha256": "00ec3058170fdc24813bc31e26985c9a52ae6eb8d04a3bc4b0996384e1c35844",
+      "localSha256": "00ec3058170fdc24813bc31e26985c9a52ae6eb8d04a3bc4b0996384e1c35844",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/b4/HOME0869MiCC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiCF.png",
+      "sourceSha256": "908ea060fac1bd10fe4e81a8a3ff38761b76e2c666a3681d93ab33548ad30989",
+      "localSha256": "908ea060fac1bd10fe4e81a8a3ff38761b76e2c666a3681d93ab33548ad30989",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/90/HOME0869MiCF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiCL.png",
+      "sourceSha256": "dc14f8e5f9dda50de9bbe3a2187f65d5d1a5a33e3a5ebfaf8be4b51250e88f99",
+      "localSha256": "dc14f8e5f9dda50de9bbe3a2187f65d5d1a5a33e3a5ebfaf8be4b51250e88f99",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/99/HOME0869MiCL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiCR.png",
+      "sourceSha256": "cc4c091b4d01b96a90d6db550f6ddc578556902868a5a01a6dda8db3df2d9f8f",
+      "localSha256": "cc4c091b4d01b96a90d6db550f6ddc578556902868a5a01a6dda8db3df2d9f8f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/92/HOME0869MiCR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869MiCS.png",
+      "sourceSha256": "4f2233c1f0fa26762642c7283e458f3de1002fdef668606382fffd41dc498ab7",
+      "localSha256": "4f2233c1f0fa26762642c7283e458f3de1002fdef668606382fffd41dc498ab7",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869MiCS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/5/5b/HOME0869MiCS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869R.png",
+      "sourceSha256": "9aee09d4f2622b56257661f21cda3ddc0364651eb8767f9af4689db05a50f1b6",
+      "localSha256": "9aee09d4f2622b56257661f21cda3ddc0364651eb8767f9af4689db05a50f1b6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869R.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/f/fa/HOME0869R.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869R_s.png",
+      "sourceSha256": "27a3416f5475d59c0ed6d480b1a7588a7ca808fbc42c8a742d8a692d087f31f1",
+      "localSha256": "27a3416f5475d59c0ed6d480b1a7588a7ca808fbc42c8a742d8a692d087f31f1",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869R_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/1a/HOME0869R_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaS.png",
+      "sourceSha256": "6f09c924e85beb0102bd70305d27b765ef1cc03b9e9c05b2c57cdf51d249848e",
+      "localSha256": "6f09c924e85beb0102bd70305d27b765ef1cc03b9e9c05b2c57cdf51d249848e",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/b3/HOME0869RaS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaSB.png",
+      "sourceSha256": "b814320d2239b220449146849a49f58e5aebb6690e1a29d53eae3a93c13cdcd9",
+      "localSha256": "b814320d2239b220449146849a49f58e5aebb6690e1a29d53eae3a93c13cdcd9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/b1/HOME0869RaSB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaSC.png",
+      "sourceSha256": "a5dcfeec3910ef218dc6b5199b14e8b1a4dad418d5aff03649cac175d3f8574c",
+      "localSha256": "a5dcfeec3910ef218dc6b5199b14e8b1a4dad418d5aff03649cac175d3f8574c",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/81/HOME0869RaSC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaSF.png",
+      "sourceSha256": "1b14c601ece031282694a15231f574929a02321c3da6f818288ba011645fa450",
+      "localSha256": "1b14c601ece031282694a15231f574929a02321c3da6f818288ba011645fa450",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/5/53/HOME0869RaSF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaSL.png",
+      "sourceSha256": "079c991d8af702132c296b2b4ce2811df93d00e8896f12d98b1886c8dfd1d7a9",
+      "localSha256": "079c991d8af702132c296b2b4ce2811df93d00e8896f12d98b1886c8dfd1d7a9",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/5/5e/HOME0869RaSL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaSR.png",
+      "sourceSha256": "056b0d05b44b7cec7e97f4e434354576e4c26c5c7680ecd6ec771afe4d710e87",
+      "localSha256": "056b0d05b44b7cec7e97f4e434354576e4c26c5c7680ecd6ec771afe4d710e87",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/8d/HOME0869RaSR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RaSS.png",
+      "sourceSha256": "af118ac7f5d4cbd75fdae42128744ca7b72e6b2ea5e90b7ae4344c999043fa7b",
+      "localSha256": "af118ac7f5d4cbd75fdae42128744ca7b72e6b2ea5e90b7ae4344c999043fa7b",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RaSS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/84/HOME0869RaSS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuC.png",
+      "sourceSha256": "7017be7f9810518a915b03b1d379fa9683496b4f86a44e51fe40f395c429ed4c",
+      "localSha256": "7017be7f9810518a915b03b1d379fa9683496b4f86a44e51fe40f395c429ed4c",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/8/85/HOME0869RuC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuCB.png",
+      "sourceSha256": "32af309e6effd327afbcadf102b203a14e7326b32069a7810657472564a56933",
+      "localSha256": "32af309e6effd327afbcadf102b203a14e7326b32069a7810657472564a56933",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/4/44/HOME0869RuCB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuCC.png",
+      "sourceSha256": "615f7cf558db062f00e94493d6a16f063b3437207c74bc26ea56d4530acb9d73",
+      "localSha256": "615f7cf558db062f00e94493d6a16f063b3437207c74bc26ea56d4530acb9d73",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/0/0d/HOME0869RuCC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuCF.png",
+      "sourceSha256": "a091e4540b208c167cc9244d4e3ff8afdb0ab3966ac58119fe585f84feeebe35",
+      "localSha256": "a091e4540b208c167cc9244d4e3ff8afdb0ab3966ac58119fe585f84feeebe35",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/15/HOME0869RuCF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuCL.png",
+      "sourceSha256": "2b84874bf6e954588b4e59bb8fdd462f912cd916acd75680deb70b7a35a8662f",
+      "localSha256": "2b84874bf6e954588b4e59bb8fdd462f912cd916acd75680deb70b7a35a8662f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/90/HOME0869RuCL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuCR.png",
+      "sourceSha256": "e82ed8b365cf663eaefa079075615ab294ce6b9a9071883d5c0a92c75a3e86d0",
+      "localSha256": "e82ed8b365cf663eaefa079075615ab294ce6b9a9071883d5c0a92c75a3e86d0",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/5/5f/HOME0869RuCR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuCS.png",
+      "sourceSha256": "c18881b713f9e33ee103bd1f9f806dabb7a2ea933480629ac465850c8f19c302",
+      "localSha256": "c18881b713f9e33ee103bd1f9f806dabb7a2ea933480629ac465850c8f19c302",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuCS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/4/47/HOME0869RuCS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuS.png",
+      "sourceSha256": "212edd8a7abe9b9be791f98708c2d0541d0e18860edf7405d56cedda992ea9c8",
+      "localSha256": "212edd8a7abe9b9be791f98708c2d0541d0e18860edf7405d56cedda992ea9c8",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/19/HOME0869RuS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuSB.png",
+      "sourceSha256": "6bbcee1138ec732dbe9ecb1f371025689ee30d2d9998469e017d50e143e85ac4",
+      "localSha256": "6bbcee1138ec732dbe9ecb1f371025689ee30d2d9998469e017d50e143e85ac4",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/11/HOME0869RuSB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuSC.png",
+      "sourceSha256": "cfd657c95301fcf25caa89860c853517f0ded34e7c18a4aef569f127e3aa0ed8",
+      "localSha256": "cfd657c95301fcf25caa89860c853517f0ded34e7c18a4aef569f127e3aa0ed8",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/3/37/HOME0869RuSC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuSF.png",
+      "sourceSha256": "645af0838c7f429b017586a99a275a81208ee8b511cfdf695bc09c0a268fc5b7",
+      "localSha256": "645af0838c7f429b017586a99a275a81208ee8b511cfdf695bc09c0a268fc5b7",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/5/51/HOME0869RuSF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuSL.png",
+      "sourceSha256": "028820f883d66d6d497c24f294a7531406ac8eaf32f7bff8e225b305ba73b42f",
+      "localSha256": "028820f883d66d6d497c24f294a7531406ac8eaf32f7bff8e225b305ba73b42f",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/f/f8/HOME0869RuSL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuSR.png",
+      "sourceSha256": "cbf178521c895b5f72e1b5691d240a3f167e23a12b1192f241d79688e27a300e",
+      "localSha256": "cbf178521c895b5f72e1b5691d240a3f167e23a12b1192f241d79688e27a300e",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/a/a7/HOME0869RuSR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869RuSS.png",
+      "sourceSha256": "7a75dfc05db6fae29e55d007e507657b51fa4335e7694bff6b75894c5124ff53",
+      "localSha256": "7a75dfc05db6fae29e55d007e507657b51fa4335e7694bff6b75894c5124ff53",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869RuSS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/97/HOME0869RuSS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869S.png",
+      "sourceSha256": "d5e11267787d5d49929b36d59b196118dc7e77fd4177e6cfdb401d73cdf06c97",
+      "localSha256": "d5e11267787d5d49929b36d59b196118dc7e77fd4177e6cfdb401d73cdf06c97",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869S.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/93/HOME0869S.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869S_s.png",
+      "sourceSha256": "cca9893f24b5da113aaab23df5810c00c7cad9aa27da38e44b03b38359861c12",
+      "localSha256": "cca9893f24b5da113aaab23df5810c00c7cad9aa27da38e44b03b38359861c12",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869S_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/b/b9/HOME0869S_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaC.png",
+      "sourceSha256": "8b7b33b2837c2fb2c4e97d10019c6110797c6068bd6bf9bdbb80db4f0657aaf6",
+      "localSha256": "8b7b33b2837c2fb2c4e97d10019c6110797c6068bd6bf9bdbb80db4f0657aaf6",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/a/a5/HOME0869SaC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaCB.png",
+      "sourceSha256": "b25f398f6838702505fe74c78bd90775192f2000be6b429005df829b69112294",
+      "localSha256": "b25f398f6838702505fe74c78bd90775192f2000be6b429005df829b69112294",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCB.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/3/3d/HOME0869SaCB.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaCC.png",
+      "sourceSha256": "ac83b5962d845d5ff9bffdaeeaef0ad1fde4ac30bf08467bc73b21800bd4d06a",
+      "localSha256": "ac83b5962d845d5ff9bffdaeeaef0ad1fde4ac30bf08467bc73b21800bd4d06a",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCC.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/e/ea/HOME0869SaCC.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaCF.png",
+      "sourceSha256": "21fe6312145211e9b7c9e54b5528e9488593054c2396a83ef23e3c4bc906dacb",
+      "localSha256": "21fe6312145211e9b7c9e54b5528e9488593054c2396a83ef23e3c4bc906dacb",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCF.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/3/37/HOME0869SaCF.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaCL.png",
+      "sourceSha256": "5f6100b201a40769b350128fce7b9cfe020a6e1cf5a7dbaa8786b27c55c19441",
+      "localSha256": "5f6100b201a40769b350128fce7b9cfe020a6e1cf5a7dbaa8786b27c55c19441",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCL.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/1a/HOME0869SaCL.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaCR.png",
+      "sourceSha256": "ceb82771959685c2684ad916d6bbfa66789ad056f4597aaa73926a8970805091",
+      "localSha256": "ceb82771959685c2684ad916d6bbfa66789ad056f4597aaa73926a8970805091",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCR.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/c/cb/HOME0869SaCR.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869SaCS.png",
+      "sourceSha256": "e8ee7488e13a0dec88068a3e68651a7b2495359129321d7773bfc2f14e6c0fac",
+      "localSha256": "e8ee7488e13a0dec88068a3e68651a7b2495359129321d7773bfc2f14e6c0fac",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869SaCS.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/1/1f/HOME0869SaCS.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "HOME0869_s.png",
+      "sourceSha256": "ebaa4e9652a8b7a173752eabc44ca2a4d5db07d21654e1aa18c8771c073a81d8",
+      "localSha256": "76c4dd69a4dcc9f65489843ff6163137dabf72ec95f223c621ad275e4690b0f3",
+      "source": "https://archives.bulbagarden.net/wiki/File:HOME0869_s.png",
+      "downloadUrl": "https://archives.bulbagarden.net/media/upload/9/92/HOME0869_s.png",
+      "sourceSize": [
+        512,
+        512
+      ]
+    }
+  ],
+  "visualReviewComplete": true,
+  "contactSheet": "audit/artifacts/living-dex/alcremie.png",
+  "visualReview": {
+    "date": "2026-10-05",
+    "scope": "All 63 normal combinations and seven shiny sweet appearances inspected on labeled 9-column/8-row contact sheet.",
+    "observations": "Cream colors and swirl appearances match columns; strawberry, berry, heart, star, clover, flower and ribbon ornaments match rows. Shiny row has the matching seven ornaments. Small-image review does not certify pixel-perfect fidelity.",
+    "captionExceptions": {
+      "HOME0869.png": "Source omits default Vanilla Cream/Strawberry Sweet; visual review confirms both.",
+      "HOME0869_s.png": "Source omits Strawberry Sweet; visual review confirms strawberries.",
+      "HOME0869S_s.png": "Source omits Star Sweet; visual review confirms yellow stars."
+    }
+  }
+}

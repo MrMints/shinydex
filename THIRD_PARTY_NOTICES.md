@@ -1,5 +1,7 @@
 # Third-party sources
 
+Living-dex completeness and species/number references: PokéPC, https://pokepc.net/livingdex and https://pokepc.net/pokemon, reviewed 2026-10-05. Saved labels and comparison evidence are in audit/pokepc-living-dex-reference.json and audit/pokepc-living-dex-comparison.json. This reference does not independently establish HOME eligibility or hunting availability. Additional form artwork includes source-linked official illustrations and game renders as well as HOME artwork; per-image source URLs remain in data.json, with staged evidence in audit/*artwork-review.json. A separate shiny image is not asserted where unavailable.
+
 Pokémon artwork is sourced from Bulbapedia's Bulbagarden Archives. It is included in the original HOME artwork style, with normal and shiny variants. Image provenance and checks are recorded in audit/image-audit.json, audit/image-captions.json and audit/caption-audit.json. Pokémon characters and artwork belong to their respective rights holders; they are not original app artwork.
 
 Pokédex and encounter CSV snapshots originate from PokéAPI: https://github.com/PokeAPI/pokeapi. Bulbapedia references support hunting mechanics and game-specific restrictions. Individual hunting records retain source links.

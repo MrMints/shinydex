@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-05T21:54:53.151789+00:00",
+  "checkedAt": "2026-10-06T01:51:53.833069+00:00",
   "passed": true,
-  "checkCount": 34,
+  "checkCount": 36,
   "fullHuntingAuditComplete": false,
   "limitations": [
     "Checks cover their stated reference snapshots and regressions; they do not prove all games, hunting techniques, events or acquisition prerequisites are complete.",
@@ -44,6 +44,13 @@
       "errors": ""
     },
     {
+      "check": "verify-collection-compatibility.cjs",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified unknown-form round trip, visible totals, shiny implication, version and malformed-record handling.\nVerified explicit assignment preserves backup and unknown IDs, moves shiny ownership and rejects missing captures.",
+      "errors": ""
+    },
+    {
       "check": "verify-condition-compatibility.py",
       "passed": true,
       "exitCode": 0,
@@ -54,7 +61,7 @@
       "check": "verify-data.cjs",
       "passed": true,
       "exitCode": 0,
-      "output": "Verified 1083 ordered entries, 58 regional forms, 37 boxes, 2166 local images and hunting/lock records. 0 entries still have gift restrictions requiring review; exhaustive game coverage remains incomplete.",
+      "output": "Verified 1604 ordered catalog records, 1431 HOME slots and local artwork; preserved 1083 legacy hunting/lock records. 521 new form guides and 0 gift restrictions remain unreviewed; exhaustive game coverage remains incomplete.",
       "errors": ""
     },
     {
@@ -124,7 +131,7 @@
       "check": "verify-images.py",
       "passed": true,
       "exitCode": 0,
-      "output": "Decoded 2166/2166 local images; 0 issues",
+      "output": "Decoded 3208/3208 local images; 0 issues",
       "errors": ""
     },
     {
@@ -146,6 +153,13 @@
       "passed": true,
       "exitCode": 0,
       "output": "Verified 114 Let’s Go level routes, including independent Alolan parent forms; remaining evolution methods under audit\nVerified 46 Let’s Go stone and trade routes, Alolan Ice Stones and partner exceptions",
+      "errors": ""
+    },
+    {
+      "check": "verify-living-dex.cjs",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified 1604 catalog records, concrete HOME positions, preserved legacy IDs and independent ownership across the reviewed form manifests. Candidate scope review remains incomplete.",
       "errors": ""
     },
     {
@@ -236,7 +250,7 @@
       "check": "verify-upstream-images.py",
       "passed": true,
       "exitCode": 0,
-      "output": "All 2166 local artwork files match independently fetched upstream hashes",
+      "output": "2166 runtime artwork files match baseline upstream hashes; 543 additional files retain their recorded download/local hashes. Recorded transformed payloads are not asserted byte-identical to upstream; visual review has separate scope.",
       "errors": ""
     },
     {

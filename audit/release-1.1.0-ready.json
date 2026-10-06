@@ -1,0 +1,67 @@
+{
+  "version": "1.1.0",
+  "tag": "v1.1.0",
+  "releaseName": "ShinyDex 1.1.0",
+  "reviewedDate": "2026-10-05",
+  "readyForUpload": true,
+  "uploadApproved": true,
+  "published": false,
+  "auditComplete": false,
+  "priorRelease": {
+    "version": "1.0.0",
+    "installerSha256": "fec01529cf8df4f145ad1b4b932103961b861ac8ed16d5d60e082e59edf84ae8",
+    "sourceAsarSha256": "369d7c3e5cbd33a95b747332500090b32d48cba3f436f3c171ee60e7bcd7b12c"
+  },
+  "compatibility": {
+    "legacyKeysVerified": 1083,
+    "newKeysPreservedOnDowngrade": 521,
+    "roundtripPassed": true,
+    "unknownFutureIdsPreserved": true,
+    "backupPassed": true,
+    "realRendererPhases": [
+      "old-seed",
+      "new-upgrade",
+      "old-downgrade",
+      "new-return"
+    ]
+  },
+  "package": {
+    "asarSha256": "cf968f4d7abe159b555e74a0acecb44baa7d0aa3cb8fe6d5b32151d861bf3815",
+    "offlineRuntimeAssets": true,
+    "sourceFilesMatch": true,
+    "sha512Matches": true,
+    "assets": [
+      {
+        "name": "ShinyDex.exe",
+        "bytes": 247121070,
+        "sha256": "b17197c0cc8c5d5671a9c0fee56d613e8329d1355f7c25c57f869010be441691"
+      },
+      {
+        "name": "latest.yml",
+        "bytes": 321,
+        "sha256": "621a6e207147faeb5e74ebc3738fd7161a2a21d7fa689ffaf4c79247e6fe8c89"
+      },
+      {
+        "name": "ShinyDex.exe.blockmap",
+        "bytes": 258803,
+        "sha256": "6de1e0cf40472d49b0fad5abce98dd4883cf39ca901185695c8cd94cc8b217bf"
+      },
+      {
+        "name": "ShinyDex.exe.sha256",
+        "bytes": 79,
+        "sha256": "f9d6f781ca31438d84480f1649d9742be9ac4d3f4aff270533a9955d073ccc8c"
+      }
+    ]
+  },
+  "checks": {
+    "project": "36/36 passed",
+    "desktopUnits": "6/6 passed",
+    "packagedSmoke": "Passed"
+  },
+  "limitations": [
+    "1.0.0 Export backup omits newer form IDs; its desktop disk save preserves them. Export with 1.1.0 before rollback.",
+    "Roundtrip used actual verified release code in isolated Electron fixture runs; real NSIS install/update/downgrade and clean-machine behavior are not established.",
+    "Browser 1.0.0 storage/exports do not preserve unknown forms; browser and desktop profiles remain separate.",
+    "Independent HOME/artwork/hunting verification remains deferred as requested."
+  ]
+}

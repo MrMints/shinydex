@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "forms": [
+    {
+      "identity": "pikachu-original-cap",
+      "key": 210196,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Original Cap",
+      "pokemonId": 10094,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025O.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025O.png",
+      "shinyFile": "HOME0025O.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025O.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-hoenn-cap",
+      "key": 210197,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Hoenn Cap",
+      "pokemonId": 10095,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025H.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025H.png",
+      "shinyFile": "HOME0025H.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025H.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-sinnoh-cap",
+      "key": 210198,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Sinnoh Cap",
+      "pokemonId": 10096,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025S.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025S.png",
+      "shinyFile": "HOME0025S.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025S.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-unova-cap",
+      "key": 210199,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Unova Cap",
+      "pokemonId": 10097,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025U.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025U.png",
+      "shinyFile": "HOME0025U.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025U.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-kalos-cap",
+      "key": 210200,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Kalos Cap",
+      "pokemonId": 10098,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025K.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025K.png",
+      "shinyFile": "HOME0025K.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025K.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-alola-cap",
+      "key": 210201,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Alola Cap",
+      "pokemonId": 10099,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025A.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025A.png",
+      "shinyFile": "HOME0025A.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025A.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-partner-cap",
+      "key": 210267,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "Partner Cap",
+      "pokemonId": 10148,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025P.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025P.png",
+      "shinyFile": "HOME0025P.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025P.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    },
+    {
+      "identity": "pikachu-world-cap",
+      "key": 210319,
+      "legacyKey": 25,
+      "speciesId": 25,
+      "formLabel": "World Cap",
+      "pokemonId": 10160,
+      "height": 4,
+      "weight": 60,
+      "normalFile": "HOME0025W.png",
+      "normalSource": "https://archives.bulbagarden.net/wiki/File:HOME0025W.png",
+      "shinyFile": "HOME0025W.png",
+      "shinySource": "https://archives.bulbagarden.net/wiki/File:HOME0025W.png",
+      "types": [
+        "electric"
+      ],
+      "shinyArtworkAvailable": false
+    }
+  ],
+  "reviewEvidence": "audit/cap-artwork-review.json",
+  "typeInputSha256": "f1fc4bfd657a034ea3bf6972423b10276424aa068577b304a78a08996425ba05",
+  "captionLimitations": "Eight normal cap images reviewed against source captions and cap-1 sheet. No separate shiny render exists in the captured registry; normal artwork is displayed with an explicit unavailable-shiny-art indication. Artwork availability does not establish shiny eligibility."
+}
