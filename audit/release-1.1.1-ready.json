@@ -18,7 +18,8 @@
     },
     "windowsBuild": "pnpm build:windows passed outside sandbox",
     "installerSha256": "a40e037d666b7a4bd5f3f8f3ca708a31814ae6c81820cfe2a2cd5e32d7f58761",
-    "lockfile": "pnpm lockfile contains dependency versions only; no application-version field or dependency change"
+    "lockfile": "pnpm lockfile contains dependency versions only; no application-version field or dependency change",
+    "packagedSourceMatch": true
   },
   "limitations": [
     "Fixture uses controlled releases; actual public update installation and restart cycle not tested",
@@ -26,5 +27,56 @@
     "Initial screenshot capture failed; delayed capture succeeded",
     "Checkpoint reported eight pre-existing drifted baseline files; baseline hashes were not refreshed"
   ],
-  "publication": "User approved source commit and push on 2026-10-07. Installer built locally; no release tag or GitHub release published by this change."
+  "publication": "Published user-authorized v1.1.1 release with four verified assets on 2026-10-07.",
+  "uploadApproved": true,
+  "package": {
+    "assets": [
+      {
+        "name": "ShinyDex.exe",
+        "bytes": 247121485,
+        "sha256": "a40e037d666b7a4bd5f3f8f3ca708a31814ae6c81820cfe2a2cd5e32d7f58761"
+      },
+      {
+        "name": "latest.yml",
+        "bytes": 321,
+        "sha256": "119c4e6e4dc8208d7fa6a0ccc67aaac4babf710fe32e7914826b40a5e1dde0a9"
+      },
+      {
+        "name": "ShinyDex.exe.blockmap",
+        "bytes": 258933,
+        "sha256": "8f505a3a01888fe3c1498ec7ade7059e81b708d804b5fac24a99333e511900b6"
+      },
+      {
+        "name": "ShinyDex.exe.sha256",
+        "bytes": 80,
+        "sha256": "94cb300ff01c547d74ae51413b6729797d1daddf21528a5170119a1ce9e32560"
+      }
+    ]
+  },
+  "published": true,
+  "releaseUrl": "https://github.com/MrMints/shinydex/releases/tag/v1.1.1",
+  "sourceCommit": "d7b103842b684e92e5fd7f003acea57848af3385",
+  "publishedAt": "2026-10-07T23:22:10Z",
+  "publishedAssets": [
+    {
+      "name": "latest.yml",
+      "sha256": "119c4e6e4dc8208d7fa6a0ccc67aaac4babf710fe32e7914826b40a5e1dde0a9",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.1/latest.yml"
+    },
+    {
+      "name": "ShinyDex.exe",
+      "sha256": "a40e037d666b7a4bd5f3f8f3ca708a31814ae6c81820cfe2a2cd5e32d7f58761",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.1/ShinyDex.exe"
+    },
+    {
+      "name": "ShinyDex.exe.blockmap",
+      "sha256": "8f505a3a01888fe3c1498ec7ade7059e81b708d804b5fac24a99333e511900b6",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.1/ShinyDex.exe.blockmap"
+    },
+    {
+      "name": "ShinyDex.exe.sha256",
+      "sha256": "94cb300ff01c547d74ae51413b6729797d1daddf21528a5170119a1ce9e32560",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.1/ShinyDex.exe.sha256"
+    }
+  ]
 }
