@@ -23,7 +23,7 @@ This is a fresh desktop profile. The former browser preview launcher and its bro
 
 ## Updates and older versions
 
-On startup, a newer desktop release offers **Update now** or **Later**. The adjacent version dropdown selects a compatible published desktop version; reopen it with **Updates**. Published native versions now include 1.0.0 and 1.1.0. **Versions older than 1.0.0 Release cannot be selected.** Native releases can be installed or rolled back as far as 1.0.0. The old browser previews are named 0.1 and 0.2 and are excluded.
+On startup, a newer desktop release offers **Update now** or **Later**. In version 1.1.1, check **Skip Version** before choosing **Later** to stop startup prompts for that exact release. A newer unskipped release shows **Update Available** on the update button. Skipped releases remain available for manual installation. The adjacent version dropdown selects a compatible published desktop version; reopen it with **Update**. Published native versions now include 1.0.0 and 1.1.0. **Versions older than 1.0.0 Release cannot be selected.** Native releases can be installed or rolled back as far as 1.0.0. The old browser previews are named 0.1 and 0.2 and are excluded.
 
 The updater downloads the selected installer, verifies its manifest SHA-512 and GitHub SHA-256 digest, and installs and restarts automatically. An offline check or failed verification leaves the installed app usable.
 

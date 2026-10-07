@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-07",
+  "version": "1.1.1",
+  "changes": [
+    "Persistent exact-release Skip Version checkbox applied on Later or Escape",
+    "Update Available for unskipped newer releases; Update otherwise",
+    "Manual installation and ability to unskip preserved"
+  ],
+  "verification": {
+    "desktopTests": "6/6 passed with --test-isolation=none; default runner blocked by spawn EPERM",
+    "electronFixture": "passed audit/qa-update-skip.cjs with isolated file-origin profile and controlled bridge",
+    "packagedSmoke": {
+      "passed": true,
+      "version": "1.1.1",
+      "packaged": true,
+      "url": "shiny://app/",
+      "errors": []
+    },
+    "windowsBuild": "pnpm build:windows passed outside sandbox",
+    "installerSha256": "a40e037d666b7a4bd5f3f8f3ca708a31814ae6c81820cfe2a2cd5e32d7f58761",
+    "lockfile": "pnpm lockfile contains dependency versions only; no application-version field or dependency change"
+  },
+  "limitations": [
+    "Fixture uses controlled releases; actual public update installation and restart cycle not tested",
+    "NSIS installer built but not installed",
+    "Initial screenshot capture failed; delayed capture succeeded",
+    "Checkpoint reported eight pre-existing drifted baseline files; baseline hashes were not refreshed"
+  ],
+  "publication": "User approved source commit and push on 2026-10-07. Installer built locally; no release tag or GitHub release published by this change."
+}

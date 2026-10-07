@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "scope": "Real Electron renderer with controlled release bridge: Later without skip, persisted skip across reload, manual reopen, unskip, different version prompt and button",
+  "version": "1.1.1"
+}

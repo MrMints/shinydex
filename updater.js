@@ -1,6 +1,9 @@
 // Desktop IPC and the archived browser launcher share the same update controls.
 (async () => {
   const endpoint = "/__updates/";
+  const skipKey = "shinydex-skipped-update-version";
+  let skippedVersion;
+  try { skippedVersion = localStorage.getItem(skipKey); } catch { /* Keep updates usable if preferences are inaccessible. */ }
   let state;
   let installing = false;
   let dismissed = false;
@@ -35,6 +38,7 @@
     #update-dialog button:disabled, #update-dialog select:disabled { opacity:.6; cursor:default; }
     #update-dialog .update-footer { display:flex; justify-content:space-between; align-items:center; margin-top:16px; gap:12px; }
     #update-later, #update-retry { border:1px solid #819eaf; border-radius:4px; padding:8px 12px; background:#eff5f7; color:#294e67; cursor:pointer; font:13px Trebuchet MS,Arial,sans-serif; }
+    #update-dialog .update-skip { display:flex; align-items:center; gap:8px; margin-top:16px; font-size:14px; }
     #update-message { margin-top:16px !important; font-size:13px; overflow-wrap:anywhere; }
     #update-progress { width:100%; height:12px; margin-top:14px; accent-color:#23648a; }
     #update-dialog [hidden] { display:none !important; }
@@ -53,6 +57,7 @@
     <div class="update-body"><p class="update-note">Your collection stays saved. Choose a desktop release, starting with 1.0.0. Earlier previews are unavailable.</p>
     <label class="update-label" for="update-version">Version to install</label><div class="update-control"><button id="update-install">Update now</button><select id="update-version" aria-label="Version to install"></select></div>
     <progress id="update-progress" max="100" value="0" hidden aria-label="Update download progress"></progress><p id="update-message" role="status" aria-live="polite"></p>
+    <label class="update-skip" id="update-skip-label"><input type="checkbox" id="update-skip"> Skip Version</label>
     <div class="update-footer"><button id="update-retry">Check again</button><button id="update-later">Later</button></div></div>`;
   document.body.append(dialog);
   const title = dialog.querySelector("#update-title");
@@ -63,11 +68,22 @@
   const progress = dialog.querySelector("#update-progress");
   const later = dialog.querySelector("#update-later");
   const retry = dialog.querySelector("#update-retry");
+  const skip = dialog.querySelector("#update-skip");
+  const skipLabel = dialog.querySelector("#update-skip-label");
+  let skipTarget;
+  const hasUnskippedUpdate = () => state.updateAvailable && state.latestVersion !== skippedVersion;
 
   function render() {
     current.textContent = `Installed: ${state.currentVersion}`;
     title.textContent = installing ? "Installing ShinyDex…" : state.updateAvailable ? "A new update is available" : "ShinyDex versions";
-    openButton.textContent = state.updateAvailable ? "Update available" : "Updates";
+    openButton.textContent = hasUnskippedUpdate() ? "Update Available" : "Update";
+    skipLabel.hidden = !state.updateAvailable;
+    skip.disabled = installing;
+    if (skipTarget !== state.latestVersion) {
+      skipTarget = state.latestVersion;
+      skip.checked = skippedVersion === skipTarget;
+    }
+    skip.title = `Do not prompt again for ${skipTarget}`;
     const signature = JSON.stringify([state.releases, state.currentVersion, state.latestVersion]);
     if (signature !== versionsSignature) {
     const selected = choiceMade ? versions.value : null;
@@ -121,7 +137,7 @@
       }
       if (installing && state.status === "error") installing = false;
       render();
-      if (state.updateAvailable && !dismissed && !installing && state.status !== "checking") show();
+      if (hasUnskippedUpdate() && !dismissed && !installing && state.status !== "checking") show();
     } catch {
       if (installing) message.textContent = Date.now() - installStarted > 45000
         ? "The launcher is taking longer to restart. Reopen ShinyDex.exe if this page does not return; your collection is still saved."
@@ -139,8 +155,28 @@
     install.disabled = installing || versions.value === state.currentVersion;
     message.textContent = versions.value === state.currentVersion ? "This version is already installed." : `Install ${versions.value}. Your collection will stay saved.`;
   });
-  later.addEventListener("click", () => { dismissed = true; dialog.close(); });
-  dialog.addEventListener("cancel", (event) => { if (installing) event.preventDefault(); else dismissed = true; });
+  function dismiss() {
+    if (state.updateAvailable) {
+      try {
+        if (skip.checked) {
+          localStorage.setItem(skipKey, skipTarget);
+          skippedVersion = skipTarget;
+        } else if (skippedVersion === skipTarget) {
+          localStorage.removeItem(skipKey);
+          skippedVersion = null;
+        }
+      } catch {
+        message.textContent = "Could not save your Skip Version preference. Try again, or uncheck it to close without saving.";
+        return false;
+      }
+    }
+    dismissed = true;
+    render();
+    dialog.close();
+    return true;
+  }
+  later.addEventListener("click", dismiss);
+  dialog.addEventListener("cancel", (event) => { event.preventDefault(); if (!installing) dismiss(); });
   install.addEventListener("click", async () => {
     try {
       // Snapshot browser storage before the native installer makes its local disk backup.

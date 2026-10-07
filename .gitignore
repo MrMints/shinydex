@@ -34,3 +34,9 @@ shinydex-backup*.json
 
 # Local repository-creation UI evidence is not project source.
 /Archive/github-repository-prepared.png
+/audit/artifacts/update-skip-qa/**
+!/audit/artifacts/update-skip-qa/*.png
+!/audit/artifacts/update-skip-qa/result.json
+/audit/artifacts/release-1.1.1-smoke/**
+!/audit/artifacts/release-1.1.1-smoke/*.png
+!/audit/artifacts/release-1.1.1-smoke/smoke.json
