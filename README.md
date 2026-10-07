@@ -23,13 +23,15 @@ This is a fresh desktop profile. The former browser preview launcher and its bro
 
 ## Updates and older versions
 
-On startup, a newer desktop release offers **Update now** or **Later**. In version 1.1.1, check **Skip Version** before choosing **Later** to stop startup prompts for that exact release. A newer unskipped release shows **Update Available** on the update button. Skipped releases remain available for manual installation. The adjacent version dropdown selects a compatible published desktop version; reopen it with **Update**. Published native versions include 1.0.0, 1.1.0, and 1.1.1; this source prepares 1.1.2. **Versions older than 1.0.0 Release cannot be selected.** Native releases can be installed or rolled back as far as 1.0.0. The old browser previews are named 0.1 and 0.2 and are excluded.
+On startup, a newer desktop release offers **Update now** or **Later**. In version 1.1.1, check **Skip Version** before choosing **Later** to stop startup prompts for that exact release. A newer unskipped release shows **Update Available** on the update button. Skipped releases remain available for manual installation. The adjacent version dropdown selects a compatible published desktop version; reopen it with **Update**. Published native versions include 1.0.0, 1.1.0, 1.1.1, and 1.1.2. **Versions older than 1.0.0 Release cannot be selected.** Native releases can be installed or rolled back as far as 1.0.0. The old browser previews are named 0.1 and 0.2 and are excluded.
 
 The updater downloads the selected installer, verifies its manifest SHA-512 and GitHub SHA-256 digest, and installs and restarts automatically. An offline check or failed verification leaves the installed app usable.
 
 Collection files remain in `%APPDATA%\ShinyDexDesktop\collection-v2.json` across desktop updates and rollbacks. Before installation the app writes a JSON backup in that profile's `backups` folder. Future catalog IDs are retained when an older desktop catalog saves. Collection contents are never uploaded to GitHub. **Export backup** saves a portable JSON file; **Import backup** restores a compatible version-2 collection after backing up the current one.
 
 The 1.0.0 → 1.1.0 → 1.0.0 → 1.1.0 desktop save round trip was tested with the verified public 1.0.0 code and isolated fixtures. All 1,083 legacy IDs survive the upgrade; newer form ownership survives older desktop autosaves and reappears after upgrading again. **Export a backup in 1.1.0 before rolling back:** 1.0.0's Export backup button omits forms that it cannot recognize, although its on-disk desktop save retains them. Older browser previews do not provide the same unknown-form protection. These checks do not establish a real NSIS installation/update cycle; see [release preparation evidence](audit/release-1.1.0-ready.json).
+
+Save compatibility for 1.0.0�1.1.2 passed all twelve directed version pairs with all catalog IDs and an unknown future ID. Actual renderer upgrade, rollback, reload, backup and export checks used isolated fixture profiles; real NSIS update/restart cycles remain unverified. See [1.1.2 release evidence](audit/release-1.1.2-ready.json).
 
 ## Collection
 

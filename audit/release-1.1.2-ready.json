@@ -2,7 +2,7 @@
   "version": "1.1.2",
   "checked": "2026-10-07",
   "uploadApproved": true,
-  "published": false,
+  "published": true,
   "auditComplete": false,
   "changes": [
     "Remove routine save status; preserve save errors",
@@ -411,5 +411,30 @@
     "Isolated fixtures only; no real collection accessed",
     "pnpm lockfile has no application-version field; dependency pins unchanged",
     "Checkpoint hashes preserved; exhaustive audit incomplete"
+  ],
+  "releaseUrl": "https://github.com/MrMints/shinydex/releases/tag/v1.1.2",
+  "sourceCommit": "7178ef26aadad5ecc3689d5ebf137c52ec972c40",
+  "publishedAt": "2026-10-07T23:36:52Z",
+  "publishedAssets": [
+    {
+      "name": "latest.yml",
+      "sha256": "9938b8e83eb8f64f0dbadf309c498e481acc0ccb87b36e6242370c3bde95e616",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.2/latest.yml"
+    },
+    {
+      "name": "ShinyDex.exe",
+      "sha256": "64914884d9981807ae0b61f56366afacb0ec1ef6bd749063b55306632f9076bc",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.2/ShinyDex.exe"
+    },
+    {
+      "name": "ShinyDex.exe.blockmap",
+      "sha256": "2c2bc6a2c2f90dd16241701f48e0a6554ca21aea24c9ee5db3d6faa6fa673c3f",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.2/ShinyDex.exe.blockmap"
+    },
+    {
+      "name": "ShinyDex.exe.sha256",
+      "sha256": "ba910bcf22db08a5f20806d8bad0d63b930b05597e01eed7ff0bf7cea1601546",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.1.2/ShinyDex.exe.sha256"
+    }
   ]
 }
