@@ -10,6 +10,7 @@ async function run({window,store,profile,app}){
     return window.webContents.executeJavaScript(safeSource);
   };
   const wait=async predicate=>{for(let i=0;i<200;i++){if(await evaluate(predicate))return;await new Promise(resolve=>setTimeout(resolve,100));}throw Error('Renderer timed out');};
+  const waitSaved=async key=>{for(let i=0;i<200;i++){const saved=JSON.parse(await store.load());if(saved.shinies.includes(key)){assert.equal(await evaluate('document.querySelector("#save").textContent'), '');return;}await new Promise(resolve=>setTimeout(resolve,100));}throw Error('Autosave timed out');};
   try{
     await wait('!!document.querySelector("[data-catch]") && !!document.querySelector("#update-open")');
     assert.equal(await evaluate('location.protocol'), 'shiny:');
@@ -18,10 +19,12 @@ async function run({window,store,profile,app}){
     assert.equal(await evaluate('document.querySelector("[data-image]").naturalWidth > 0'),true);
     const counts=()=>evaluate('Array.from(document.querySelectorAll("#captured-total, #total"),el=>parseInt(el.textContent,10))');
     assert.deepEqual(await counts(),[0,0]);
+    assert.equal(await evaluate('getComputedStyle(document.querySelector("#save")).display'), 'none');
+    assert.equal(await evaluate('(()=>{const s=document.querySelector("#save");s.textContent="Not saved — export a backup";const visible=getComputedStyle(s).display!=="none";s.textContent="";return visible;})()'),true);
     await evaluate('document.querySelector("input[data-catch=\"1\"][data-kind=captured]").click()');
     assert.deepEqual(await counts(),[1,0]);
     await evaluate('document.querySelector("input[data-catch=" + JSON.stringify("1") + "][data-kind=shiny]").click()');
-    await wait('document.querySelector("#save").textContent.includes("Saved")');
+    await waitSaved(1);
     assert.deepEqual(JSON.parse(await store.load()).shinies,[1]);
     assert.deepEqual(await counts(),[1,1]);
     await window.loadURL('shiny://app/');
@@ -38,13 +41,16 @@ async function run({window,store,profile,app}){
     assert.deepEqual(await counts(),[0,0]);
     window.setSize(1280,900);
     // Use only the explicitly isolated QA profile for independent form captures.
-    assert.equal(await evaluate('document.querySelectorAll(".form-select").length'),1025);
+    assert.equal(await evaluate('document.querySelectorAll(".form-select").length'),219);
+    assert.equal(await evaluate('document.querySelector("[data-row=\\"1\\"] .form-select")'),null);
+    assert.equal(await evaluate('Array.from(document.querySelectorAll(".form-select")).some(s=>s.options.length===1 && s.options[0].textContent.startsWith("Standard"))'),false);
     await evaluate('(()=>{const s=document.querySelector("#search");s.value="Pikachu";s.dispatchEvent(new Event("input",{bubbles:true}));const f=document.querySelector(".form-select");f.value="300051";f.dispatchEvent(new Event("change",{bubbles:true}));})()');
     await evaluate('document.querySelector("input[data-catch=\"300051\"][data-kind=shiny]").click()');
-    await wait('document.querySelector("#save").textContent.includes("Saved")');
+    await waitSaved(300051);
     assert.deepEqual(await counts(),[1,1]);
     await evaluate('(()=>{const f=document.querySelector(".form-select");f.value="300050";f.dispatchEvent(new Event("change",{bubbles:true}));document.querySelector("input[data-catch=\"300050\"][data-kind=captured]").click();})()');
-    await wait('document.querySelector("#save").textContent.includes("Saved")');
+    for(let i=0;i<200;i++){if(JSON.parse(await store.load()).captured.includes(300050))break;await new Promise(resolve=>setTimeout(resolve,100));}
+    assert.ok(JSON.parse(await store.load()).captured.includes(300050));
     assert.deepEqual(await counts(),[2,1]);
     await window.loadURL('shiny://app/');
     await wait('!!document.querySelector(".form-select") && !!document.querySelector("#update-open")');

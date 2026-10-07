@@ -1,0 +1,415 @@
+{
+  "version": "1.1.2",
+  "checked": "2026-10-07",
+  "uploadApproved": true,
+  "published": false,
+  "auditComplete": false,
+  "changes": [
+    "Remove routine save status; preserve save errors",
+    "Omit Standard-only form selectors"
+  ],
+  "verification": {
+    "desktopTests": "6/6 passed",
+    "livingDexVerifier": "passed",
+    "packagedSmoke": {
+      "passed": true,
+      "version": "1.1.2",
+      "packaged": true,
+      "url": "shiny://app/",
+      "errors": []
+    },
+    "visualReview": [
+      "counters-1280.png",
+      "counters-420.png"
+    ],
+    "windowsBuild": "pnpm build:windows passed",
+    "packagedSourceMatch": true,
+    "sha512Matches": true,
+    "compatibilityMatrix": {
+      "checked": "2026-10-07",
+      "passed": true,
+      "scope": "Actual packaged storage modules; all twelve directed version pairs with all catalog IDs plus unknown future ID",
+      "catalogCounts": {
+        "1.0.0": 1083,
+        "1.1.0": 1604,
+        "1.1.1": 1604,
+        "1.1.2": 1604
+      },
+      "asarSha256": {
+        "1.0.0": "369d7c3e5cbd33a95b747332500090b32d48cba3f436f3c171ee60e7bcd7b12c",
+        "1.1.0": "cf968f4d7abe159b555e74a0acecb44baa7d0aa3cb8fe6d5b32151d861bf3815",
+        "1.1.1": "27f38c1e369991b7d4fca1c52916149f6295263816d2d719c191df7cd5d678b4",
+        "1.1.2": "4d528efa39ee422dcbfb8e904cb76f9bb96819f2ee8e87eef1391fbc9da62b56"
+      },
+      "results": [
+        {
+          "from": "1.0.0",
+          "to": "1.1.0",
+          "passed": true,
+          "sourceKeys": 1083,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.0.0",
+          "to": "1.1.1",
+          "passed": true,
+          "sourceKeys": 1083,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.0.0",
+          "to": "1.1.2",
+          "passed": true,
+          "sourceKeys": 1083,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.0",
+          "to": "1.0.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 522,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.0",
+          "to": "1.1.1",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.0",
+          "to": "1.1.2",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.1",
+          "to": "1.0.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 522,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.1",
+          "to": "1.1.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.1",
+          "to": "1.1.2",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.2",
+          "to": "1.0.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 522,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.2",
+          "to": "1.1.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.2",
+          "to": "1.1.1",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        }
+      ],
+      "limitations": [
+        "Isolated collection stores; actual NSIS install/update cycle not exercised"
+      ]
+    },
+    "rendererCompatibility": [
+      {
+        "passed": true,
+        "phase": "old-seed",
+        "sourceVersion": "1.0.0",
+        "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.0\\previous-runtime\\app.asar",
+        "checks": [
+          "Original release loads legacy ownership; fixture includes a future ID"
+        ],
+        "collection": {
+          "version": 2,
+          "captured": [
+            1,
+            25,
+            999999
+          ],
+          "shinies": [
+            25,
+            999999
+          ]
+        },
+        "errors": []
+      },
+      {
+        "passed": true,
+        "phase": "new-upgrade",
+        "sourceVersion": "1.1.2",
+        "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\dist\\desktop\\win-unpacked\\resources\\app.asar",
+        "checks": [
+          "Legacy capture not guessed; explicit form assignment backs up before moving shiny ownership",
+          "Male/female Pikachu and Alcremie persisted independently",
+          "New export retains all form and future IDs"
+        ],
+        "collection": {
+          "version": 2,
+          "captured": [
+            1,
+            200869,
+            300050,
+            300051,
+            999999
+          ],
+          "shinies": [
+            200869,
+            300050,
+            300051,
+            999999
+          ]
+        },
+        "errors": []
+      },
+      {
+        "passed": true,
+        "phase": "old-downgrade",
+        "sourceVersion": "1.0.0",
+        "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.0\\previous-runtime\\app.asar",
+        "checks": [
+          "Original release autosave and restart preserve unknown form IDs",
+          "Older export confirmed to omit unrecognized IDs; limitation recorded"
+        ],
+        "collection": {
+          "version": 2,
+          "captured": [
+            1,
+            2,
+            200869,
+            300050,
+            300051,
+            999999
+          ],
+          "shinies": [
+            200869,
+            300050,
+            300051,
+            999999
+          ]
+        },
+        "errors": []
+      },
+      {
+        "passed": true,
+        "phase": "new-return",
+        "sourceVersion": "1.1.2",
+        "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\dist\\desktop\\win-unpacked\\resources\\app.asar",
+        "checks": [
+          "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+          "Portable current-version export re-imported through disk store without loss"
+        ],
+        "collection": {
+          "version": 2,
+          "captured": [
+            1,
+            2,
+            200869,
+            300050,
+            300051,
+            999999
+          ],
+          "shinies": [
+            200869,
+            300050,
+            300051,
+            999999
+          ]
+        },
+        "errors": []
+      },
+      {
+        "passed": true,
+        "phase": "new-return",
+        "sourceVersion": "1.1.1",
+        "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.2\\installer\\resources\\app.asar",
+        "checks": [
+          "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+          "Portable current-version export re-imported through disk store without loss"
+        ],
+        "collection": {
+          "version": 2,
+          "captured": [
+            1,
+            2,
+            200869,
+            300050,
+            300051,
+            999999
+          ],
+          "shinies": [
+            200869,
+            300050,
+            300051,
+            999999
+          ]
+        },
+        "errors": []
+      },
+      {
+        "passed": true,
+        "phase": "new-return",
+        "sourceVersion": "1.1.0",
+        "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.1-compatibility\\payload\\resources\\app.asar",
+        "checks": [
+          "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+          "Portable current-version export re-imported through disk store without loss"
+        ],
+        "collection": {
+          "version": 2,
+          "captured": [
+            1,
+            2,
+            200869,
+            300050,
+            300051,
+            999999
+          ],
+          "shinies": [
+            200869,
+            300050,
+            300051,
+            999999
+          ]
+        },
+        "errors": []
+      }
+    ]
+  },
+  "package": {
+    "asarSha256": "4d528efa39ee422dcbfb8e904cb76f9bb96819f2ee8e87eef1391fbc9da62b56",
+    "assets": [
+      {
+        "name": "ShinyDex.exe",
+        "bytes": 247121714,
+        "sha256": "64914884d9981807ae0b61f56366afacb0ec1ef6bd749063b55306632f9076bc"
+      },
+      {
+        "name": "latest.yml",
+        "bytes": 321,
+        "sha256": "9938b8e83eb8f64f0dbadf309c498e481acc0ccb87b36e6242370c3bde95e616"
+      },
+      {
+        "name": "ShinyDex.exe.blockmap",
+        "bytes": 258753,
+        "sha256": "2c2bc6a2c2f90dd16241701f48e0a6554ca21aea24c9ee5db3d6faa6fa673c3f"
+      },
+      {
+        "name": "ShinyDex.exe.sha256",
+        "bytes": 79,
+        "sha256": "ba910bcf22db08a5f20806d8bad0d63b930b05597e01eed7ff0bf7cea1601546"
+      }
+    ]
+  },
+  "limitations": [
+    "1.0.0 portable export omits unknown form IDs; export from newer versions before rollback",
+    "Real NSIS install/update/restart cycle not exercised",
+    "Isolated fixtures only; no real collection accessed",
+    "pnpm lockfile has no application-version field; dependency pins unchanged",
+    "Checkpoint hashes preserved; exhaustive audit incomplete"
+  ]
+}

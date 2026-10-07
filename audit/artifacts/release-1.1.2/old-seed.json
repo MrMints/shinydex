@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "phase": "old-seed",
+  "sourceVersion": "1.0.0",
+  "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.0\\previous-runtime\\app.asar",
+  "checks": [
+    "Original release loads legacy ownership; fixture includes a future ID"
+  ],
+  "collection": {
+    "version": 2,
+    "captured": [
+      1,
+      25,
+      999999
+    ],
+    "shinies": [
+      25,
+      999999
+    ]
+  },
+  "errors": []
+}

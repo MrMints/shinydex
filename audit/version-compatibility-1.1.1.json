@@ -1,0 +1,300 @@
+{
+  "checked": "2026-10-07",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "passed": true,
+  "diskMatrix": {
+    "checked": "2026-10-07",
+    "passed": true,
+    "scope": "Actual packaged storage modules; all six directed version pairs with all catalog IDs plus unknown future ID",
+    "catalogCounts": {
+      "1.0.0": 1083,
+      "1.1.0": 1604,
+      "1.1.1": 1604
+    },
+    "asarSha256": {
+      "1.0.0": "369d7c3e5cbd33a95b747332500090b32d48cba3f436f3c171ee60e7bcd7b12c",
+      "1.1.0": "cf968f4d7abe159b555e74a0acecb44baa7d0aa3cb8fe6d5b32151d861bf3815",
+      "1.1.1": "27f38c1e369991b7d4fca1c52916149f6295263816d2d719c191df7cd5d678b4"
+    },
+    "results": [
+      {
+        "from": "1.0.0",
+        "to": "1.1.0",
+        "passed": true,
+        "sourceKeys": 1083,
+        "unknownIdsPreserved": 1,
+        "checks": [
+          "load",
+          "autosave edit",
+          "fresh store reload",
+          "backup",
+          "restore backup on source version"
+        ]
+      },
+      {
+        "from": "1.0.0",
+        "to": "1.1.1",
+        "passed": true,
+        "sourceKeys": 1083,
+        "unknownIdsPreserved": 1,
+        "checks": [
+          "load",
+          "autosave edit",
+          "fresh store reload",
+          "backup",
+          "restore backup on source version"
+        ]
+      },
+      {
+        "from": "1.1.0",
+        "to": "1.0.0",
+        "passed": true,
+        "sourceKeys": 1604,
+        "unknownIdsPreserved": 522,
+        "checks": [
+          "load",
+          "autosave edit",
+          "fresh store reload",
+          "backup",
+          "restore backup on source version"
+        ]
+      },
+      {
+        "from": "1.1.0",
+        "to": "1.1.1",
+        "passed": true,
+        "sourceKeys": 1604,
+        "unknownIdsPreserved": 1,
+        "checks": [
+          "load",
+          "autosave edit",
+          "fresh store reload",
+          "backup",
+          "restore backup on source version"
+        ]
+      },
+      {
+        "from": "1.1.1",
+        "to": "1.0.0",
+        "passed": true,
+        "sourceKeys": 1604,
+        "unknownIdsPreserved": 522,
+        "checks": [
+          "load",
+          "autosave edit",
+          "fresh store reload",
+          "backup",
+          "restore backup on source version"
+        ]
+      },
+      {
+        "from": "1.1.1",
+        "to": "1.1.0",
+        "passed": true,
+        "sourceKeys": 1604,
+        "unknownIdsPreserved": 1,
+        "checks": [
+          "load",
+          "autosave edit",
+          "fresh store reload",
+          "backup",
+          "restore backup on source version"
+        ]
+      }
+    ],
+    "limitations": [
+      "Isolated collection stores; actual NSIS install/update cycle not exercised"
+    ]
+  },
+  "rendererSequence": [
+    "1.0.0",
+    "1.1.1",
+    "1.0.0",
+    "1.1.1",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "rendererPhases": [
+    {
+      "passed": true,
+      "phase": "old-seed",
+      "sourceVersion": "1.0.0",
+      "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.0\\previous-runtime\\app.asar",
+      "checks": [
+        "Original release loads legacy ownership; fixture includes a future ID"
+      ],
+      "collection": {
+        "version": 2,
+        "captured": [
+          1,
+          25,
+          999999
+        ],
+        "shinies": [
+          25,
+          999999
+        ]
+      },
+      "errors": []
+    },
+    {
+      "passed": true,
+      "phase": "new-upgrade",
+      "sourceVersion": "1.1.1",
+      "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\dist\\desktop\\win-unpacked\\resources\\app.asar",
+      "checks": [
+        "Legacy capture not guessed; explicit form assignment backs up before moving shiny ownership",
+        "Male/female Pikachu and Alcremie persisted independently",
+        "New export retains all form and future IDs"
+      ],
+      "collection": {
+        "version": 2,
+        "captured": [
+          1,
+          200869,
+          300050,
+          300051,
+          999999
+        ],
+        "shinies": [
+          200869,
+          300050,
+          300051,
+          999999
+        ]
+      },
+      "errors": []
+    },
+    {
+      "passed": true,
+      "phase": "old-downgrade",
+      "sourceVersion": "1.0.0",
+      "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.0\\previous-runtime\\app.asar",
+      "checks": [
+        "Original release autosave and restart preserve unknown form IDs",
+        "Older export confirmed to omit unrecognized IDs; limitation recorded"
+      ],
+      "collection": {
+        "version": 2,
+        "captured": [
+          1,
+          2,
+          200869,
+          300050,
+          300051,
+          999999
+        ],
+        "shinies": [
+          200869,
+          300050,
+          300051,
+          999999
+        ]
+      },
+      "errors": []
+    },
+    {
+      "passed": true,
+      "phase": "new-return",
+      "sourceVersion": "1.1.1",
+      "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\dist\\desktop\\win-unpacked\\resources\\app.asar",
+      "checks": [
+        "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+        "Portable current-version export re-imported through disk store without loss"
+      ],
+      "collection": {
+        "version": 2,
+        "captured": [
+          1,
+          2,
+          200869,
+          300050,
+          300051,
+          999999
+        ],
+        "shinies": [
+          200869,
+          300050,
+          300051,
+          999999
+        ]
+      },
+      "errors": []
+    },
+    {
+      "passed": true,
+      "phase": "new-return",
+      "sourceVersion": "1.1.0",
+      "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.1-compatibility\\payload\\resources\\app.asar",
+      "checks": [
+        "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+        "Portable current-version export re-imported through disk store without loss"
+      ],
+      "collection": {
+        "version": 2,
+        "captured": [
+          1,
+          2,
+          200869,
+          300050,
+          300051,
+          999999
+        ],
+        "shinies": [
+          200869,
+          300050,
+          300051,
+          999999
+        ]
+      },
+      "errors": []
+    },
+    {
+      "passed": true,
+      "phase": "new-return",
+      "sourceVersion": "1.1.1",
+      "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\dist\\desktop\\win-unpacked\\resources\\app.asar",
+      "checks": [
+        "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+        "Portable current-version export re-imported through disk store without loss"
+      ],
+      "collection": {
+        "version": 2,
+        "captured": [
+          1,
+          2,
+          200869,
+          300050,
+          300051,
+          999999
+        ],
+        "shinies": [
+          200869,
+          300050,
+          300051,
+          999999
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "confirmedLimitation": "1.0.0 Export backup omits IDs unknown to its catalog. Desktop disk autosaves preserve those IDs; newer versions restore and export them. Export from 1.1.0 or 1.1.1 before rolling back.",
+  "scopeLimits": [
+    "Actual packaged renderer/storage code ran under isolated Electron fixture profiles.",
+    "Matrix covered all 1083 legacy IDs and all 1604 current IDs, including 521 newer IDs, plus synthetic future ID 999999.",
+    "Portable renderer exports were restored through the native store; operating-system import picker was not exercised.",
+    "No real NSIS installation, public update/download/restart cycle or clean-machine test was performed.",
+    "No real user collection was accessed."
+  ],
+  "commands": [
+    "python audit/prepare-compatibility-1.1.1.py",
+    "7za x verified public 1.1.0 installer",
+    "node audit/qa-compatibility-matrix-1.1.1.cjs",
+    "electron audit/qa-compatibility-renderer-1.1.1.cjs <release app.asar> <phase> <isolated profile> <reports>"
+  ],
+  "git": "Test evidence and tooling left local; no new commit or release."
+}

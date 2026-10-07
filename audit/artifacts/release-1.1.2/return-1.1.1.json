@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "phase": "new-return",
+  "sourceVersion": "1.1.1",
+  "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.2\\installer\\resources\\app.asar",
+  "checks": [
+    "Re-upgrade restores all new forms, shiny ownership and older-version edits",
+    "Portable current-version export re-imported through disk store without loss"
+  ],
+  "collection": {
+    "version": 2,
+    "captured": [
+      1,
+      2,
+      200869,
+      300050,
+      300051,
+      999999
+    ],
+    "shinies": [
+      200869,
+      300050,
+      300051,
+      999999
+    ]
+  },
+  "errors": []
+}

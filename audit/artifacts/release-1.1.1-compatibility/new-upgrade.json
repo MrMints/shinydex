@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "phase": "new-upgrade",
+  "sourceVersion": "1.1.1",
+  "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\dist\\desktop\\win-unpacked\\resources\\app.asar",
+  "checks": [
+    "Legacy capture not guessed; explicit form assignment backs up before moving shiny ownership",
+    "Male/female Pikachu and Alcremie persisted independently",
+    "New export retains all form and future IDs"
+  ],
+  "collection": {
+    "version": 2,
+    "captured": [
+      1,
+      200869,
+      300050,
+      300051,
+      999999
+    ],
+    "shinies": [
+      200869,
+      300050,
+      300051,
+      999999
+    ]
+  },
+  "errors": []
+}

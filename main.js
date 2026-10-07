@@ -169,7 +169,7 @@ function list() {
     ? items
         .map(
           (p) =>
-            `<div class="row ${p.key === selected ? "selected" : ""} ${captured.has(p.key) ? "is-captured" : ""}" data-row="${p.key}"><button class="row-select" data-select="${p.key}"><span class="number">${num(p.id)}</span>${image(p)}<strong>${esc(p.speciesName)}</strong></button><select class="form-select" data-form-species="${p.id}" aria-label="${esc(p.speciesName)} form">${bySpecies.get(p.id).map(f => `<option value="${f.key}" ${f.key === p.key ? "selected" : ""}>${esc(f.formLabel || "Standard")}${captured.has(f.key) ? " · ✓" : ""}${shinies.has(f.key) ? " · ✧" : ""}</option>`).join("")}</select><div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div>`,
+            `<div class="row ${p.key === selected ? "selected" : ""} ${captured.has(p.key) ? "is-captured" : ""}" data-row="${p.key}"><button class="row-select" data-select="${p.key}"><span class="number">${num(p.id)}</span>${image(p)}<strong>${esc(p.speciesName)}</strong></button>${bySpecies.get(p.id).length === 1 && (p.formLabel || "Standard") === "Standard" ? "" : `<select class="form-select" data-form-species="${p.id}" aria-label="${esc(p.speciesName)} form">${bySpecies.get(p.id).map(f => `<option value="${f.key}" ${f.key === p.key ? "selected" : ""}>${esc(f.formLabel || "Standard")}${captured.has(f.key) ? " · ✓" : ""}${shinies.has(f.key) ? " · ✧" : ""}</option>`).join("")}</select>`}<div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div>`,
         )
         .join("")
     : '<div class="empty">No Pokémon found. Try another name or filter.</div>';
@@ -394,7 +394,7 @@ async function save() {
     const collection = collectionRecord();
     if (window.shinydexDesktop) await window.shinydexDesktop.saveCollection(collection);
     else localStorage.setItem(storageKey, JSON.stringify(collection));
-    $("#save").textContent = "✓ Saved just now";
+    $("#save").textContent = "";
   } catch {
     $("#save").textContent = "Not saved — export a backup";
   }
@@ -532,7 +532,7 @@ window.addEventListener("storage", (event) => {
     ({ captured, shinies, futureCaptured, futureShinies } = decodeCollection(collection));
     render();
     // A later valid update recovers the collection and clears stale warnings.
-    $("#save").textContent = "Saved on this device";
+    $("#save").textContent = "";
   } catch {
     $("#save").textContent = "Collection changed — reload to recover";
   }

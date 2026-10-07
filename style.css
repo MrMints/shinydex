@@ -60,6 +60,9 @@ header {
 .accent {
   color: var(--green);
 }
+#save:empty {
+  display: none;
+}
 .header-right {
   display: flex;
   align-items: center;

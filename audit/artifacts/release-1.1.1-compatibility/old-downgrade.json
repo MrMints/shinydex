@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "phase": "old-downgrade",
+  "sourceVersion": "1.0.0",
+  "sourceAsar": "C:\\Users\\mathi\\Documents\\ChatGPT\\Pokedex App\\audit\\artifacts\\release-1.1.0\\previous-runtime\\app.asar",
+  "checks": [
+    "Original release autosave and restart preserve unknown form IDs",
+    "Older export confirmed to omit unrecognized IDs; limitation recorded"
+  ],
+  "collection": {
+    "version": 2,
+    "captured": [
+      1,
+      2,
+      200869,
+      300050,
+      300051,
+      999999
+    ],
+    "shinies": [
+      200869,
+      300050,
+      300051,
+      999999
+    ]
+  },
+  "errors": []
+}
