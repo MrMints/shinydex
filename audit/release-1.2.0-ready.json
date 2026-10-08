@@ -2,7 +2,7 @@
   "version": "1.2.0",
   "checked": "2026-10-07",
   "uploadApproved": true,
-  "published": false,
+  "published": true,
   "auditComplete": false,
   "changes": [
     "Responsive selection workspace and smooth transitions",
@@ -247,5 +247,30 @@
     "Physical monitor/DPI combinations not exhaustively tested; browser 5120-wide request clamped to 4096",
     "Exhaustive hunting and attribution audit remains incomplete",
     "1.0.0 exports omit newer form IDs although disk saves preserve them; export from a newer version before rollback"
+  ],
+  "releaseUrl": "https://github.com/MrMints/shinydex/releases/tag/v1.2.0",
+  "sourceCommit": "4c67c1dcc96a34c2b5b50eb463a3bf7cc7fb2cad",
+  "publishedAt": "2026-10-08T01:20:19Z",
+  "publishedAssets": [
+    {
+      "name": "latest.yml",
+      "sha256": "40b5c1cffef52cede9bd2ed0cb5d73b872c93f7ed5a0d1b6da90957d2e70557d",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.2.0/latest.yml"
+    },
+    {
+      "name": "ShinyDex.exe",
+      "sha256": "f9b28e8708696ab9667ef93171f3676542975538ab2036985086ed2934b61e3c",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.2.0/ShinyDex.exe"
+    },
+    {
+      "name": "ShinyDex.exe.blockmap",
+      "sha256": "37d80def57b6b382b2a471f1a7aa9a9eddf5a2543dc06be7ab0b7ab1a6edfd45",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.2.0/ShinyDex.exe.blockmap"
+    },
+    {
+      "name": "ShinyDex.exe.sha256",
+      "sha256": "6731148d44de2f798fa47d3664ee2d457b91411ffca69eef1d4c476213e23a72",
+      "url": "https://github.com/MrMints/shinydex/releases/download/v1.2.0/ShinyDex.exe.sha256"
+    }
   ]
 }
