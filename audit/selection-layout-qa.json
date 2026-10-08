@@ -1,0 +1,145 @@
+{
+  "checked": "2026-10-07",
+  "scope": "Selection-driven renderer layout; source only, no release or packaged runtime verification",
+  "checks": {
+    "startupHuntingHidden": true,
+    "selectionPopulatesDataAndHunts": true,
+    "fullscreen1920x1080ThreeColumnsVisuallyReviewed": true,
+    "closeClearsSelectionAndHidesHunts": true,
+    "arrowDownSelectsFromEmptySelection": true,
+    "homeHidesHuntsAndDexRestoresSelection": true,
+    "mobile390x844VisuallyReviewedNoHorizontalOverflow": true,
+    "browserConsoleErrors": 0,
+    "syntaxCheck": "node --check main.js passed",
+    "sourceCheck": "node audit/verify-method-sources.cjs passed: 12079 routes"
+  },
+  "limitations": [
+    "Isolated desktop source smoke passed; packaged build and physical display combinations not tested.",
+    "Collection persistence unchanged; no user collection writes performed.",
+    "Checkpoint reported nine pre-existing changed baseline files; baseline hashes preserved."
+  ],
+  "responsiveUpdate": {
+    "checked": "2026-10-07",
+    "viewportsChecked": [
+      [
+        1280,
+        720
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        2560,
+        1440
+      ],
+      [
+        3840,
+        2160
+      ],
+      [
+        2560,
+        1080
+      ],
+      [
+        3440,
+        1440
+      ],
+      [
+        4096,
+        1440
+      ],
+      [
+        1920,
+        1200
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "noHorizontalPageOrListOverflow": true,
+    "standardDesktopPanelsFitAvailableHeight": true,
+    "visuallyReviewed": [
+      [
+        1280,
+        720
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        2560,
+        1440
+      ],
+      [
+        3440,
+        1440
+      ],
+      [
+        3840,
+        2160
+      ]
+    ],
+    "closeAndKeyboardSelectionPassed": true,
+    "browserErrors": 0,
+    "desktopSourceSmoke": {
+      "passed": true,
+      "evidence": "audit/artifacts/responsive-desktop-qa-retry-2026-10-07/smoke.json",
+      "isolatedProfile": true,
+      "packaged": false
+    },
+    "initialDesktopSmokeFailure": "Image naturalWidth checked before loading; smoke harness now waits for image readiness. Initial failure preserved in audit/artifacts/responsive-desktop-qa-2026-10-07/smoke.json.",
+    "limits": [
+      "Requested 5120x1440 was clamped to 4096x1440 by browser tooling; actual 5120-wide native display not verified.",
+      "Physical monitor DPI combinations and packaged installer were not tested."
+    ]
+  },
+  "typeBadgeUpdate": {
+    "checked": "2026-10-07",
+    "scope": "Selected Pokemon data panel CSS only",
+    "fontSize": "14px (previously 9px)",
+    "fontWeight": 800,
+    "colors": "Distinct saturated colors for all 18 types; dark text on electric, ice and ground",
+    "visualCheck": "Bulbasaur grass/poison badges at 1280x720; computed size, weight and colors confirmed",
+    "diffCheck": "git diff --check passed"
+  },
+  "stickyHuntHeaderFix": {
+    "checked": "2026-10-07",
+    "scope": "Correct sticky offset for 20px panel padding; header extends to panel edges",
+    "verification": "1920x1080 at scrollTop 1080 and 3240: header top and panel inner top both 356px; visually confirmed opaque flush header",
+    "supersedes": "Previous padding mask concealed text but left heading inset from top.",
+    "diffCheck": "git diff --check passed"
+  },
+  "huntDropdownSpacing": {
+    "checked": "2026-10-07",
+    "verifiedGapPx": 16,
+    "visualReview": "1920x1080"
+  },
+  "formGallery": {
+    "checked": "2026-10-07",
+    "scope": "Renderer accordion with form artwork, labels, ownership markers and keyboard-accessible buttons; no catalog or save schema changes",
+    "genderUnspecified": "Removed from gallery choices; stable legacy records and assignment controls retained",
+    "checks": [
+      "Venusaur gallery contains only Male and Female; selecting Female populates data and hunts",
+      "Enter toggles gallery closed; aria-expanded reflects state",
+      "Unown gallery has 29 existing records (28 concrete forms plus Form unspecified); B selection updates data",
+      "390x844 page and gallery/list show no horizontal overflow",
+      "Desktop isolated smoke passed independent male/female captured/shiny ownership and reload persistence",
+      "node --check main.js and desktop/smoke.cjs passed",
+      "node audit/verify-living-dex.cjs passed",
+      "node audit/verify-method-sources.cjs passed",
+      "git diff --check passed"
+    ],
+    "desktopEvidence": "audit/artifacts/form-gallery-desktop-qa-2026-10-07/smoke.json",
+    "limits": [
+      "Source runtime checked; installer not rebuilt",
+      "No collection writes performed in browser QA; desktop QA used isolated fixture"
+    ]
+  }
+}

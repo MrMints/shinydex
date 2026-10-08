@@ -1,0 +1,190 @@
+{
+  "checked": "2026-10-07",
+  "passed": true,
+  "scope": "Actual packaged storage modules; all twelve directed version pairs with all catalog IDs plus unknown future ID",
+  "catalogCounts": {
+    "1.0.0": 1083,
+    "1.1.0": 1604,
+    "1.1.1": 1604,
+    "1.2.0": 1604
+  },
+  "asarSha256": {
+    "1.0.0": "369d7c3e5cbd33a95b747332500090b32d48cba3f436f3c171ee60e7bcd7b12c",
+    "1.1.0": "cf968f4d7abe159b555e74a0acecb44baa7d0aa3cb8fe6d5b32151d861bf3815",
+    "1.1.1": "27f38c1e369991b7d4fca1c52916149f6295263816d2d719c191df7cd5d678b4",
+    "1.2.0": "9f5d8dab5d1fd3a839339b67884b140dc10828100e742a1863a1313e4b4adc26"
+  },
+  "results": [
+    {
+      "from": "1.0.0",
+      "to": "1.1.0",
+      "passed": true,
+      "sourceKeys": 1083,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.0.0",
+      "to": "1.1.1",
+      "passed": true,
+      "sourceKeys": 1083,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.0.0",
+      "to": "1.2.0",
+      "passed": true,
+      "sourceKeys": 1083,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.1.0",
+      "to": "1.0.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 522,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.1.0",
+      "to": "1.1.1",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.1.0",
+      "to": "1.2.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.1.1",
+      "to": "1.0.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 522,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.1.1",
+      "to": "1.1.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.1.1",
+      "to": "1.2.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.2.0",
+      "to": "1.0.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 522,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.2.0",
+      "to": "1.1.0",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    },
+    {
+      "from": "1.2.0",
+      "to": "1.1.1",
+      "passed": true,
+      "sourceKeys": 1604,
+      "unknownIdsPreserved": 1,
+      "checks": [
+        "load",
+        "autosave edit",
+        "fresh store reload",
+        "backup",
+        "restore backup on source version"
+      ]
+    }
+  ],
+  "limitations": [
+    "Isolated collection stores; actual NSIS install/update cycle not exercised"
+  ]
+}

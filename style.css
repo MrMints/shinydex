@@ -1269,3 +1269,151 @@ footer { color: #ffe0d4; margin-top: 20px; }
   max-width: 100%;
   margin: 8px;
 }
+
+
+/* Fit the workspace to available CSS pixels rather than physical monitor size. */
+main.dex-workspace { max-width: none; padding: 20px clamp(12px, 1.25vw, 40px); }
+.dex-layout {
+  --data-width: clamp(240px, 18vw, 380px);
+  --workspace-height: 510px;
+  grid-template-columns: var(--data-width) minmax(0, 0fr) minmax(0, 1fr);
+  column-gap: 0;
+  transition: grid-template-columns 480ms cubic-bezier(.22,1,.36,1), column-gap 480ms cubic-bezier(.22,1,.36,1);
+}
+.dex-layout.has-selection { grid-template-columns: var(--data-width) minmax(0, 1fr) minmax(0, 1.15fr); column-gap: clamp(12px, 1vw, 24px); }
+.dex-layout > .detail { grid-column: 1; margin-right: 16px; max-height: var(--workspace-height); overflow-y: auto; }
+.dex-layout.has-selection > .detail { margin-right: 0; }
+.dex-layout > .catalog { grid-column: 3; min-width: 0; height: var(--workspace-height); display: flex; flex-direction: column; }
+.dex-layout #list { height: auto; flex: 1; min-height: 0; }
+.dex-layout .list-heading, .dex-layout .list-footer { flex-shrink: 0; }
+.dex-layout > .hunt-panel { grid-column: 2; grid-row: 1; min-width: 0; margin: 0; height: var(--workspace-height); overflow: auto; animation: selection-reveal 480ms ease; }
+.dex-layout .hunt-table { max-height: none; overflow: visible; }
+.dex-layout .hero-image { height: clamp(140px, 22vh, 280px); }
+.dex-layout .hero-image img { width: min(80%, 240px); height: 90%; }
+.selection-prompt { padding: 32px 20px; }
+#close-selection { padding: 2px 8px; background: transparent; color: inherit; }
+.dex-layout .hunt-header { flex-wrap: wrap; gap: 12px; }
+.dex-layout .hunt-header select { width: 100%; max-width: none; }
+.dex-layout .hunt-row { grid-template-columns: 1fr; gap: 8px; overflow-wrap: anywhere; }
+.dex-layout .hunt-row.heading { display: none; }
+.dex-layout .hunt-links { flex-wrap: wrap; }
+.dex-layout .hunt-note { color: #526c7f; }
+@keyframes selection-reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+.dex-layout.has-selection .detail-info, .dex-layout.has-selection .hero-image { animation: selection-reveal 320ms ease; }
+@media (min-width: 1101px) and (max-width: 1500px) {
+ .dex-layout .row { padding-left: 8px; padding-right: 8px; }
+ .dex-layout .row-select { gap: 8px; }
+ .dex-layout .row img { width: 46px; height: 46px; }
+ .dex-layout .form-select { width: 125px; margin-right: 6px; }
+ .dex-layout .list-footer { flex-wrap: wrap; gap: 4px; padding: 10px; }
+}
+@media (min-width: 1800px) {
+ .dex-layout .hunt-row { grid-template-columns: minmax(100px, .7fr) minmax(0, 1.8fr) minmax(95px, .7fr); gap: 14px; font-size: 13px; }
+ .dex-layout .hunt-row.heading { display: grid; }
+ .dex-layout .hunt-note, .dex-layout .hunt-links a { font-size: 12px; }
+}
+@media (max-width: 1100px) {
+ .dex-layout.has-selection { grid-template-columns: var(--data-width) minmax(0, 1fr); }
+ .dex-layout.has-selection > .catalog { grid-column: 2; grid-row: 1; }
+ .dex-layout.has-selection > .hunt-panel { grid-column: 1 / -1; grid-row: 2; height: auto; max-height: 70vh; }
+}
+@media (max-height: 800px) and (min-width: 1101px) {
+ .dex-workspace .intro { margin-bottom: 16px; }
+ .dex-workspace .summary { padding: 12px 16px; }
+ .dex-workspace .hero-image { height: 140px; }
+ .dex-workspace .detail-info { padding: 12px; }
+ .dex-workspace .detail h2 { font-size: 23px; }
+}
+@media (max-width: 640px) {
+ .dex-layout, .dex-layout.has-selection { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+ .dex-layout > .detail { grid-column: 1; margin: 0; max-height: none; }
+ .dex-layout > .catalog, .dex-layout.has-selection > .catalog { grid-column: 1; grid-row: 3; height: clamp(320px, 65vh, 600px); }
+ .dex-layout > .hunt-panel, .dex-layout.has-selection > .hunt-panel { grid-column: 1; grid-row: 2; height: auto; max-height: 70vh; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .dex-layout { transition: none; }
+ .dex-layout > .hunt-panel, .dex-layout.has-selection .detail-info, .dex-layout.has-selection .hero-image { animation: none; }
+}
+
+#unassigned-summary:empty { display: none; }
+body:has(main.dex-workspace) header { padding-inline: clamp(12px, 1.25vw, 40px); }
+@media (max-height: 800px) and (min-width: 1101px) {
+ body:has(main.dex-workspace) header { height: 56px; }
+ main.dex-workspace { padding-top: 12px; }
+ .dex-workspace .intro { margin-bottom: 10px; }
+ .dex-workspace .summary { padding: 8px 12px; gap: 4px; }
+ .dex-workspace nav { margin-bottom: 8px; }
+ .dex-workspace nav button { padding-block: 8px; }
+ .dex-workspace .toolbar { padding: 6px; margin-bottom: 10px; }
+ .dex-workspace .empty { padding: 20px; }
+}
+
+/* Prominent type badges in the selected Pokemon data panel. */
+.detail .types { flex-wrap: wrap; gap: 8px; }
+.detail .type {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 7px 12px;
+  color: #fff;
+  background: var(--type-color, #536273);
+  border: 1px solid #0002;
+  letter-spacing: .7px;
+}
+.detail .normal { --type-color: #62685a; }
+.detail .fire { --type-color: #b83e12; }
+.detail .water { --type-color: #1762bc; }
+.detail .electric { --type-color: #f0c52e; color: #342b00; }
+.detail .grass { --type-color: #28752e; }
+.detail .ice { --type-color: #62cdd3; color: #123b40; }
+.detail .fighting { --type-color: #ac3029; }
+.detail .poison { --type-color: #85359b; }
+.detail .ground { --type-color: #bd8e45; color: #302000; }
+.detail .flying { --type-color: #6457ad; }
+.detail .psychic { --type-color: #b62a65; }
+.detail .bug { --type-color: #637415; }
+.detail .rock { --type-color: #786824; }
+.detail .ghost { --type-color: #614187; }
+.detail .dragon { --type-color: #5331b4; }
+.detail .dark { --type-color: #493c38; }
+.detail .steel { --type-color: #516976; }
+.detail .fairy { --type-color: #ac397f; }
+
+/* Sticky offsets include the hunting panel's 20px scrollport padding. */
+.dex-layout .hunt-row.heading {
+  position: sticky;
+  top: -20px;
+  z-index: 2;
+  margin-inline: -20px;
+  padding-inline: 30px;
+  background: #d5e2ea;
+  box-shadow: 0 1px 0 #9bafbd;
+}
+
+/* Separate the game filter from the hunting table header. */
+.dex-layout .hunt-header { margin-bottom: 16px; }
+
+/* Image galleries expand beneath each species row. */
+.species-entry:nth-child(even) > .row { background: #f0f5f7; }
+.species-entry > .row.selected { background: #ffe1ad; }
+.species-entry > .row:hover { background: #dcecf4; }
+.form-toggle { flex: 0 0 40px; padding: 4px; margin-right: 8px; background: #dce8ee; color: #234a66; border: 1px solid #809aaa; border-radius: 4px; }
+.form-toggle span { display: inline-block; font-size: 28px; line-height: 1; transition: transform 280ms ease; }
+.form-toggle[aria-expanded="true"] span { transform: rotate(90deg); }
+.form-gallery { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 320ms cubic-bezier(.22,1,.36,1); }
+.form-gallery.is-open { grid-template-rows: 1fr; }
+.form-gallery-clip { min-height: 0; overflow: hidden; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 10px; padding: 14px; background: #dce8ee; border-bottom: 1px solid #a6bccb; }
+.form-choice { min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 10px 6px; border: 2px solid #9bafbd; border-radius: 5px; background: #f0f5f7; color: #234a66; }
+.form-choice img { width: 88px; height: 88px; object-fit: contain; }
+.form-choice strong { font-size: 12px; overflow-wrap: anywhere; }
+.form-choice.active { border-color: #b36b25; background: #ffe1ad; }
+.form-choice:hover { background: #fff0d0; }
+.form-choice:focus-visible, .form-toggle:focus-visible { outline: 3px solid #1762bc; outline-offset: 2px; }
+.form-ownership { min-height: 12px; font-size: 10px; }
+@media (prefers-reduced-motion: reduce) { .form-gallery, .form-toggle span { transition: none; } }
+
+/* Keep the form toggle beside the name, with ownership controls at the edge. */
+.dex-layout .row-select { flex: 0 1 auto; }
+.dex-layout .form-toggle { margin-left: 8px; }
+.dex-layout .row-checks { margin-left: auto; }

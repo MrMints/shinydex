@@ -1,0 +1,251 @@
+{
+  "version": "1.2.0",
+  "checked": "2026-10-07",
+  "uploadApproved": true,
+  "published": false,
+  "auditComplete": false,
+  "changes": [
+    "Responsive selection workspace and smooth transitions",
+    "Expandable form image galleries with arrows beside species names; gender-unspecified choices hidden without deleting legacy IDs",
+    "Larger saturated type badges",
+    "Flush sticky hunting-table header and 16px game-filter spacing"
+  ],
+  "verification": {
+    "desktopTests": "6/6 passed with test isolation disabled",
+    "projectChecks": "36/36 passed",
+    "packagedSmoke": {
+      "passed": true,
+      "version": "1.2.0",
+      "packaged": true,
+      "url": "shiny://app/",
+      "errors": []
+    },
+    "windowsBuild": "pnpm build:windows passed (Windows x64 NSIS)",
+    "packagedSourceMatch": true,
+    "sha512Matches": true,
+    "compatibilityMatrix": {
+      "checked": "2026-10-07",
+      "passed": true,
+      "scope": "Actual packaged storage modules; all twelve directed version pairs with all catalog IDs plus unknown future ID",
+      "catalogCounts": {
+        "1.0.0": 1083,
+        "1.1.0": 1604,
+        "1.1.1": 1604,
+        "1.2.0": 1604
+      },
+      "asarSha256": {
+        "1.0.0": "369d7c3e5cbd33a95b747332500090b32d48cba3f436f3c171ee60e7bcd7b12c",
+        "1.1.0": "cf968f4d7abe159b555e74a0acecb44baa7d0aa3cb8fe6d5b32151d861bf3815",
+        "1.1.1": "27f38c1e369991b7d4fca1c52916149f6295263816d2d719c191df7cd5d678b4",
+        "1.2.0": "9f5d8dab5d1fd3a839339b67884b140dc10828100e742a1863a1313e4b4adc26"
+      },
+      "results": [
+        {
+          "from": "1.0.0",
+          "to": "1.1.0",
+          "passed": true,
+          "sourceKeys": 1083,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.0.0",
+          "to": "1.1.1",
+          "passed": true,
+          "sourceKeys": 1083,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.0.0",
+          "to": "1.2.0",
+          "passed": true,
+          "sourceKeys": 1083,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.0",
+          "to": "1.0.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 522,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.0",
+          "to": "1.1.1",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.0",
+          "to": "1.2.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.1",
+          "to": "1.0.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 522,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.1",
+          "to": "1.1.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.1.1",
+          "to": "1.2.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.2.0",
+          "to": "1.0.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 522,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.2.0",
+          "to": "1.1.0",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        },
+        {
+          "from": "1.2.0",
+          "to": "1.1.1",
+          "passed": true,
+          "sourceKeys": 1604,
+          "unknownIdsPreserved": 1,
+          "checks": [
+            "load",
+            "autosave edit",
+            "fresh store reload",
+            "backup",
+            "restore backup on source version"
+          ]
+        }
+      ],
+      "limitations": [
+        "Isolated collection stores; actual NSIS install/update cycle not exercised"
+      ]
+    },
+    "rendererEvidence": "audit/selection-layout-qa.json",
+    "dependencyPinsUnchanged": true,
+    "lockfile": "pnpm-lock.yaml has no application version field; dependency pins unchanged"
+  },
+  "package": {
+    "asarSha256": "9f5d8dab5d1fd3a839339b67884b140dc10828100e742a1863a1313e4b4adc26",
+    "assets": [
+      {
+        "name": "ShinyDex.exe",
+        "bytes": 247124006,
+        "sha256": "f9b28e8708696ab9667ef93171f3676542975538ab2036985086ed2934b61e3c"
+      },
+      {
+        "name": "latest.yml",
+        "bytes": 321,
+        "sha256": "40b5c1cffef52cede9bd2ed0cb5d73b872c93f7ed5a0d1b6da90957d2e70557d"
+      },
+      {
+        "name": "ShinyDex.exe.blockmap",
+        "bytes": 258945,
+        "sha256": "37d80def57b6b382b2a471f1a7aa9a9eddf5a2543dc06be7ab0b7ab1a6edfd45"
+      },
+      {
+        "name": "ShinyDex.exe.sha256",
+        "bytes": 79,
+        "sha256": "6731148d44de2f798fa47d3664ee2d457b91411ffca69eef1d4c476213e23a72"
+      }
+    ]
+  },
+  "limitations": [
+    "Real NSIS installation/update/downgrade/restart cycle not tested",
+    "Physical monitor/DPI combinations not exhaustively tested; browser 5120-wide request clamped to 4096",
+    "Exhaustive hunting and attribution audit remains incomplete",
+    "1.0.0 exports omit newer form IDs although disk saves preserve them; export from a newer version before rollback"
+  ]
+}

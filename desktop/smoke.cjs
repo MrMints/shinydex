@@ -16,6 +16,7 @@ async function run({window,store,profile,app}){
     assert.equal(await evaluate('location.protocol'), 'shiny:');
     assert.equal(await evaluate('typeof require'), 'undefined');
     assert.equal(await evaluate('typeof window.shinydexDesktop.saveCollection'), 'function');
+    await wait('document.querySelector("[data-image]")?.naturalWidth > 0');
     assert.equal(await evaluate('document.querySelector("[data-image]").naturalWidth > 0'),true);
     const counts=()=>evaluate('Array.from(document.querySelectorAll("#captured-total, #total"),el=>parseInt(el.textContent,10))');
     assert.deepEqual(await counts(),[0,0]);
@@ -41,22 +42,21 @@ async function run({window,store,profile,app}){
     assert.deepEqual(await counts(),[0,0]);
     window.setSize(1280,900);
     // Use only the explicitly isolated QA profile for independent form captures.
-    assert.equal(await evaluate('document.querySelectorAll(".form-select").length'),219);
-    assert.equal(await evaluate('document.querySelector("[data-row=\\"1\\"] .form-select")'),null);
-    assert.equal(await evaluate('Array.from(document.querySelectorAll(".form-select")).some(s=>s.options.length===1 && s.options[0].textContent.startsWith("Standard"))'),false);
-    await evaluate('(()=>{const s=document.querySelector("#search");s.value="Pikachu";s.dispatchEvent(new Event("input",{bubbles:true}));const f=document.querySelector(".form-select");f.value="300051";f.dispatchEvent(new Event("change",{bubbles:true}));})()');
+    assert.equal(await evaluate('document.querySelectorAll(".form-toggle").length'),219);
+    assert.equal(await evaluate('document.querySelector("[data-row=\\"1\\"] .form-toggle")'),null);
+    await evaluate('(()=>{const s=document.querySelector("#search");s.value="Pikachu";s.dispatchEvent(new Event("input",{bubbles:true}));document.querySelector(".form-toggle").click();document.querySelector("button[data-choose-form=" + JSON.stringify("300051") + "]").click();})()');
     await evaluate('document.querySelector("input[data-catch=\"300051\"][data-kind=shiny]").click()');
     await waitSaved(300051);
     assert.deepEqual(await counts(),[1,1]);
-    await evaluate('(()=>{const f=document.querySelector(".form-select");f.value="300050";f.dispatchEvent(new Event("change",{bubbles:true}));document.querySelector("input[data-catch=\"300050\"][data-kind=captured]").click();})()');
+    await evaluate('(()=>{document.querySelector("button[data-choose-form=" + JSON.stringify("300050") + "]").click();document.querySelector("input[data-catch=\"300050\"][data-kind=captured]").click();})()');
     for(let i=0;i<200;i++){if(JSON.parse(await store.load()).captured.includes(300050))break;await new Promise(resolve=>setTimeout(resolve,100));}
     assert.ok(JSON.parse(await store.load()).captured.includes(300050));
     assert.deepEqual(await counts(),[2,1]);
     await window.loadURL('shiny://app/');
-    await wait('!!document.querySelector(".form-select") && !!document.querySelector("#update-open")');
+    await wait('!!document.querySelector(".form-toggle") && !!document.querySelector("#update-open")');
     assert.deepEqual(await counts(),[2,1]);
     assert.deepEqual(JSON.parse(await store.load()).shinies,[300051]);
-    await evaluate('(()=>{const s=document.querySelector("#search");s.value="Pikachu";s.dispatchEvent(new Event("input",{bubbles:true}));const f=document.querySelector(".form-select");f.value="300051";f.dispatchEvent(new Event("change",{bubbles:true}));document.querySelector("#locate").click();})()');
+    await evaluate('(()=>{const s=document.querySelector("#search");s.value="Pikachu";s.dispatchEvent(new Event("input",{bubbles:true}));document.querySelector(".form-toggle").click();document.querySelector("button[data-choose-form=" + JSON.stringify("300051") + "]").click();document.querySelector("#locate").click();})()');
     assert.equal(await evaluate('document.querySelectorAll("#boxes .slot").length'),30);
     const location=await evaluate('document.querySelector("#boxes button[data-select=\"300051\"]").getAttribute("title")');
     await evaluate('document.querySelector("#status").value="shiny";document.querySelector("#status").dispatchEvent(new Event("change",{bubbles:true}))');

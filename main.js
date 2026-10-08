@@ -18,6 +18,7 @@ for (const p of data) {
   bySpecies.get(p.id).push(p);
 }
 const chosenForms = new Map();
+const openForms = new Set();
 let assigningForm = false;
 
 // Save captures and shinies separately; every shiny must also be captured.
@@ -26,7 +27,7 @@ let captured = new Set();
 let shinies = new Set();
 let futureCaptured = new Set();
 let futureShinies = new Set();
-let selected = 1;
+let selected = null;
 let mode = "auto";
 let view = "dex";
 let box = 1;
@@ -157,25 +158,35 @@ function stats() {
   $("#collection-count").textContent = shinies.size;
 }
 function detail() {
+  if (selected === null) {
+    $("#detail").innerHTML = '<div class="detail-top">POKÉMON DATA</div><div class="selection-prompt"><h2>Choose a Pokémon</h2><p>Select a Pokémon to see its data and hunting methods.</p></div>';
+    return;
+  }
   const p = byKey.get(selected),
     loc = position(p) || { box: "—", row: "—", column: "—" };
   $("#detail").innerHTML =
-    `<div class="detail-top"><span>POKÉMON DATA</span><span class="dot">● ● ●</span></div><div class="hero-image">${isShiny(p) ? '<span class="shiny-badge">✧ SHINY FORM</span>' : ""}${image(p, true)}<div class="orbit"></div></div><div class="detail-info"><div class="eyebrow">NATIONAL № ${num(p.id)}${p.formLabel ? " · " + esc(p.formLabel) : ""}</div><h2>${esc(p.speciesName)}</h2><div class="types">${p.types.map((t) => `<span class="type ${t}">${t}</span>`).join("")}</div><div class="measure"><div><small>HEIGHT</small><strong>${(p.height / 10).toFixed(1)} <em>m</em></strong></div><div><small>WEIGHT</small><strong>${(p.weight / 10).toFixed(1)} <em>kg</em></strong></div><div><small>GENERATION</small><strong>${p.generation}</strong></div></div><div class="detail-checks"><div>${check(p, "captured")}<span>Captured</span></div><div>${check(p, "shiny")}<span>Shiny captured</span></div></div><p class="auto-note">Each change saves automatically. Shiny captured also marks Captured.</p><button id="locate" class="location">▦ &nbsp; Box ${loc.box} · Row ${loc.row}, Column ${loc.column} <span>↗</span></button><a class="source-link" target="_blank" rel="noreferrer" href="${p.source}">View on Bulbapedia ↗</a></div>`;
+    `<div class="detail-top"><span>POKÉMON DATA</span><button id="close-selection" aria-label="Close Pokémon details">✕</button></div><div class="hero-image">${isShiny(p) ? '<span class="shiny-badge">✧ SHINY FORM</span>' : ""}${image(p, true)}<div class="orbit"></div></div><div class="detail-info"><div class="eyebrow">NATIONAL № ${num(p.id)}${p.formLabel ? " · " + esc(p.formLabel) : ""}</div><h2>${esc(p.speciesName)}</h2><div class="types">${p.types.map((t) => `<span class="type ${t}">${t}</span>`).join("")}</div><div class="measure"><div><small>HEIGHT</small><strong>${(p.height / 10).toFixed(1)} <em>m</em></strong></div><div><small>WEIGHT</small><strong>${(p.weight / 10).toFixed(1)} <em>kg</em></strong></div><div><small>GENERATION</small><strong>${p.generation}</strong></div></div><div class="detail-checks"><div>${check(p, "captured")}<span>Captured</span></div><div>${check(p, "shiny")}<span>Shiny captured</span></div></div><p class="auto-note">Each change saves automatically. Shiny captured also marks Captured.</p><button id="locate" class="location">▦ &nbsp; Box ${loc.box} · Row ${loc.row}, Column ${loc.column} <span>↗</span></button><a class="source-link" target="_blank" rel="noreferrer" href="${p.source}">View on Bulbapedia ↗</a></div>`;
+}
+function formGallery(p) {
+  const forms = bySpecies.get(p.id).filter(f => f.formLabel !== "Gender unspecified");
+  if (forms.length === 1 && (forms[0].formLabel || "Standard") === "Standard") return "";
+  const open = openForms.has(p.id);
+  return `<div class="form-gallery ${open ? "is-open" : ""}" id="forms-${p.id}" ${open ? "" : 'inert aria-hidden="true"'}><div class="form-gallery-clip"><div class="form-grid">${open ? forms.map(f => `<button class="form-choice ${f.key === p.key ? "active" : ""}" data-choose-form="${f.key}" aria-label="${esc(name(f))}" aria-pressed="${f.key === p.key}">${image(f)}<strong>${esc(f.formLabel || "Standard")}</strong><span class="form-ownership">${captured.has(f.key) ? "✓ Captured" : ""}${shinies.has(f.key) ? " · ✧ Shiny" : ""}</span></button>`).join("") : ""}</div></div></div>`;
 }
 function list() {
   const items = listItems();
   $("#result-count").textContent = `${items.length.toLocaleString()} entries`;
   $("#list").innerHTML = items.length
-    ? items
-        .map(
-          (p) =>
-            `<div class="row ${p.key === selected ? "selected" : ""} ${captured.has(p.key) ? "is-captured" : ""}" data-row="${p.key}"><button class="row-select" data-select="${p.key}"><span class="number">${num(p.id)}</span>${image(p)}<strong>${esc(p.speciesName)}</strong></button>${bySpecies.get(p.id).length === 1 && (p.formLabel || "Standard") === "Standard" ? "" : `<select class="form-select" data-form-species="${p.id}" aria-label="${esc(p.speciesName)} form">${bySpecies.get(p.id).map(f => `<option value="${f.key}" ${f.key === p.key ? "selected" : ""}>${esc(f.formLabel || "Standard")}${captured.has(f.key) ? " · ✓" : ""}${shinies.has(f.key) ? " · ✧" : ""}</option>`).join("")}</select>`}<div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div>`,
-        )
-        .join("")
+    ? items.map(p => {
+      const forms = bySpecies.get(p.id).filter(f => f.formLabel !== "Gender unspecified");
+      const hasForms = forms.length > 1 || (forms[0].formLabel || "Standard") !== "Standard";
+      return `<div class="species-entry"><div class="row ${p.key === selected ? "selected" : ""} ${captured.has(p.key) ? "is-captured" : ""}" data-row="${p.key}"><button class="row-select" data-select="${p.key}"><span class="number">${num(p.id)}</span>${image(p)}<strong>${esc(p.speciesName)}</strong></button>${hasForms ? `<button class="form-toggle" data-toggle-forms="${p.id}" aria-label="${esc(p.speciesName)} forms" aria-expanded="${openForms.has(p.id)}" aria-controls="forms-${p.id}"><span aria-hidden="true">↳</span></button>` : ""}<div class="row-checks">${check(p, "captured")}${check(p, "shiny")}</div></div>${formGallery(p)}</div>`;
+    }).join("")
     : '<div class="empty">No Pokémon found. Try another name or filter.</div>';
 }
 function assignmentControl() {
   const p = byKey.get(selected);
+  if (!p) return;
   if (p.shinyLocked) {
     $("#detail .detail-info").insertAdjacentHTML("beforeend", `<p class="auto-note">This form is shiny-locked. <a href="${esc(p.shinyLockSource)}" target="_blank" rel="noreferrer">Source</a></p>`);
   }
@@ -199,7 +210,7 @@ async function assignSelectedForm() {
     return;
   }
   assigningForm = true;
-  document.querySelectorAll("input[data-catch], .form-select, #assign-form").forEach(el => el.disabled = true);
+  document.querySelectorAll("input[data-catch], .form-choice, #assign-form").forEach(el => el.disabled = true);
   try {
     const previous = collectionRecord();
     const next = assignCapture(previous, p.legacyKey, p.key);
@@ -373,9 +384,16 @@ function render() {
   if (view === "dex") list();
   if (view === "home") boxes();
   if (view === "collection") collection();
-  $("#hunt-panel").hidden = view !== "dex";
-  if (view === "dex") hunting();
+  selectionLayout();
+  if (view === "dex" && selected !== null) hunting();
   imageErrors();
+}
+function selectionLayout() {
+  $("main").classList.toggle("dex-workspace", view === "dex");
+  $("#dex").classList.toggle("has-selection", selected !== null);
+  $("main").classList.toggle("selection-open", selected !== null && view === "dex");
+  $("#hunt-panel").hidden = selected === null;
+  fitWorkspace();
 }
 function setView(next) {
   view = next;
@@ -404,14 +422,7 @@ async function save() {
 document.addEventListener("change", (event) => {
   const control = event.target;
   if (assigningForm) return;
-  if (control.dataset.formSpecies) {
-    const key = Number(control.value);
-    chosenForms.set(Number(control.dataset.formSpecies), key);
-    selected = key;
-    const scroll = $("#list").scrollTop;
-    render();
-    $("#list").scrollTop = scroll;
-  } else if (control.dataset.catch) {
+  if (control.dataset.catch) {
     const id = Number(control.dataset.catch);
     const isShinyCheckbox = control.dataset.kind === "shiny";
     if (isShinyCheckbox) {
@@ -439,6 +450,40 @@ document.addEventListener("change", (event) => {
 document.addEventListener("click", (e) => {
   const b = e.target.closest("button");
   if (!b) return;
+  if (b.dataset.toggleForms) {
+    const id = Number(b.dataset.toggleForms);
+    const panel = document.querySelector(`#forms-${id}`);
+    const open = !openForms.has(id);
+    if (open) openForms.add(id); else openForms.delete(id);
+    b.setAttribute("aria-expanded", String(open));
+    if (open) {
+      const rowKey = Number(b.closest("[data-row]").dataset.row);
+      panel.innerHTML = new DOMParser().parseFromString(formGallery(byKey.get(rowKey)), "text/html").body.firstElementChild.innerHTML;
+      panel.inert = false;
+      panel.removeAttribute("aria-hidden");
+      imageErrors();
+    } else {
+      panel.inert = true;
+      panel.setAttribute("aria-hidden", "true");
+    }
+    panel.classList.toggle("is-open", open);
+    return;
+  }
+  if (b.dataset.chooseForm) {
+    selected = Number(b.dataset.chooseForm);
+    chosenForms.set(byKey.get(selected).id, selected);
+    const scroll = $("#list").scrollTop;
+    render();
+    $("#list").scrollTop = scroll;
+    document.querySelector(`[data-choose-form="${selected}"]`)?.focus({ preventScroll: true });
+    return;
+  }
+  if (b.id === "close-selection") {
+    selected = null;
+    render();
+    $("#list").focus({ preventScroll: true });
+    return;
+  }
   if (b.id === "assign-form") { assignSelectedForm(); return; }
   if (b.dataset.tab) setView(b.dataset.tab);
   if (b.dataset.mode) {
@@ -451,6 +496,7 @@ document.addEventListener("click", (e) => {
   if (b.dataset.select) {
     selected = Number(b.dataset.select);
     chosenForms.set(byKey.get(selected).id, selected);
+    selectionLayout();
     if (view !== "dex") setView("dex");
     else {
       detail();
@@ -564,4 +610,22 @@ if (window.shinydexDesktop) {
   $("header").after(panel);
   refreshAssignmentBackups();
 }
+
+// Measure the actual space below the controls, including wrapped toolbars and
+// native update controls. CSS pixels also account for monitor DPI and app zoom.
+let workspaceFrame;
+function fitWorkspace() {
+  cancelAnimationFrame(workspaceFrame);
+  workspaceFrame = requestAnimationFrame(() => {
+    if (view !== "dex") return;
+    const top = $("#dex").getBoundingClientRect().top + window.scrollY;
+    const footerHeight = $("main > footer").getBoundingClientRect().height;
+    $("#dex").style.setProperty("--workspace-height", `${Math.max(260, window.innerHeight - top - footerHeight - 40)}px`);
+  });
+}
+const workspaceObserver = new ResizeObserver(fitWorkspace);
+for (const element of document.querySelectorAll("header, .intro, nav, .toolbar, #unassigned-summary, main > footer")) workspaceObserver.observe(element);
+window.addEventListener("resize", fitWorkspace);
+fitWorkspace();
+
 render();
