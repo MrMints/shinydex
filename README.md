@@ -4,7 +4,7 @@ An unofficial desktop Pokédex and collection tracker with a scrolling National 
 
 ## Download and start
 
-Version 1.2.0 adds a responsive selection workspace, expandable form-image galleries, larger type badges, and improved hunting-table scrolling. It preserves version-2 collections and older unspecified captures.
+Version 1.3.0 adds offline game-specific Pokédex descriptions above hunting methods, remembered game selection, form labels and source links. It preserves version-2 collections and older unspecified captures.
 
 **[Download ShinyDex for Windows](https://github.com/MrMints/shinydex/releases/latest/download/ShinyDex.exe)** · [Release notes and checksums](https://github.com/MrMints/shinydex/releases/latest)
 

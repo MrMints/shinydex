@@ -42,6 +42,9 @@ shinydex-backup*.json
 !/audit/artifacts/release-1.1.1-smoke/smoke.json
 
 # Isolated layout QA profiles: retain reviewed images and smoke reports only.
+/audit/artifacts/pokedex-ui-*-qa/**
+!/audit/artifacts/pokedex-ui-*-qa/*.png
+!/audit/artifacts/pokedex-ui-*-qa/smoke.json
 /audit/artifacts/responsive-desktop-qa*/**
 !/audit/artifacts/responsive-desktop-qa*/*.png
 !/audit/artifacts/responsive-desktop-qa*/smoke.json

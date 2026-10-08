@@ -1,5 +1,6 @@
 // Browser entry point. Collection keys identify species and regional forms.
 import { decodeCollection as decodeOwnership, encodeCollection, assignCapture } from "./collection-codec.js";
+import { createPokedexIndex } from "./pokedex.js";
 const $ = (selector) => document.querySelector(selector);
 
 async function read(file) {
@@ -11,6 +12,11 @@ async function read(file) {
 const data = await read("./data.json");
 const homeData = data.filter(p => !p.formUnspecified);
 const hunts = await read("./hunts.json");
+let pokedexPromise;
+let pokedexIndex;
+let pokedexGame = "scarlet";
+let showAllHunts = false;
+let pokedexRender = 0;
 const byKey = new Map(data.map((pokemon) => [pokemon.key, pokemon]));
 const bySpecies = new Map();
 for (const p of data) {
@@ -320,7 +326,34 @@ function hunting() {
     games = [...new Set(h.entries.map((e) => e.game))];
   $("#hunt-panel").innerHTML =
     `<div class="hunt-header"><div><div class="eyebrow">PLAN YOUR NEXT HUNT</div><h2>${esc(name(p))} · Hunting methods</h2></div>${games.length ? `<select id="hunt-game" aria-label="Hunting game"><option value="">All recorded games</option>${games.map((g) => `<option>${esc(g)}</option>`).join("")}</select>` : ""}</div><div id="hunt-entries"></div><p class="hunt-note">Game-specific encounters and shiny restrictions. Coverage is still being audited; this guide does not yet include every game or event. Unverified gift restrictions are labeled. Shiny locks apply to the selected form and game. References checked October 3, 2026.</p><div class="hunt-links"><a target="_blank" rel="noreferrer" href="${p.source}#Game_locations">Bulbapedia game locations ↗</a><a target="_blank" rel="noreferrer" href="https://bulbapedia.bulbagarden.net/wiki/List_of_unobtainable_Shiny_Pok%C3%A9mon">Shiny lock reference ↗</a></div>`;
+  $("#hunt-panel").insertAdjacentHTML("afterbegin", '<section class="pokedex-card" id="pokedex-card" aria-label="Game Pokédex descriptions"><p role="status">Loading Pokédex entries…</p></section>');
+  const gameControl = $("#hunt-game");
+  if (gameControl) {
+    gameControl.outerHTML = `<label class="hunt-view"><input type="checkbox" id="all-hunt-games" ${showAllHunts ? "checked" : ""}> Show all hunting games</label>`;
+  }
   huntEntries();
+  pokedexEntries();
+}
+async function pokedexEntries() {
+  const request = ++pokedexRender;
+  const pokemon = byKey.get(selected);
+  try {
+    pokedexPromise ||= read("./pokedex-entries.json").then(entries => createPokedexIndex(entries, hunts));
+    pokedexIndex = await pokedexPromise;
+    if (request !== pokedexRender || selected !== pokemon.key || !$("#pokedex-card")) return;
+    const rows = pokedexIndex.forPokemon(pokemon);
+    const options = rows.map(row => [row.gameId, row.gameName]);
+    if (!options.some(([id]) => id === pokedexGame)) {
+      options.unshift([pokedexGame, pokedexIndex.gameName(pokedexGame)]);
+    }
+    const row = rows.find(row => row.gameId === pokedexGame);
+    $("#pokedex-card").innerHTML = `<div class="pokedex-header"><div><div class="eyebrow">DISCOVER THIS POKÉMON</div><h2>${esc(pokemon.speciesName)} · Pokédex entry</h2></div><label>Game<select id="pokedex-game">${options.map(([id, label]) => `<option value="${esc(id)}" ${id === pokedexGame ? "selected" : ""}>${esc(label)}</option>`).join("")}</select></label></div><div class="pokedex-descriptions">${row?.descriptions.length ? row.descriptions.map(entry => `<article class="pokedex-description"><span class="pokedex-form">${esc(entry.formLabel || "Species entry")}</span><p>${esc(entry.text)}</p>${methodSources(entry)}</article>`).join("") : '<p class="pokedex-empty">No description recorded for this game.</p>'}</div>${row?.descriptions.some(entry => entry.formLabel) ? '<p class="pokedex-note">Each description keeps its form label. Hunting methods below apply to the selected form.</p>' : ""}`;
+    huntEntries();
+  } catch {
+    if (request !== pokedexRender || selected !== pokemon.key || !$("#pokedex-card")) return;
+    pokedexPromise = null;
+    $("#pokedex-card").innerHTML = '<p role="status">Pokédex entries could not be loaded.</p><button id="retry-pokedex">Try again</button>';
+  }
 }
 // Only validated HTTP(S) source links are inserted into the hunting panel.
 function methodSources(entry) {
@@ -354,18 +387,18 @@ function methodSources(entry) {
 function huntEntries() {
   const p = byKey.get(selected),
     h = hunts[p.key] || { locked: false, entries: [] },
-    game = $("#hunt-game")?.value;
+    game = !showAllHunts && pokedexIndex ? pokedexGame : null,
+    entries = h.entries.filter(e => !game || pokedexIndex.gameIds(e.game).includes(game));
   $("#hunt-entries").innerHTML = h.locked
     ? '<div class="locked-message">🔒 <strong>Shiny Locked</strong><p>No legitimate shiny hunting or acquisition method is currently documented for this form.</p></div>'
-    : h.entries.length
-      ? `<div class="hunt-table"><div class="hunt-row heading"><span>GAME</span><span>METHOD / LOCATION</span><span>SHINY STATUS</span></div>${h.entries
-          .filter((e) => !game || e.game === game)
+    : entries.length
+      ? `<div class="hunt-table"><div class="hunt-row heading"><span>GAME</span><span>METHOD / LOCATION</span><span>SHINY STATUS</span></div>${entries
           .map(
             (e) =>
               `<div class="hunt-row"><strong>${esc(e.game)}</strong><div>${e.status === "Shiny Locked" ? "<strong>Shiny Locked</strong><br>" : ""}${esc(e.method)}${e.locations?.length ? `<details><summary>${e.locations.length} recorded location${e.locations.length === 1 ? "" : "s"}</summary><p>${e.locations.map(esc).join(" · ")}</p></details>` : ""}${methodSources(e)}</div><span class="hunt-status ${e.status === "Shiny Locked" ? "locked" : ["Huntable", "Guaranteed shiny"].includes(e.status) ? "available" : "unverified"}">${esc(e.status)}</span></div>`,
           )
           .join("")}</div>`
-      : '<div class="empty">Methods are being verified for this form. Missing records are not proof of a shiny lock.</div>';
+      : '<div class="empty">No hunting methods recorded for this form in the selected games. Missing records are not proof of a shiny lock.</div>';
 }
 function imageErrors() {
   document.querySelectorAll("[data-image]").forEach(
@@ -442,7 +475,11 @@ document.addEventListener("change", (event) => {
     render();
   } else if (["generation", "status"].includes(control.id)) {
     render();
-  } else if (control.id === "hunt-game") {
+  } else if (control.id === "pokedex-game") {
+    pokedexGame = control.value;
+    pokedexEntries();
+  } else if (control.id === "all-hunt-games") {
+    showAllHunts = control.checked;
     huntEntries();
   }
 });
@@ -450,6 +487,7 @@ document.addEventListener("change", (event) => {
 document.addEventListener("click", (e) => {
   const b = e.target.closest("button");
   if (!b) return;
+  if (b.id === "retry-pokedex") { pokedexEntries(); return; }
   if (b.dataset.toggleForms) {
     const id = Number(b.dataset.toggleForms);
     const panel = document.querySelector(`#forms-${id}`);

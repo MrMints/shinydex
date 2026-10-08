@@ -1,0 +1,9 @@
+{
+  "speciesId": 1008,
+  "title": "Miraidon (Pokémon)",
+  "revisionId": 4625208,
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_%28Pok%C3%A9mon%29#Pokédex_entries",
+  "retrievedAt": "2026-10-08T01:36:44Z",
+  "responseSha256": "7c351cbdbb5d8e7fc5c2f50c7cb93da4256a39363d324b32609f36f127597d3f",
+  "wikitext": "{{Dex/Header|type=Electric|type2=Dragon}}\n{{Dex/NA|gen=IX}}\n{{Dex/Gen/5|gen=IX|reg1=Paldea|num1=400|reg2=Kitakami|reg3=Blueberry|reg4=Lumiose|reg5=Hyperspace}}\n{{Dex/NE|[[Pokémon Legends: Z-A|Legends: Z-A]]}}\n{{Dex/Form|Ultimate Mode}}\n{{Dex/Entry1|v=Scarlet|t=FFF|entry=Much remains unknown about this creature. It resembles {{p|Cyclizar}}, but it is far more ruthless and powerful.}}\n{{Dex/Entry1|v=Violet|t=FFF|entry=This seems to be the Iron Serpent mentioned in an [[Violet Book|old book]]. The Iron Serpent is said to have turned the land to ash with its lightning.}}\n{{Dex/Form|Low-Power Mode}}\n{{Dex/Entry1|v=Scarlet|t=FFF|entry=Its characteristics match those of a mysterious object recorded in an old expedition journal as the Iron Serpent.{{tt|*|Unused in the final release of the game}}}}\n{{Dex/Entry1|v=Violet|t=FFF|entry=It was given the name Miraidon by the [[Professor Turo|professor]] who discovered it. Its ecology and other details are unknown.{{tt|*|Unused in the final release of the game}}}}\n|}\n|}\n{{Dex/Gen/1|reg1=Pokopia}}\n{{Dex/NE|{{pkmn|Pokopia}}}}\n|}\n|}\n{{Dex/Footer}}"
+}

@@ -38,7 +38,7 @@ async function start(){
     let pathname;
     try{pathname=decodeURIComponent(url.pathname);}catch{return new Response('Invalid path',{status:400});}
     const relative=pathname==='/'?'index.html':pathname.slice(1);
-    const allowed=['index.html','main.js','collection-codec.js','style.css','updater.js','data.json','hunts.json','ATTRIBUTIONS.txt','THIRD_PARTY_NOTICES.md'].includes(relative)||/^assets\/pokemon\/[a-zA-Z0-9_.-]+\.png$/.test(relative);
+    const allowed=['index.html','main.js','collection-codec.js','pokedex.js','pokedex-entries.json','style.css','updater.js','data.json','hunts.json','ATTRIBUTIONS.txt','THIRD_PARTY_NOTICES.md'].includes(relative)||/^assets\/pokemon\/[a-zA-Z0-9_.-]+\.png$/.test(relative);
     if(!allowed)return new Response('Forbidden',{status:403});
     try{
       const response=await net.fetch(pathToFileURL(path.join(root,relative)).href);

@@ -1417,3 +1417,21 @@ body:has(main.dex-workspace) header { padding-inline: clamp(12px, 1.25vw, 40px);
 .dex-layout .row-select { flex: 0 1 auto; }
 .dex-layout .form-toggle { margin-left: 8px; }
 .dex-layout .row-checks { margin-left: auto; }
+
+/* Per-game descriptions share the selected Pokemon's scrolling workspace. */
+.pokedex-card { padding: 18px; margin-bottom: 24px; border: 1px solid #b8cbd8; border-radius: 8px; background: #fff; }
+.pokedex-header { display: flex; flex-wrap: wrap; gap: 12px; align-items: start; justify-content: space-between; }
+.pokedex-header h2 { font-size: 20px; margin: 7px 0 12px; color: #234a66; }
+.pokedex-header .eyebrow { color: #526c7f; }
+.pokedex-header label { display: grid; gap: 5px; width: 100%; font-size: 11px; }
+.pokedex-header select { width: 100%; min-width: 0; }
+.pokedex-descriptions { max-height: 320px; overflow-y: auto; overscroll-behavior: contain; }
+.pokedex-description { padding: 14px 0; }
+.pokedex-description + .pokedex-description { border-top: 1px solid var(--border); }
+.pokedex-form { display: inline-block; border-radius: 5px; padding: 4px 8px; background: #edf3f7; color: #526c7f; font-size: 11px; }
+.pokedex-description p { font-size: 15px; line-height: 1.7; margin: 10px 0; color: #283b3a; overflow-wrap: anywhere; }
+.pokedex-description .method-source { font-size: 11px; }
+.pokedex-note, .pokedex-empty { font-size: 12px; line-height: 1.6; color: #526c7f; }
+.hunt-view { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+#hunt-panel .hunt-header .eyebrow { color: #526c7f; }
+@media (max-width: 640px) { .pokedex-card { padding: 14px; } .pokedex-header h2 { font-size: 18px; } }

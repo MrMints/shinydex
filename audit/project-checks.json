@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-08T01:17:45.582105+00:00",
+  "checkedAt": "2026-10-08T02:55:25.240608+00:00",
   "passed": true,
-  "checkCount": 36,
+  "checkCount": 37,
   "fullHuntingAuditComplete": false,
   "limitations": [
     "Checks cover their stated reference snapshots and regressions; they do not prove all games, hunting techniques, events or acquisition prerequisites are complete.",
@@ -195,6 +195,13 @@
       "passed": true,
       "exitCode": 0,
       "output": "Verified Pelago story gates, recruitment details and version exclusions; odds/reset audit remains pending.",
+      "errors": ""
+    },
+    {
+      "check": "verify-pokedex.cjs",
+      "passed": true,
+      "exitCode": 0,
+      "output": "Verified descriptions for 1025 species and 83 hunting game labels; exact-form joins and missing-data behavior passed.",
       "errors": ""
     },
     {

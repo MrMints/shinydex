@@ -1,0 +1,10 @@
+{
+  "parse": {
+    "title": "Template:Dex/RecycledRG",
+    "pageid": 295622,
+    "revid": 4332462,
+    "wikitext": {
+      "*": "<noinclude>{{Dex/Header|type=Grass|type2=Poison}}\n{{Dex/Gen/1|gen=I|reg1=Kanto|num1=001|nocat=1}}</noinclude>{{Dex/Entry2|v=Red|v2=Green|t2=FFF|entry=<small>''(This entry was originally untranslated in English until it was [[Pokédex entry recycling|reused]] in [[Pokémon FireRed and LeafGreen Versions|Pokémon FireRed]].)''}}\n<noinclude>|}\n|}[[Category:Pokédex templates]]</noinclude>"
+    }
+  }
+}

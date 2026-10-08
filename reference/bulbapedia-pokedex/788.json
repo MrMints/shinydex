@@ -1,0 +1,9 @@
+{
+  "speciesId": 788,
+  "title": "Tapu Fini (Pokémon)",
+  "revisionId": 4635529,
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Tapu%20Fini_%28Pok%C3%A9mon%29#Pokédex_entries",
+  "retrievedAt": "2026-10-08T01:36:08Z",
+  "responseSha256": "24ef7a0cf13efc38c68a35261a61aa020dec0277d9d038e6870b4891228ea24d",
+  "wikitext": "{{Dex/Header|type=Water|type2=Fairy}}\n{{Dex/NA|gen=VII}}\n{{Dex/Gen/3|gen=VII|reg1=Alola|num1=288|label1={{gameIcon|Su}}{{gameIcon|M}}:|reg2=Alola|num2=386|label2={{gameIcon|US}}{{gameIcon|UM}}:|reg3=Kanto}}\n{{Dex/NE|[[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!]]}}\n{{Dex/Entry1|v=Sun|entry=The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.}}\n{{Dex/Entry1|v=Moon|entry=The guardian deity of Poni, it can control water. People say it can create pure water that will wash away any uncleanness.}}\n{{Dex/Entry1|v=Ultra Sun|t=FFF|entry=This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.}}\n{{Dex/Entry1|v=Ultra Moon|t=FFF|entry=Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini.}}\n|}\n|}\n{{Dex/Gen/5|gen=VIII|reg1=Galar|reg2=Isle of Armor|reg3=Crown Tundra|reg4=Sinnoh|reg5=Hisui}}\n{{Dex/NE|[[Generation VIII]]}}\n|}\n|}\n{{Dex/Gen/5|gen=IX|reg1=Paldea|reg2=Kitakami|reg3=Blueberry|reg4=Lumiose|reg5=Hyperspace}}\n{{Dex/NE|[[Generation IX]]}}\n|}\n|}\n{{Dex/Gen/1|reg1=Pokopia}}\n{{Dex/NE|{{pkmn|Pokopia}}}}\n|}\n|}\n{{Dex/Footer}}"
+}

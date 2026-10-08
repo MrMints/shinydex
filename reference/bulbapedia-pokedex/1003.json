@@ -1,0 +1,9 @@
+{
+  "speciesId": 1003,
+  "title": "Ting-Lu (Pokémon)",
+  "revisionId": 4632130,
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Ting-Lu_%28Pok%C3%A9mon%29#Pokédex_entries",
+  "retrievedAt": "2026-10-08T01:36:43Z",
+  "responseSha256": "cfbbe84a4462211b3bcddf8fc62b4ef4e6b820e8696737d03988503b70725dc1",
+  "wikitext": "{{Dex/Header|type=Dark|type2=Ground}}\n{{Dex/NA|gen=IX}}\n{{Dex/Gen/5|gen=IX|reg1=Paldea|num1=395|reg2=Kitakami|reg3=Blueberry|reg4=Lumiose|reg5=Hyperspace}}\n{{Dex/NE|[[Pokémon Legends: Z-A|Legends: Z-A]]}}\n{{Dex/Entry1|v=Scarlet|t=FFF|entry=The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.}}\n{{Dex/Entry1|v=Violet|t=FFF|entry=It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over {{tt|160 feet|50 m}} deep.}}\n|}\n|}\n{{Dex/Gen/1|reg1=Pokopia}}\n{{Dex/NE|{{pkmn|Pokopia}}}}\n|}\n|}\n{{Dex/Footer}}"
+}

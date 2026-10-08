@@ -1,0 +1,9 @@
+{
+  "speciesId": 1001,
+  "title": "Wo-Chien (Pokémon)",
+  "revisionId": 4632128,
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Wo-Chien_%28Pok%C3%A9mon%29#Pokédex_entries",
+  "retrievedAt": "2026-10-08T01:36:43Z",
+  "responseSha256": "49a58df3912dbe30c9ef74fea75b768f02c5e48df2d3b1f9c0f93a454f4230a2",
+  "wikitext": "{{Dex/Header|type=Dark|type2=Grass}}\n{{Dex/NA|gen=IX}}\n{{Dex/Gen/5|gen=IX|reg1=Paldea|num1=393|reg2=Kitakami|reg3=Blueberry|reg4=Lumiose|reg5=Hyperspace}}\n{{Dex/NE|[[Pokémon Legends: Z-A|Legends: Z-A]]}}\n{{Dex/Entry1|v=Scarlet|t=FFF|entry=The grudge of a person punished for writing the king’s evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon.}}\n{{Dex/Entry1|v=Violet|t=FFF|entry=It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.}}\n|}\n|}\n{{Dex/Gen/1|reg1=Pokopia}}\n{{Dex/NE|{{pkmn|Pokopia}}}}\n|}\n|}\n{{Dex/Footer}}"
+}

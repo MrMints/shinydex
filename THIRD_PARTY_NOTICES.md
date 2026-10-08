@@ -23,3 +23,13 @@ The current app uses locally available system fonts and downloads no web fonts. 
 The desktop 1.0 installer bundles Electron 44.5.1 (MIT), Chromium and its third-party components, and electron-updater 6.8.9 plus its production dependencies. `licenses/Electron-MIT.txt` and `licenses/Desktop-runtime-dependencies.txt` retain the distributed license texts; Electron's `LICENSE` and `LICENSES.chromium.html` ship beside the installed executable. lazy-val declares MIT but supplies no license file; its author, source, and standard MIT terms are retained separately without inventing an upstream copyright notice. Run `node desktop/collect-licenses.cjs` to refresh production dependency notices. The default Electron application icon is used.
 
 The historical browser-preview launcher used the separately installed Windows .NET Framework. Its source and release binaries are retained for history and are not included in the desktop 1.0 installer. Pokémon artwork rights and other upstream licenses apply separately to both distributions.
+# Descriptive-entry compilation notice
+
+The source-derived descriptive-entry snapshots and compilation credit Bulbapedia
+and its contributors under [CC BY-NC-SA 2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/).
+See [Bulbapedia's copyright statement](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Copyrights).
+Individual source URLs and revisions are retained. Shared-game templates are
+expanded, wiki markup is rendered as text, and whitespace is normalized.
+Underlying Pokémon descriptions retain their separate rights-holder interests.
+PokéAPI fallback material retains its BSD-3-Clause notice. These source-specific
+terms do not assert a blanket license over application code or other material.

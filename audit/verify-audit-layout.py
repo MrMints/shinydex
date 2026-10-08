@@ -13,7 +13,7 @@ for old, new in migration['moves'].items():
     if Path(new).suffix in {'.png', '.jpg'}:
         assert hashlib.sha256((ROOT / new).read_bytes()).hexdigest() == migration['beforeSha256'][old], new
 
-assert {p.name for p in ROOT.glob('*.json')} == {'package.json', 'data.json', 'hunts.json'}, 'Keep audit JSON in audit/'
+assert {p.name for p in ROOT.glob('*.json')} == {'package.json', 'data.json', 'hunts.json', 'pokedex-entries.json'}, 'Keep audit JSON in audit/; explicit runtime datasets stay at root'
 assert not any(ROOT.glob('verify-*')), 'Keep verification scripts in audit/'
 assert not any(ROOT.glob('audit-*')), 'Keep audit scripts and reports in audit/'
 for p in [*ROOT.glob('*.py'), *AUDIT.glob('*.py'), *(AUDIT / 'windows').glob('*.py')]:

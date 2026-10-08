@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-08T02:50:38.524632+00:00",
+  "auditComplete": false,
+  "sourceSmoke": {
+    "passed": true,
+    "version": "1.2.0",
+    "packaged": false,
+    "url": "shiny://app/",
+    "errors": []
+  },
+  "packagedSmoke": {
+    "passed": true,
+    "version": "1.2.0",
+    "packaged": true,
+    "url": "shiny://app/",
+    "errors": []
+  },
+  "browserPreview": {
+    "url": "http://127.0.0.1:5186",
+    "verified": [
+      "Bulbasaur Scarlet description",
+      "Switch to Red changes description and hunting records",
+      "Switch back to Scarlet"
+    ]
+  },
+  "verified": [
+    "Six desktop storage/updater tests passed with test isolation disabled",
+    "Pok\u00e9dex dataset and joins verifier passed",
+    "Source links verifier passed",
+    "Source and packaged interaction checks passed",
+    "Desktop screenshots reviewed at 1280 and 1920 pixels; narrow layout at 420 pixels",
+    "Packaged data/module/renderer/style bytes match source; audit/reference tooling excluded"
+  ],
+  "sourceSha256": {
+    "main.js": "3e19a3bc1a3dacd0b82fb2ae5a5d6187a05795daf5669df9e8a621a8af890bd0",
+    "style.css": "fc88384fd4ee293f9e897901146de5a57bf7f9a4e1e758337b0dce3bfb811474",
+    "pokedex.js": "9327e71145cefe95ca671a0c3132e2339c70b4732d3029db2b744804b863ed47",
+    "pokedex-entries.json": "83817a8075a16a8dfced7cae7fee71b31ae0fffd20db63e3b09a7e094aebb75b",
+    "desktop/main.cjs": "6254d40955f9e35a6af3d139f8927e5df2afbf5514b70f75b047d5f24d73e2ea",
+    "desktop/smoke.cjs": "4972f6ad0e1b4a19f74904e1f71c54fd3b5174b34744c57bb66ace80a072950b",
+    "package.json": "0415b12fd696809a31f42b519054d23902b924d260251d1a4e349fa7adf2a0a8"
+  },
+  "limitations": [
+    "Sandboxed Electron failed with Windows AppContainer ACL error; isolated QA passed outside command sandbox",
+    "Sandboxed build failed with spawn EPERM; unpacked build passed outside command sandbox",
+    "No NSIS installer or release publication; installed application unchanged",
+    "No exhaustive hunting/data completeness claim",
+    "Game selection is remembered during the current app session, not written into collections"
+  ]
+}

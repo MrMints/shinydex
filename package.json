@@ -1,6 +1,6 @@
 {
   "name": "shinydex",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "type": "module",
   "main": "desktop/main.cjs",
@@ -19,7 +19,7 @@
     "productName": "ShinyDex",
     "artifactName": "ShinyDex.exe",
     "directories": { "output": "dist/desktop" },
-    "files": ["desktop/*.cjs", "index.html", "main.js", "collection-codec.js", "style.css", "updater.js", "data.json", "hunts.json", "assets/pokemon/*.png", "ATTRIBUTIONS.txt", "THIRD_PARTY_NOTICES.md", "licenses/*.txt", "reference/pkhex/LICENSE"],
+    "files": ["desktop/*.cjs", "index.html", "main.js", "collection-codec.js", "pokedex.js", "pokedex-entries.json", "style.css", "updater.js", "data.json", "hunts.json", "assets/pokemon/*.png", "ATTRIBUTIONS.txt", "THIRD_PARTY_NOTICES.md", "licenses/*.txt", "reference/pkhex/LICENSE"],
     "win": { "target": "nsis", "signExecutable": false },
     "nsis": { "oneClick": true, "perMachine": false, "allowElevation": false, "deleteAppDataOnUninstall": false, "createDesktopShortcut": true },
     "publish": { "provider": "github", "owner": "MrMints", "repo": "shinydex" }
